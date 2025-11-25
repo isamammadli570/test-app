@@ -1,12 +1,11 @@
-@import "src/assets/styles/abstracts/index";
-
+@import 'src/assets/styles/abstracts/index';
 
 .wrapper {
   .header {
     display: flex;
     justify-content: space-between;
-    background-color: #7AB2B2;
-    border: 1px solid #4D869C;
+    background-color: #7ab2b2;
+    border: 1px solid #6c5ce7;
     border-radius: 5px;
 
     @include isMobile() {
@@ -22,13 +21,12 @@
     width: 100%;
     padding: 40px;
     font-size: 1.4rem;
-    color: #EEF7FF;
+    color: #eef7ff;
 
     @include isMobile() {
       font-size: 1.2rem;
     }
   }
-
 
   .savedIcons {
     cursor: pointer;
@@ -76,9 +74,8 @@
   border-left: 2px solid #3a705d !important;
   background-color: unset;
 }
-.icon{
+.icon {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-

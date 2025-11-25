@@ -4,8 +4,8 @@
   .header {
     display: flex;
     justify-content: space-between;
-    background-color: #4a8d8f;
-    border: 1px solid #4a8d8f;
+    background-color: #6c5ce7;
+    border: 1px solid #6c5ce7;
     border-radius: 12px;
 
     @include isMobile() {
@@ -58,7 +58,7 @@
       font-weight: 500;
       border-radius: 10px;
       padding: 20px;
-      color: #3c5357;
+      color: #2d2d2d;
       border: 2px solid #e2eded;
 
       @include isMobile() {
@@ -70,13 +70,13 @@
 }
 
 .correct {
-  border: 2px solid #4a8d8f !important;
-  background-color: #4a8d8f !important  ;
+  border: 2px solid #6c5ce7 !important;
+  background-color: #6c5ce7 !important  ;
   color: white !important;
 }
 
 .selected {
-  border: 2px solid #4a8d8f !important;
+  border: 2px solid #6c5ce7 !important;
 }
 
 .icon {

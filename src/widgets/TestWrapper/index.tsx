@@ -48,7 +48,7 @@ export const TestWrapper = ({ question }: TestWrapperProp) => {
                 handleDeleteFromSaved(savedQuestions, question, setIsSaved)
               }
             >
-              <BookmarkIcon color="#f4de40" />
+              <BookmarkIcon color="#a29bfe" />
             </span>
           ) : (
             <span
@@ -56,7 +56,7 @@ export const TestWrapper = ({ question }: TestWrapperProp) => {
                 handleAddToSaved(savedQuestions, isSaved, setIsSaved, question)
               }
             >
-              <BookMarkEmptyIcon color="#f4de40" />
+              <BookMarkEmptyIcon color="#a29bfe" />
             </span>
           )}
         </div>

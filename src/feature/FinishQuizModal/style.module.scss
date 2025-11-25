@@ -1,11 +1,9 @@
-@import "src/assets/styles/abstracts/index";
-
+@import 'src/assets/styles/abstracts/index';
 
 .wrapper {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 
   h1 {
     text-align: center;
@@ -20,13 +18,13 @@
 
     button {
       flex: 1;
-      color: #EEF7FF;
+      color: #eef7ff;
       border-radius: 10px;
       padding: 10px 15px;
     }
 
     .yes {
-      background-color: #4a8d8f;
+      background-color: #6c5ce7;
     }
 
     .no {

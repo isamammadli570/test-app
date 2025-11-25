@@ -1,4 +1,4 @@
-@import "src/assets/styles/abstracts/index";
+@import 'src/assets/styles/abstracts/index';
 
 .buttonWrapper {
   display: flex;
@@ -6,11 +6,11 @@
   gap: 20px;
 
   .link {
-    color: #EEF7FF;
+    color: #eef7ff;
     border-radius: 10px;
     padding: 10px 15px;
     font-size: 1.6rem;
-    background: #4D869C;
+    background: #6c5ce7;
   }
 
   @include isMobile() {
