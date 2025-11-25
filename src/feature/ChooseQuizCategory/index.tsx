@@ -8,10 +8,10 @@ export const ChooseQuizCategory = () => {
       <h1>Uyğun Fənnə Aid İmtahanı Seç</h1>
       <div className={s.buttonWrapper}>
         <Link href="/quiz?q=istehsal" className={s.link}>
-          Istehsal
+          Fəlsəfə
         </Link>
         <Link href="/quiz?q=multi" className={s.link}>
-          Multi
+          İqtisadiyyat
         </Link>
       </div>
     </div>
