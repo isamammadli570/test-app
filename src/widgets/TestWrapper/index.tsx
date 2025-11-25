@@ -48,7 +48,7 @@ export const TestWrapper = ({ question }: TestWrapperProp) => {
                 handleDeleteFromSaved(savedQuestions, question, setIsSaved)
               }
             >
-              <BookmarkIcon color="#f1e50a" />
+              <BookmarkIcon color="#f4de40" />
             </span>
           ) : (
             <span
@@ -56,7 +56,7 @@ export const TestWrapper = ({ question }: TestWrapperProp) => {
                 handleAddToSaved(savedQuestions, isSaved, setIsSaved, question)
               }
             >
-              <BookMarkEmptyIcon color="#f1e50a" />
+              <BookMarkEmptyIcon color="#f4de40" />
             </span>
           )}
         </div>
@@ -80,7 +80,7 @@ export const TestWrapper = ({ question }: TestWrapperProp) => {
               <button>{answer}</button>
               {showCorrectVariant && isCorrect && (
                 <span className={s.icon}>
-                  <CheckMarkIcon color="#2c8c72" />
+                  <CheckMarkIcon color="#e0eeeb" />
                 </span>
               )}
             </div>

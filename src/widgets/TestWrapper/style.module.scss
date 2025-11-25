@@ -1,14 +1,12 @@
-@import "src/assets/styles/abstracts/index";
+@import 'src/assets/styles/abstracts/index';
 
 .wrapper {
-
-
   .header {
     display: flex;
     justify-content: space-between;
-    background-color: #7AB2B2;
-    border: 1px solid #4D869C;
-    border-radius: 5px;
+    background-color: #4a8d8f;
+    border: 1px solid #4a8d8f;
+    border-radius: 12px;
 
     @include isMobile() {
       display: flex;
@@ -18,7 +16,6 @@
       min-height: 195px;
     }
   }
-
 
   .savedIcons {
     cursor: pointer;
@@ -34,7 +31,7 @@
     width: 100%;
     padding: 40px;
     font-size: 1.4rem;
-    color: #EEF7FF;
+    color: #eef7ff;
 
     @include isMobile() {
       padding: 20px;
@@ -51,7 +48,6 @@
       gap: 10px;
     }
 
-
     .default {
       min-height: 73px;
       display: flex;
@@ -59,9 +55,11 @@
       text-align: left;
       cursor: pointer;
       font-size: 1.2rem;
+      font-weight: 500;
       border-radius: 10px;
       padding: 20px;
-      border: 2px solid #cfcdd9;
+      color: #3c5357;
+      border: 2px solid #e2eded;
 
       @include isMobile() {
         padding: 10px;
@@ -72,12 +70,13 @@
 }
 
 .correct {
-  border: 2px solid #3a705d !important;
-  background-color: #e2f0eb;
+  border: 2px solid #4a8d8f !important;
+  background-color: #4a8d8f !important  ;
+  color: white !important;
 }
 
 .selected {
-  border: 2px solid #7AB2B2 !important;
+  border: 2px solid #4a8d8f !important;
 }
 
 .icon {

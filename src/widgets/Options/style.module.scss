@@ -1,5 +1,4 @@
-@import "src/assets/styles/abstracts/index";
-
+@import 'src/assets/styles/abstracts/index';
 
 .options {
   padding-left: 20px;
@@ -17,10 +16,10 @@
   }
 
   span {
-    border: 1px solid #7FC7D9;
+    border: 1px solid #7fc7d9;
     padding: 10px;
     border-radius: 10px;
-    color: #4D869C;
+    color: #4d869c;
     font-size: 1.2rem;
     letter-spacing: 2px;
     font-weight: bold;
@@ -34,7 +33,6 @@
     display: flex;
     gap: 20px;
 
-
     @include isMobile() {
       gap: 10px;
     }
@@ -43,14 +41,15 @@
   .primary {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 80px;
-    color: #4D869C;
+    color: #4d869c;
     font-size: 1.2rem;
-    border: 1px solid #7AB2B2;
+    font-weight: 500;
+    border: 1px solid #4d869c;
     padding: 10px 20px;
-    border-radius: 10px;
+    border-radius: 12px;
 
     @include isMobile() {
       padding: 20px 25px;
@@ -71,17 +70,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: #EEF7FF;
-    background-color: #4D869C;
+    color: #eef7ff;
+    background-color: #4a8d8f;
     font-size: 1.2rem;
+    font-weight: 500;
     padding: 10px 20px;
-    border-radius: 10px;
-
+    border-radius: 12px;
 
     @include isMobile() {
       padding: 20px 25px;
       font-size: 0.8rem;
     }
-
   }
 }

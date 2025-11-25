@@ -3,27 +3,12 @@ import { IconProps } from '@/assets/icons/HomeIcon';
 
 export const BookmarkIcon = ({ color }: IconProps) => (
   <svg
-    height="40px"
     width="40px"
-    version="1.1"
-    id="Capa_1"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 312.746 312.746"
-    xmlSpace="preserve"
+    height="40px"
+    viewBox="0 0 24 24"
     fill={color}
+    xmlns="http://www.w3.org/2000/svg"
   >
-    <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-    <g
-      id="SVGRepo_tracerCarrier"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    ></g>
-    <g id="SVGRepo_iconCarrier">
-      <g>
-        <g>
-          <path d="M40.347,0v312.452l117.734-120.247l114.318,120.541V0H40.347z"></path>
-        </g>
-      </g>
-    </g>
+    <path d="M6 2h12a2 2 0 0 1 2 2v17l-8-5-8 5V4a2 2 0 0 1 2-2z" />
   </svg>
 );

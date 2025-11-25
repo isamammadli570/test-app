@@ -13,7 +13,9 @@
   }
 
   span{
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #3c5357;
   }
 }
 .loader {
@@ -22,7 +24,7 @@
   border-radius: 50px;
 
   :global(.MuiLinearProgress-bar) {
-    background-color: #4D869C; // neon green
+    background-color: #4a8d8f; // neon green
     border-radius: 50px;
   }
 }

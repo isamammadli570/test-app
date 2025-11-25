@@ -1,7 +1,10 @@
 'use client';
 import React, { useState } from 'react';
 import s from './syle.module.scss';
-import { HomeIcon } from '@/assets/icons/HomeIcon';
+/* import { HomeIcon } from '@/assets/icons/HomeIcon'; */
+import BackupIcon from '@mui/icons-material/Backup';
+import HomeIcon from '@mui/icons-material/Home';
+import WorkspacePremiumIcon from '@mui/icons-material/WorkspacePremium';
 import { ResultsIcon } from '@/assets/icons/ResultsIcon';
 import { SavedResultIcon } from '@/assets/icons/SavedResultIcon';
 import { usePathname, useRouter } from 'next/navigation';
@@ -53,7 +56,7 @@ export const Navigation = () => {
         }
         className={s.link}
       >
-        <HomeIcon color="#292929" />
+        <HomeIcon sx={{ fontSize: 50, color: "#4a8d8f" }} />
       </button>
       <button
         onClick={() =>
@@ -71,7 +74,7 @@ export const Navigation = () => {
         }
         className={s.link}
       >
-        <ResultsIcon color="#292929" />
+       <WorkspacePremiumIcon sx={{ fontSize: 50, color: "#4a8d8f" }} />
       </button>
       <button
         onClick={() =>
@@ -89,7 +92,7 @@ export const Navigation = () => {
         }
         className={s.link}
       >
-        <SavedResultIcon color="#292929" />
+        <BackupIcon sx={{ fontSize: 50, color: "#4a8d8f" }} />
       </button>
 
       <FinishQuizModal
