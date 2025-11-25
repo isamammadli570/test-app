@@ -59,7 +59,8 @@
       border-radius: 10px;
       padding: 20px;
       color: #2d2d2d;
-      border: 2px solid #e2eded;
+      border: 1.5px solid #e2eded;
+      background-color: white;
 
       @include isMobile() {
         padding: 10px;
