@@ -56,7 +56,7 @@ export const Navigation = () => {
         }
         className={s.link}
       >
-        <HomeIcon sx={{ fontSize: 50, color: '#6c5ce7' }} />
+        <HomeIcon sx={{ fontSize: 50, color: '#cfbacf' }} />
       </button>
       <button
         onClick={() =>
@@ -74,7 +74,7 @@ export const Navigation = () => {
         }
         className={s.link}
       >
-        <WorkspacePremiumIcon sx={{ fontSize: 50, color: '#6c5ce7' }} />
+        <WorkspacePremiumIcon sx={{ fontSize: 50, color: '#cfbacf' }} />
       </button>
       <button
         onClick={() =>
@@ -92,7 +92,7 @@ export const Navigation = () => {
         }
         className={s.link}
       >
-        <BackupIcon sx={{ fontSize: 50, color: '#6c5ce7' }} />
+        <BackupIcon sx={{ fontSize: 50, color: '#cfbacf' }} />
       </button>
 
       <FinishQuizModal

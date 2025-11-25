@@ -13,7 +13,7 @@ export const ProgressBar = () => {
         value={((questionNumber + 1) / 50) * 100}
         className={s.loader}
         sx={{
-          backgroundColor: '#e2eded',
+          backgroundColor: '#f3e4d7',
         }}
       />
       <span>{questionNumber + 1}</span>

@@ -80,7 +80,7 @@ export const Options = () => {
           onClick={handleNavigate}
           className={s.primary}
         >
-          <FinishIcon color="#6c5ce7" />
+          <FinishIcon color="#cfbacf" />
           Bitir
         </button>
         <button
@@ -89,7 +89,7 @@ export const Options = () => {
           onClick={handlePrevious}
           disabled={questionNumber === 0}
         >
-          <PrevIcon color="#6c5ce7" />
+          <PrevIcon color="#cfbacf" />
           Geri
         </button>
         <button
@@ -98,7 +98,7 @@ export const Options = () => {
           onClick={handleNext}
           disabled={questionNumber === randomQuestions.length - 1}
         >
-          <NextIcon color="#6c5ce7" />
+          <NextIcon color="#cfbacf" />
           Ireli
         </button>
       </div>

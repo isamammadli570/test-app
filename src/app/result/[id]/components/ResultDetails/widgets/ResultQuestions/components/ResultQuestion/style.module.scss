@@ -1,4 +1,4 @@
-@import "src/assets/styles/abstracts/index";
+@import 'src/assets/styles/abstracts/index';
 
 .chaker {
   .questionNumber {
@@ -9,8 +9,8 @@
   .header {
     display: flex;
     justify-content: space-between;
-    background-color: #7AB2B2;
-    border: 1px solid #6c5ce7;
+    background-color: #7ab2b2;
+    border: 1px solid #cfbacf;
     border-radius: 5px;
 
     @include isMobile() {
@@ -36,7 +36,7 @@
     width: 100%;
     padding: 40px;
     font-size: 1.4rem;
-    color: #EEF7FF;
+    color: #eef7ff;
 
     @include isMobile() {
       font-size: 1.2rem;
@@ -70,7 +70,6 @@
     }
   }
 }
-
 
 .correct {
   border: 2px solid #3a705d !important;
