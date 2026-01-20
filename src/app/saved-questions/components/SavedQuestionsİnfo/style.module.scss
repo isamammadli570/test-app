@@ -1,5 +1,4 @@
-@import "src/assets/styles/abstracts/index";
-
+@import '../../../../assets/styles/abstracts/index';
 
 .wrapper {
   width: 26%;
@@ -14,7 +13,9 @@
   }
 
   .totalSavedQuestions {
-    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    box-shadow:
+      rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+      rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     background-color: #f9ffff;
     display: flex;
     flex-direction: column;
@@ -42,9 +43,9 @@
 
     .btn1 {
       transition: all 0.4s ease;
-      background-color: #7AB2B2;
+      background-color: #7ab2b2;
       padding: 10px 15px;
-      color: #EEF7FF;
+      color: #eef7ff;
       border-radius: 10px;
 
       &:hover {
@@ -57,7 +58,7 @@
       transition: all 0.4s ease;
       background-color: #3a705d;
       padding: 10px 15px;
-      color: #EEF7FF;
+      color: #eef7ff;
       border-radius: 10px;
 
       &:hover {
@@ -68,7 +69,7 @@
 
     span {
       font-weight: bolder;
-      color: #EEF7FF;
+      color: #eef7ff;
       font-size: 1.5rem;
       display: flex;
       justify-content: center;
@@ -77,16 +78,17 @@
       height: 100px;
       border-radius: 100%;
       padding: 50px;
-      background-color: #7AB2B2;
+      background-color: #7ab2b2;
       margin: 13px 0px;
     }
   }
 
-
   .questionListWrapper {
     overflow: auto;
     height: 45vh;
-    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+    box-shadow:
+      rgba(50, 50, 105, 0.15) 0px 2px 5px 0px,
+      rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
     background-color: #f9ffff;
     display: flex;
     flex-direction: column;
@@ -104,14 +106,14 @@
     }
 
     &::-webkit-scrollbar-thumb {
-      background: #3D8D7A;
+      background: #3d8d7a;
       border-radius: 100px;
       cursor: pointer;
       transition: background-color 0.2s ease-in;
     }
 
     &::-webkit-scrollbar-thumb:hover {
-      background: darken(#3D8D7A, 5);
+      background: darken(#3d8d7a, 5);
     }
 
     h3 {

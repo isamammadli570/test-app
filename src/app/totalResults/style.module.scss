@@ -1,5 +1,4 @@
-@import "src/assets/styles/abstracts/index";
-
+@import '../../assets/styles/abstracts/index';
 
 .header {
   padding-bottom: 20px;
@@ -25,12 +24,9 @@
   @include isMobile() {
     display: flex;
     justify-content: center;
-
   }
 
   .wrapper {
-
-
     .image {
       display: flex;
       justify-content: center;
@@ -47,5 +43,4 @@
       font-size: 1.5rem;
     }
   }
-
 }
