@@ -16,6 +16,9 @@ export const ChooseQuizCategory = () => {
         <Link href="/quiz?q=cografiya" className={s.link}>
           Coğrafiya
         </Link>
+        <Link href="/quiz?q=mektebsunasliq" className={s.link}>
+          Məktəb sünaslıq
+        </Link>
       </div>
     </div>
   );

@@ -9,7 +9,8 @@ export const cografiya = [
       'D) müəllim tərəfindən mövzunun sual-cavab vasitəsi ilə aydınlaşdırılmasıdır',
       'E) dərsliyin müəyyən hissələrinin müəllim və ya şagirdlər tərəfindən oxunmasıdır',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) müəllim tərəfindən faktikki materialların canlı obrazlı izah edilməsi',
   },
   {
     number: 2,
@@ -21,7 +22,7 @@ export const cografiya = [
       'D) evrestik və katexizis',
       'E) ucadan oxu və izah',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) aydınlaşdırıcı və təsviri',
   },
   {
     number: 3,
@@ -34,7 +35,8 @@ export const cografiya = [
       'D) coğrafi qanunauyğunluqların və proseslərin sübutu əsaslandırılmış təsviri',
       'E) böyük mövzuların müəyyən plan əsasında oxunması',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) öyrəniləcək faktiki materialların sistematik şərh edilməsi',
   },
   {
     number: 4,
@@ -46,7 +48,8 @@ export const cografiya = [
       'D) coğrafi qanunauyğunluqların və proseslərin sübutu əsaslandırılmış təsviri',
       'E) böyük mövzuların müəyyən plan əsasında oxunması',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) obyekti və hadisələrin parlaq obrazının şagirdlərin təsəvvüründə  yaradılması',
   },
   {
     number: 5,
@@ -59,7 +62,7 @@ export const cografiya = [
       'D) söhbət',
       'E) mühazirə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) izah',
   },
   {
     number: 6,
@@ -71,7 +74,8 @@ export const cografiya = [
       'D) müəllim tərəfindən mövzunun sual-cavab vasitəsi ilə aydınlaşdırılması',
       'E) müəllim tərəfindən dərsliyin mətninin ucadan oxunması',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) müəllim tərəfindən coğrafi qanunauyğunluq və proseslərin sübutlu , əsaslandırılmış izah edilməsi',
   },
   {
     number: 7,
@@ -84,7 +88,7 @@ export const cografiya = [
       'D) söhbət',
       'E) mühazirə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) izah',
   },
   {
     number: 8,
@@ -97,7 +101,7 @@ export const cografiya = [
       'D) söhbət',
       'E) ucadan oxu',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) təsviri nağıletmə',
   },
   {
     number: 9,
@@ -110,21 +114,21 @@ export const cografiya = [
       'D) söhbət',
       'E) ucadan oxu',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) təsviri nağıletmə',
   },
   {
     number: 10,
     question:
-      '10. Sual: Çayın xarakteristikasının tipik planına aid olanları seçin : 1- çayın mənbəyi və mənşəyi   2- çayın sağ-sol qolları   3-çayın quruluşu    4-çayın yaranması    5-çayın suyunun fiziki və kimyəvi xassələri     6-çayın keçdiyi təbii zonalar',
+      '10. Sual: Çayın xarakteristikasının tipik planına aid olanları seçin : 1- çayın mənbəyi və mənşəyi 2- çayın sağ-sol qolları 3-çayın quruluşu 4-çayın yaranması 5-çayın suyunun fiziki və kimyəvi xassələri 6-çayın keçdiyi təbii zonalar',
     options: ['A) 1.2.6', 'B) 2.3.4', 'C) 3.4.5', 'D) 1.3.5', 'E) 2.4.6'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.2.6',
   },
   {
     number: 11,
     question:
-      '11. Sual: Dənizin xarakteristikasınən tipik planına daxildir :   1-dənizin suyunun temperaturu və duzluluğu    2-dənizin hava kütlələri    3-dənizin cərəyanları     4- dənizin ərazisindəki ada və ayrımadalar    5-dənizin quruluşu və tərkibi',
+      '11. Sual: Dənizin xarakteristikasınən tipik planına daxildir : 1-dənizin suyunun temperaturu və duzluluğu 2-dənizin hava kütlələri 3-dənizin cərəyanları 4- dənizin ərazisindəki ada və ayrımadalar 5-dənizin quruluşu və tərkibi',
     options: ['A) 1.3.4', 'B) 2.3.5', 'C) 1.2.3', 'D) 2.4.5', 'E) 1.4.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3.4',
   },
   {
     number: 12,
@@ -137,7 +141,7 @@ export const cografiya = [
       'D) 3,4,6,7,8',
       'E) 2,4,6,7,8',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,3,5,6',
   },
   {
     number: 13,
@@ -150,7 +154,7 @@ export const cografiya = [
       'D) praktik və müstəqil işlər',
       'E) səbəb-nəticə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzəriyyə, qanunauyğunluq',
   },
   {
     number: 14,
@@ -163,7 +167,7 @@ export const cografiya = [
       'D) təsəvvürlər və qanunlar',
       'E) faktlar və qanunauyğunluqlar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) faktlar, təsəvvürlər',
   },
   {
     number: 15,
@@ -175,7 +179,7 @@ export const cografiya = [
       'D) fərdi təsəvvürlər',
       'E) empirik biliklər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) eyni adı daşıyan həmcins obyekt və hadisələr',
   },
   {
     number: 16,
@@ -188,7 +192,7 @@ export const cografiya = [
       'D) coğrafi adlar və təxəyyül təsəvvürlər',
       'E) empirik biliklər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) ümumi anlayışlar',
   },
   {
     number: 17,
@@ -200,7 +204,7 @@ export const cografiya = [
       'D) obyektlərin tipik plan üzrə xarakteristikası',
       'E) obyektlərin ən ümumi xüsusiyyətləri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xüsusi coğrafi adı olan konkret obyekt və hadisələr',
   },
   {
     number: 18,
@@ -213,21 +217,21 @@ export const cografiya = [
       'D) evrestik və katexizis',
       'E) induktiv idrak metodu',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) fərdi coğrafi anlayışlar',
   },
   {
     number: 19,
     question:
       '19. Sual: Ümumi coğrafi anlayışları seçin: 1 – Ural dağları 2 – səhra 3 - bataqlıq 4 – Baykal gölü 5 – codyarpaq meşə və kolluqlar 6 – Murovdağ',
     options: ['A) 2,3,5', 'B) 1,4,6', 'C) 1,4,5', 'D) 2,3,6', 'E) 2,3,6'],
-    correctAnswer: '',
+    correctAnswer: 'A) 2,3,5',
   },
   {
     number: 20,
     question:
-      '20. Sual: Fərdi coğrafi anlayışları seçin: 1 – Ural dağları 2 – səhra 3 -  bataqlıq 4 – Baykal gölü 5 – codyarpaq meşə və kolluqlar 6 – Murovdağ',
+      '20. Sual: Fərdi coğrafi anlayışları seçin: 1 – Ural dağları 2 – səhra 3 - bataqlıq 4 – Baykal gölü 5 – codyarpaq meşə və kolluqlar 6 – Murovdağ',
     options: ['A) 1,4,6', 'B) 2,3,5', 'C) 3,4,5', 'D) 4,5,6', 'E) 1,3,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,4,6',
   },
   {
     number: 21,
@@ -240,7 +244,7 @@ export const cografiya = [
       'D) empirik biliklər',
       'E) praktik və müstəqil işlər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) səbəb-nəticə əlaqələri, anlayışlar',
   },
   {
     number: 22,
@@ -253,7 +257,7 @@ export const cografiya = [
       'D) anlayışlar',
       'E) qanunauyğunluqlar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzəri biliklər',
   },
   {
     number: 23,
@@ -266,7 +270,7 @@ export const cografiya = [
       'D) anlayış və təsəvvürlər',
       'E) müşahidə və təcrübələr',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzəri biliklər',
   },
   {
     number: 24,
@@ -279,7 +283,7 @@ export const cografiya = [
       'D) səbəb-nəticə',
       'E) qanunauyğunluqlar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) empirik biliklər',
   },
   {
     number: 25,
@@ -292,7 +296,7 @@ export const cografiya = [
       'D) statistik materiallar və coğrafi adlar',
       'E) hafizə və təxəyyül təsəvvürləri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) istehsalın yerləşdirilməsi, ritmiklik, zonallıq',
   },
   {
     number: 26,
@@ -305,7 +309,7 @@ export const cografiya = [
       'D) coğrafi adlar və rəqəmlər',
       'E) empirik biliklər və təsəvvürlər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) zonallıq, bütövlük, ritmlik',
   },
   {
     number: 27,
@@ -318,7 +322,7 @@ export const cografiya = [
       'D) faktlar',
       'E) empirik',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) qanunauyğunluqlar',
   },
   {
     number: 28,
@@ -330,7 +334,8 @@ export const cografiya = [
       'D) dərsliyin mətnin ucadan oxunması ilə',
       'E) məktəb mühazirəsi və praktik işlərlə',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) obyektin bilavasitə və ya əyani vasitələrlə qavranılması ilə',
   },
   {
     number: 29,
@@ -343,7 +348,7 @@ export const cografiya = [
       'D) qismən axtarış və tədqiqat metoduna',
       'E) nəzəri biliklər və praktik işlərə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) hafizə təsəvvürlərinə',
   },
   {
     number: 30,
@@ -356,7 +361,7 @@ export const cografiya = [
       'D) səbəb-nəticə əlaqələri',
       'E) illüstrasiya və demonstrasiya',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) təxəyyül təsəvvürləri',
   },
   {
     number: 31,
@@ -368,7 +373,7 @@ export const cografiya = [
       'D) obyektin və əyani vəsaitlərin görülməsi ilə',
       'E) kartoqrafik materialların köməyi ilə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) obyektlər bilavasitə görülmədən qavranılır',
   },
   {
     number: 32,
@@ -380,7 +385,7 @@ export const cografiya = [
       'D) xəritə və qlobusda məntəqələrin yerləşməsi',
       'E) ekskursiya və müşahidələrdə qazanılan biliklə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) konkret coğrafi obyektlər haqqında olan təsəvvürlərdir',
   },
   {
     number: 33,
@@ -392,7 +397,7 @@ export const cografiya = [
       'D) xəritə və qlobusda məntəqələrin yerləşməsi',
       'E) ekskursiya və müşahidələrdə qazanılan biliklə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) eyni adı daşıyan obyektlər haqda ən mühüm əlamətlər',
   },
   {
     number: 34,
@@ -405,7 +410,7 @@ export const cografiya = [
       'D) təsəvvürlər, diaqramlar',
       'E) nəzəriyyə və səbəb-nəticə əlaqələri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) coğrafi adlar, rəqəm məlumatları',
   },
   {
     number: 35,
@@ -418,7 +423,7 @@ export const cografiya = [
       'D) nəzəriyyə',
       'E) nəzəri biliklər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) faktiki biliklər',
   },
   {
     number: 36,
@@ -430,7 +435,7 @@ export const cografiya = [
       'D) mənimsəməni təşkil edən aparat, izahedici aparat',
       'E) əsas mətn, izahedici aparat, illüstrasiya',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) əsas mətn, izahedici, əlavələr',
   },
   {
     number: 37,
@@ -442,7 +447,8 @@ export const cografiya = [
       'D) cədvəllər, kontur xəritələr, atlaslar',
       'E) divar xəritələri, qlobuslar',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) mənimsəməni təşkil edən aparat, illüstrativ və istiqamətverici aparatlar',
   },
   {
     number: 38,
@@ -454,7 +460,7 @@ export const cografiya = [
       'D) fakt və təsəvvürlər',
       'E) xəritə və sxemlər, atlas və iş dəftəri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xəritə sxemlər, profillər, statistik cədvəllər',
   },
   {
     number: 39,
@@ -466,7 +472,7 @@ export const cografiya = [
       'D) simvol və başlıqlar',
       'E) fotoşəkil və qrafiklər, diaqramlar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) sual və tapşırıqlar',
   },
   {
     number: 40,
@@ -479,7 +485,7 @@ export const cografiya = [
       'D) tədris mətninə',
       'E) əlavələrlə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) mənimsəməni təşkil edən aparata',
   },
   {
     number: 41,
@@ -491,7 +497,7 @@ export const cografiya = [
       'D) fotoşəkillər, sxemlər, cədvəllər',
       'E) mətn, başlıqlar, kinofilmlər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) simvollar, başlıqlar, şriftlər, siqnallar',
   },
   {
     number: 42,
@@ -504,7 +510,7 @@ export const cografiya = [
       'D) tədris mətninə',
       'E) tədris mətninə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) istiqamətverici aparata',
   },
   {
     number: 43,
@@ -517,7 +523,7 @@ export const cografiya = [
       'D) mənimsəməni təşkil edən aparat',
       'E) əlavələrlə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) illüstrativ aparat',
   },
   {
     number: 44,
@@ -529,7 +535,7 @@ export const cografiya = [
       'D) televizorlar, videomaqnitofonlar',
       'E) diafilmlər, kinofilmlər, diapozitivlər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) diafilm, diapozitiv, transparantlar',
   },
   {
     number: 45,
@@ -542,7 +548,7 @@ export const cografiya = [
       'D) mətndənkənar materiallar',
       'E) istiqamətverici materiallar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) statistik vasitələr',
   },
   {
     number: 46,
@@ -554,7 +560,7 @@ export const cografiya = [
       'D) kinofilmlər, diapozitivlər, diafilmlər',
       'E) atlaslar, kontur xəritələri, qlobuslar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) kinofilmlər, videomaqnitofonlar, disklər',
   },
   {
     number: 47,
@@ -567,7 +573,7 @@ export const cografiya = [
       'D) mətndənkənar materiallar',
       'E) istiqamətverici aparata',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dinamik vasitələr',
   },
   {
     number: 48,
@@ -580,14 +586,14 @@ export const cografiya = [
       'D) 1.4.5.6',
       'E) 1.3.4.5',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.2.4.6',
   },
   {
     number: 49,
     question:
       '49. Sual: Atmosfer bölməsinin tədrisində istifadə olunan cihazları göstərin: 1 – barometr 2 – hiqrometr 3 – anomometr 4 - nivelir 5 – kompas 6 – exolot',
     options: ['A) 1.2.3', 'B) 4.5.6', 'C) 1.2.4', 'D) 2.4.6', 'E) 1.3.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.2.3',
   },
   {
     number: 50,
@@ -600,7 +606,7 @@ export const cografiya = [
       'D) 3.5.6.7',
       'E) 3.4.5.7',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 3.4.6.8',
   },
   {
     number: 51,
@@ -613,7 +619,8 @@ export const cografiya = [
       'D) müxtəlif miqyaslı, eyni məzmunlu xəritələr üzərində coğrafi obyektin oxşar və fərqli cəhətlərinin araşdırılması müqayisədir',
       'E) xəritədə keçirilmiş obyektlərin qarşılıqlı təhlili müqayisədir',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) müxtəlif məzmunlu, eyni miqyaslı xəritələr üzərində coğrafi obyektlərin oxşar və ya fərqli cəhətlərinin araşdırılması müqayisədir',
   },
   {
     number: 52,
@@ -626,7 +633,8 @@ export const cografiya = [
       'D) Eyni miqyaslı və eyni məzmunlu xəritələr üzərində aparılan müstəqil iş.',
       'E) Xəritə üzərində fiziki-coğrafi xarakteristika vermək.',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Eyni miqyaslı, müxtəlif məzmunlu xəritələr, üzərində hadisənin mahiyyətinin aydınlaşdırılması.',
   },
   {
     number: 53,
@@ -639,7 +647,7 @@ export const cografiya = [
       'D) 1.2.3.6',
       'E) 1.5.6.2',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.4.5.6',
   },
   {
     number: 54,
@@ -651,7 +659,8 @@ export const cografiya = [
       'D) Verilmiş tapşırığın müəllimin köməyilə icra edilməsi.',
       'E) Verilmiş tapşırığın müəllimin iştirakı ilə icra edib, təhlil aparmaq',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Verilmiş tapşırığın müəllimin rəhbərliyilə icra edilib nəticə çıxarılması.',
   },
   {
     number: 55,
@@ -664,14 +673,14 @@ export const cografiya = [
       'D) 2,3,4,5',
       'E) 1,4,5,6',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,3,5',
   },
   {
     number: 56,
     question:
       '56. Sual: Məktəb coğrafiya dərslərində aparılan mühazirələrə qoyulan tələbləri seç: 1 – mühazirənin planı tərtib olunmalıdır 2 – mühazirə geniş mövzulara tədrisində tətbiq olunmalıdır 3 – mühazirə 35-40 dəqiqə davam etməlidir 4 – mühazirədə geniş sual-cavablara yol ayrılmalıdır 5 – mühazirədə diyarşünaslıq prinsipi nəzərə alınmalıdır',
     options: ['A) 1.2.3', 'B) 2.4.5', 'C) 2.3.4', 'D) 1.3.5', 'E) 1.2.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.2.3',
   },
   {
     number: 57,
@@ -684,7 +693,7 @@ export const cografiya = [
       'D) 2.4.5.6',
       'E)            2.4.5.6',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.2.4.6',
   },
   {
     number: 58,
@@ -697,7 +706,7 @@ export const cografiya = [
       'D) 3.4.6.7',
       'E) 2.4.5.7',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.2.3.6',
   },
   {
     number: 59,
@@ -710,7 +719,7 @@ export const cografiya = [
       'D) 2,3,5,6,7',
       'E) 2,3,4,7,8',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 2.4.5.7.8',
   },
   {
     number: 60,
@@ -723,21 +732,21 @@ export const cografiya = [
       'D) 2.3.5.6',
       'E) 2.3.6.7',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3.5.6',
   },
   {
     number: 61,
     question:
       '61. Sual: Coğrafiyadan əsas bilik mənbələrini göstər: 1 – dərslik 2 – coğrafiya meydançası 3 – coğrafiya kabineti 4 – dərs vəsaiti, lüğətlər 5 – ekran vasitələri 6 – xəritə',
     options: ['A) 1,4,6', 'B) 1,2,3', 'C) 2,3,4', 'D) 1,3,4', 'E) 2,5,6'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,4,6',
   },
   {
     number: 62,
     question:
       '62. Sual: Coğrafiya dərslərində istifadə olunan əsas texniki təlim vasitələrini seçin: 1 – kompas 2 – video maqnitofon 3 – qlobus 4 – kinoaparat 5 – metroloji butka 6 – kompyüter',
     options: ['A) 2.4.6', 'B) 1.3.5', 'C) 1.2.4', 'D) 1.3.6', 'E) 2.4.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 2.4.6',
   },
   {
     number: 63,
@@ -750,7 +759,7 @@ export const cografiya = [
       'D) Kitab üzərində fərdi iş',
       'E) Müqayisələrin aparılması',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Praktik və müstəqil iş',
   },
   {
     number: 64,
@@ -763,7 +772,7 @@ export const cografiya = [
       'D) 3.4.5.6',
       'E) 1.3.4.5',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3.4.6',
   },
   {
     number: 65,
@@ -776,21 +785,21 @@ export const cografiya = [
       'D) 3.4.5.6',
       'E) 1.3.4.5',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3.4.6',
   },
   {
     number: 66,
     question:
       '66. Sual: Materiklərin daxili suları bölməsinin tədrisində tətbiq olunan optimal təlim metodlarını göstərin: 1 – dərslik üzərində iş 2 – tipik plandan istifadə 3 – sxemlərdən istifadə 4 – müşahidə və təcrübələr aparılması 5 – mühazirə 6 – atlas və xəritə üzərində iş',
     options: ['A) 1.2.5', 'B) 3.4.5', 'C) 1.2.4', 'D) 2.3.5', 'E) 2.4.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.2.5',
   },
   {
     number: 67,
     question:
       '67. Sual: Azərbaycanın iqlimi bölməsinin tədrisində tətbiq olunan optimal təlim metodlarını göstərin: 1 – atlas və xəritə üzərində iş 2 – mühazirə metodu 3 – dərslik üzərində iş 4 – coğrafiya meydançasında iş 5 – təcrübələrin təşkili 6 – praktik işlər aparılması',
     options: ['A) 1.3.6', 'B) 2.4.5', 'C) 1.2.4', 'D) 3.5.6', 'E) 1.3.4'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3.6',
   },
   {
     number: 68,
@@ -803,7 +812,7 @@ export const cografiya = [
       'D) 3.4.5.6',
       'E) 1.2.3.5',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.2.4.6',
   },
   {
     number: 69,
@@ -816,7 +825,8 @@ export const cografiya = [
       'D) Fərziyyə, problemin həlli, dərsin mövzusu, analiz.',
       'E) Dərsin mövzusu, problemin təhlili, problemli şərait, analiz.',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Problemli şərait, problem, fərziyyə, problemin həlli yolları.',
   },
   {
     number: 70,
@@ -829,7 +839,8 @@ export const cografiya = [
       'D) Dərnəklər, sinifdənxaric oxu, konfrans, coğrafiya gecələri, kitabxanada oxu,olimpiada, fakultativ dərs və s.',
       'E) Dərnək, sinifdənxaric oxu, dərsliklə iş, olimpiadalar, viktorinalar, coğrafiya meydançasında iş və s.',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Dərnək, sinifdənxaric oxu,konfrans,coğrafiya gecəsi,viktorinalar,olimpiadalar və s.',
   },
   {
     number: 71,
@@ -841,7 +852,7 @@ export const cografiya = [
       'D) Müsahibə, məktəb mühazirəsi, nağıletmə.',
       'E) Kartoqrafik, şifahi şərh, eksperiment.',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Riyazi, müqayisə, tarixi.',
   },
   {
     number: 72,
@@ -854,7 +865,8 @@ export const cografiya = [
       'D) Sinifdənxaric işlərin yaxşılaşdırılmasına, testlərlə işləmək bacarığının artmasına',
       'E) Dərslik üzərində işin aparılmasına, mətnin qısaldılmasına',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Müxtəlif coğrafi hadisə və proseslərin sübutluluğuna və möhkəmləndirilməsinə.',
   },
   {
     number: 73,
@@ -866,7 +878,8 @@ export const cografiya = [
       'D) Mətnin oxunması, sual və çalışmalar üzərində iş, profilin tərtibi, blok-diaqramların qurulması.',
       'E) xəritələrin tutuşdurulması',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Mətnin oxunması, sual və çalışmalar üzərində iş, şəkillər üzərində iş və s.',
   },
   {
     number: 74,
@@ -879,7 +892,8 @@ export const cografiya = [
       'D) tarixi bilikləri ancaq ümumi iqtisadi anlayışların izahatında istifadə edilir',
       'E) tarixi bilikləri əsasən ikişaf etmiş ölkələrin coğrafiyasının öyrədilməsində istifadə edilir',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) tarixi biliklərin müasir coğrafi xüsusiyyətlərin izahatında istifadə edilməsi',
   },
   {
     number: 75,
@@ -892,7 +906,8 @@ export const cografiya = [
       'D) sənayenin sahəvi strukturu xarakterik olan sosial iqtisadi ölkələri sadalayın',
       'E) Polşada sənayenin hansı sahələri inkişaf etmişdir',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) ABŞ-d kənd təsərrüfatı ixtisaslaşmasının şərqdən qərbə dəyişməsi nə ilə izah olunur',
   },
   {
     number: 76,
@@ -905,7 +920,8 @@ export const cografiya = [
       'D) Afrika ölkələrinin kənd təsərrüfatının təbii şəraitindən asılı olaraq xüsusiyyətlərini yazın',
       'E) ölkələrin əməkdaşlığı onun iqtisadiyyatının inkişafında nə kimi rol oynadığını izah',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Cənubi Amerika ölkələrinin kənd təsərrüfatının əsas xüsusiyyətlərini yazın',
   },
   {
     number: 77,
@@ -917,21 +933,32 @@ export const cografiya = [
       'D) pedaqoji müşahidə',
       'E) müqayisəli-tarixi təhlil',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) modelləşdirmə',
   },
   {
     number: 78,
     question:
       '78. Sual: Coğrafiya tədrisi metodikasının nəzəri tədqiqat metodlarına aiddir: 1) riyazi 2) müəllim və şagirdlərin anket sorğusu 3) tarixi 4) modelləşdirmə tarixi 5) yoxlama yazı işləri',
     options: ['A) 1,2,3', 'B) 2,3,4', 'C) 3,4,5', 'D) 1,3,4', 'E) 2,4,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,3',
   },
   {
     number: 79,
     question:
-      '79. Sual: Pedaqoji eksperimentin məqsədinə görə növlərinə aid edilir: a) ümumiləşdirici b) müəyyənedici ç) yekunlaşdırıcı c) yoxlayıcı d) xəbərdaredici e) öyrədici',
-    options: ['A) a,b,ç', 'B) b,ç,c', 'C) ç,c,d', 'D) c,d,e', 'E) b, c,e'],
-    correctAnswer: '',
+      '79. Sual: Pedaqoji eksperimentin məqsədinə görə növlərinə aid edilir:',
+    options: [
+      'ümumiləşdirici',
+      'müəyyənedici ç) yekunlaşdırıcı',
+      'yoxlayıcı',
+      'xəbərdaredici',
+      'öyrədici',
+      'A) a,b,ç',
+      'B) b,ç,c',
+      'C) ç,c,d',
+      'D) c,d,e',
+      'E) b, c,e',
+    ],
+    correctAnswer: 'ümumiləşdirici',
   },
   {
     number: 80,
@@ -944,7 +971,7 @@ export const cografiya = [
       'D) pedaqoji təcrübə dövründə elmi mövzunun işlənməsi',
       'E) kurs işi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) məktəb olimpiadasına hazırlıq və onun keçirilməsi',
   },
   {
     number: 81,
@@ -957,7 +984,7 @@ export const cografiya = [
       'D) müəllimin öyrədici fəaliyyəti',
       'E) təlim prosesində şagirdlərin tərbiyyəsi və inkişafı',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) şagirdlərin fiziki və əmək tərbiyəsi',
   },
   {
     number: 82,
@@ -977,7 +1004,7 @@ export const cografiya = [
       'D) Əbdürrəşid Bakuvi',
       'E) həsənbəy Zərdabi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Qafur Rəşad Mirzəzadə',
   },
   {
     number: 84,
@@ -990,7 +1017,7 @@ export const cografiya = [
       'D) İ.A. Vitver',
       'E) B.A. Budaqov',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Q. R. Mirzazadə',
   },
   {
     number: 85,
@@ -1003,7 +1030,7 @@ export const cografiya = [
       'D) Məhəmmədhəsən  Baharlı',
       'E) Nizaməddin Allahverdiyev',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Qafur Rəşad Mirzəzadə',
   },
   {
     number: 86,
@@ -1016,7 +1043,7 @@ export const cografiya = [
       'D) okeanologiya',
       'E) torpaqşunaslıq',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) astranomiya',
   },
   {
     number: 87,
@@ -1028,7 +1055,8 @@ export const cografiya = [
       'D) proqram materiallarının elmi cəhətdən işlənib hazırlanma yollarıdır',
       'E) müəllimin iş üsulları olub, məktəb-valideyin fəaliyyətini müəyyən edir',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) müəllimin iş üsulları olub, şagirdlərin fəaliyyətini müəyyən edir',
   },
   {
     number: 88,
@@ -1041,19 +1069,25 @@ export const cografiya = [
       'D) əyani,  praktik, kartoqrafik metodlar',
       'E) xüsusi, ümumi və praktik metodlar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) söz,əyani, praktik metodlar',
   },
   {
     number: 89,
-    question:
-      '89. Sual: Bilik mənbəyinə görə təlim metodları hansılardır? a) söz, b) əyani, c) tədqiqat, d) praktik, e) illüstravit',
-    options: ['A) a,b,d,', 'B) a,b,e', 'C) a,c,e', 'D) a,c,d', 'E) b,c,e'],
-    correctAnswer: '',
+    question: '89. Sual: Bilik mənbəyinə görə təlim metodları hansılardır?',
+    options: [
+      'söz, b) əyani, c) tədqiqat, d) praktik, e) illüstravit',
+      'A) a,b,d,',
+      'B) a,b,e',
+      'C) a,c,e',
+      'D) a,c,d',
+      'E) b,c,e',
+    ],
+    correctAnswer: 'söz, b) əyani, c) tədqiqat, d) praktik, e) illüstravit',
   },
   {
     number: 90,
     question:
-      '90. Sual: Təlim metodlarının  seçilməsi əsasən nədən asılı olur? 1. didaktik məqsəddən. öyrənilən materialın məzmunundan 3. sinifdə şagird sayından şagirdlərin hazırlıq səviyyəsindən 5. məktəbin tədris bazasından dərs regimindən',
+      '90. Sual: Təlim metodlarının seçilməsi əsasən nədən asılı olur? 1. didaktik məqsəddən. öyrənilən materialın məzmunundan 3. sinifdə şagird sayından şagirdlərin hazırlıq səviyyəsindən 5. məktəbin tədris bazasından dərs regimindən',
     options: [],
     correctAnswer: '',
   },
@@ -1068,7 +1102,8 @@ export const cografiya = [
       'D) yuxarı siniflərə keçildikcə digər təlim metodlarından istifadə çətinləşdiyi üçün',
       'E) şifahi şərhi dinləmə vərdişi şagirdlərdə yuxarı siniflərə keçildikcə artdığı üçün',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) yuxarı siniflərə keçildikcə material artdığı üçün buna təlabat yaranır',
   },
   {
     number: 92,
@@ -1080,12 +1115,12 @@ export const cografiya = [
       'D) izahat, mühazirə, təcrübə',
       'E) izahat, təcrübə , mühazirə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nağıl, izahat, mühazirə',
   },
   {
     number: 93,
     question:
-      '93. Sual: Əyani metodlara aiddir: 1. şifahi şərh müşahidələr, 3.  əyani vəsaitdən istifadə statistik materiallarla iş 5. təcrübələr müşahidə 7. ucadan oxu coğrafiya xəritəsindən istifadə',
+      '93. Sual: Əyani metodlara aiddir: 1. şifahi şərh müşahidələr, 3. əyani vəsaitdən istifadə statistik materiallarla iş 5. təcrübələr müşahidə 7. ucadan oxu coğrafiya xəritəsindən istifadə',
     options: [],
     correctAnswer: '',
   },
@@ -1099,7 +1134,7 @@ export const cografiya = [
       'D) coğrafiya xəritələrindən istifadə, dərslik üzərində iş',
       'E) nisbi hündürlüklərin ölçülməsi və əyani vəsaitlərdən istifadə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) əyani  vəsaitlərdən istifadə, müşahidələr',
   },
   {
     number: 95,
@@ -1111,7 +1146,7 @@ export const cografiya = [
       'D) nisbi hündürlüklərin ölçülməsi və əyani vəsaitlərdə istifadə',
       'E) coğrafiya xəritələrindən istifadə, statistik materiallarla iş',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) müşahidələr, təcrübələr',
   },
   {
     number: 96,
@@ -1124,7 +1159,7 @@ export const cografiya = [
     number: 97,
     question: '97. Sual: Xəritə üzərində iş coğrafiya təlimində necə adlanır:',
     options: ['A) metod', 'B) priyom', 'C) üsul', 'D) çalışma', 'E) tapşırıq'],
-    correctAnswer: '',
+    correctAnswer: 'A) metod',
   },
   {
     number: 98,
@@ -1137,7 +1172,7 @@ export const cografiya = [
       'D) sadə və mürəkkəb nağıletmə',
       'E) izahedici və yekunlaşdırıcı nağıletmə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) aydınlaşdırıcı və təsviri nağıletmə',
   },
   {
     number: 99,
@@ -1150,7 +1185,7 @@ export const cografiya = [
       'D) problemli ifadə',
       'E) tədqiqat',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) şifahi',
   },
   {
     number: 100,
@@ -1163,14 +1198,14 @@ export const cografiya = [
       'D) qismən-axtarış',
       'E) tədqiqat',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) problemli',
   },
   {
     number: 101,
     question:
       '101. Sual: Evristik müşahidə zamanı müəllim: a. şagirdlərin yeni qazanılmış biliklərinin möhkəmləndirilməsi üçün istifadə olunur b. şagirdlərin idrak prosesinə rəhbərlik edir c. şagirdlərin müstəqil nəticələr əldə etməsinə nail olur. d. şagirdlərin biliklərinin yoxlanılması üçün istifadə olunur e. şagirdlərin diqqətini öyrənilən obyektə yönəldir',
     options: ['A) c,d,e', 'B) a,b,c', 'C) a,c,d', 'D) b,c,e', 'E) a,b,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) c,d,e',
   },
   {
     number: 102,
@@ -1183,7 +1218,7 @@ export const cografiya = [
       'D) adi, xüsusi, mürəkkəb',
       'E) təsviri, aydınlaşdırıcı,',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) giriş, şərhedici, ümumiləşdirici',
   },
   {
     number: 103,
@@ -1195,7 +1230,7 @@ export const cografiya = [
       'D) zəruri olan keçmiş bilikləri və bacarıqları şagirdlərin yadına salıb bərpa etmək',
       'E) xəritə və digər əyani vəsaitlərdən istifadə etmək',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) şagirdlərdə olan biliklərə əsasən yeni materialın izahı',
   },
   {
     number: 104,
@@ -1207,7 +1242,8 @@ export const cografiya = [
       'D) əvvəllər verilmiş bilikləri yada salır, xatırladır',
       'E) verilmiş bilik və bacarıqları formalaşdırır',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) şagirdlərin tədqiqatçılığa meyl və marağını inkişaf etdirir',
   },
   {
     number: 105,
@@ -1220,7 +1256,8 @@ export const cografiya = [
       'D) yeni materialın öyrənilməsi üçün zəruri olan keçmiş bilikləri və bacarıqları şagirdlərin yadına salıb bərpa etmək üçün',
       'E) şagirdlərin praktik bilik, bacarıq və vərdişlərini möhkəmləndirmək üçün',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) şagirdlərdə olan biliklərə əsasən yeni materialın izahı üçün.',
   },
   {
     number: 106,
@@ -1233,7 +1270,8 @@ export const cografiya = [
       'D) şagirdlərdə olan biliklərə əsasən yeni materialın izahı üçün',
       'E) yeni materialın öyrənilməsi üçün zəruri olan keçmiş bilikləri və bacarıqları şagirdlərin yadına salıb bərpa etmək üçün',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) şagirdlərin  biliklərini  möhkəmləndirmək, dərinləşdirmək və sistemə salmaq üçün',
   },
   {
     number: 107,
@@ -1246,19 +1284,19 @@ export const cografiya = [
       'D) çalışma',
       'E) çalışma',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) tapşırıq',
   },
   {
     number: 108,
     question:
-      '108. Sual: Xəritə, statistika materialları və əyani vəsaitlərin şərhedici müsahibədə uyğun rolu: xəritə                                                         I. əyanilik 2. statistika materialları                                II. Yeni bilik mənbəyi əyani vəsaitlər                                          III. Köməkçi',
+      '108. Sual: Xəritə, statistika materialları və əyani vəsaitlərin şərhedici müsahibədə uyğun rolu: xəritə I. əyanilik 2. statistika materialları II. Yeni bilik mənbəyi əyani vəsaitlər                                          III. Köməkçi',
     options: [],
     correctAnswer: '',
   },
   {
     number: 109,
     question:
-      '109. Sual: Xəritə, statistika materialları və əyani vəsaitlərin bərpaedici və ümumiləşdirici müsahibədə uyğun rolu: xəritə                                                         I. əyanilik 2. statistika materialları                                II. Yeni bilik mənbəyi əyani vəsaitlər                                          III. Köməkçi',
+      '109. Sual: Xəritə, statistika materialları və əyani vəsaitlərin bərpaedici və ümumiləşdirici müsahibədə uyğun rolu: xəritə I. əyanilik 2. statistika materialları II. Yeni bilik mənbəyi əyani vəsaitlər                                          III. Köməkçi',
     options: [],
     correctAnswer: '',
   },
@@ -1272,7 +1310,8 @@ export const cografiya = [
       'D) yuxarı metodlara keçildikcə şagirdlərdə yorğunluq hissi əmələ gətirir',
       'E) xəritə və digər əyani vəsaitlərdən istifadədə çətinlik yaranır',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) dinləmə və başqasının fikrini izləmək bacarığını inkişaf etdirmir',
   },
   {
     number: 111,
@@ -1290,44 +1329,91 @@ export const cografiya = [
   },
   {
     number: 113,
-    question:
-      '113. Sual: Müasir coğrafiya dərsinin əsas xüsusiyyətləri: a) əsas məqsəd – şəxsiyyətin tərbiyyə və inkişaf etdirilməsidir b) şagird – təlim obyektidir c) ünsiyyət tərzi - əməkdaşlıqdır d) dərsin əsas tipi – kombinə edilmiş formadır e) müəllim – şagird fəaliyyətinin təşkilatçısıdır',
-    options: ['A)  a,b,d', 'B) b,c,d', 'C) c,d,e', 'D) a,c,e', 'E) b,c,e'],
-    correctAnswer: '',
+    question: '113. Sual: Müasir coğrafiya dərsinin əsas xüsusiyyətləri:',
+    options: [
+      'əsas məqsəd – şəxsiyyətin tərbiyyə və inkişaf etdirilməsidir',
+      'şagird – təlim obyektidir',
+      'ünsiyyət tərzi - əməkdaşlıqdır',
+      'dərsin əsas tipi – kombinə edilmiş formadır',
+      'müəllim – şagird fəaliyyətinin təşkilatçısıdır',
+      'A)  a,b,d',
+      'B) b,c,d',
+      'C) c,d,e',
+      'D) a,c,e',
+      'E) b,c,e',
+    ],
+    correctAnswer:
+      'əsas məqsəd – şəxsiyyətin tərbiyyə və inkişaf etdirilməsidir',
   },
   {
     number: 114,
-    question:
-      '114. Sual: Sinifdənxaric işdə məqsədlər: a) coğrafiyanı dərk etməyə maraq formalaşdırmaq b) şagirdlərdə dərin və möhkəm coğrafi biliklər formalaşdırmaq c) məktəb coğrafiyasını həyatla əlaqələndirmək d) şagirdlərə elmi-tədqiqat işi vərdişləri aşılamaq e) kollektivçilik tərbiyyəsi',
-    options: ['A) b,c,e', 'B) c,d,e', 'C) b,d,e', 'D) a,c,d', 'E) a,d,e'],
-    correctAnswer: '',
+    question: '114. Sual: Sinifdənxaric işdə məqsədlər:',
+    options: [
+      'coğrafiyanı dərk etməyə maraq formalaşdırmaq',
+      'şagirdlərdə dərin və möhkəm coğrafi biliklər formalaşdırmaq',
+      'məktəb coğrafiyasını həyatla əlaqələndirmək',
+      'şagirdlərə elmi-tədqiqat işi vərdişləri aşılamaq',
+      'kollektivçilik tərbiyyəsi',
+      'A) b,c,e',
+      'B) c,d,e',
+      'C) b,d,e',
+      'D) a,c,d',
+      'E) a,d,e',
+    ],
+    correctAnswer: 'coğrafiyanı dərk etməyə maraq formalaşdırmaq',
   },
   {
     number: 115,
     question:
-      '115. Sual: Coğrafiya dərnəyi təşkili işinin düzgün ardıcıllığıdır. a) dərnəyin mövzusu üzrə elmi-kütləvi ədəbiyyatın icmalı b) təşkilatı məsələ, aktivlərin seçilməsi, iş planının müzakirəsi c) dərnək nizamnaməsinin hazırlanması, müzakirə və təsdiqi d) görülmüş işlərin hesabatı e) tədqiqat problemi üzrə ayrı-ayrı suallar ətrafında şagirdlərin məlumatı q) dərnəyin işlədiyi problemin tədqiqi metodikası ilə tanışlıq',
+      '115. Sual: Coğrafiya dərnəyi təşkili işinin düzgün ardıcıllığıdır.',
     options: [
+      'dərnəyin mövzusu üzrə elmi-kütləvi ədəbiyyatın icmalı',
+      'təşkilatı məsələ, aktivlərin seçilməsi, iş planının müzakirəsi',
+      'dərnək nizamnaməsinin hazırlanması, müzakirə və təsdiqi',
+      'görülmüş işlərin hesabatı',
+      'tədqiqat problemi üzrə ayrı-ayrı suallar ətrafında şagirdlərin məlumatı q) dərnəyin işlədiyi problemin tədqiqi metodikası ilə tanışlıq',
       'A) 1-b,  2-c,  3-q,  4-a,  5-e,  6-d',
       'B) 1-d,  2-c,  3-q,  4-a,  5-e,  6-q',
       'C) 1-a,  2-c,  3-q,  4-b,  5-e,  6-d',
       'D) 1-b,  2-a,  3-q,  4-c,  5-e,  6-d',
       'E) 1-c,  2-b,  3-q,  4-e,  5-a,  6-d',
     ],
-    correctAnswer: '',
+    correctAnswer: 'dərnəyin mövzusu üzrə elmi-kütləvi ədəbiyyatın icmalı',
   },
   {
     number: 116,
-    question:
-      '116. Sual: Coğrafiyadan sinifdənxaric işin təşkilat formaları: a) proqram üzrə praktik işin hesabatı b) coğrafiya meydançasının təşkili c) coğrafiyadan tədris materiallarının hazırlanması d) coğrafiya kabinetinin yaradılması e) coğrafi biliklərin təbliği',
-    options: ['A) a,c,e', 'B) a,b,e', 'C) b,c,d', 'D) c,d,e', 'E) b,d,e'],
-    correctAnswer: '',
+    question: '116. Sual: Coğrafiyadan sinifdənxaric işin təşkilat formaları:',
+    options: [
+      'proqram üzrə praktik işin hesabatı',
+      'coğrafiya meydançasının təşkili',
+      'coğrafiyadan tədris materiallarının hazırlanması',
+      'coğrafiya kabinetinin yaradılması',
+      'coğrafi biliklərin təbliği',
+      'A) a,c,e',
+      'B) a,b,e',
+      'C) b,c,d',
+      'D) c,d,e',
+      'E) b,d,e',
+    ],
+    correctAnswer: 'proqram üzrə praktik işin hesabatı',
   },
   {
     number: 117,
     question:
-      '117. Sual: Coğrafiya olimpiadalarının tematikasının tələblərinə aiddir: a) şagirdlərin coğrafi görüş dairəsi b) kollektivçilik tərbiyə etmək c) bilikləri praktikada tətbiq etmək bacarığı d) təfəkkürün inkişaf səviyyəsinin aşkara çıxarılması e) həyatla məktəb coğrafiyasını əlaqələndirmək',
-    options: ['A) a,c,d', 'B) a,b,c', 'C) c,d,e', 'D) a,c,e', 'E) b,c,d'],
-    correctAnswer: '',
+      '117. Sual: Coğrafiya olimpiadalarının tematikasının tələblərinə aiddir:',
+    options: [
+      'şagirdlərin coğrafi görüş dairəsi',
+      'kollektivçilik tərbiyə etmək',
+      'bilikləri praktikada tətbiq etmək bacarığı',
+      'təfəkkürün inkişaf səviyyəsinin aşkara çıxarılması',
+      'həyatla məktəb coğrafiyasını əlaqələndirmək',
+      'A) a,c,d',
+      'B) a,b,c',
+      'C) c,d,e',
+      'D) a,c,e',
+      'E) b,c,d',
+    ],
+    correctAnswer: 'şagirdlərin coğrafi görüş dairəsi',
   },
   {
     number: 118,
@@ -1340,7 +1426,7 @@ export const cografiya = [
       'D) davamiyyət jurnalı',
       'E) məşğələ mövzuları',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) fərdi məşğələlər',
   },
   {
     number: 119,
@@ -1353,14 +1439,24 @@ export const cografiya = [
       'D) ekspert qrupunun iclası',
       'E) planlaşdırma (proektləşdirmə)',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) simpozium',
   },
   {
     number: 120,
-    question:
-      '120. Sual: Coğrafiya dərnəyinin nizamnaməsinin bölmələridir: a) işin məqsəd və vəzifələri b) işin məzmunu və metodları c) məşğələlərin tematik planlaşdırılması d) dərnək üzvlərinin hüquq və vəzifələri e) dərnəyin strukturu və ona rəhbərlik',
-    options: ['A) a,c,d', 'B) a,b,c', 'C) a,c,e', 'D) b,c,e', 'E) a,d,e'],
-    correctAnswer: '',
+    question: '120. Sual: Coğrafiya dərnəyinin nizamnaməsinin bölmələridir:',
+    options: [
+      'işin məqsəd və vəzifələri',
+      'işin məzmunu və metodları',
+      'məşğələlərin tematik planlaşdırılması',
+      'dərnək üzvlərinin hüquq və vəzifələri',
+      'dərnəyin strukturu və ona rəhbərlik',
+      'A) a,c,d',
+      'B) a,b,c',
+      'C) a,c,e',
+      'D) b,c,e',
+      'E) a,d,e',
+    ],
+    correctAnswer: 'işin məqsəd və vəzifələri',
   },
   {
     number: 121,
@@ -1373,7 +1469,7 @@ export const cografiya = [
       'D) dərnək işi nəticələrinin məcburu qeydiyyatı',
       'E) bütün şagirdlərin dərnəyin işində məcburi iştirakı',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) müəllimin rəhbərlik rolu',
   },
   {
     number: 122,
@@ -1385,7 +1481,7 @@ export const cografiya = [
       'D) İ.A. Vitver',
       'E) S.V. Lavrov',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) N.N. Baranski',
   },
   {
     number: 123,
@@ -1397,7 +1493,7 @@ export const cografiya = [
       'D) çap orqanlarının nəşri',
       'E) coğrafiya gecəsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) konfrans',
   },
   {
     number: 124,
@@ -1409,14 +1505,25 @@ export const cografiya = [
       'D) coğrafi xəbərlər, referatlar, konfranslar, coğrafi oyunlar və təcrübələr',
       'E) coğrafi xəbərlər, bülletenlər, təcrübələr, coğrafi oyunlar və viktorinalar',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) coğrafi xəbərlər, referatlar, məruzələr, coğrafi oyunlar və viktorinalar',
   },
   {
     number: 125,
-    question:
-      '125. Sual: Coğrafiyadan dərnək işinin əsas vəzifəsi: a) dərnək işində bütün şagirdlərin məcburi iştirakı b) bilik, bacarıq və vərdişləri genişləndirib möhkəmlətməsi ç) şagirdlərin fərdi qabiliyyətlərinin inkişaf etdirilməsi c) dərnək işinin nəticələrinin məcburi rəsmiləşdirməsi d) idrak marağının dərinləşdirilməsi e) müəllimin rəhbərlik rolu',
-    options: ['A) b,ç,d', 'B) a,c,e', 'C) a,ç,c', 'D) a,ç,d', 'E) b,d,e'],
-    correctAnswer: '',
+    question: '125. Sual: Coğrafiyadan dərnək işinin əsas vəzifəsi:',
+    options: [
+      'dərnək işində bütün şagirdlərin məcburi iştirakı',
+      'bilik, bacarıq və vərdişləri genişləndirib möhkəmlətməsi ç) şagirdlərin fərdi qabiliyyətlərinin inkişaf etdirilməsi',
+      'dərnək işinin nəticələrinin məcburi rəsmiləşdirməsi',
+      'idrak marağının dərinləşdirilməsi',
+      'müəllimin rəhbərlik rolu',
+      'A) b,ç,d',
+      'B) a,c,e',
+      'C) a,ç,c',
+      'D) a,ç,d',
+      'E) b,d,e',
+    ],
+    correctAnswer: 'dərnək işində bütün şagirdlərin məcburi iştirakı',
   },
   {
     number: 126,
@@ -1429,14 +1536,14 @@ export const cografiya = [
       'D) dərnəklərdə “kütləvilik” yaratmaqla daha çox şagird cəlb etmək problemi yaradır',
       'E) ayrı-atrı seksiyalar üzrə işin təşkilində çətinliklər yaradır',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Seksiyalar dərnəyin işində hansı çətinliklər yaradır?',
   },
   {
     number: 127,
     question:
-      '127. Sual: Uyğunluğu qurun: 1. Məruzədə     a) şagird plan tərtib etmir b) ən mühüm bölmələrə aid ədəbiyyat seçilir Referatda       c) şagird bir neçə mənbədən istifadə edir d) üzərində işlədiyi mənbədəki şərh ardıcıllığına əməl edir',
-    options: [],
-    correctAnswer: '',
+      '127. Sual: Uyğunluğu qurun: 1. Məruzədə a) şagird plan tərtib etmir Referatda       c) şagird bir neçə mənbədən istifadə edir',
+    options: ['ən mühüm bölmələrə aid ədəbiyyat seçilir'],
+    correctAnswer: 'ən mühüm bölmələrə aid ədəbiyyat seçilir',
   },
   {
     number: 128,
@@ -1448,7 +1555,8 @@ export const cografiya = [
       'D) “coğrafi yeniliklər” adı altında hazırlanmış məlumatlardır',
       'E) coğrafiyaya aid olan ən müxtəlif məzmunlu daha yeni məlumat və rəqəmlərin şərhidir',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) bilavasitə coğrafiyaya aid olan ən müxtəlif məzmunlu təsvirlərdir',
   },
   {
     number: 129,
@@ -1461,7 +1569,7 @@ export const cografiya = [
       'D) coğrafi məlumatlar bir neçə, coğrafi xəbərlər bir məsələyə həsr olunur',
       'E) coğrafi məlumatlar müəllimin rəhbərliyi altında hazırlanır',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) məlumatlarda daha yeni xəbərlər və rəqəmlər şərh edilir',
   },
   {
     number: 130,
@@ -1473,7 +1581,7 @@ export const cografiya = [
       'D) coğrafiya jurnalı',
       'E) coğrafiyadan informasiya bülleteni',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) coğrafiya qəzeti',
   },
   {
     number: 131,
@@ -1485,7 +1593,7 @@ export const cografiya = [
       'D) bülletenlər, coğrafi jurnal',
       'E) coğrafiya qəzeti, coğrafiya vərəqləri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) coğrafiya qəzeti, bülletenlər',
   },
   {
     number: 132,
@@ -1497,7 +1605,8 @@ export const cografiya = [
       'D) dərnəyin ayrı-ayrı üzvlərinin fəaliyyəti haqqında məlumatlara',
       'E) dərnək üzvlərinin coğrafiya dərslərində müvəffəqiyyətlərinə',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) coğrafiyaya aid sinifdənxaric fəaliyyətinin hər hansı bir cəhətinə',
   },
   {
     number: 133,
@@ -1509,7 +1618,8 @@ export const cografiya = [
       'D) keçirilmiş ekskursiyalar haqqında məlumatlar verir',
       'E) dərnəyin iclaslarında edilmiş məruzələr haqqında qısa xülasələr çap edir',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) həcmcə qəzetdən kiçik olub əsasən səfərbəredici xarakter daşıyır',
   },
   {
     number: 134,
@@ -1521,7 +1631,8 @@ export const cografiya = [
       'D) dərnəyin ayrı-ayrı üzvlərinin fəaliyyəti haqqında məlumatlar çap olunur',
       'E) keçirilmiş ekskursiyalar haqqında məlumatlar çap olunur',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) coğrafiya dərslərində müvəffəqiyyət və davamiyyətə aid məlumatlar çap olunur',
   },
   {
     number: 135,
@@ -1533,7 +1644,7 @@ export const cografiya = [
       'D) coğrafi viktorina',
       'E) kitab və jurnalların müzakirəsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) ekskursiya üzrə hesabat',
   },
   {
     number: 136,
@@ -1546,7 +1657,8 @@ export const cografiya = [
       'D) dərnəyin ayrı-ayrı üzvlərinin fəaliyyəti haqqında məlumatlar çap olunur',
       'E) buradadərnəyin iclasları haqqında hesabatlar çap olunur',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) sinifdənxaric işlər haqqında daha dolğun məlumatlar çap olunur',
   },
   {
     number: 137,
@@ -1559,7 +1671,7 @@ export const cografiya = [
       'D) kiçik xəbərlər',
       'E) tapmaca',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) olimpiada',
   },
   {
     number: 138,
@@ -1572,7 +1684,8 @@ export const cografiya = [
       'D) coğrafi şəhərciklər mürəkkəb, gecələr isədaha sadə məzmunlu olur',
       'E) coğrafi şəhərciklərə əyləncə elementləri daxil edilir, gecələrə isə yox',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) 5-8-ci siniflər üçün şəhərciklər, yuxarı siniflər üçün isə gecələr keçirilir',
   },
   {
     number: 139,
@@ -1584,12 +1697,12 @@ export const cografiya = [
       'D) modelləşdirmə',
       'E) kompüter oyunları',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) rollu oyunlar',
   },
   {
     number: 140,
     question:
-      '140. Sual: Oyunların tip-formasını müəyyən edin: 1) rollu,     a) mətbuat konfransı 2) stolüstü,      b) viktorina 3) yarış-oyun, c) coğrafi loto',
+      '140. Sual: Oyunların tip-formasını müəyyən edin: 1) rollu, a) mətbuat konfransı 2) stolüstü, b) viktorina 3) yarış-oyun, c) coğrafi loto',
     options: [
       'A) 1-a, 2-c, 3-b',
       'B) 1-a, 2-b, 3-c',
@@ -1597,40 +1710,53 @@ export const cografiya = [
       'D) 1-c, 2-b, 3-a',
       'E) 1-b, 2-a, 3-c',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a, 2-c, 3-b',
   },
   {
     number: 141,
     question:
-      '141. Sual: Oyunların təsnifat tipləri və konkret növləri arasında uyğunluğu qurun: 1) rollu oyunlar                a) krossvord 2) oyun-yarışlar                b) məntəqə üzrə hərəkətli oyunlar c) coğrafi biliklərin yoxlanılması',
+      '141. Sual: Oyunların təsnifat tipləri və konkret növləri arasında uyğunluğu qurun: 1) rollu oyunlar a) krossvord 2) oyun-yarışlar b) məntəqə üzrə hərəkətli oyunlar',
     options: [
+      'coğrafi biliklərin yoxlanılması',
       'A) 1-b, 2-a',
       'B) 1-c, 2-b',
       'C) 1-a, 2-c',
       'D) 1-c, 2-a',
       'E) 1-a, 2-b',
     ],
-    correctAnswer: '',
+    correctAnswer: 'coğrafi biliklərin yoxlanılması',
   },
   {
     number: 142,
     question:
-      '142. Sual: Coğrafi oyunların təsnifat tipləri ilə oyunların növləri arasında uyğunluğu qurun: 1) təşkilat formasına görə       a) tədrisi 2) hərəkətin xarakterinə gör    b) akademik 3) keçirilmə yerinə görə          c) fərdi 4) didaktik məqsədinə görə     d) təbii e) yeni materialın izahı zamanı istifadə olan oyunlar',
+      '142. Sual: Coğrafi oyunların təsnifat tipləri ilə oyunların növləri arasında uyğunluğu qurun: 1) təşkilat formasına görə a) tədrisi 2) hərəkətin xarakterinə gör b) akademik 3) keçirilmə yerinə görə c) fərdi 4) didaktik məqsədinə görə d) təbii',
     options: [
+      'yeni materialın izahı zamanı istifadə olan oyunlar',
       'A) 1-e, 2-a, 3-b, 4-c',
       'B) 1-d, 2-c, 3-e, 4-a',
       'C) 1-c, 2-e, 3-b, 4-a',
       'D) 1-c, 2-d, 3-a, 4-e',
       'E) 1-a, 2-b, 3-c, 4-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'yeni materialın izahı zamanı istifadə olan oyunlar',
   },
   {
     number: 143,
     question:
-      '143. Sual: Stolüstü coğrafiya tədris oyunlarının əsas xüsusiyyətləri: a) hazır coğrafi məzmun b) dəqiq qoyulmuş qaydalar c) həll olunmalı müəyyən bir tapşırıq d) mövcud olan problem situasiya e) qabaqcadan hazırlanmış müəyyən bir tapşırıq',
-    options: ['A) a,b,c', 'B) b,c,d', 'C) c,d,e', 'D) a,b,d', 'E) b,d,e'],
-    correctAnswer: '',
+      '143. Sual: Stolüstü coğrafiya tədris oyunlarının əsas xüsusiyyətləri:',
+    options: [
+      'hazır coğrafi məzmun',
+      'dəqiq qoyulmuş qaydalar',
+      'həll olunmalı müəyyən bir tapşırıq',
+      'mövcud olan problem situasiya',
+      'qabaqcadan hazırlanmış müəyyən bir tapşırıq',
+      'A) a,b,c',
+      'B) b,c,d',
+      'C) c,d,e',
+      'D) a,b,d',
+      'E) b,d,e',
+    ],
+    correctAnswer: 'hazır coğrafi məzmun',
   },
   {
     number: 144,
@@ -1643,7 +1769,7 @@ export const cografiya = [
       'D) Y.Ə. Qəribli və R. İ. Məmmədov',
       'E) N.S. Seyfullayeva və D.M. Ələskərov',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) K.E. Əlizadə və N.S. Seyfullayev',
   },
   {
     number: 145,
@@ -1656,7 +1782,8 @@ export const cografiya = [
       'D) M.A. Müseyibov, D.M. Ələskərov, Ş.M. Pənahov, R.İ. Məmmədov',
       'E) M.A. Müseyibov, E.K. Əlizadə, N.S. Seyfullayeva, D.M. Ələskərov',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) O.K. Alxasov, D.M. Ələskərov, Ş.M. Pənahov, R.İ. Məmmədov',
   },
   {
     number: 146,
@@ -1669,7 +1796,7 @@ export const cografiya = [
       'D) Ş.Y.Göyçaylı, N.H. Əyyubov, N.N. Allahverdiyev',
       'E) O.K. Alxasov, D.M. Ələskərov, Ş.M. Pənahov, R.İ. Məmmədov',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) B.A. Budaqov, Y.Ə. Qəribov,',
   },
   {
     number: 147,
@@ -1682,7 +1809,7 @@ export const cografiya = [
       'D) Ş.Y.Göyçaylı, Y.Ə. Qəribli, N.N. Allahverdiyev',
       'E) M.A. Müseyibov, E.K.Əlizadə, N.S.Seyfullayeva',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Ş.Y.Göyçaylı, N.H. Əyyubov, N.N. Allahverdiyev',
   },
   {
     number: 148,
@@ -1695,7 +1822,7 @@ export const cografiya = [
       'D) M.A. Müseyibov',
       'E) N.H. Əyyubov',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) T.R. Gərayzadə',
   },
   {
     number: 149,
@@ -1708,7 +1835,7 @@ export const cografiya = [
       'D) M.N.Vəliyev, Y.N.Qalkin, V.Ə.Əfəndiyev',
       'E) N.S.Seyfullayeva, M.N.Vəliyev, E.K.Əlizadə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) M.A. Müseyibov, E.K.Əlizadə, N.S.Seyfullayeva',
   },
   {
     number: 150,
@@ -1721,277 +1848,399 @@ export const cografiya = [
       'D) E.K.Əlizadə, Y.Ə. Qəribli, E.A. Kərimova',
       'E) N.S.Seyfullayeva, Y.Ə. Qəribli, M.N.Vəliyev',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) M.A. Müseyibov, V.Ə.Əfəndiyev, N.S.Seyfullayeva',
   },
   {
     number: 151,
     question:
       '151. Sual: Ümumtəhsil məktəblərinin VI sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur: 1) məhəldə azimut və istiqamətlərin təyini 2) fiziki xəritələrdə və qlobusda yer səthinin təsviri 3) xəritənin miqyası 4) xəritədə təsvirin üsulları 5) təhriflərinin növləri',
     options: ['A) 1,2,3', 'B) 2,3,4', 'C) 3,4,5', 'D) 1,2,4', 'E) 2,4,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,3',
   },
   {
     number: 152,
     question:
-      '152. Sual: Ümumtəhsil məktəblərinin VI sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur: 1) məhəldə azimut və istiqamətlərin təyini 2) üfiqi zonallıq və şaquli qurşaqlar 3)  təhriflərinin növləri 4) xəritədə təsvirin üsulları 5) təkamül nəzəriyyəsi',
+      '152. Sual: Ümumtəhsil məktəblərinin VI sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur: 1) məhəldə azimut və istiqamətlərin təyini 2) üfiqi zonallıq və şaquli qurşaqlar 3) təhriflərinin növləri 4) xəritədə təsvirin üsulları 5) təkamül nəzəriyyəsi',
     options: ['A) 1,3,4', 'B) 2,3,4', 'C) 3,4,5', 'D) 1,2,5', 'E) 1,2,3'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,3,4',
   },
   {
     number: 153,
     question:
-      '153. Sual: “Yer kosmosun tərkib hissəsi kimi” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) yerin kosmik ünvanı b) coğrafi koordinatlar c) coğrafiya xəritəsi d) miqyas. Yer ölçülərinin kiçildilməsi e) dərəcə toru',
+      '153. Sual: “Yer kosmosun tərkib hissəsi kimi” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'yerin kosmik ünvanı',
+      'coğrafi koordinatlar',
+      'coğrafiya xəritəsi',
+      'miqyas. Yer ölçülərinin kiçildilməsi',
+      'dərəcə toru',
       'A) 1-d, 2-e, 3-a, 4-b, 5-c)',
       'B) 1-a, 2-b, 3-c, 4-d, 5-e',
       'C) 1-a, 2-e, 3-d, 4-c,5-b',
       'D) 1-a, 2-b, 3-d, 4-e, 5-c',
       'E) 1-c, 2-d, 3-b, 4-e, 5-a',
     ],
-    correctAnswer: '',
+    correctAnswer: 'yerin kosmik ünvanı',
   },
   {
     number: 154,
     question:
-      '154. Sual: “Yer kosmosun tərkib hissəsi kimi” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) Respublikamızın xəritələri ilə tanışlıq b) fiziki xəritələrdə və qlobusda şərti işarələr c) qlobus, xəritə və plan insanların xidmətində d) yaşadığımız yerin təsviri e) məhəllin planının tərtib edilməsi',
+      '154. Sual: “Yer kosmosun tərkib hissəsi kimi” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'Respublikamızın xəritələri ilə tanışlıq',
+      'fiziki xəritələrdə və qlobusda şərti işarələr',
+      'qlobus, xəritə və plan insanların xidmətində',
+      'yaşadığımız yerin təsviri',
+      'məhəllin planının tərtib edilməsi',
       'A) 1-c, 2-d, 3-b, 4-e, 5-a',
       'B) 1-a, 2-b, 3-c, 4-d, 5-e',
       'C) 1-b, 2-a, 3-d, 4-e, 5-c',
       'D) 1-a, 2-b, 3-d, 4-e, 5-c',
       'E) 1-a, 2-d, 3-b, 4-e, 5-c',
     ],
-    correctAnswer: '',
+    correctAnswer: 'Respublikamızın xəritələri ilə tanışlıq',
   },
   {
     number: 155,
     question:
       '155. Sual: Ümumtəhsil məktəblərinin VI sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur: 1) xəritədə təsvirin üsulları 2) yerin kosmik ünvanı 3) temperaturun uzun dövr ərzində dəyişməsi 4) Respublikamızın xəritələri ilə tanışlıq 5) təhriflərinin növləri',
     options: ['A) 1,2,3', 'B) 2,3,4', 'C) 3,4,5', 'D) 1,2,4', 'E) 2,4,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,3',
   },
   {
     number: 156,
     question:
-      '156. Sual: VI sinifdə (E.K.Əlizadə, N.S.Seyfullayeva) proqram üzrə mövzuların tədrisi ardıcıllığının düzgün sırasını qurun: a) Yerin hava təbəqəsi – Atmosfer b) Biosfer c) Hidrosfer d) Yer kürəsində bəşəriyyət e) Yerin təbəqələri',
+      '156. Sual: VI sinifdə (E.K.Əlizadə, N.S.Seyfullayeva) proqram üzrə mövzuların tədrisi ardıcıllığının düzgün sırasını qurun:',
     options: [
+      'Yerin hava təbəqəsi – Atmosfer',
+      'Biosfer',
+      'Hidrosfer',
+      'Yer kürəsində bəşəriyyət',
+      'Yerin təbəqələri',
       'A) 1-e, 2-a, 3-c, 4-b, 5-d',
       'B) 1-e, 2-c, 3-a, 4-d, 5-b',
       'C) 1-a, 2-e, 3-d, 4-b, 5-c',
       'D) 1-c, 2-d, 3-b, 4-a, 5-e',
       'E) 1-d, 2-e, 3-c, 4-b, 5-a',
     ],
-    correctAnswer: '',
+    correctAnswer: 'Yerin hava təbəqəsi – Atmosfer',
   },
   {
     number: 157,
     question:
-      '157. Sual: “Yerin təbəqələri” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) yer qabığını yaradan süxur və minerallar b) Yer və onun quruluşu c) zəlzələ d) yer qabığında baş verən daxili proseslər e) vulkanlar, isti bulaqlar və qeyzerlər',
+      '157. Sual: “Yerin təbəqələri” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'yer qabığını yaradan süxur və minerallar',
+      'Yer və onun quruluşu',
+      'zəlzələ',
+      'yer qabığında baş verən daxili proseslər',
+      'vulkanlar, isti bulaqlar və qeyzerlər',
       'A) 1-b, 2-a, 3-d, 4-c, 5-e',
       'B) 1-c, 2-d, 3-b, 4-a, 5-e',
       'C) 1-b, 2-a, 3-e, 4-d, 5-c',
       'D) 1-e, 2-b, 3-d, 4-a, 5-c',
       'E) 1-d, 2-c, 3-b, 4-e, 5-a',
     ],
-    correctAnswer: '',
+    correctAnswer: 'yer qabığını yaradan süxur və minerallar',
   },
   {
     number: 158,
     question:
-      '158. Sual: “Yerin təbəqələri” bölmələsi üzrə (VI sinif)  mövzuların tədrisinin düzgün ardıcıllığıdır: a) yer səthinin quruluşu. Dağlar b) okean dibinin relyefi c) relyef. Relyef əmələ gətirən amillər d) vulkanlar, isti bulaqlar və qeyzerlər e) düzənliklər',
+      '158. Sual: “Yerin təbəqələri” bölmələsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'yer səthinin quruluşu. Dağlar',
+      'okean dibinin relyefi',
+      'relyef. Relyef əmələ gətirən amillər',
+      'vulkanlar, isti bulaqlar və qeyzerlər',
+      'düzənliklər',
       'A) 1-a, 2-d, 3-b, 4-e, 5-c',
       'B) 1-a, 2-d, 3-b, 4-e, 5-c',
       'C) 1-b, 2-a, 3-c, 4-e, 5-d',
       'D) 1-c, 2-b, 3-d, 4-e, 5-a',
       'E) 1-d, 2-a, 3-e, 4-c, 5-b',
     ],
-    correctAnswer: '',
+    correctAnswer: 'yer səthinin quruluşu. Dağlar',
   },
   {
     number: 159,
     question:
-      '159. Sual: “Yerin hava təbəqəsi. Atmosfer” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) havanın temperaturunun dəyişməsi b) atmosfer təzyiqi. Külək c) yerdə hava qatının yaranması d) havada su buxarı e) troposferdə havanın temperaturu',
+      '159. Sual: “Yerin hava təbəqəsi. Atmosfer” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'havanın temperaturunun dəyişməsi',
+      'atmosfer təzyiqi. Külək',
+      'yerdə hava qatının yaranması',
+      'havada su buxarı',
+      'troposferdə havanın temperaturu',
       'A) 1-c, 2-b, 3-e, 4-d, 5-a',
       'B) 1-a, 2-b, 3-c, 4-d, 5-e',
       'C) 1-a, 2-d, 3-c, 4-e, 5-b',
       'D) 1-c, 2-a, 3-e, 4-b, 5-d',
       'E) 1-b, 2-a, 3-d, 4-e, 5-c',
     ],
-    correctAnswer: '',
+    correctAnswer: 'havanın temperaturunun dəyişməsi',
   },
   {
     number: 160,
     question:
-      '160. Sual: Yer qabığı haqqında bilikləri belə sistemləşdirmək olar: a) mövzunun məntiqi-struktur sxemini qurmaqla b) paraqrafın mətnini danışmaqla c) yer qabığını plan üzrə xarakterizə etməklə d) dərslikdəki şəkillər ilə işləməklə e) mövzunun bütün bölmələri üzrə krossvordlar qurmaqla etməklə',
-    options: ['A) a,b,e', 'B) a,c,d', 'C) b,c,d', 'D) c,d,e', 'E) b,c,e'],
-    correctAnswer: '',
+      '160. Sual: Yer qabığı haqqında bilikləri belə sistemləşdirmək olar:',
+    options: [
+      'mövzunun məntiqi-struktur sxemini qurmaqla',
+      'paraqrafın mətnini danışmaqla',
+      'yer qabığını plan üzrə xarakterizə etməklə',
+      'dərslikdəki şəkillər ilə işləməklə',
+      'mövzunun bütün bölmələri üzrə krossvordlar qurmaqla etməklə',
+      'A) a,b,e',
+      'B) a,c,d',
+      'C) b,c,d',
+      'D) c,d,e',
+      'E) b,c,e',
+    ],
+    correctAnswer: 'mövzunun məntiqi-struktur sxemini qurmaqla',
   },
   {
     number: 161,
     question:
-      '161. Sual: “Hidrosfer” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) hidrosfer yerin su təbəqəsidir;  b) okean sərvətləri tükənməzdir ç) göllər;  c) dünya okeanını və onun hissələri d) quru suları, çaylar;  e) dünya okeanında suyun əsas xüsusiyyətləri;  f) yeraltı sular. Buzlaqlar, btaqlıqlar',
+      '161. Sual: “Hidrosfer” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'hidrosfer yerin su təbəqəsidir;  b) okean sərvətləri tükənməzdir ç) göllər;  c) dünya okeanını və onun hissələri',
+      'quru suları, çaylar;  e) dünya okeanında suyun əsas xüsusiyyətləri;  f) yeraltı sular. Buzlaqlar, btaqlıqlar',
       'A) 1-a, 2-c, 3-e, 4-b, 5-d, 6-ç, 7-f',
       'B) 1-a, 2-b, 3-c, 4-d, 5-e, 6-f, 7-ç',
       'C) 1-d, 2-f, 3-a, 4-b, 5-c, 6-e, 7-ç',
       'D) 1-f, 2-b, 3-ç, 4-e, 5-c, 6-d, 7-a',
       'E) 1-ç, 2-d, 3-ç, 4-e, 5-a, 6-6-f,7-b',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'hidrosfer yerin su təbəqəsidir;  b) okean sərvətləri tükənməzdir ç) göllər;  c) dünya okeanını və onun hissələri',
   },
   {
     number: 162,
     question:
-      '162. Sual: “Yerin hava təbəqəsi. Atmosfer” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) yerdə hava qatının yaranması b) hava və iqlim c) havada su buxarı d) atmosfer təzyiqi. Külək e) troposferdə havanın temperaturu f) bulud və yağıntı z) havanın temperaturunun dəyişməsi j) təhlükəli atmosfer hadisələri',
+      '162. Sual: “Yerin hava təbəqəsi. Atmosfer” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'yerdə hava qatının yaranması',
+      'hava və iqlim',
+      'havada su buxarı',
+      'atmosfer təzyiqi. Külək',
+      'troposferdə havanın temperaturu f) bulud və yağıntı z) havanın temperaturunun dəyişməsi j) təhlükəli atmosfer hadisələri',
       'A) 1-a, 2-z, 3-e, 4-d, 5-c, 6-f, 7-b, 8-j',
       'B) 1-c, 2-f, 3-b, 4-e, 5-a, 6-d, 7-j, 8-z',
       'C) 1-e, 2-c, 3-z, 4-b, 5-d, 6-f, 7-a, 8-j',
       'D) 1-f, 2-d, 3-j, 4-a, 5-c, 6-b, 7-z, 8-e',
       'E) 1-a, 2-e, 3-b, 4-j, 5-z, 6-f, 7-c, 8-d',
     ],
-    correctAnswer: '',
+    correctAnswer: 'yerdə hava qatının yaranması',
   },
   {
     number: 163,
     question:
-      '163. Sual: “Yer kürəsində bəşəriyyət” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) yer kürəsinin mənimsənilməsi; b) insan bioloji və sosial varlıq kimi c) dünya ölkələri, dünyanın siyasi xəritəsi; d) yaşayış məntəqələri e) Azərbaycan Respublikasının dünyada yeri',
+      '163. Sual: “Yer kürəsində bəşəriyyət” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'yer kürəsinin mənimsənilməsi; b) insan bioloji və sosial varlıq kimi',
+      'dünya ölkələri, dünyanın siyasi xəritəsi; d) yaşayış məntəqələri',
+      'Azərbaycan Respublikasının dünyada yeri',
       'A) 1-b, 2-a, 3-d, 4-c, 5-e',
       'B) 1-d, 2-c, 3-b, 4-e, 5-a',
       'C) 1-b, 2-a, 3-e, 4-d, 5-c',
       'D) 1-e, 2-b, 3-d, 4-a, 5-c',
       'E) 1-c, 2-d, 3-b, 4-a, 5-e',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'yer kürəsinin mənimsənilməsi; b) insan bioloji və sosial varlıq kimi',
   },
   {
     number: 164,
     question:
-      '164. Sual: 6-cı siniflərdə  coğrafiya meydançasında yerinə yetirilən praktik işlər: a) istehsalata ekskursiya b) məktəbin yerləşdiyi yerin tipik təbii komplekslərinin təsviri c) havanın vəziyyətinin müşahidəsi d) işığın düşməsi və temperaturdakı fərqlər əsasında 2 landşaftın müqayisəli xarakteristikası e) üfüqün cəhtləri və azimut bucağının təyin olunması',
-    options: ['A) b,c,e', 'B) a,c,e', 'C) a, b, e', 'D) a, c, d', 'E) a, c, e'],
-    correctAnswer: '',
+      '164. Sual: 6-cı siniflərdə  coğrafiya meydançasında yerinə yetirilən praktik işlər:',
+    options: [
+      'istehsalata ekskursiya',
+      'məktəbin yerləşdiyi yerin tipik təbii komplekslərinin təsviri',
+      'havanın vəziyyətinin müşahidəsi',
+      'işığın düşməsi və temperaturdakı fərqlər əsasında 2 landşaftın müqayisəli xarakteristikası',
+      'üfüqün cəhtləri və azimut bucağının təyin olunması',
+      'A) b,c,e',
+      'B) a,c,e',
+      'C) a, b, e',
+      'D) a, c, d',
+      'E) a, c, e',
+    ],
+    correctAnswer: 'istehsalata ekskursiya',
   },
   {
     number: 165,
     question:
-      '165. Sual: “Biosfer” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) biosfer canlılar yaşayan təbəqədir, b) biosferin yerin təbəqələri ilə əlaqəsi c) coğrafi təbəqə, d) həyatın yaranması və inkişafı',
+      '165. Sual: “Biosfer” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'biosfer canlılar yaşayan təbəqədir, b) biosferin yerin təbəqələri ilə əlaqəsi',
+      'coğrafi təbəqə, d) həyatın yaranması və inkişafı',
       'A) 1-a, 2-b, 3-c, 4-d',
       'B) 1-c, 2-b, 3-a, 4-d',
       'C) 1-d, 2-a, 3-c, 4-b',
       'D) 1-a, 2-d, 3-b, 4-c',
       'E) 1-b, 2-c, 3-d, 4-a',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'biosfer canlılar yaşayan təbəqədir, b) biosferin yerin təbəqələri ilə əlaqəsi',
   },
   {
     number: 166,
     question:
-      '166. Sual: 6-cı siniflərdə kartoqrafik bacarıqların formalaşdırılmasının ardıcıllığını qurun: a)fiziki xəritə və qlobuslarda yer səthinin təsviri b) plan və xəritələrdə horizontallar ç) Azərbaycan Respublikasının müxtəlif miqyaslı və məzmunlu xəritələri ilə tanışlıq c) dağ və düzənliklərin hündürlüyünə görə fərqlərinin təyini d) xəritəyə görə məsafələrin müəyən olunması e) xəritəyə görə mütləq və nisbi hündürlüklərin təyini',
+      '166. Sual: 6-cı siniflərdə kartoqrafik bacarıqların formalaşdırılmasının ardıcıllığını qurun:',
     options: [
+      'fiziki xəritə və qlobuslarda yer səthinin təsviri',
+      'plan və xəritələrdə horizontallar ç) Azərbaycan Respublikasının müxtəlif miqyaslı və məzmunlu xəritələri ilə tanışlıq',
+      'dağ və düzənliklərin hündürlüyünə görə fərqlərinin təyini',
+      'xəritəyə görə məsafələrin müəyən olunması',
+      'xəritəyə görə mütləq və nisbi hündürlüklərin təyini',
       'A) 1-d, 2-a, 3-c, 4-b, 5-e, 6-ç',
       'B) 1-e, 2-c, 3-ç, 4-b, 5-a, 6-d',
       'C) 1-ç, 2-c, 3-d, 4-b, 5-e, 6-a',
       'D) 1-a, 2-d, 3-ç, 4-c, 5-e, 6-b',
       'E) 1-c, 2-a, 3-ç, 4-d, 5-e, 6-b',
     ],
-    correctAnswer: '',
+    correctAnswer: 'fiziki xəritə və qlobuslarda yer səthinin təsviri',
   },
   {
     number: 167,
     question:
-      '167. Sual: 6-cı siniflərdə  problemli sual nümunələri hansılardır? a) dünya okeanının bütün hissələrinin birliyi nədə görünür? b) okeanların xəritəsində şorsulu göllərin coğrafi mövqeyini müəyyən edin c) göllərdən başlayan çayların axımı necə tənzimlənir? d) Hava niyə müxtəlif cür olur? e) niyə dünya okeanında duzluluq müxtəlifdir?',
-    options: ['A) b,c,e', 'B) c,d,e', 'C) a,b,d;', 'D) a,d, e', 'E) a,b,e;'],
-    correctAnswer: '',
+      '167. Sual: 6-cı siniflərdə  problemli sual nümunələri hansılardır?',
+    options: [
+      'dünya okeanının bütün hissələrinin birliyi nədə görünür?',
+      'okeanların xəritəsində şorsulu göllərin coğrafi mövqeyini müəyyən edin',
+      'göllərdən başlayan çayların axımı necə tənzimlənir?',
+      'Hava niyə müxtəlif cür olur?',
+      'niyə dünya okeanında duzluluq müxtəlifdir?',
+      'A) b,c,e',
+      'B) c,d,e',
+      'C) a,b,d;',
+      'D) a,d, e',
+      'E) a,b,e;',
+    ],
+    correctAnswer: 'dünya okeanının bütün hissələrinin birliyi nədə görünür?',
   },
   {
     number: 168,
     question:
-      '168. Sual: 6-cı siniflər üçün sualların problemli tipinə aiddir: a) dünya okeanı hansı hissələrdən ibarətdir b) dağ suxurlarının və mineralların müxtəlifliyini necə izah etmək olar c) su damcısı dünya okeanına düşməzdən əvvəl hansı “səyahətləri” edə bilər d) Avstraliyanın ətrafında  “səyahət” edin;  okeanlar, körfəzlər, dənizlər , boğazlar haqqında məlumatlar toplayın e) yer kürəsi relyefinin müxtəlifliyi nə ilə izah olunur',
-    options: ['A) b, c', 'B) a, b;', 'C) c,e,', 'D) d,e', 'E) c, d'],
-    correctAnswer: '',
+      '168. Sual: 6-cı siniflər üçün sualların problemli tipinə aiddir:',
+    options: [
+      'dünya okeanı hansı hissələrdən ibarətdir',
+      'dağ suxurlarının və mineralların müxtəlifliyini necə izah etmək olar',
+      'su damcısı dünya okeanına düşməzdən əvvəl hansı “səyahətləri” edə bilər',
+      'Avstraliyanın ətrafında  “səyahət” edin;  okeanlar, körfəzlər, dənizlər , boğazlar haqqında məlumatlar toplayın',
+      'yer kürəsi relyefinin müxtəlifliyi nə ilə izah olunur',
+      'A) b, c',
+      'B) a, b;',
+      'C) c,e,',
+      'D) d,e',
+      'E) c, d',
+    ],
+    correctAnswer: 'dünya okeanı hansı hissələrdən ibarətdir',
   },
   {
     number: 169,
     question:
-      '169. Sual: 7-ci siniflərdə təbii zonanın öyrənilməsi ardıcıllığını qurun: a) torpaqlarının zonal tipi;  b) bitki və heyvanlar aləminin xarakteristikası c) insanın təbiətə təsiri, qoruqlar, milli parklar; d) iqlim şəraitinin xüsisiyyətləri e)  materikdə coğrafi yerləşməsi, tutduğu sahə və ölçüləri',
+      '169. Sual: 7-ci siniflərdə təbii zonanın öyrənilməsi ardıcıllığını qurun:',
     options: [
+      'torpaqlarının zonal tipi;  b) bitki və heyvanlar aləminin xarakteristikası',
+      'insanın təbiətə təsiri, qoruqlar, milli parklar; d) iqlim şəraitinin xüsisiyyətləri',
+      'materikdə coğrafi yerləşməsi, tutduğu sahə və ölçüləri',
       'A) 1-e,  2-c,  3-d,  4-b,  5-a',
       'B) 1-d,  2-e,  3-a  4-b, 5-c',
       'C) 1-b,  2-a,  3-e,  4-d, 5-c',
       'D) 1-d,  2-e,  3-c,  4-a, 5-b',
       'E) 1-d, 2-c, 3-a, 4-b, 5-t',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'torpaqlarının zonal tipi;  b) bitki və heyvanlar aləminin xarakteristikası',
   },
   {
     number: 170,
     question:
-      '170. Sual: Ümumtəhsil məktəblərinin VII sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur: a) Azərbaycanda coğrafiyanın inkişafı b) okean sularının əsas xüsusiyyətləri c) Yerin öz oxu və Günəş ətrafında hərəkəti d) Azərbaycan Respublikasının dünyada yeri e) Yer ölçülərinin kiçildilməsi',
+      '170. Sual: Ümumtəhsil məktəblərinin VII sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur:',
     options: [
+      'Azərbaycanda coğrafiyanın inkişafı',
+      'okean sularının əsas xüsusiyyətləri',
+      'Yerin öz oxu və Günəş ətrafında hərəkəti',
+      'Azərbaycan Respublikasının dünyada yeri',
+      'Yer ölçülərinin kiçildilməsi',
       'A) b, c, d',
       'B) a, b, c',
       'C) c, d, e',
       'D) a, c, d',
       'E) b, c, e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'Azərbaycanda coğrafiyanın inkişafı',
   },
   {
     number: 171,
     question:
-      '171. Sual: Ümumtəhsil məktəblərinin VII sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur: a) okean dibinin relyefi b) günəş radiasiya c) daimi küləklərin yaranması d) Yer kürəsinin mənimsənilməsi e) iqliməmələgətirmə amilləri',
+      '171. Sual: Ümumtəhsil məktəblərinin VII sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur:',
     options: [
+      'okean dibinin relyefi',
+      'günəş radiasiya',
+      'daimi küləklərin yaranması',
+      'Yer kürəsinin mənimsənilməsi',
+      'iqliməmələgətirmə amilləri',
       'A) a, b, d',
       'B) b, c, d',
       'C) c, d, e',
       'D) b, c, e',
       'E) a, b, c',
     ],
-    correctAnswer: '',
+    correctAnswer: 'okean dibinin relyefi',
   },
   {
     number: 172,
     question:
-      '172. Sual: Ümumtəhsil məktəblərinin VII sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur: a) respublikamızın xəritələri ilə tanışlıq b) Yer Günəş sisteminin planetidir c) biosfer canlılar yaşayan təbəqədir d) coğrafi təbəqənin tərkibi və quruluşu e) təbii zonalar',
+      '172. Sual: Ümumtəhsil məktəblərinin VII sinif coğrafiya proqramında öyrənilməsi nəzərdə tutulmuşdur:',
     options: [
+      'respublikamızın xəritələri ilə tanışlıq',
+      'Yer Günəş sisteminin planetidir',
+      'biosfer canlılar yaşayan təbəqədir',
+      'coğrafi təbəqənin tərkibi və quruluşu',
+      'təbii zonalar',
       'A) c, d, e',
       'B) b, c, d',
       'C) a, b, c',
       'D) a, c, d',
       'E) b, d, e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'respublikamızın xəritələri ilə tanışlıq',
   },
   {
     number: 173,
     question:
-      '173. Sual: “Atmosfer və iqlim” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) yer səthində temperaturun dəyişməsi. Təzyiq qurşaqları. b) atmosfer və onun əhəmiyyəti. Günəş radiasiyası c) iqliməmələgəlmə amillər. Dünyanın əsas və keçid iqlim qurşaqları d) yer səthində atmosfer yağıntılarının paylanması',
+      '173. Sual: “Atmosfer və iqlim” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'yer səthində temperaturun dəyişməsi. Təzyiq qurşaqları.',
+      'atmosfer və onun əhəmiyyəti. Günəş radiasiyası',
+      'iqliməmələgəlmə amillər. Dünyanın əsas və keçid iqlim qurşaqları',
+      'yer səthində atmosfer yağıntılarının paylanması',
       'A) 1-b, 2-a, 3-d, 4-c',
       'B) 1-c, 2-b, 3-a, 4-d',
       'C) 1-a, 2-b, 3-c, 4-d',
       'D) 1-a, 2-a, 3-d, 4-c',
       'E) 1-b, 2-c, 3-d, 4-a',
     ],
-    correctAnswer: '',
+    correctAnswer: 'yer səthində temperaturun dəyişməsi. Təzyiq qurşaqları.',
   },
   {
     number: 174,
     question:
-      '174. Sual: “Dünya okeanı” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) dünya okeanı. Okean sularının əsas xüsusiyyətləri b) Hind  okeanı c) Atlant  okeanı d) Sakit  okeanı e) Şimal buzlu  okeanı',
+      '174. Sual: “Dünya okeanı” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'dünya okeanı. Okean sularının əsas xüsusiyyətləri',
+      'Hind  okeanı',
+      'Atlant  okeanı',
+      'Sakit  okeanı',
+      'Şimal buzlu  okeanı',
       'A) 1-a, 2-d, 3-c, 4-b, 5-e',
       'B) 1-a,  2-c,  3-b,  4-d, 5-e',
       'C) 1-e, 2-a, 3-d, 4-c, 5-b',
       'D) 1-a, 2-b, 3-c, 4-d, 5-e',
       'E) 1-b, 2-c, 3-e, 4-a, 5-d',
     ],
-    correctAnswer: '',
+    correctAnswer: 'dünya okeanı. Okean sularının əsas xüsusiyyətləri',
   },
   {
     number: 175,
@@ -2004,12 +2253,12 @@ export const cografiya = [
       'D) 2,1,3,4,5',
       'E) 1,4,5,2,3',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,3,4,5',
   },
   {
     number: 176,
     question:
-      '176. Sual: “Fiziki-coğrafi vilayətlər”  mövzu üzrə təsviri planın ardıcıllığıdır: 1) coğrafi mövqeyi, 2) relyefi, 3) iqlimi, 4) torpaqları, 5) daxili suları, 6) bitkiləri, 7) heyvanlar aləmi, 8) əhalinin məşğuluyyəti',
+      '176. Sual: “Fiziki-coğrafi vilayətlər” mövzu üzrə təsviri planın ardıcıllığıdır: 1) coğrafi mövqeyi, 2) relyefi, 3) iqlimi, 4) torpaqları, 5) daxili suları, 6) bitkiləri, 7) heyvanlar aləmi, 8) əhalinin məşğuluyyəti',
     options: [
       'A) 1,2,3,5,4,6,7,8',
       'B) 2,1,4,3,6,5,8,7',
@@ -2017,118 +2266,149 @@ export const cografiya = [
       'D) 2,1,3,4,5,6,7,8',
       'E) 1,2,3,4,5,6,7,8,',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,3,5,4,6,7,8',
   },
   {
     number: 177,
     question:
-      '177. Sual: “Yer qabığı və relyefi” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) Yerin relyefi b) dünyanın ən böyük dağ və düzənlikləri c) litosfer və onun quruluşu d) platforma və geosinklinallar',
+      '177. Sual: “Yer qabığı və relyefi” bölməsi üzrə (VI sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'Yerin relyefi',
+      'dünyanın ən böyük dağ və düzənlikləri',
+      'litosfer və onun quruluşu',
+      'platforma və geosinklinallar',
       'A) 1-c,2-d, 3-b, 4-a',
       'B) 1-a, 2-b, 3-c, 4-d',
       'C) 1-c, 2-d, 3-a, 4-b',
       'D) 1-a, 2-d, 3-b, 4-c',
       'E) 1-b, 2-c, 3-d, 4-a',
     ],
-    correctAnswer: '',
+    correctAnswer: 'Yerin relyefi',
   },
   {
     number: 178,
-    question:
-      '178. Sual: Okean mövzusunun öyrənilməsində ardıcıllığı qurun: a) ekvator, başqa okean və materiklərə görə coğrafi mövqeyi b) su kütlələrinin ekoloji vəziyyəti c) canlılar aləmi, sularının əsas xüsusiyyətləri d) okean dibinin relyefi və faydalı qazıntılara e) su kütləsinin fiziki-kimyəvi xüsusiyyətlərinin dəyişilməsi qanunauyğunluqları və okeanda suyun hərəkəti f) okeanda təsərrüfat fəaliyyəti sahələri',
+    question: '178. Sual: Okean mövzusunun öyrənilməsində ardıcıllığı qurun:',
     options: [
+      'ekvator, başqa okean və materiklərə görə coğrafi mövqeyi',
+      'su kütlələrinin ekoloji vəziyyəti',
+      'canlılar aləmi, sularının əsas xüsusiyyətləri',
+      'okean dibinin relyefi və faydalı qazıntılara',
+      'su kütləsinin fiziki-kimyəvi xüsusiyyətlərinin dəyişilməsi qanunauyğunluqları və okeanda suyun hərəkəti f) okeanda təsərrüfat fəaliyyəti sahələri',
       'A) 1-e, 2-c, 3-a, 4-f, 5-d, 6-b',
       'B) 1-a,2-d, 3-e,4-c, 5-f, 6-b',
       'C) 1-c, 2-d, 3-b, 4-a,5-f,6-e',
       'D) 1-b, 2-a, 3-e,4-f, 5-c, 6-d',
       'E) 1-d, 2-b, 3-e, 4-c, 5-a, 6-f',
     ],
-    correctAnswer: '',
+    correctAnswer: 'ekvator, başqa okean və materiklərə görə coğrafi mövqeyi',
   },
   {
     number: 179,
-    question:
-      '179. Sual: Materiklərın təsviri planının düzgün ardıcıllığıdır: a) coğrafi mövqeyi, sahil xətləri və tədqiqi b) əhalisi və siyasi xəritəsi; c) relyefi və faydalı qazıntıları d) daxili suları; e) iqlimi;  f) təbii zonaları',
+    question: '179. Sual: Materiklərın təsviri planının düzgün ardıcıllığıdır:',
     options: [
+      'coğrafi mövqeyi, sahil xətləri və tədqiqi',
+      'əhalisi və siyasi xəritəsi; c) relyefi və faydalı qazıntıları',
+      'daxili suları; e) iqlimi;  f) təbii zonaları',
       'A) 1-a, 2-c, 3-e, 4-d, 5-f, 6-b',
       'B) 1-a, 2-c, 3-b, 4-d, 5-f, 6-e',
       'C) 1-a, 2-b, 3-c, 4-d, 5-e, 6-f',
       'D) 1-a, 2-b, 3-c, 4-d, 5-e, 6-f',
       'E) 1-b, 2-c, 3-e, 4-a, 5-d, 6-f',
     ],
-    correctAnswer: '',
+    correctAnswer: 'coğrafi mövqeyi, sahil xətləri və tədqiqi',
   },
   {
     number: 180,
     question:
-      '180. Sual: Proqaram üzrə materiklərin tedrisinin ( vıı sinif ) düzgün ardıcıllığıdır: a) Afrika b) Avrasiya ç) Şimali Amerika c)Cənubi Amerika d) Antarktida e) Avstraliya',
+      '180. Sual: Proqaram üzrə materiklərin tedrisinin ( vıı sinif ) düzgün ardıcıllığıdır:',
     options: [
+      'Afrika',
+      'Avrasiya ç) Şimali Amerika',
+      'Cənubi Amerika',
+      'Antarktida',
+      'Avstraliya',
       'A) 1-b, 2-c, 3-ç, 4-a, 5-e, 6-d',
       'B) 1-a, 2-c, 3-b, 4-d, 5-ç, 6-e',
       'C) 1-a, 2-b, 3-ç, 4-c, 5-d, 6-e',
       'D) 1-a, 2-b, 3-c, 4-ç, 5-e, 6-d',
       'E) 1-b, 2-c, 3-e, 4-a, 5-d, 6-ç',
     ],
-    correctAnswer: '',
+    correctAnswer: 'Afrika',
   },
   {
     number: 181,
     question:
-      '181. Sual: .” Azərbaycan Respublikasının təbii çəraiti və ehtiyatları”  bölməsi üzrə (vııı sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) relyefin ümumi səciyyəsi b)  relyef formaları. Relyefin təsərrüfat əhəmiyyəti c) relyefin inkişafı. Tektonik zonalar d) geoloji qurluşu. Faydalı qazıntılar və havanın miniral sular',
+      '181. Sual: .” Azərbaycan Respublikasının təbii çəraiti və ehtiyatları” bölməsi üzrə (vııı sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'relyefin ümumi səciyyəsi',
+      'relyef formaları. Relyefin təsərrüfat əhəmiyyəti',
+      'relyefin inkişafı. Tektonik zonalar',
+      'geoloji qurluşu. Faydalı qazıntılar və havanın miniral sular',
       'A) 1-a, 2-d, 3-b, 4-c',
       'B) 1-c, 2-d, 3-a, 4-b',
       'C) 1-c, 2-d, 3-b, 4-a',
       'D) 1-a, 2-b, 3-c, 4-d',
       'E) 1-a, 2-c, 3-b, 4-d',
     ],
-    correctAnswer: '',
+    correctAnswer: 'relyefin ümumi səciyyəsi',
   },
   {
     number: 182,
     question:
-      '182. Sual: ” Azərbaycan Respublikasının iqlimi”  bölməsi üzrə (vııı sinif) mövzuların tədrisinin düzgün ardıcıllığıdər: a) günəş radiasıyası və havanın temiraturu b) yağıntılar c) hava kütlələri, küləklər d) iqlim tipləri',
+      '182. Sual: ” Azərbaycan Respublikasının iqlimi” bölməsi üzrə (vııı sinif) mövzuların tədrisinin düzgün ardıcıllığıdər:',
     options: [
+      'günəş radiasıyası və havanın temiraturu',
+      'yağıntılar',
+      'hava kütlələri, küləklər',
+      'iqlim tipləri',
       'A) 1-a, 2-b, 3-c, 4-d',
       'B) 1-a, 2-c, 3-b, 4-d',
       'C) 1-c, 2-d, 3-b, 4-a',
       'D) 1-a, 2-d, 3-b, 4-c',
       'E) 1-a, 2-d, 3-c, 4-b',
     ],
-    correctAnswer: '',
+    correctAnswer: 'günəş radiasıyası və havanın temiraturu',
   },
   {
     number: 183,
     question:
-      '183. Sual: ” Azərbaycan Respublikasının iqlimi Torpaq və bitki örtüyü. Heyvanlar aləmi”  bölməsi üzrə (vııı sinif) mövzuların tədrisinin düzgün ardıcıllığıdər: a) torpaq örtüyü torpaqlarış şaqulu paylanması; b) heyvanlar aləmi c) bitki örtüyü. Yarımsəhra və dağ-bozqır bitkiləri; d) meşələr. çəmən və çəmən-çöl bitkiləri',
+      '183. Sual: ” Azərbaycan Respublikasının iqlimi Torpaq və bitki örtüyü. Heyvanlar aləmi” bölməsi üzrə (vııı sinif) mövzuların tədrisinin düzgün ardıcıllığıdər:',
     options: [
+      'torpaq örtüyü torpaqlarış şaqulu paylanması; b) heyvanlar aləmi',
+      'bitki örtüyü. Yarımsəhra və dağ-bozqır bitkiləri; d) meşələr. çəmən və çəmən-çöl bitkiləri',
       'A) 1-a, 2-b, 3-c, 4-d',
       'B) 1-a, 2-c, 3-d, 4-b',
       'C) 1-c, 2-d, 3-b, 4-a',
       'D) 1-a, 2-d, 3-b, 4-c',
       'E) 1-a, 2-d, 3-c, 4-b',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'torpaq örtüyü torpaqlarış şaqulu paylanması; b) heyvanlar aləmi',
   },
   {
     number: 184,
     question:
-      '184. Sual: .” Azərbaycan Respublikasının daxili suları”  bölməsi üzrə (VIII sinif) mövzuların tədrisinin düzgün ardıcıllığıdır: a) çaylar. Ümumi səciyyəsi b) əsas çaylar və onların hidrologi xüsusiyyətləri ç) çayların qidalanması və su rejimi c) göllər. d) yeraltı sular, buzlaqlar. e) suni su obyektləri su anbarları və kanallar f) Xəzər dənizi. Xəzər dənizinin canlılar aləmi və problemləri',
+      '184. Sual: .” Azərbaycan Respublikasının daxili suları” bölməsi üzrə (VIII sinif) mövzuların tədrisinin düzgün ardıcıllığıdır:',
     options: [
+      'çaylar. Ümumi səciyyəsi',
+      'əsas çaylar və onların hidrologi xüsusiyyətləri ç) çayların qidalanması və su rejimi',
+      'göllər.',
+      'yeraltı sular, buzlaqlar.',
+      'suni su obyektləri su anbarları və kanallar f) Xəzər dənizi. Xəzər dənizinin canlılar aləmi və problemləri',
       'A) 1-a,2-b, 3-c, 4-ç, 5-e, 6-d, 7-f',
       'B) 1-a, 2-d, 3-b, 4-c, 5-ç, 6-e, 7-f',
       'C) 1-f, 2-ç, 3-c, 4-a, 5-e , 6-d, 7-b',
       'D) 1-a, 2-ç, 3-b, 4-c, 5-e, 6-d, 7-f',
       'E) 1-e, 2-f, 3-a, 4-b, 5-ç, 6-c, 7-d',
     ],
-    correctAnswer: '',
+    correctAnswer: 'çaylar. Ümumi səciyyəsi',
   },
   {
     number: 185,
     question:
       '185. Sual: Təlimin şifahi-informasiya vasitələri: a. dövri mətbuat b. dağ süxurlarının nümunələri c. praktikum d. kino-film e. iş dəftəri',
     options: ['A) b,c,d', 'B) a,b,c', 'C) a,b,d', 'D) a,d,e', 'E) a,c,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) b,c,d',
   },
   {
     number: 186,
@@ -2140,7 +2420,7 @@ export const cografiya = [
       'D) sənaye və kənd təsərrüfatı məhsullarının nümunə kolleksiyaları',
       'E) video və audivizual vəsaitlər, həcmli tədris əyani vəsaitləri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) coğrafiya kabineti və coğrafiya meydançası',
   },
   {
     number: 187,
@@ -2153,14 +2433,14 @@ export const cografiya = [
       'D) 1-e, 2-ç, 3-a, 4-d, 5-b, 6-c',
       'E) 1-a, 2-c, 3-b, 4- ç, 5- d, 6-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-c, 2-b, 3-e, 4-d, 5-ç, 6-a',
   },
   {
     number: 188,
     question:
       '188. Sual: Təlimin əyani vəsaitləridir: a. kompyuter b. kino-film c. çay vadisinin modeli d. dövri mətbuat e. herbari',
     options: ['A) a,b,c', 'B) a,b,d', 'C) a,c,e', 'D) b,c,e', 'E) a,d,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,b,c',
   },
   {
     number: 189,
@@ -2173,7 +2453,7 @@ export const cografiya = [
       'D) İ. Vitver',
       'E) A.Darinski',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) N.Baranski',
   },
   {
     number: 190,
@@ -2192,14 +2472,14 @@ export const cografiya = [
       'D) statistik-iqtisadi göstəricilərləiş',
       'E) istehsalatda müşahidə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) meteocihazlardan istifadə',
   },
   {
     number: 192,
     question:
       '192. Sual: Praktik işin icra formalarıdır (variantlarıdır): a. hesablamalar b. təkrar suallar c. xarakteristikalar d. mətnin təsviri e. çertyojlar',
     options: ['A) a,c,d', 'B) a,d,e', 'C) b,c,e', 'D) a,b,c', 'E) a,c,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,c,d',
   },
   {
     number: 193,
@@ -2211,7 +2491,7 @@ export const cografiya = [
       'D) müəllimin nəzarəti ilə kontur xəritənin işlənməsi',
       'E) şagirdlərin yekunlaşdırıcı təkrara hazırlanması',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) alınmış biliklərin praktikada tətbiqi',
   },
   {
     number: 194,
@@ -2223,7 +2503,7 @@ export const cografiya = [
       'D) kontur xəritə ilə iş, testlər üzrə yoxlama işi',
       'E) dərsliklə iş, dağ süxuru nümunələri ilə iş',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dərsliklə iş, əlavə ədəbiyyatla iş',
   },
   {
     number: 195,
@@ -2243,7 +2523,7 @@ export const cografiya = [
       'D) dərsdənkənar vaxtlarda ondan istifadə edilməsi',
       'E) keçmiş materialın təkrarlanmsı zamanı ondan istifadə edilməsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) yeni materialı izah edərkən ondan istifadə edilməsi',
   },
   {
     number: 197,
@@ -2255,7 +2535,8 @@ export const cografiya = [
       'D) audiovizual tədris sistemi dərsin məqsədinə tabe etdirilir',
       'E) audiovizual tədris sistemi dərsdə ikinci dərəcəli rol oynayır',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) audiovizual tədris sistemi pedaqoji prosesin əsasını təşkil edir',
   },
   {
     number: 198,
@@ -2267,21 +2548,31 @@ export const cografiya = [
       'D) dərnəkdir',
       'E) konfrasdır',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dərsdir',
   },
   {
     number: 199,
     question:
-      '199. Sual: Konkret məqsəd baxımından dəsr tiplərinə aiddir: 1. Yeni bilik verən dərs Bili, bacarıq və vərdişlərin təkmilləşdirilməsi dərsi 3. Maraq dərsi Yoxlama dərsi 5.    Təkrar dərsi',
+      '199. Sual: Konkret məqsəd baxımından dəsr tiplərinə aiddir: 1. Yeni bilik verən dərs Bili, bacarıq və vərdişlərin təkmilləşdirilməsi dərsi 3. Maraq dərsi Yoxlama dərsi 5. Təkrar dərsi',
     options: [],
     correctAnswer: '',
   },
   {
     number: 200,
-    question:
-      '200. Sual: Didaktiv məqsədinə görə dərslər bölünür: a) yeni bilik verən b) bilik, bacarıq və vərdişlərin təkmilləşdirilməsi c) mühazirələr d) seminarlar e) bilik, bacarıq və vərdişlərin yoxlanılması',
-    options: ['A) a,b,e', 'B) a,b,c', 'C) a,c,e', 'D) c,d,e', 'E) b,c,d'],
-    correctAnswer: '',
+    question: '200. Sual: Didaktiv məqsədinə görə dərslər bölünür:',
+    options: [
+      'yeni bilik verən',
+      'bilik, bacarıq və vərdişlərin təkmilləşdirilməsi',
+      'mühazirələr',
+      'seminarlar',
+      'bilik, bacarıq və vərdişlərin yoxlanılması',
+      'A) a,b,e',
+      'B) a,b,c',
+      'C) a,c,e',
+      'D) c,d,e',
+      'E) b,c,d',
+    ],
+    correctAnswer: 'yeni bilik verən',
   },
   {
     number: 201,
@@ -2293,7 +2584,7 @@ export const cografiya = [
       'D) cari və rüblük təkrar',
       'E) rüblük və illik təkrar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) cari və yekun təkrar',
   },
   {
     number: 202,
@@ -2313,19 +2604,19 @@ export const cografiya = [
       'D) 1-b, 2-e, 3-a, 4-c, 5-d',
       'E) 1-e, 2-c, 3-d, 4-a, 5-b',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-e, 2-c, 3-d, 4-a, 5-b',
   },
   {
     number: 204,
     question:
       '204. Sual: Biliklərin fərdi yoxlaması zamanı verilən tapşırıqların növləri: a. lövhədə cavab b. kartoçkalarla iş ç. Şagirdin cavabına rəy c. coğrafiya imla d. test tapşırıqları e. evristik söhbət',
     options: ['A) a,b,d', 'B) b,d,e', 'C) ç,c,d', 'D) b,d,e', 'E) a,ç,d'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,b,d',
   },
   {
     number: 205,
     question:
-      '205. Sual: Proqram üzrə praktik işə hazırlıq və keçirilməsinin düzgün ardıcıllığını qurun: a. Praktik işin keçirilməsi məqsədinin müəyyən edilməsi b.Icra formasının müəyyənləşdirilməsi  və nəticələrin qeyd olunması ç.Şagirdlər üçün təlimatların hazırlanması c. praktik işin çətinlik dərəcəsinin müəyyənləşdirilməsi d. təlimin lazımı vəsaitlərini seçmək e. şagirdlər üçün tapşırıqları hazırlamaq f. veriləcək cavabın nümunəsini və onun qiymət normasını müəyyən etmək.',
+      '205. Sual: Proqram üzrə praktik işə hazırlıq və keçirilməsinin düzgün ardıcıllığını qurun: a. Praktik işin keçirilməsi məqsədinin müəyyən edilməsi b.Icra formasının müəyyənləşdirilməsi və nəticələrin qeyd olunması ç.Şagirdlər üçün təlimatların hazırlanması c. praktik işin çətinlik dərəcəsinin müəyyənləşdirilməsi d. təlimin lazımı vəsaitlərini seçmək e. şagirdlər üçün tapşırıqları hazırlamaq f. veriləcək cavabın nümunəsini və onun qiymət normasını müəyyən etmək.',
     options: [
       'A) 1-ç, 2-c, 3-a, 4-b, 5-f, 6-d, 7-e',
       'B) 1-a, 2-c, 3-ç, 4-d, 5-e, 6-b, 7-f',
@@ -2333,21 +2624,21 @@ export const cografiya = [
       'D) 1-a, 2-f, 3-ç, 4-d, 5-e, 6-b, 7-c',
       'E) 1-ç, 2-c, 3-a, 4-b, 5-f, 6-d, 7-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-ç, 2-c, 3-a, 4-b, 5-f, 6-d, 7-e',
   },
   {
     number: 206,
     question:
-      '206. Sual: Şagird fəaliyyətinin qiymətləndirilməsi meyarları hansılardır? a.Verilmiş tapşırıqları başa düşməsi və onları yerinə yetirə bilmə bacarıqları b.Öyrənilmiş materiala maraq və müstəqil düşünmə cəhdi ç.  Müəllimin şagird fəaliyyətinin təşkilatşısı olma arzusu c. fəaliyyətinin funksional müxtəlifliyi, kollektiv və fərdi fəaliyyətdə iştirakı d. bacarıq və vərdişlər əldə etməsi: əməkdaşlıq və təşkilati fəaliyyəti e. dərs prosesində şagirdlərin bir-birinə və müəllimə qarşı münasibəti f. müəllimin şagirdlərə qarşı hümanist münasibəti',
+      '206. Sual: Şagird fəaliyyətinin qiymətləndirilməsi meyarları hansılardır? a.Verilmiş tapşırıqları başa düşməsi və onları yerinə yetirə bilmə bacarıqları b.Öyrənilmiş materiala maraq və müstəqil düşünmə cəhdi ç. Müəllimin şagird fəaliyyətinin təşkilatşısı olma arzusu c. fəaliyyətinin funksional müxtəlifliyi, kollektiv və fərdi fəaliyyətdə iştirakı d. bacarıq və vərdişlər əldə etməsi: əməkdaşlıq və təşkilati fəaliyyəti e. dərs prosesində şagirdlərin bir-birinə və müəllimə qarşı münasibəti f. müəllimin şagirdlərə qarşı hümanist münasibəti',
     options: ['A) a,b,c', 'B) b,c,d', 'C) a,c,e', 'D) c,d,e', 'E) a,d,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,b,c',
   },
   {
     number: 207,
     question:
       '207. Sual: Dərsdə müəllimin təşkilati fəaliyyətinin qiymətləndirilməsi meyarlarıdır: a. dərs tipinin və formasının məqsədəuyğun seçilməsi b. dərsin məqsədinin müəyyənləşdirilməsi c. tədris materialının müasir dövrlə əlaqələndirilməsi d. dərsin bütün mərhələlərində şagirdlərin idrakı fəaliyyətə yönəldilməsi e. dərs və onun ayrı-ayrı mərhələləri üzrə çıxarılan nəticələrin keyfiyyəti',
     options: ['A) a,c,e', 'B) b,c,d', 'C) a,d,e', 'D) c,d,e', 'E) a,b,c'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,c,e',
   },
   {
     number: 208,
@@ -2360,7 +2651,7 @@ export const cografiya = [
       'D) coğrafi imla',
       'E) lövhədə cavab',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dərsdə söhbət',
   },
   {
     number: 209,
@@ -2380,7 +2671,7 @@ export const cografiya = [
       'D) A.Darinski',
       'E) A.Bakıxanov',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) A. Pulikovski',
   },
   {
     number: 211,
@@ -2393,7 +2684,7 @@ export const cografiya = [
       'D) Bakıxanova',
       'E) Mirzəzadəyə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Pertiyə',
   },
   {
     number: 212,
@@ -2405,7 +2696,7 @@ export const cografiya = [
       'D) ikinci mərtəbədə olan otaq olmalıdır',
       'E) işıq zəif düşən böyük otaq olmalıdır',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) iki pəncərəsi cənuba açılan otaq olmalıdır',
   },
   {
     number: 213,
@@ -2418,12 +2709,13 @@ export const cografiya = [
       'D) üstünə bütün siniflərin atlas və dərslikləri qoyulur',
       'E) üstünə qlobus, atlas və rəngli karandaşlar qoyulur',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) üstünə bir kiçik miqyaslı qlobus və bütün siniflərin atıasları qoyulur',
   },
   {
     number: 214,
     question:
-      '214. Sual: Coğrafiya meydançasına verilən tələblər: 1. coğrafiya kabinetinə  yaxın olmalıdır məktəbin tədris-təcrübədə sahəsinə yaxın olmalıdır 3. sahəsi 21m.x12m-dən kiçik olmamalıdır daşla hasarlanmalıdır 5. üstü örtülməlidir dücbucaqlı formada olmalıdır',
+      '214. Sual: Coğrafiya meydançasına verilən tələblər: 1. coğrafiya kabinetinə yaxın olmalıdır məktəbin tədris-təcrübədə sahəsinə yaxın olmalıdır 3. sahəsi 21m.x12m-dən kiçik olmamalıdır daşla hasarlanmalıdır 5. üstü örtülməlidir dücbucaqlı formada olmalıdır',
     options: [],
     correctAnswer: '',
   },
@@ -2438,7 +2730,7 @@ export const cografiya = [
       'D) üstünə bir nümayiş və iki orta miqyaslı qlobus və atlas qoyulmalıdır',
       'E) stolun sağ tərəf hissəsində kompyuter qurğusu yerləşdirilməlidir.',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) üstünə bütün dərsliklər sira ilə qoyulmalıdır',
   },
   {
     number: 216,
@@ -2451,7 +2743,7 @@ export const cografiya = [
       'D) dibçəkdə becərilən müxtəlif ərazilərin bitkiləri',
       'E) kompas və flüger',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) qnomon və günəş',
   },
   {
     number: 217,
@@ -2464,7 +2756,7 @@ export const cografiya = [
       'D) flüger, qnomon',
       'E) termometr, eklimert',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) yağıntı ölçən,  kompas',
   },
   {
     number: 218,
@@ -2477,12 +2769,12 @@ export const cografiya = [
       'D) vizir xətkeşi, nivelir',
       'E) termometr, psixrometr',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) yağıntı ölçən, barometr',
   },
   {
     number: 219,
     question:
-      '219. Sual: Üfüqün  cəhətlərini təyin etmək bacarıq və vərdişləri yaratmaq üçün istifadə olunan cihazlarıdır:',
+      '219. Sual: Üfüqün cəhətlərini təyin etmək bacarıq və vərdişləri yaratmaq üçün istifadə olunan cihazlarıdır:',
     options: [
       'A) flüger, günəş saatı',
       'B) qnomon, rumb halqası',
@@ -2490,7 +2782,7 @@ export const cografiya = [
       'D) vizir xətkeşi, nivelir',
       'E) qnomon, psixrometr',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) flüger, günəş saatı',
   },
   {
     number: 220,
@@ -2503,7 +2795,7 @@ export const cografiya = [
       'D) vizir xətkeşi, nivelir',
       'E) yolölçən pərgar, menzula',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) flüger, barometr',
   },
   {
     number: 221,
@@ -2515,7 +2807,7 @@ export const cografiya = [
       'D) qütb ulduzunu göstərən alət',
       'E) 45 və 90 dərəcəli bucaqları ölçən alət',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) meyl bucağını ölçən alət',
   },
   {
     number: 222,
@@ -2527,7 +2819,7 @@ export const cografiya = [
       'D) yerli vaxtı təyin edən alət',
       'E) qütb ulduzunu göstərən alət',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 45 və 90 dərəcəli bucaqları ölçən alət',
   },
   {
     number: 223,
@@ -2539,14 +2831,14 @@ export const cografiya = [
       'D) çoxüzlü, silindirik, kürəvi',
       'E) kvadrat, konusşəkilli, kürəvi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) çoxüzlü, silindirik, xaçvari',
   },
   {
     number: 224,
     question:
       '224. Sual: Coğrafiyadan sinifdənxarıc işin qrup qrup formaları hansılardır? a. olimpiada b. coğrafi xəbərlər qəzetinin nəşri c. ekskursiya d. gəzinti e. dərnək',
     options: ['A) a,c,d', 'B) b,c,d', 'C) c,d,e', 'D) a,d,e', 'E) a,c,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,c,d',
   },
   {
     number: 225,
@@ -2573,7 +2865,7 @@ export const cografiya = [
       'D) termomert, ekker, ekker, bucaqölçən, hiqrometr',
       'E) termomert, ekker, nivelir, lot, hiqrometr',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) lot, ölçü lenti (ipi), ekker, nivelir, bucaqölçən',
   },
   {
     number: 228,
@@ -2593,7 +2885,7 @@ export const cografiya = [
       'D) təcrübə',
       'E) coğrafi oyun',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dərnək',
   },
   {
     number: 230,
@@ -2607,28 +2899,28 @@ export const cografiya = [
     question:
       '231. Sual: Sinifdənxaric işin təşkilinin əsas istiqamətləri hansılardır? a. elmi-idrak b. siyasi c. tarix-coğrafi d. turist-diyarşünaslıq e. iqtisadi',
     options: ['A) c,d,e', 'B) b,d,e', 'C) b,c,e', 'D) a,b,d', 'E) b,c,d'],
-    correctAnswer: '',
+    correctAnswer: 'A) c,d,e',
   },
   {
     number: 232,
     question:
-      '232. Sual: Sinifdənxaric işlərdə əsas məqsədlər: a. kollektivçilik tərbiyəsi b. məktəb coğrafiyasının həyatla əlaqələndirmək c. coğrafiyaya xüsusi maraq formalaşdırmaq d. coğrafiyadan dərin və möhkəm  biliklər formalaşdırmaq e. şagirdlərə elmi-tədqiqat işi vərdişləri aşılamaq',
+      '232. Sual: Sinifdənxaric işlərdə əsas məqsədlər: a. kollektivçilik tərbiyəsi b. məktəb coğrafiyasının həyatla əlaqələndirmək c. coğrafiyaya xüsusi maraq formalaşdırmaq d. coğrafiyadan dərin və möhkəm biliklər formalaşdırmaq e. şagirdlərə elmi-tədqiqat işi vərdişləri aşılamaq',
     options: ['A) b,c,d', 'B) a,b,d', 'C) b,c,e', 'D) b,d,e', 'E) c,d,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) b,c,d',
   },
   {
     number: 233,
     question:
       '233. Sual: Coğrafiyadan sinifdənxaric işin sistematik təşkili formalarına aid deyil: a. təbiət sevənlər klubu b. coğrafiya dərnəyi c. coğrafiyadan fakültətiv məşğələ d. şagird-elmi cəmiyyət e. coğrafiya gecəsi',
     options: ['A) a,c,d', 'B) a,b,d', 'C) b,c,e', 'D) b,d,e', 'E) c,d,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,c,d',
   },
   {
     number: 234,
     question:
       '234. Sual: Coğrafiyadan sinifdənxaric işin sistematik təşkili formalarına aiddir: a. təbiət sevənlər klubu b. coğrafiya dərnəyi c. coğrafiyadan fakültətiv məşğələ d. şagird-elmi cəmiyyət e. coğrafiya gecəsi',
     options: ['A) a,c;', 'B) b,d', 'C) c,e;', 'D) a,d', 'E) b,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,c;',
   },
   {
     number: 235,
@@ -2641,7 +2933,7 @@ export const cografiya = [
       'D) coğrafi oyunlar',
       'E) ölkəşünaslıq içi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dərsliklə iş',
   },
   {
     number: 236,
@@ -2654,7 +2946,7 @@ export const cografiya = [
       'D) ölkəşünaslıq güşəsi və muzeyi',
       'E) coğrafiya həftəsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) coğrafiyadan əlavə məşğələ',
   },
   {
     number: 237,
@@ -2666,40 +2958,40 @@ export const cografiya = [
       'D) nəzəri biliklərin həyata tətbiqini  formalaşdırmaq',
       'E) coğrafiyaya idrakı  maraq formalaşdırmaq',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) kollektivçilik tərbiyə etmək',
   },
   {
     number: 238,
     question:
       '238. Sual: Coğrafiyadan sinifdənxaric işin sistematik təşkili formalarına aid deyil: a. doğma yurdu yürüşən təşkili və keçirilməsi b. şagird-elmi cəmiyyət c. dərnək d. olimpiada e. qəzetin buraxılışı',
     options: ['A) a,b,d', 'B) a,c,e', 'C) a,b,c', 'D) b,c,d', 'E) c,d,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,b,d',
   },
   {
     number: 239,
     question:
-      '239. Sual: Coğrafiya ədəbiyyatla sinifdənxaric işin formalarıdır: a. referatların hazırlanması b. tenatik  formalardır c. topominika üzrə ölkəşünaslıq materiallarının toplanması d. coğrafi ədəbiyyat üzrə icmalların hazırlanması e. kabinet üçün kartotekanın  hazırlanması',
+      '239. Sual: Coğrafiya ədəbiyyatla sinifdənxaric işin formalarıdır: a. referatların hazırlanması b. tenatik formalardır c. topominika üzrə ölkəşünaslıq materiallarının toplanması d. coğrafi ədəbiyyat üzrə icmalların hazırlanması e. kabinet üçün kartotekanın hazırlanması',
     options: ['A) a, c, d', 'B) a,d,e', 'C) b,c,e', 'D) a,b,c', 'E) a,c,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a, c, d',
   },
   {
     number: 240,
     question:
-      '240. Sual: Coğrafiyadan sinifdənxaric işin işin effektiv göstəriciləridir. a. müxtəlif informasiya mənbələri ilə işləmə qabiliyyəti səviyyəsi b. şəxsi keyfiyyətlərin yüklənməsi c. məktəblilərin mədəni səviyyəsinin yüksəlməi d. coğrafiyadan şagirdlərin bilik və  bacarıqları səviyyəsinin yüksəlməsi e. şagirdlərin intellektual və emosional səviyyəsi f. şagirdlərin ev və sinif tapşırıqlarının icrası zamanı sərbəstlik səviyyəsi',
+      '240. Sual: Coğrafiyadan sinifdənxaric işin işin effektiv göstəriciləridir. a. müxtəlif informasiya mənbələri ilə işləmə qabiliyyəti səviyyəsi b. şəxsi keyfiyyətlərin yüklənməsi c. məktəblilərin mədəni səviyyəsinin yüksəlməi d. coğrafiyadan şagirdlərin bilik və bacarıqları səviyyəsinin yüksəlməsi e. şagirdlərin intellektual və emosional səviyyəsi f. şagirdlərin ev və sinif tapşırıqlarının icrası zamanı sərbəstlik səviyyəsi',
     options: ['A) c,d,e', 'B) a,d,f', 'C) a,c,d', 'D) b,e,f', 'E) b,c,f'],
-    correctAnswer: '',
+    correctAnswer: 'A) c,d,e',
   },
   {
     number: 241,
     question:
-      '241. Sual: Sinifdənxaric işin xüsusi formalarıdır: a. coğrafiya həftəsi b. coğrafiyadan olimpiada c. elmi-praktik konfrans d. coğrafiya tədrisindən vəsaitlər  hazırlanmaq e. səyyah və alimlərlə görüş',
+      '241. Sual: Sinifdənxaric işin xüsusi formalarıdır: a. coğrafiya həftəsi b. coğrafiyadan olimpiada c. elmi-praktik konfrans d. coğrafiya tədrisindən vəsaitlər hazırlanmaq e. səyyah və alimlərlə görüş',
     options: ['A) b,c,d', 'B) c,d,e', 'C) a,c,d', 'D) a,c,e', 'E) d,c,a'],
-    correctAnswer: '',
+    correctAnswer: 'A) b,c,d',
   },
   {
     number: 242,
     question:
-      '242. Sual: .  Sinfin təşkili, məqsədin müəyyənləşdirilməsi, şagirdlərin motivasiya, şagird biliklərinin motivasiyası, şagird biliklərinin yoxlanılması, yeni materialın öyrənilməsi, möhkəmləndirmə, ümumiləşdirmə və yekunlaşdırma hansı dəes tipi üçün xarakterikdir:',
+      '242. Sual: . Sinfin təşkili, məqsədin müəyyənləşdirilməsi, şagirdlərin motivasiya, şagird biliklərinin motivasiyası, şagird biliklərinin yoxlanılması, yeni materialın öyrənilməsi, möhkəmləndirmə, ümumiləşdirmə və yekunlaşdırma hansı dəes tipi üçün xarakterikdir:',
     options: [
       'A) bilik və bacarıqların formalaşdırılması dərsi',
       'B) kombinə edilmiş dərs',
@@ -2707,7 +2999,7 @@ export const cografiya = [
       'D) ümumiləşdirici və biliklərin sistemləşdirilməsi dərsi',
       'E) təkrar dərsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) bilik və bacarıqların formalaşdırılması dərsi',
   },
   {
     number: 243,
@@ -2720,7 +3012,7 @@ export const cografiya = [
       'D) “Düşünməyə yönəltmə” mərhələsi',
       'E) “Yaradıcı tətbiqetmə” mərhələsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) möhkəmləndirmə mərhələsi',
   },
   {
     number: 244,
@@ -2740,7 +3032,7 @@ export const cografiya = [
       'D) praktik',
       'E) laborator',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) əyanilik',
   },
   {
     number: 246,
@@ -2753,12 +3045,12 @@ export const cografiya = [
       'D) 9-cu  siniflərdə',
       'E) 10-cu  siniflərdə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 6-7-ci siniflərdə',
   },
   {
     number: 247,
     question:
-      '247. Sual: Bilik bacarıq və vərdişlərin yoxlanılması və hesaba alınması tələblərinə aiddir: biliyin hesaba alınması hərtərəfli olmadır 2. bilik sistematik olaraq, müntəzəm yoxlanılmadır cavablarda müsbət və mənfi cəhətlər üzə çıxarılmalıdır 4.  biliyin yoxlanılmasında məktəb rəhbərliyi içtirak etməlidir yoxlama zamanı proqram tələbləri əsas götürülməlidir 6. biliklərin yoxlanılması fərdi xarakter daşımalıdır biliyin yoxlanılması yalnız dərsdə aparılmalıdır',
+      '247. Sual: Bilik bacarıq və vərdişlərin yoxlanılması və hesaba alınması tələblərinə aiddir: biliyin hesaba alınması hərtərəfli olmadır 2. bilik sistematik olaraq, müntəzəm yoxlanılmadır cavablarda müsbət və mənfi cəhətlər üzə çıxarılmalıdır 4. biliyin yoxlanılmasında məktəb rəhbərliyi içtirak etməlidir yoxlama zamanı proqram tələbləri əsas götürülməlidir 6. biliklərin yoxlanılması fərdi xarakter daşımalıdır biliyin yoxlanılması yalnız dərsdə aparılmalıdır',
     options: [],
     correctAnswer: '',
   },
@@ -2774,7 +3066,7 @@ export const cografiya = [
     question:
       '249. Sual: Tədris ekskursiyanın məqsəd və vəzifələri müəyyənləşdirilərək nəzərə alınır: a. ərazinin coğrafi xüsusiyyətləri b. dayanacaq məntəqələrində görüləcək işin məzmun və metodlarını müəyyən etmək c. marşrutun seçilməsi, onunla yerində tanışlıq d. ekskursiyada iştirak edəcək manqaların sayını müəyyənləşdirmək e. ekskursiyanın məqsəd və vəzifələrini müəyyənləşdirmək',
     options: ['A) a,c,e', 'B) a,b,c', 'C) b,c,d', 'D) c,d,e', 'E) b,d,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,c,e',
   },
   {
     number: 250,
@@ -2787,7 +3079,7 @@ export const cografiya = [
       'D) 1,3,4,6',
       'E) 1,2,3.5',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,4,5',
   },
   {
     number: 251,
@@ -2799,12 +3091,12 @@ export const cografiya = [
       'D) müəllim və şagird eyni səviyyədədir.',
       'E) heç biri düz eləmir',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) şagird daha fəal, müəllim isə istiqamətverici olur',
   },
   {
     number: 252,
     question:
-      '252. Sual: İnteraktiv təlim  metodu şagirdlərə nə verir: 1) müstəqil düşünməyi 2) sərbəst rəy söyləməyi 3) hafizəyə əsaslanmağı 4) şəxsiyəti qiymətləndirməi 5) əməkdaşlıq etməyi 6) təşəbbüskarlıqda məhdudiyyətlər 7) başqalarını dinləməyi 8) tənqidi təfəkkürü',
+      '252. Sual: İnteraktiv təlim metodu şagirdlərə nə verir: 1) müstəqil düşünməyi 2) sərbəst rəy söyləməyi 3) hafizəyə əsaslanmağı 4) şəxsiyəti qiymətləndirməi 5) əməkdaşlıq etməyi 6) təşəbbüskarlıqda məhdudiyyətlər 7) başqalarını dinləməyi 8) tənqidi təfəkkürü',
     options: [
       'A) 1,2,4,5,8',
       'B) 1,3,4,2,5.',
@@ -2812,7 +3104,7 @@ export const cografiya = [
       'D) 2,3,5.6.8,',
       'E) 2,3,5,6,7,',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,4,5,8',
   },
   {
     number: 253,
@@ -2825,21 +3117,21 @@ export const cografiya = [
       'D) vizir xətkeşi, nivelir',
       'E) yolölçən pərgar, menzula',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) flüger, barometr',
   },
   {
     number: 254,
     question:
       '254. Sual: Dərsdə müəllimin təşkilati fəaliyyətinin qiymətləndirilməsi meyarlarıdır: a. dərs tipinin və formasının məqsədəuyğun seçilməsi b. dərsin məqsədinin müəyyənləşdirilməsi c. tədris materialının müasir dövrlə əlaqələndirilməsi d. dərsin bütün mərhələlərində şagirdlərin idrakı fəaliyyətə yönəldilməsi e. dərs və onun ayrı-ayrı mərhələləri üzrə çıxarılan nəticələrin keyfiyyəti',
     options: ['A) a,c,e', 'B) b,c,d', 'C) a,d,e', 'D) c,d,e', 'E) a,b,c'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,c,e',
   },
   {
     number: 255,
     question:
-      '255. Sual: Coğrafiyadan sinifdənxaric işin  effektiv göstəriciləridir. a. müxtəlif informasiya mənbələri ilə işləmə qabiliyyəti səviyyəsi b. şəxsi keyfiyyətlərin yüklənməsi c. məktəblilərin mədəni səviyyəsinin yüksəlməi d. coğrafiyadan şagirdlərin bilik və  bacarıqları səviyyəsinin yüksəlməsi e. şagirdlərin intellektual və emosional səviyyəsi f. şagirdlərin ev və sinif tapşırıqlarının icrası zamanı sərbəstlik səviyyəsi',
+      '255. Sual: Coğrafiyadan sinifdənxaric işin effektiv göstəriciləridir. a. müxtəlif informasiya mənbələri ilə işləmə qabiliyyəti səviyyəsi b. şəxsi keyfiyyətlərin yüklənməsi c. məktəblilərin mədəni səviyyəsinin yüksəlməi d. coğrafiyadan şagirdlərin bilik və bacarıqları səviyyəsinin yüksəlməsi e. şagirdlərin intellektual və emosional səviyyəsi f. şagirdlərin ev və sinif tapşırıqlarının icrası zamanı sərbəstlik səviyyəsi',
     options: ['A) a,c,d', 'B) a,d,f', 'C) c,d,e', 'D) b,e,f', 'E) b,c,f'],
-    correctAnswer: '',
+    correctAnswer: 'A) a,c,d',
   },
   {
     number: 256,
@@ -2852,19 +3144,19 @@ export const cografiya = [
       'D) coğrafi oyunlar',
       'E) ölkəşünaslıq içi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dərsliklə iş',
   },
   {
     number: 257,
     question:
-      '257. Sual: Sinifdənxaric işlərdə əsas məqsədlər: a. kollektivçilik tərbiyəsi b. məktəb coğrafiyasının həyatla əlaqələndirmək c. coğrafiyaya xüsusi maraq formalaşdırmaq d. coğrafiyadan dərin və möhkəm  biliklər formalaşdırmaq e. şagirdlərə elmi-tədqiqat işi vərdişləri aşılamaq',
+      '257. Sual: Sinifdənxaric işlərdə əsas məqsədlər: a. kollektivçilik tərbiyəsi b. məktəb coğrafiyasının həyatla əlaqələndirmək c. coğrafiyaya xüsusi maraq formalaşdırmaq d. coğrafiyadan dərin və möhkəm biliklər formalaşdırmaq e. şagirdlərə elmi-tədqiqat işi vərdişləri aşılamaq',
     options: ['A) b,c,d', 'B) a,b,d', 'C) b,c,e', 'D) b,d,e', 'E) c,d,e'],
-    correctAnswer: '',
+    correctAnswer: 'A) b,c,d',
   },
   {
     number: 258,
     question:
-      '258. Sual: Proqram üzrə praktik işə hazırlıq və keçirilməsinin düzgün ardıcıllığını qurun: a. Praktik işin keçirilməsi məqsədinin müəyyən edilməsi b.Icra formasının müəyyənləşdirilməsi  və nəticələrin qeyd olunması ç.Şagirdlər üçün təlimatların hazırlanması c. praktik işin çətinlik dərəcəsinin müəyyənləşdirilməsi d. təlimin lazımı vəsaitlərini seçmək e. şagirdlər üçün tapşırıqları hazırlamaq f. veriləcək cavabın nümunəsini və onun qiymət normasını müəyyən etmək.',
+      '258. Sual: Proqram üzrə praktik işə hazırlıq və keçirilməsinin düzgün ardıcıllığını qurun: a. Praktik işin keçirilməsi məqsədinin müəyyən edilməsi b.Icra formasının müəyyənləşdirilməsi və nəticələrin qeyd olunması ç.Şagirdlər üçün təlimatların hazırlanması c. praktik işin çətinlik dərəcəsinin müəyyənləşdirilməsi d. təlimin lazımı vəsaitlərini seçmək e. şagirdlər üçün tapşırıqları hazırlamaq f. veriləcək cavabın nümunəsini və onun qiymət normasını müəyyən etmək.',
     options: [
       'A) 1-a, 2-c, 3-ç, 4-d, 5-e, 6-b, 7-f',
       'B) 1-ç, 2-c, 3-a, 4-b, 5-f, 6-d, 7-e',
@@ -2872,14 +3164,25 @@ export const cografiya = [
       'D) 1-a, 2-f, 3-ç, 4-d, 5-e, 6-b, 7-c',
       'E) 1-ç, 2-c, 3-a, 4-b, 5-f, 6-d, 7-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a, 2-c, 3-ç, 4-d, 5-e, 6-b, 7-f',
   },
   {
     number: 259,
     question:
-      '259. Sual: Coğrafiya olimpiadalarının tematikasının tələblərinə aiddir: a) şagirdlərin coğrafi görüş dairəsi b) kollektivçilik tərbiyə etmək c) bilikləri praktikada tətbiq etmək bacarığı d) təfəkkürün inkişaf səviyyəsinin aşkara çıxarılması e) həyatla məktəb coğrafiyasını əlaqələndirmək',
-    options: ['A) a,c,d', 'B) a,b,c', 'C) c,d,e', 'D) a,c,e', 'E) b,c,d'],
-    correctAnswer: '',
+      '259. Sual: Coğrafiya olimpiadalarının tematikasının tələblərinə aiddir:',
+    options: [
+      'şagirdlərin coğrafi görüş dairəsi',
+      'kollektivçilik tərbiyə etmək',
+      'bilikləri praktikada tətbiq etmək bacarığı',
+      'təfəkkürün inkişaf səviyyəsinin aşkara çıxarılması',
+      'həyatla məktəb coğrafiyasını əlaqələndirmək',
+      'A) a,c,d',
+      'B) a,b,c',
+      'C) c,d,e',
+      'D) a,c,e',
+      'E) b,c,d',
+    ],
+    correctAnswer: 'şagirdlərin coğrafi görüş dairəsi',
   },
   {
     number: 260,
@@ -2890,10 +3193,20 @@ export const cografiya = [
   },
   {
     number: 261,
-    question:
-      '261. Sual: Müasir dərsin əamətləridir: a) müəllimlə şagirdlər arasında əmkdaşlıq b) müıəllimin dərsdə aktivliyi c) dərsin coğrafiya meydançası, ekskrusiyalar və s. Ilə sıx əlaqəli olması d) təhsilin məzmun standartının şagitlərin inkişaf və tərbiyəsi üçün istifadə olunması e) təlimin təşkilat forma və metodlarının müxtəlifliyi',
-    options: ['A) a,c,e', 'B) a,b,e', 'C) b,c,d', 'D) c,d,e', 'E) a,b,c'],
-    correctAnswer: '',
+    question: '261. Sual: Müasir dərsin əamətləridir:',
+    options: [
+      'müəllimlə şagirdlər arasında əmkdaşlıq',
+      'müıəllimin dərsdə aktivliyi',
+      'dərsin coğrafiya meydançası, ekskrusiyalar və s. Ilə sıx əlaqəli olması',
+      'təhsilin məzmun standartının şagitlərin inkişaf və tərbiyəsi üçün istifadə olunması',
+      'təlimin təşkilat forma və metodlarının müxtəlifliyi',
+      'A) a,c,e',
+      'B) a,b,e',
+      'C) b,c,d',
+      'D) c,d,e',
+      'E) a,b,c',
+    ],
+    correctAnswer: 'müəllimlə şagirdlər arasında əmkdaşlıq',
   },
   {
     number: 262,
@@ -2906,7 +3219,7 @@ export const cografiya = [
       'D) İ.A. Vivter',
       'E) A.Darinski',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) A. O. Rivin',
   },
   {
     number: 263,
@@ -2918,7 +3231,7 @@ export const cografiya = [
       'D) müəllimin təşəbbüskarlığı, şaggirtlərin fəaliyyəti',
       'E) müəllimin aktiv fəaliyyəti,axtarrış xassəli söhbət',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) birlikdə yerinə yetirmək yox, bir yerdə öyrənmək',
   },
   {
     number: 264,
@@ -2931,7 +3244,7 @@ export const cografiya = [
       'D) statik, dinamik, xüsusi cütlər',
       'E) dinamik, varisyalı, xüsusi cütlər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Statik,dinamik, variyasyalı cütlər',
   },
   {
     number: 265,
@@ -2944,14 +3257,25 @@ export const cografiya = [
       'D) İ. Vitver',
       'E) A. Darinski',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) R. Slavin',
   },
   {
     number: 266,
     question:
-      '266. Sual: Əməkdaşlığa əsaslanan coqrafiya dərslərində pedaqoji qarşılıqlı təsir xüsusuiyyətləri hansılardır? a) ümumi məqsədə cəhd b) şagirtd fəaliyyətinə bir başa nəzarət c) funksiya, məsuliyyət, hüquq və vəzifələrinin dəqiq dölgüsü d)  dərsdə monoloji metodlar e) təşəbbüskarlığın üstünlüyü ç) humanist münasibət tərzi f) qarşılıqlı anlaşma',
-    options: ['A) a,b,ç', 'B) b,ç,c', 'C) ç,c,d', 'D) ç,d,c', 'E) d,c,f'],
-    correctAnswer: '',
+      '266. Sual: Əməkdaşlığa əsaslanan coqrafiya dərslərində pedaqoji qarşılıqlı təsir xüsusuiyyətləri hansılardır?',
+    options: [
+      'ümumi məqsədə cəhd',
+      'şagirtd fəaliyyətinə bir başa nəzarət',
+      'funksiya, məsuliyyət, hüquq və vəzifələrinin dəqiq dölgüsü',
+      'dərsdə monoloji metodlar',
+      'təşəbbüskarlığın üstünlüyü ç) humanist münasibət tərzi f) qarşılıqlı anlaşma',
+      'A) a,b,ç',
+      'B) b,ç,c',
+      'C) ç,c,d',
+      'D) ç,d,c',
+      'E) d,c,f',
+    ],
+    correctAnswer: 'ümumi məqsədə cəhd',
   },
   {
     number: 267,
@@ -2964,12 +3288,12 @@ export const cografiya = [
       'D) İ.A. Vitverə',
       'E) S.V. Lavrova',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) N.N. Baranskiyə',
   },
   {
     number: 268,
     question:
-      '268. Sual: Problemli təlim metodu hansı yolla həyata keçirilir? 1. biliklərin problemli izahı tədqiqat metodu ilə 3.  tədqiqat metodu ilə müəllimin aktiv fəaliyyəti ilə 5. axtarış xassələri söhbət təlimdə avtoritar üslubu',
+      '268. Sual: Problemli təlim metodu hansı yolla həyata keçirilir? 1. biliklərin problemli izahı tədqiqat metodu ilə 3. tədqiqat metodu ilə müəllimin aktiv fəaliyyəti ilə 5. axtarış xassələri söhbət təlimdə avtoritar üslubu',
     options: [],
     correctAnswer: '',
   },
@@ -2978,7 +3302,7 @@ export const cografiya = [
     question:
       '269. Sual: Yeni fənn kurikulumları tətbiq olunan siniflərdə məktəbdaxili qiymətləndirmə aşağıdakı əsas komponentləri əhatəedir: 1) şagird nailiyyətlərinin və irəliləyişinin monitorinqi 2) şagird fəaliyyətinin təlim standartlarına uyğunluğunun müəyyənləşdirilməsi 3) ümumtəhsil pillələri üzrə yekun qiymətləndirmənin aparılması 4) şagirdlərin təlim nəticələrində zəif və güclü tərəfləri aşkar etməklə, ümumi mənimsəmə səviyyəsini və onun dinamikasını müəyyənləşdirmək 5) təhsil siyasətini müəyyən edənlərin cavabdehlik səviyyəsini artırmaq',
     options: ['A) 2,3,4', 'B) 1,2,3', 'C) 1,3,4', 'D) 3,4,5', 'E) 1,2,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 2,3,4',
   },
   {
     number: 270,
@@ -2991,7 +3315,7 @@ export const cografiya = [
       'D) cari, formativ və diaqnostik',
       'E) gündəlik, illik və yekun',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) cari, rüblük və yekun',
   },
   {
     number: 271,
@@ -3003,14 +3327,26 @@ export const cografiya = [
       'D) sinifdə aparılan təkrardan sonra edilən təlimin sual-cavab formasında',
       'E) müəllimin aktiv fəaliyyəti axtarış xassəli söhbətlə',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) şagirdlərin əvvəlcədən toplanmış bilikləri əsasında təlimin sual-cavab formasında',
   },
   {
     number: 272,
     question:
-      '272. Sual: Yeni nəsl dərslikləri hazırlanmasında əsas prinsiplər: a) düzgünlük b) əyanilik c) elmilik d) müasirlik e) müstəqillik f) fərdilik',
-    options: ['A) a,b,d', 'B) c,e,f', 'C) c,d,e', 'D) a,e,f', 'E) b,d,f'],
-    correctAnswer: '',
+      '272. Sual: Yeni nəsl dərslikləri hazırlanmasında əsas prinsiplər:',
+    options: [
+      'düzgünlük',
+      'əyanilik',
+      'elmilik',
+      'müasirlik',
+      'müstəqillik f) fərdilik',
+      'A) a,b,d',
+      'B) c,e,f',
+      'C) c,d,e',
+      'D) a,e,f',
+      'E) b,d,f',
+    ],
+    correctAnswer: 'düzgünlük',
   },
   {
     number: 273,
@@ -3022,14 +3358,25 @@ export const cografiya = [
       'D) ildə bir defə aparılmalıdır',
       'E) həfdədə bir defə aparılmalıdır',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) ayda bir  defə aparılmalıdır',
   },
   {
     number: 274,
-    question:
-      '274. Sual: Müasir dərslikləri  səciyyəndirilən əsas cəhtlər: a) şagirdlərin təlim marağının gücləndirilməsi, onları tədqiqatçığa, axtarışlara, yeni məliumatlar əldə etməyə istiqamətləndirməsi b) müəllif sayının əhəmiyyətli dərəcədə artırılması c) məntiqi və yaraddıcı təfəkkürün inkişafını təmin etməsi d) tətbiqi xarakter daşıması, şagirtlərdə zəruri həyati bacarıqının formalaşdırılmasına zəmin yaratması e) ənənəvi təlim metodlarının tətbiqinə şərair yaratması',
-    options: ['A) a,c, e', 'B) a,b,e', 'C) a,b,d', 'D) d,c,e', 'E) b,c,e'],
-    correctAnswer: '',
+    question: '274. Sual: Müasir dərslikləri  səciyyəndirilən əsas cəhtlər:',
+    options: [
+      'şagirdlərin təlim marağının gücləndirilməsi, onları tədqiqatçığa, axtarışlara, yeni məliumatlar əldə etməyə istiqamətləndirməsi',
+      'müəllif sayının əhəmiyyətli dərəcədə artırılması',
+      'məntiqi və yaraddıcı təfəkkürün inkişafını təmin etməsi',
+      'tətbiqi xarakter daşıması, şagirtlərdə zəruri həyati bacarıqının formalaşdırılmasına zəmin yaratması',
+      'ənənəvi təlim metodlarının tətbiqinə şərair yaratması',
+      'A) a,c, e',
+      'B) a,b,e',
+      'C) a,b,d',
+      'D) d,c,e',
+      'E) b,c,e',
+    ],
+    correctAnswer:
+      'şagirdlərin təlim marağının gücləndirilməsi, onları tədqiqatçığa, axtarışlara, yeni məliumatlar əldə etməyə istiqamətləndirməsi',
   },
   {
     number: 275,
@@ -3055,7 +3402,7 @@ export const cografiya = [
       'D) şagirdlərlə fərdi iş',
       'E) şagirdlərin qurup işi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) bütün siniflə forntal iş',
   },
   {
     number: 278,
@@ -3067,7 +3414,8 @@ export const cografiya = [
       'D) sinifdə dərs vaxtı müəllimin bilavasitə iştirakı olmadan yerinə yetirirlər',
       'E) xüsusi ayrılmış vaxtda müəllimin bilavasitə iştirakı olmadan  yerinə yetirirlər',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) sinifdə dərs vaxtı müəllimin bilavasitə iştirakı ilə yerinə yetirirlər',
   },
   {
     number: 279,
@@ -3080,27 +3428,41 @@ export const cografiya = [
       'D) nəzəriyyə ilə təcrübənin əlaqələndirilməsi',
       'E) öz-özunə ( şəxsi ) təh',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) qarşılıqlı pedoqoji əlaqə',
   },
   {
     number: 280,
-    question:
-      '280. Sual: “Problemin-həlli “ ardıcıllığını qurun: a) feziyyənin sübutu b) fəziyyənin irəli sürülməsi c) problemli vəziyyətin yaradılması d) ümumi nəticə e) problemin dərk edilməsi',
+    question: '280. Sual: “Problemin-həlli “ ardıcıllığını qurun:',
     options: [
+      'feziyyənin sübutu',
+      'fəziyyənin irəli sürülməsi',
+      'problemli vəziyyətin yaradılması',
+      'ümumi nəticə',
+      'problemin dərk edilməsi',
       'A) 1-ç, 2-e, 3-b, 4-a, 5-d',
       'B) 1-a, 2-e, 3-d, 4-c, 5-b',
       'C) 1-d, 2-e, 3-d, 4-a, 5-c',
       'D) 1-e, 2-c, 3-a, 4-b, 5-d',
       'E) 1-b, 2-a, 3-c, 4-d, 5-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'feziyyənin sübutu',
   },
   {
     number: 281,
-    question:
-      '281. Sual: Problemli təlim vaxtı müəllim: a) problemləri müəyyən edir və problemli tapşırıqlar qoyur b) tədris prosesinə tapşırığın əlavə olunmasının üsullarını müəyyən edir c) fəaliyyət və mərhələli nəzarəti dəqiq təşkil edir d) şagirdlərin fəaliyyətinə rəhbərlik edir, şəraitin müəyyənləşdirilməsi və həll planının müəyyən edilməsinə kömək edir e) şagirdlərə özünənəzarət vəziyyətdə olmağa məsləhət verir və kömək göstərir',
-    options: ['A) a,b', 'B) b,c', 'C) c,d', 'D) d,e', 'E) a,d'],
-    correctAnswer: '',
+    question: '281. Sual: Problemli təlim vaxtı müəllim:',
+    options: [
+      'problemləri müəyyən edir və problemli tapşırıqlar qoyur',
+      'tədris prosesinə tapşırığın əlavə olunmasının üsullarını müəyyən edir',
+      'fəaliyyət və mərhələli nəzarəti dəqiq təşkil edir',
+      'şagirdlərin fəaliyyətinə rəhbərlik edir, şəraitin müəyyənləşdirilməsi və həll planının müəyyən edilməsinə kömək edir',
+      'şagirdlərə özünənəzarət vəziyyətdə olmağa məsləhət verir və kömək göstərir',
+      'A) a,b',
+      'B) b,c',
+      'C) c,d',
+      'D) d,e',
+      'E) a,d',
+    ],
+    correctAnswer: 'problemləri müəyyən edir və problemli tapşırıqlar qoyur',
   },
   {
     number: 282,
@@ -3111,50 +3473,88 @@ export const cografiya = [
   },
   {
     number: 283,
-    question:
-      '283. Sual: Emprik bilikləri seçin: a) qanunlar b) müşahidələr c) anlayışlar ç) səbəb-nəticə əlaqələri d) təsəvvürlər e) ideyalar f) faktlar',
-    options: ['A) a,b,ç', 'B) b,ç,c', 'C) ç,c,d', 'D) c,d,e', 'E) d,e,f'],
-    correctAnswer: '',
+    question: '283. Sual: Emprik bilikləri seçin:',
+    options: [
+      'qanunlar',
+      'müşahidələr',
+      'anlayışlar ç) səbəb-nəticə əlaqələri',
+      'təsəvvürlər',
+      'ideyalar f) faktlar',
+      'A) a,b,ç',
+      'B) b,ç,c',
+      'C) ç,c,d',
+      'D) c,d,e',
+      'E) d,e,f',
+    ],
+    correctAnswer: 'qanunlar',
   },
   {
     number: 284,
     question:
-      '284. Sual: Məktəb coğrafiyasında ən geniş istifadə edilən coğrafi elmi metodlar: a) təsvir b) riyazi-coğrafi modelləşdirmə c) kartoqrafik d) müqayisə e) statistik',
-    options: ['A) a,b,e', 'B) a,c,e', 'C) a,c,d', 'D) a,d,e', 'E) b,d,e'],
-    correctAnswer: '',
+      '284. Sual: Məktəb coğrafiyasında ən geniş istifadə edilən coğrafi elmi metodlar:',
+    options: [
+      'təsvir',
+      'riyazi-coğrafi modelləşdirmə',
+      'kartoqrafik',
+      'müqayisə',
+      'statistik',
+      'A) a,b,e',
+      'B) a,c,e',
+      'C) a,c,d',
+      'D) a,d,e',
+      'E) b,d,e',
+    ],
+    correctAnswer: 'təsvir',
   },
   {
     number: 285,
     question:
-      '285. Sual: Hansı variantda emprik bilik növləri ilə nümunələri arasında uyğunluq düzgün qurulmuşdur? 1) Faktlar 2) coğrafi nomenklatura a) Çerapundji-dünyada ən rütubətli yerdir b) Çerapundji – ildə 11013 mm c) Çerapundji',
+      '285. Sual: Hansı variantda emprik bilik növləri ilə nümunələri arasında uyğunluq düzgün qurulmuşdur? 1) Faktlar 2) coğrafi nomenklatura',
     options: [
+      'Çerapundji-dünyada ən rütubətli yerdir',
+      'Çerapundji – ildə 11013 mm',
+      'Çerapundji',
       'A) 1-a,c; 2-b',
       'B) 1-b,c; 2-a',
       'C) 1-c; 2-a,b',
       'D) 1-a; 2-b,c',
       'E) 1-a,b; 2-c',
     ],
-    correctAnswer: '',
+    correctAnswer: 'Çerapundji-dünyada ən rütubətli yerdir',
   },
   {
     number: 286,
-    question:
-      '286. Sual: Klimatoqramın oxummasının alqoritmi qurun: a)temperaturun gedişi qrafikinin analizi b) ilin ən isti ayının termaturunun təyini c) iqlim tipinin təyini d) ilin fəsiləri üzrə yağıntıların bölgüsü e) ilin ən rütübətli və ən quru mövsümünün təyini',
+    question: '286. Sual: Klimatoqramın oxummasının alqoritmi qurun:',
     options: [
+      'temperaturun gedişi qrafikinin analizi',
+      'ilin ən isti ayının termaturunun təyini',
+      'iqlim tipinin təyini',
+      'ilin fəsiləri üzrə yağıntıların bölgüsü',
+      'ilin ən rütübətli və ən quru mövsümünün təyini',
       'A) 1-a, 2-b, 3-d, 4-e, 5-c',
       'B) 1-a, 2-d, 3-b, 4-e, 5-c',
       'C) 1-d, 2-e, 3-a, 4-b, 5-c',
       'D) 1-a, 2-b, 3-c, 4-e, 5-d',
       'E) 1-c, 2-d, 3-b, 4-e, 5-a',
     ],
-    correctAnswer: '',
+    correctAnswer: 'temperaturun gedişi qrafikinin analizi',
   },
   {
     number: 287,
-    question:
-      '287. Sual: Nomenklatura biliklərinin yoxlanılma üsulları: a) test üzrə yoxlama b) şərti işarəyə görə konturda obyektlərin tapılması c) nomenklaturanın hazırlanması d) dəftərə nomenklaturanın yazılması e) kartoqrafik imla',
-    options: ['A) a,b,c', 'B) b,c,e', 'C) a,b,d', 'D) b, d,e', 'E) a,c,e'],
-    correctAnswer: '',
+    question: '287. Sual: Nomenklatura biliklərinin yoxlanılma üsulları:',
+    options: [
+      'test üzrə yoxlama',
+      'şərti işarəyə görə konturda obyektlərin tapılması',
+      'nomenklaturanın hazırlanması',
+      'dəftərə nomenklaturanın yazılması',
+      'kartoqrafik imla',
+      'A) a,b,c',
+      'B) b,c,e',
+      'C) a,b,d',
+      'D) b, d,e',
+      'E) a,c,e',
+    ],
+    correctAnswer: 'test üzrə yoxlama',
   },
   {
     number: 288,
@@ -3167,7 +3567,7 @@ export const cografiya = [
       'D) dərslik',
       'E) məsələ və çalışmalar məcmuəsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xəritə',
   },
   {
     number: 289,
@@ -3186,7 +3586,7 @@ export const cografiya = [
       'D) xəritənin əhəmiyyətini bilmək',
       'E) xəritənin xassələrini, məzmununu bilmək',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xəritənin tarixini bilmək',
   },
   {
     number: 291,
@@ -3199,7 +3599,8 @@ export const cografiya = [
       'D) xəritənin sərlövhəsi, cəhətləri, miqyası və daha sonra legendasının mənimsənilməsi',
       'E) xəritənin sərlövhəsi, legendası, miqyası və daha sonra cəhətlərinin mənimsənilməsi',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) xəritənin sərlövhəsi, miqyası, şərti işarələr və daha sonra legendasının mənimsənilməsi',
   },
   {
     number: 292,
@@ -3212,7 +3613,7 @@ export const cografiya = [
       'D) 1,3,6,8',
       'E) 1,6,7,8',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,3,4',
   },
   {
     number: 293,
@@ -3225,19 +3626,30 @@ export const cografiya = [
       'D) test tapşırıqları',
       'E) məsələ və çalışmalar məcmuəsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xəritə',
   },
   {
     number: 294,
     question:
-      '294. Sual: Məktəb coğrafiyasında istifadə edilən kartoqrafik təsvirlərin növləri: a) məktəb atlaslarının xəritələri b) sxemlər ç) dərsliklərdəki şəkil-xəritələr c) topoqrafik xəritələr toplusu d)diaqramlar e) qlobus',
-    options: ['A) a,b,c', 'B) b,c,ç', 'C) c,ç,d', 'D) c,d,e', 'E) a,c,e'],
-    correctAnswer: '',
+      '294. Sual: Məktəb coğrafiyasında istifadə edilən kartoqrafik təsvirlərin növləri:',
+    options: [
+      'məktəb atlaslarının xəritələri',
+      'sxemlər ç) dərsliklərdəki şəkil-xəritələr',
+      'topoqrafik xəritələr toplusu',
+      'diaqramlar',
+      'qlobus',
+      'A) a,b,c',
+      'B) b,c,ç',
+      'C) c,ç,d',
+      'D) c,d,e',
+      'E) a,c,e',
+    ],
+    correctAnswer: 'məktəb atlaslarının xəritələri',
   },
   {
     number: 295,
     question:
-      '295. Sual: Şagirdlərin əlavə ədəbiyyatla əsas iş priyomlarıdır: 1.  məzmunu nağıl etmək şərhin planını tərtib etmək 3. ucadan oxu plan üzrə tezisler və konspektlər tərtib etmək 5. çıxarışlar etmək kontur xəritələrin işlənməsi 7. məruzələr (məlumatlar)tərtib etmək',
+      '295. Sual: Şagirdlərin əlavə ədəbiyyatla əsas iş priyomlarıdır: 1. məzmunu nağıl etmək şərhin planını tərtib etmək 3. ucadan oxu plan üzrə tezisler və konspektlər tərtib etmək 5. çıxarışlar etmək kontur xəritələrin işlənməsi 7. məruzələr (məlumatlar)tərtib etmək',
     options: [],
     correctAnswer: '',
   },
@@ -3252,7 +3664,7 @@ export const cografiya = [
       'D) 1,2,6,8',
       'E) 2,4,6,7',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,3,5,7',
   },
   {
     number: 297,
@@ -3264,7 +3676,8 @@ export const cografiya = [
       'D) xəritələrin köməyi ilə təbii və ictimai obyektlərin müasir vəziyyətini öyrənməyi bacarmaq',
       'E) xəritələrin köməyi ilə təbii və ictimai obyektlərin qarşılıqlı əlaqələrini başa düşməyi və öyrənməyi bacarmaq',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) xəritələrin köməyi ilə şagirdlərdə oxu vərdişləri yaratmaq və nitq mədəniyyətini inkişaf etdirmək',
   },
   {
     number: 298,
@@ -3277,7 +3690,7 @@ export const cografiya = [
       'D) V.N.Tatışev',
       'E) L.A.Vitver',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) L.S.Berq',
   },
   {
     number: 299,
@@ -3290,7 +3703,8 @@ export const cografiya = [
       'D) yerin daxili quruluşunu nümayiş etdirmekden ötrüdür',
       'E) kürəvi səthdən müstəvi səthə keçmək üsullarını nümayiş etdirmekden ötrüdür',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) paralel və meridianları, ekvator xəttini nümayiş etdirmekden ötrüdür',
   },
   {
     number: 300,
@@ -3303,7 +3717,8 @@ export const cografiya = [
       'D) sahəni göstərərkən göstərici çubuğun hərəkəti ilə onu konturu üzrə dolanmaq lazımdır',
       'E) xətti obyektlər onların gedişi boyunca gösterici çubuğun hərəkəti ilə göstərilməlidir',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) hökmən əvvəlcə obyektin coğrafi koordinatları tapılmalı və sonra göstərilməlidir',
   },
   {
     number: 301,
@@ -3315,7 +3730,7 @@ export const cografiya = [
       'D) cədvəllər və sxemlər',
       'E) divar şəkilləri və kompüter texnikası',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) coğrafi model və maketlər',
   },
   {
     number: 302,
@@ -3327,7 +3742,7 @@ export const cografiya = [
       'D) sxemlərə',
       'E) rəngli xəritələrə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) maketlərə',
   },
   {
     number: 303,
@@ -3340,7 +3755,7 @@ export const cografiya = [
       'D) 8-ci siniflərdə',
       'E) 8-ci siniflərdə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 10-cu siniflərdə',
   },
   {
     number: 304,
@@ -3352,9 +3767,18 @@ export const cografiya = [
   {
     number: 305,
     question:
-      '305. Sual: Xəritə təliminin metodikasında düzgün ardıcıllığı qurun: a) xəritənin miqyası b) şərti işarələr c) cəhətlərin mənimsənilməsi',
-    options: ['A) a,b,c', 'B) b,a,c', 'C) c,a,d', 'D) b,c,a', 'E) c,b,a'],
-    correctAnswer: '',
+      '305. Sual: Xəritə təliminin metodikasında düzgün ardıcıllığı qurun:',
+    options: [
+      'xəritənin miqyası',
+      'şərti işarələr',
+      'cəhətlərin mənimsənilməsi',
+      'A) a,b,c',
+      'B) b,a,c',
+      'C) c,a,d',
+      'D) b,c,a',
+      'E) c,b,a',
+    ],
+    correctAnswer: 'xəritənin miqyası',
   },
   {
     number: 306,
@@ -3367,7 +3791,7 @@ export const cografiya = [
       'D) qırışma və sınmaların əmələ gəlməsi, suayrıcı',
       'E) təpə, dağ süxuru',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) artezian quyusu, buzlağın hərəkəti',
   },
   {
     number: 307,
@@ -3380,7 +3804,7 @@ export const cografiya = [
       'D) inandırma',
       'E) nümayiş',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) illustrasiya',
   },
   {
     number: 308,
@@ -3393,7 +3817,8 @@ export const cografiya = [
       'D) miqyası sabit deyil, məsafələr qütblərdən ekvatora doğru təhrif olunur, sahələrin nisbəti dəyişilir',
       'E) yer səthini və oradakı obyektləri daha iri formatda təsvir etmə imkanı vardır',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) müqayisə sabitdir, məsafələr təhrif edilmir və sahələrin nisbəti durğun qalır',
   },
   {
     number: 309,
@@ -3406,7 +3831,8 @@ export const cografiya = [
       'D) xəttlərin köməyi ilə təbii və ictimai obyektlərin müasir vəziyyətini təyin etməyi şagirdlərə öyrədilməsi və sinifdə nümunə çalışmanın yerinə yetirilməsi',
       'E) şərti işarələrdən istifadə edərək xəritədə ayrı-ayrı obyekt və hadisələrin təsviri xüsusiyyətlərini aydınlaşdırmaq',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) müəllimin şərti işarələri izah etməsi, onların tərtibi və  yazılma qaydalarını göstərməsi və sinifdə nümunə çalışmaların yerinə yetirilməsi',
   },
   {
     number: 310,
@@ -3418,7 +3844,7 @@ export const cografiya = [
       'D) fəsillərin əmələ gəlməsini nümayiş etdirmək üçündür',
       'E) koordinat anlayışının öyrədilməsi üçündür',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) şagirdlərin müstəqil iş aparmaları üçündür',
   },
   {
     number: 311,
@@ -3430,7 +3856,7 @@ export const cografiya = [
       'D) paralel və meridianları nümayiş etdirmək üçün istifadə olunur',
       'E) saat qurşaqlarını nümayiş etdirmək üçün istifadə olunur',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Telluri – qlobusun xüsusi bir növüdür, ondan:',
   },
   {
     number: 312,
@@ -3443,7 +3869,8 @@ export const cografiya = [
       'D) horizontal anlayışının öyrədilməsində istifadə edilir',
       'E) coğrafi nomenklaturanın öyrədilməsində istifadə edilir',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) koordinat anlayışının öyrədilməsində geniş istifadə edilir',
   },
   {
     number: 313,
@@ -3455,26 +3882,47 @@ export const cografiya = [
       'D) müxtəlif xəritələrin bir-biri ilə tutuşdurulub müqayisə əlaqəsi',
       'E) xəritə üzərində obyektləri tapıb onlar haqqında fikirlər yürüdülməsi',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) şagirdlərin dərsdə xəritələr əsasında çalışmalar yerinə yetirməsi',
   },
   {
     number: 314,
-    question:
-      '314. Sual: Elmi-pedaqoji araşdırmanın emprik metodlarını seçin. a) təhlil və tərkib b) anket sorğusu ç) pedaqoji müsahibə c) məktəb sənədləşməsinin öyrənilməsi d) müqaisəli-tarixi təhlil e) sınaq metod',
-    options: ['A) a, b,c', 'B) ç,c,d', 'C) b,ç,c', 'D) c,d,e', 'E) a,c,d'],
-    correctAnswer: '',
+    question: '314. Sual: Elmi-pedaqoji araşdırmanın emprik metodlarını seçin.',
+    options: [
+      'təhlil və tərkib',
+      'anket sorğusu ç) pedaqoji müsahibə',
+      'məktəb sənədləşməsinin öyrənilməsi',
+      'müqaisəli-tarixi təhlil',
+      'sınaq metod',
+      'A) a, b,c',
+      'B) ç,c,d',
+      'C) b,ç,c',
+      'D) c,d,e',
+      'E) a,c,d',
+    ],
+    correctAnswer: 'təhlil və tərkib',
   },
   {
     number: 315,
-    question:
-      '315. Sual: Elmi-pedaqoji araşdırmanın emprik metodlarını seçin. a) pedaqoji fəaliyyət nəticələrinin öyrənilməsi b) induksiya və deduksiya ç) pedaqoji konsilium c) modelləşdirmə d) pedaqoji müşahidə e) eksperement',
-    options: ['A) a, b,c', 'B) ç,c,d', 'C) b,ç,c', 'D) c,d,e', 'E) c,d,e'],
-    correctAnswer: '',
+    question: '315. Sual: Elmi-pedaqoji araşdırmanın emprik metodlarını seçin.',
+    options: [
+      'pedaqoji fəaliyyət nəticələrinin öyrənilməsi',
+      'induksiya və deduksiya ç) pedaqoji konsilium',
+      'modelləşdirmə',
+      'pedaqoji müşahidə',
+      'eksperement',
+      'A) a, b,c',
+      'B) ç,c,d',
+      'C) b,ç,c',
+      'D) c,d,e',
+      'E) c,d,e',
+    ],
+    correctAnswer: 'pedaqoji fəaliyyət nəticələrinin öyrənilməsi',
   },
   {
     number: 316,
     question:
-      '316. Sual: Orta məktəblərdə tədris olunan coğrafiya kursları hansılardır. 1. Ümumi fiziki coğrafiya Materiklər coğrafiya 3.Kartoqrafiya Dünyanın iqtisadi  və sosial coğrafiyası 5.Torpaqşünaslıq Azərbaycan Respublikasının fiziki coğrafiyası 7. Azərbaycan Respublikasının iqtisadi  və sosial coğrafiyası Yerşünaslıq Topoqrafiya 10.Türk dünyası coğrafiyası',
+      '316. Sual: Orta məktəblərdə tədris olunan coğrafiya kursları hansılardır. 1. Ümumi fiziki coğrafiya Materiklər coğrafiya 3.Kartoqrafiya Dünyanın iqtisadi və sosial coğrafiyası 5.Torpaqşünaslıq Azərbaycan Respublikasının fiziki coğrafiyası 7. Azərbaycan Respublikasının iqtisadi və sosial coğrafiyası Yerşünaslıq Topoqrafiya 10.Türk dünyası coğrafiyası',
     options: [],
     correctAnswer: '',
   },
@@ -3488,7 +3936,8 @@ export const cografiya = [
       'D) fiziki  iqtisadi və tibbi coğrafiyaya',
       'E) siyasi  və əhali coğrafiyası da daxil olmaqla iqtisadi coğrafiyaya',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) fiziki və əhali coğrafiyası da daxil olmaqla iqtisadi coğrafiya',
   },
   {
     number: 318,
@@ -3501,7 +3950,7 @@ export const cografiya = [
       'D) təbii ehtiyatlar',
       'E) təbii mühit',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) bəşəriyyət',
   },
   {
     number: 319,
@@ -3513,7 +3962,7 @@ export const cografiya = [
       'D) geomorfologiya, yerşünaslıq ,hidrologiya,okeanologiya',
       'E) geomorfologiya,geofizika,biokimya, torpaqşünaslıq',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) geologiya,hidrologiya,okeanologiya,yerşünaslıq',
   },
   {
     number: 320,
@@ -3526,7 +3975,8 @@ export const cografiya = [
       'D) Y.Q.Maşbis',
       'E) A.M.Berlyant',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Məktəb coğrafiyasında ekoloji-coğrafi biliklər sisteminin hazırlanmasına böyük töhvələr vermişdir',
   },
   {
     number: 321,
@@ -3539,7 +3989,7 @@ export const cografiya = [
       'D) qismən-axtarış',
       'E) illustrativ-izahedici',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) reproduktiv',
   },
   {
     number: 322,
@@ -3558,7 +4008,7 @@ export const cografiya = [
   {
     number: 324,
     question:
-      '324. Sual: Ənənəvi təlimin əsas xarakterik  xüsusiyyətləridir. 1.hafizəyə əsaslanma monoloji təlim 3. məntiqə,tənqidə və yaradıcı təfəkkürə əsaslanma dialoji təlim 5. demokratik təqris üslubu təqrisdə avtoritar  üslub 7.biliklərin yeni şəraitdə yaradıcı tətbiqi biliklərin təklif olunan model üzrə tətbiqi',
+      '324. Sual: Ənənəvi təlimin əsas xarakterik xüsusiyyətləridir. 1.hafizəyə əsaslanma monoloji təlim 3. məntiqə,tənqidə və yaradıcı təfəkkürə əsaslanma dialoji təlim 5. demokratik təqris üslubu təqrisdə avtoritar üslub 7.biliklərin yeni şəraitdə yaradıcı tətbiqi biliklərin təklif olunan model üzrə tətbiqi',
     options: [],
     correctAnswer: '',
   },
@@ -3573,7 +4023,8 @@ export const cografiya = [
       'D) şagirdlərin emosional-şəxsi keyfiyyətlərinə istinad olması',
       'E) öz imkanlarını genişləndirməkdə  sərbəstlik və təşəbbüskarlıqla məhdudiyyətlər',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) tədrisin forma və metodların sərtliyi,müəllim və dərsliyin –biliyin əsas mənbə olması',
   },
   {
     number: 326,
@@ -3586,20 +4037,22 @@ export const cografiya = [
       'D) şagirdlərin emosional-şəxsi keyfiyyətlərinə istinad olması',
       'E) öz qabiliyyətlərini genişləndirməkdə  sərbəstlik və təşəbbüskarlıqda geniş imkanlar',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) tədrisin forma və metodlarının çevikliyi,bilik mənbələrinin müxtəlifliyi',
   },
   {
     number: 327,
-    question:
-      '327. Sual: Uyğunluğu qurun (təyin edin ) a) ənənəvi təlim b) fəal təlim 1) təqrisdə avtoritar  üslun üstünlüyü 2) təlimin motivasiya yönümlü olması 3) obyektiv münasibət 4) ünsiyyətin demokratik tərzinin üstünlüyü 5) dərsdə şagirdlərin  passivliyi 6) şagird fəaliyyətinin yaradıcı təfəkkürə əsaslanması 7) kənar stimullaşdıcı təsirin üstünlüyü 8) məntiq və tənqidə əsaslanma 9) şagirdin aktiv fikir mübadiləsi prosesinə qoşulması 10)şagirdlərin emosional-şəxsi keyfiyyətlərinə istinad olması',
+    question: '327. Sual: Uyğunluğu qurun (təyin edin )',
     options: [
+      'ənənəvi təlim',
+      'fəal təlim 1) təqrisdə avtoritar  üslun üstünlüyü 2) təlimin motivasiya yönümlü olması 3) obyektiv münasibət 4) ünsiyyətin demokratik tərzinin üstünlüyü 5) dərsdə şagirdlərin  passivliyi 6) şagird fəaliyyətinin yaradıcı təfəkkürə əsaslanması 7) kənar stimullaşdıcı təsirin üstünlüyü 8) məntiq və tənqidə əsaslanma 9) şagirdin aktiv fikir mübadiləsi prosesinə qoşulması 10)şagirdlərin emosional-şəxsi keyfiyyətlərinə istinad olması',
       'A) a--1,5,7,10          b-2,3,4,6,8,9',
       'B) a--2,4,7,9   b-1,3,5,6,8,10',
       'C) a-1,4,5,7,10  b-2,3,6,8,9',
       'D) a-1,4,7,9,10   b-2,3,5,6,8,',
       'E) a- 1,5,7,8,9 b-2,3,4,6,10',
     ],
-    correctAnswer: '',
+    correctAnswer: 'ənənəvi təlim',
   },
   {
     number: 328,
@@ -3611,14 +4064,25 @@ export const cografiya = [
       'D) səbəb-nəticə əlaqələri',
       'E) təqdim etmələr (təsəvvürlər)',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) faktlar',
   },
   {
     number: 329,
     question:
-      '329. Sual: Coğrafi nomenklaturaların yadda saxlanılmasına kömək edən tədris üsulları. a)coğrafi adları lövhəyə yazılması b) kontur xəritənin işlənilməsi c) dərsliyin mətninin öyrənilməsi d)adların düzgün tələffüzü və coğrafi xəritədə göstərilməsi e) test tapşırıqlarının yerinə yetirilməsi',
-    options: ['A) b,c,d', 'B) a,c,d', 'C) b,e,c', 'D) c,d,e', 'E) a,e,d'],
-    correctAnswer: '',
+      '329. Sual: Coğrafi nomenklaturaların yadda saxlanılmasına kömək edən tədris üsulları.',
+    options: [
+      'coğrafi adları lövhəyə yazılması',
+      'kontur xəritənin işlənilməsi',
+      'dərsliyin mətninin öyrənilməsi',
+      'adların düzgün tələffüzü və coğrafi xəritədə göstərilməsi',
+      'test tapşırıqlarının yerinə yetirilməsi',
+      'A) b,c,d',
+      'B) a,c,d',
+      'C) b,e,c',
+      'D) c,d,e',
+      'E) a,e,d',
+    ],
+    correctAnswer: 'coğrafi adları lövhəyə yazılması',
   },
   {
     number: 330,
@@ -3631,7 +4095,7 @@ export const cografiya = [
       'D) elmilik',
       'E) müntəzəmlik',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) məhəlşünaslıq',
   },
   {
     number: 331,
@@ -3643,34 +4107,50 @@ export const cografiya = [
       'D) diaqram,qrafik və xəritə-diaqramlarin tərtib edilməsi',
       'E) göstəricilərin konkretləşdirilməsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xəritə ilə iş',
   },
   {
     number: 332,
     question:
       '332. Sual: Öyrənmə prosesinin səmərəliyini əks etdirir. 1)verilmiş biliklərin düzgünlüyü və sistemliyi 2) şagirdlərin bilik, bacarıq və vərdişlərə yiyələnmə səviyyəsi 3) şagirdlərdə tədris prosesində və öyrənilən obyektlərə qarşı marağın formalaşması 4) şagirdlərin təcrübi biliklərinin üstünlüyü 5) şagirdlərin tədris prosesində bilikləri yaxşı mənimsəmələri',
     options: ['A) 2,3,4', 'B) 1,2,5', 'C) 1,2,3', 'D) 1,5,4', 'E) 2,3,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 2,3,4',
   },
   {
     number: 333,
     question:
-      '333. Sual: Hansı ardıcıllıq anlayışların  mənimsənilməsinin  induktiv yoludur. a) əsas xüsuüiyyətlərin ümumiləşdirilməsi və anlayışın təyininin düzgün ifadə edilməsi b) xüsuüiyyətlərin tutuşdurulması və əsasların əhəmiyyətlərinin onların arasından seçilməsi c) təcrübədə yeni anlayışin tətbiqi, artıq mənimsənilmişlərlə əlaqəsi d) obyektlərin və hadisələrin seçimi ,onların variantlar üzrə xüsusiyyətlərinin təyini e) anlayışın təyini, analiz yolu ilə sözün mənşəyinin müəyyənləşdirilməsi, əsas xüsusiyyətləri, onların istifadəsi ardıcıllığı',
+      '333. Sual: Hansı ardıcıllıq anlayışların  mənimsənilməsinin  induktiv yoludur.',
     options: [
+      'əsas xüsuüiyyətlərin ümumiləşdirilməsi və anlayışın təyininin düzgün ifadə edilməsi',
+      'xüsuüiyyətlərin tutuşdurulması və əsasların əhəmiyyətlərinin onların arasından seçilməsi',
+      'təcrübədə yeni anlayışin tətbiqi, artıq mənimsənilmişlərlə əlaqəsi',
+      'obyektlərin və hadisələrin seçimi ,onların variantlar üzrə xüsusiyyətlərinin təyini',
+      'anlayışın təyini, analiz yolu ilə sözün mənşəyinin müəyyənləşdirilməsi, əsas xüsusiyyətləri, onların istifadəsi ardıcıllığı',
       'A) 1- e 2- d   3-b 4-c 5-a',
       'B) 1- e         2-  b            3-d     4-c      5-a',
       'C) 1- b        2-  e            3-d      4-c       5-a',
       'D) 1- a        2-  b            3-d      4-c       5-e',
       'E) 1-e         2-   b           3-a      4-c       5-d',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'əsas xüsuüiyyətlərin ümumiləşdirilməsi və anlayışın təyininin düzgün ifadə edilməsi',
   },
   {
     number: 334,
-    question:
-      '334. Sual: Coğrafi qanun və qanunauyğuluqlar hansılardır, a) coğrafi zonallıq b) təbiətdə suyun dövranı c) səhralaşma d) coğrafi təbəqədə inkişafın ritmikliyi e) vulkanizim',
-    options: ['A) a,b,d', 'B) a,b,c', 'C) b,c,d', 'D) a,d,e', 'E) b,c,e'],
-    correctAnswer: '',
+    question: '334. Sual: Coğrafi qanun və qanunauyğuluqlar hansılardır,',
+    options: [
+      'coğrafi zonallıq',
+      'təbiətdə suyun dövranı',
+      'səhralaşma',
+      'coğrafi təbəqədə inkişafın ritmikliyi',
+      'vulkanizim',
+      'A) a,b,d',
+      'B) a,b,c',
+      'C) b,c,d',
+      'D) a,d,e',
+      'E) b,c,e',
+    ],
+    correctAnswer: 'coğrafi zonallıq',
   },
   {
     number: 335,
@@ -3682,7 +4162,7 @@ export const cografiya = [
       'D) şagirdlərin dərsdə coğrafiya elminin əsaslarını öyrəndiyi vəsait',
       'E) coğrafiya elminin əsasları şərh  olunan vəsait',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) elmin əsasları proqram tələblərində şərh olunan vəsait',
   },
   {
     number: 336,
@@ -3694,14 +4174,23 @@ export const cografiya = [
       'D) dərslik, iş, dəftəri,məsələ və çalışmalar məcmuəsi',
       'E) dərslik,alternativ dərslik, məsələ və çalışmalar məcmuəsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dərslik, iş, dəftəri,müəllim üçün metodik vəsait',
   },
   {
     number: 337,
-    question:
-      '337. Sual: Tədris-metodik kompleksinə daxildir a) şagird üçün dərslik b) müəllim üçün metodik vəsait c) fənn kabineti d)müəllim üçün atlas',
-    options: ['A) a,b,d', 'B) a,b,c', 'C) b,c,d', 'D) a,d,e', 'E) b,c,e'],
-    correctAnswer: '',
+    question: '337. Sual: Tədris-metodik kompleksinə daxildir',
+    options: [
+      'şagird üçün dərslik',
+      'müəllim üçün metodik vəsait',
+      'fənn kabineti',
+      'müəllim üçün atlas',
+      'A) a,b,d',
+      'B) a,b,c',
+      'C) b,c,d',
+      'D) a,d,e',
+      'E) b,c,e',
+    ],
+    correctAnswer: 'şagird üçün dərslik',
   },
   {
     number: 338,
@@ -3713,28 +4202,48 @@ export const cografiya = [
       'D) motivasiya xarakterli iş, cədvəl və diaqramlar üzərində iş',
       'E) sual və tapşırıqlar üzrə iş, motivasiya xarakterli iş',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) mətnlə iş, rəqəm göstəriciləri ilə iş',
   },
   {
     number: 339,
     question:
-      '339. Sual: Müəllim tərəfindən yeni dərsliklə tanışlıq hansı ardıcıllıqla aparılır. 1.titul vərəqi ilə tsnışlıq dərsliyin girişi ilə tanışlıq 3. dərsliyin illüstrasiyası ilə tanışlıq mündəricatla tanışlıq 5.ümumi icmalla, ölkə və rayonların  məntiqi ardıcıllığı  və sxemi ilə tanışlıq',
+      '339. Sual: Müəllim tərəfindən yeni dərsliklə tanışlıq hansı ardıcıllıqla aparılır. 1.titul vərəqi ilə tsnışlıq dərsliyin girişi ilə tanışlıq 3. dərsliyin illüstrasiyası ilə tanışlıq mündəricatla tanışlıq 5.ümumi icmalla, ölkə və rayonların məntiqi ardıcıllığı və sxemi ilə tanışlıq',
     options: [],
     correctAnswer: '',
   },
   {
     number: 340,
-    question:
-      '340. Sual: Dərsliyin mətn materiallarına aid edilir. a)təsvirlər b) şəkillər c) terminlər lüğəti d) metodologiya e) çalışmalar',
-    options: ['A) a,b,c', 'B) a,b,e', 'C) b,c,d', 'D) a,d,e', 'E) b,c,e'],
-    correctAnswer: '',
+    question: '340. Sual: Dərsliyin mətn materiallarına aid edilir.',
+    options: [
+      'təsvirlər',
+      'şəkillər',
+      'terminlər lüğəti',
+      'metodologiya',
+      'çalışmalar',
+      'A) a,b,c',
+      'B) a,b,e',
+      'C) b,c,d',
+      'D) a,d,e',
+      'E) b,c,e',
+    ],
+    correctAnswer: 'təsvirlər',
   },
   {
     number: 341,
-    question:
-      '341. Sual: Dərsliyin mətndənkənar materiallarına aid edilir. a)sxemlər b) xəritələr c) mündəricat d) qeydlər e) təsvirlər',
-    options: ['A) a,c,d', 'B) a,b,e', 'C) b,c,d', 'D) a,d,e', 'E) b,c,e'],
-    correctAnswer: '',
+    question: '341. Sual: Dərsliyin mətndənkənar materiallarına aid edilir.',
+    options: [
+      'sxemlər',
+      'xəritələr',
+      'mündəricat',
+      'qeydlər',
+      'təsvirlər',
+      'A) a,c,d',
+      'B) a,b,e',
+      'C) b,c,d',
+      'D) a,d,e',
+      'E) b,c,e',
+    ],
+    correctAnswer: 'sxemlər',
   },
   {
     number: 342,
@@ -3747,19 +4256,30 @@ export const cografiya = [
       'D) A.Rivin',
       'E) İ. Vitver',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Mətn üzrə suallar formasında tapşırıqlar verməyi tövsiyə  edirdi.',
   },
   {
     number: 343,
-    question:
-      '343. Sual: Dərsliyin mətndənkənar materiallarına aid edilir. a)nəzəriyyə b) şərhlər c) cədvəllər d) illüstrasiyalar e) sual və tapşırıqlar',
-    options: ['A) a,b,c', 'B) a,b,e', 'C) b,c,d', 'D) b,d,e', 'E) b,c,e'],
-    correctAnswer: '',
+    question: '343. Sual: Dərsliyin mətndənkənar materiallarına aid edilir.',
+    options: [
+      'nəzəriyyə',
+      'şərhlər',
+      'cədvəllər',
+      'illüstrasiyalar',
+      'sual və tapşırıqlar',
+      'A) a,b,c',
+      'B) a,b,e',
+      'C) b,c,d',
+      'D) b,d,e',
+      'E) b,c,e',
+    ],
+    correctAnswer: 'nəzəriyyə',
   },
   {
     number: 344,
     question:
-      '344. Sual: Coğrafiya dərsliklərindəki şəkillər aşağıdakı ardıcıllıqla təhlil edilir. 1) şəklin xəritə ilə  əlaqələndirilməsi 2) şəklin ümumi baxışla qavranılması 3) ayrı-ayrı hissələrin təhlili və onların xüsusiyyətlərinin izahı 4) əldə edilmiş məlumatların ardıcıl  nağıl-şəklin təsviri halında  sintez edilməsi',
+      '344. Sual: Coğrafiya dərsliklərindəki şəkillər aşağıdakı ardıcıllıqla təhlil edilir. 1) şəklin xəritə ilə əlaqələndirilməsi 2) şəklin ümumi baxışla qavranılması 3) ayrı-ayrı hissələrin təhlili və onların xüsusiyyətlərinin izahı 4) əldə edilmiş məlumatların ardıcıl nağıl-şəklin təsviri halında sintez edilməsi',
     options: [
       'A) 2,1,3,4',
       'B) 1,2,3,4',
@@ -3767,7 +4287,7 @@ export const cografiya = [
       'D) 4,2,1,3',
       'E) 1,3,4,2',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 2,1,3,4',
   },
   {
     number: 345,
@@ -3780,7 +4300,7 @@ export const cografiya = [
       'D) müşahidələr əsasında',
       'E) iqlim xəritəsinə əsasən',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) təcrübə  əsasında',
   },
   {
     number: 346,
@@ -3793,7 +4313,8 @@ export const cografiya = [
       'D) proqramda yeri və vaxtı müəyyən edilmiş ekskursiyalardır',
       'E) yalnız təbiətə təşkil edilmiş ekskursiyalardır',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) proqramda yeri  müəyyən olunmuş , dərsdən kənar keçrilən ekskursiyalardır',
   },
   {
     number: 347,
@@ -3806,7 +4327,7 @@ export const cografiya = [
       'D) çaya və eiektirik stansiyalarına',
       'E) dəyirmana və meşəyə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) fabrikə və dəyirmana',
   },
   {
     number: 348,
@@ -3819,7 +4340,7 @@ export const cografiya = [
       'D) çaya və eiektirik stansiyalarına',
       'E) dəyirmana və meşəyə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) çaya və dəniz sahilinə',
   },
   {
     number: 349,
@@ -3832,21 +4353,22 @@ export const cografiya = [
       'D) insanların təbiətdən istifadəsi və ona təsiri ilə tanış olmaq',
       'E) təbiətin qorunması sahəsində aparılan işlərlə tanış olmaq',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) yerli istehsalatın yerləşdirilməsi qanunauyğunluqları ilə  tanış olmaq',
   },
   {
     number: 350,
     question:
-      '350. Sual: Ekskursiya keçrilməsinin II  mərhələsinə aiddir 1) tədqiqat nəticələrinin təcrübə dəftərinə qeydiyatı 2) manqalarin planı  üzrə qısa  hesabatın yazılması 3) müəllimin giriş müsahibəsi 4)müəllimin yekunlaşdırma müsahibəsi 5) dayaq mənyəqələrində şagirdlərin müəllimin nəzarəti altında tapşırıqları icra etməsi',
+      '350. Sual: Ekskursiya keçrilməsinin II mərhələsinə aiddir 1) tədqiqat nəticələrinin təcrübə dəftərinə qeydiyatı 2) manqalarin planı üzrə qısa hesabatın yazılması 3) müəllimin giriş müsahibəsi 4)müəllimin yekunlaşdırma müsahibəsi 5) dayaq mənyəqələrində şagirdlərin müəllimin nəzarəti altında tapşırıqları icra etməsi',
     options: ['A) 1,3,5', 'B) 2,3,4', 'C) 2,3,4', 'D) 1,4,5', 'E) 3,4,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,3,5',
   },
   {
     number: 351,
     question:
-      '351. Sual: Ekskursiya keçrilməsinin II  mərhələsinə aid deyil. 1) dayaq mənyəqələrində şagirdlərin müəllimin nəzarəti altında tapşırıqları icra etməsi 2) manqalarin planı  üzrə qısa  hesabatın yazılması 3) müəllimin yekunlaşdırma müsahibəsi qeydiyatı 4) tədqiqat obyektini seçib onu hərtərəfli öyrənmək 5) müəllimin giriş müsahibəsi',
+      '351. Sual: Ekskursiya keçrilməsinin II mərhələsinə aid deyil. 1) dayaq mənyəqələrində şagirdlərin müəllimin nəzarəti altında tapşırıqları icra etməsi 2) manqalarin planı üzrə qısa hesabatın yazılması 3) müəllimin yekunlaşdırma müsahibəsi qeydiyatı 4) tədqiqat obyektini seçib onu hərtərəfli öyrənmək 5) müəllimin giriş müsahibəsi',
     options: ['A) 2,4,5', 'B) 2,3,4', 'C) 1,2,5', 'D) 1,4,5', 'E) 3,4,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 2,4,5',
   },
   {
     number: 352,
@@ -3859,7 +4381,7 @@ export const cografiya = [
       'D) coğrafiya dərslərində istifadə etmək üçün ekskursiya materiallarının hazırlanması',
       'E) ekskursiyanın məqsəd və vəzifələrinin müəyyənləşdirilməsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) maşurut seçimi ,onunla yerində tanışlıq',
   },
   {
     number: 353,
@@ -3872,7 +4394,7 @@ export const cografiya = [
       'D) təbiətin inkişaf qanunauyğunluqlarını öyrənmək',
       'E) təbiətin qorunması sahəsində aparılan işlərlə tanış olmaq',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) yerli istehsalatın xarakteri ilə tanış olmaq',
   },
   {
     number: 354,
@@ -3884,7 +4406,7 @@ export const cografiya = [
       'D) coğrafiya dərslərində praktik işlərin icrası',
       'E) müəllimin dərsə hazırlaşma prosesi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) coğrafiyanın əsaslarının şagirdlərə öyrədilməsi prosesi',
   },
   {
     number: 355,
@@ -3896,7 +4418,7 @@ export const cografiya = [
       'D) iqtisadi elmlərə',
       'E) dəqiq elmlərə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) pedaqoji elmlərə',
   },
   {
     number: 356,
@@ -3908,7 +4430,7 @@ export const cografiya = [
       'D) təlim metodlarını',
       'E) məktəb coğrafiyasının quruluşunu',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) məktəb coğrafiyasının məzmununu',
   },
   {
     number: 357,
@@ -3920,7 +4442,7 @@ export const cografiya = [
       'D) metodların seçilməsi',
       'E) mövzunun aktuallığının əsaslandırılması',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) fərziyyənin yürüdülməsi',
   },
   {
     number: 358,
@@ -3933,7 +4455,8 @@ export const cografiya = [
       'D) əsas problemin müəyyənləşdirilməsi – mövzunun aktuallığının əsaslandırılması - fərziyyənin yürüdülməsi– tapşırığın müəyyənləşdirilməsi – metodların seçilməsi– eksperiment– nəticələrin çıxarılması – metodik tövsiyyələr',
       'E) mövzunun aktuallığının əsaslandırılması - əsas problemin müəyyənləşdirilməsi – fərziyyənin yürüdülməsi– tapşırığın müəyyənləşdirilməsi– eksperiment metodların seçilməsi– nəticələrin çıxarılması   – metodik tövsiyyələr.',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) mövzunun aktuallığının əsaslandırılması - əsas problemin müəyyənləşdirilməsi – fərziyyənin yürüdülməsi – metodların seçilməsi – tapşırığın müəyyənləşdirilməsi – eksperiment – metodik tövsiyyələr – nəticələrin çıxarılması.',
   },
   {
     number: 359,
@@ -3946,7 +4469,7 @@ export const cografiya = [
       'D) İ.A. Vitverə',
       'E) V.N.Tatışevə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) N.N. Baranskiə',
   },
   {
     number: 360,
@@ -3959,12 +4482,12 @@ export const cografiya = [
       'D) keyfiyyət fonu',
       'E) nöqtələr üsulu ilə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) hərəkət xətləri üsulu',
   },
   {
     number: 361,
     question:
-      '361. Sual: Metodiki tədqiqatın məntiqi ardıcıllığının düzgün sırasını müəyyən edin :     1- fərziyyənin müəyyən edilməsi   2-tədqiqatın məqsəd və vəzifələrinin qoyuluşu     3-tədqiqatın əsas probleminin müəyyən edilməsi     4-eksperimentin hazırlanması və keçirilməsi    5-nəticələrin praktik əhəmiyyətinin göstərilməsi    6- tədqiqatın nəticələrinin müəyyənləşdirilməsi    7-tədqiqat metodlarının seçilməsi',
+      '361. Sual: Metodiki tədqiqatın məntiqi ardıcıllığının düzgün sırasını müəyyən edin : 1- fərziyyənin müəyyən edilməsi 2-tədqiqatın məqsəd və vəzifələrinin qoyuluşu 3-tədqiqatın əsas probleminin müəyyən edilməsi 4-eksperimentin hazırlanması və keçirilməsi 5-nəticələrin praktik əhəmiyyətinin göstərilməsi 6- tədqiqatın nəticələrinin müəyyənləşdirilməsi 7-tədqiqat metodlarının seçilməsi',
     options: [
       'A) 3,1,2,7,4,6,5',
       'B) 1,2,3,4,7,5,6',
@@ -3972,28 +4495,28 @@ export const cografiya = [
       'D) 2,3,1,4,7,6,5',
       'E) 3,1,2,4,7,5,6',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 3,1,2,7,4,6,5',
   },
   {
     number: 362,
     question:
-      '362. Sual: Tipik planlardan istifadə edilməsi hansı metodik xüsusiyyətlərə malikdir ?    1-Coğrafi xarakteristikaların verilməsi    2-Riyazi hesablamalar aparmaq və yaddaşı inkişaf etdirmək     3-Statistik materialların azaldılması və yadda saxlanılması   4-Praktik və müstəəqil işlərin təşkili    5-Müşahidə və təcrübələrin aparılması',
+      '362. Sual: Tipik planlardan istifadə edilməsi hansı metodik xüsusiyyətlərə malikdir ? 1-Coğrafi xarakteristikaların verilməsi 2-Riyazi hesablamalar aparmaq və yaddaşı inkişaf etdirmək 3-Statistik materialların azaldılması və yadda saxlanılması 4-Praktik və müstəəqil işlərin təşkili 5-Müşahidə və təcrübələrin aparılması',
     options: ['A) 1.4', 'B) 2.5', 'C) 2.5', 'D) 2.4', 'E) 2.4'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.4',
   },
   {
     number: 363,
     question:
-      '363. Sual: Coğrafiyanın tədrisində şagirdlərin ekoloji təhsilinin keçirilməsi məqsədi ilə hansı anlayışlar formalaşdırılır ?    1-Təbii komplekslər   2-Litosfer havaları   3-Təbii komponentlər    4-Torpaq tipləri    5-Tükənən təbii ehtiyatlar',
+      '363. Sual: Coğrafiyanın tədrisində şagirdlərin ekoloji təhsilinin keçirilməsi məqsədi ilə hansı anlayışlar formalaşdırılır ? 1-Təbii komplekslər 2-Litosfer havaları 3-Təbii komponentlər 4-Torpaq tipləri 5-Tükənən təbii ehtiyatlar',
     options: ['A) 1.3.5', 'B) 2.4.5', 'C) 1.3.4', 'D) 2.3.4', 'E) 1.2.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3.5',
   },
   {
     number: 364,
     question:
-      '364. Sual: Hansı coğrafi anlayışlar ilk dəfə VII sinifdə "Materiklər  və okeanların fiziki coğrafiyası " kursunda formalaşdırılmır ?   1- geosinklinal   2-denudasiya    3- akkumulyasiya    4-platforma     5-eroziya    6-litosfer tavalar',
+      '364. Sual: Hansı coğrafi anlayışlar ilk dəfə VII sinifdə "Materiklər və okeanların fiziki coğrafiyası " kursunda formalaşdırılmır ? 1- geosinklinal 2-denudasiya 3- akkumulyasiya 4-platforma 5-eroziya 6-litosfer tavalar',
     options: ['A) 2.3.5', 'B) 1.4.6', 'C) 2.4.5', 'D) 1.3.6', 'E) 1.2.4'],
-    correctAnswer: '',
+    correctAnswer: 'A) 2.3.5',
   },
   {
     number: 365,
@@ -4005,7 +4528,7 @@ export const cografiya = [
       'D) müxtəlif məzmunlu xəritələrin əsasında yeni biliklər əldə etmək',
       'E) xəritə əsasında coğrafi qanununauyğunluqları başa düşmək',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) şərti işarələri bilərək ondan istifadə etmək',
   },
   {
     number: 366,
@@ -4017,7 +4540,8 @@ export const cografiya = [
       'D) müxtəlif məzmunlu xəritələrin əsasında yeni biliklər əldə etmək',
       'E) xəritədəki coğrafi obyektlərin koordinatların təyini',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) Xəritənin köməyi ilə ərazinin coğrafi xüsusiyyətləri haqqında nəticələr çıxartmaq',
   },
   {
     number: 367,
@@ -4029,7 +4553,8 @@ export const cografiya = [
       'D) müxtəlif məzmunlu xəritələrin əsasında yeni biliklər əldə etmək',
       'E) xəritədəki coğrafi obyektlərin koordinatların təyini',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) xəritədəki coğrafi obyektləri yadda saxlayıb təsəvvür etmək',
   },
   {
     number: 368,
@@ -4042,7 +4567,7 @@ export const cografiya = [
       'D) xəritəni tutuşdurmaq',
       'E) xəritəni tərtib etmək',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xəritəni " başa düşmək "',
   },
   {
     number: 369,
@@ -4054,14 +4579,15 @@ export const cografiya = [
       'D) eyni məzmunlu və müxtəlif miqyaslı xəritələrin şərti işarələrinin öyrənilməsi',
       'E) eyni məzmunlu xəritələrin əsasında obyektlərin yerləşməsinin təyini',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) müxtəlif məzmunlu xəritələr əsasında yeni nəticələr əldə edilməsi',
   },
   {
     number: 370,
     question:
-      '370. Sual: Atlasda hansı tematik xəritələr areal üsulu ilə təsvir edilmişdir ?   1- torpaq xəritələri   2-nəqliyyat xəritəsi   3-zoocoğrafi xəritələr   4-fiziki xəritə     5- maroqrafiz xəritə',
+      '370. Sual: Atlasda hansı tematik xəritələr areal üsulu ilə təsvir edilmişdir ? 1- torpaq xəritələri 2-nəqliyyat xəritəsi 3-zoocoğrafi xəritələr 4-fiziki xəritə 5- maroqrafiz xəritə',
     options: ['A) 1.3', 'B) 2.5', 'C) 1.5', 'D) 3.4', 'E) 2.4'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3',
   },
   {
     number: 371,
@@ -4074,7 +4600,7 @@ export const cografiya = [
       'D) xəritəni tutuşdurmaq',
       'E) xəritəni tərtib etmək',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xəritəni oxumaq',
   },
   {
     number: 372,
@@ -4087,7 +4613,7 @@ export const cografiya = [
       'D) xəritəni tutuşdurmaq',
       'E) xəritəni tərtib etmək',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) xəritəni bilmək',
   },
   {
     number: 373,
@@ -4100,7 +4626,7 @@ export const cografiya = [
       'D) nəqliyyat xəritəsində',
       'E) siyasi xəritədə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) iqlim xəritəsində',
   },
   {
     number: 374,
@@ -4113,14 +4639,14 @@ export const cografiya = [
       'D) nöqtələr',
       'E) hərəkət xətləri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) izoxətlər',
   },
   {
     number: 375,
     question:
-      '375. Sual: İzoxətlər üsulu isə təsvir olunan coğrafi hadisə və proseslər hansılardır ?    1-dəniz cərəyanları    2-izotermlər    3-yük daşınmaları 4-küləklərin istiqaməti   5- nöqtələrin okeandan uzaqlığının göstərilməsi',
+      '375. Sual: İzoxətlər üsulu isə təsvir olunan coğrafi hadisə və proseslər hansılardır ? 1-dəniz cərəyanları 2-izotermlər 3-yük daşınmaları 4-küləklərin istiqaməti 5- nöqtələrin okeandan uzaqlığının göstərilməsi',
     options: ['A) 2.5', 'B) 1.3', 'C) 3.4', 'D) 2.4', 'E) 1.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 2.5',
   },
   {
     number: 376,
@@ -4133,21 +4659,22 @@ export const cografiya = [
       'D) mətnlə heç bir əlaqəsi olmur',
       'E) mətndə sonrakı biliklərə həsr olunur',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) məhdud mövzuya həsr olunur, mətndəki materialları tamamlayır',
   },
   {
     number: 377,
     question:
-      '377. Sual: Hərəkət xətləri üsulu xəritədə hansı coğrafi hadisələr təsvir olunur ? 1-dəniz cərəyanları    2-izotermlər    3-küləklərin istiqaməti    4-yük daşınmaları    5- horizontallar',
+      '377. Sual: Hərəkət xətləri üsulu xəritədə hansı coğrafi hadisələr təsvir olunur ? 1-dəniz cərəyanları 2-izotermlər 3-küləklərin istiqaməti 4-yük daşınmaları 5- horizontallar',
     options: ['A) 1.3.4', 'B) 2.3.5', 'C) 1.2.4', 'D) 1.3.5', 'E) 2.4.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3.4',
   },
   {
     number: 378,
     question:
-      '378. Sual: İstifadə olunma xüsusiyyətlərinə görə tədris xəritələrinin hansı növləri var :    1-Divar xəritələri    2-Silindirik xəritələr   3-Stolüstü xəritələr    4-Mətn xəritələri    5-İqlim xəritələri',
+      '378. Sual: İstifadə olunma xüsusiyyətlərinə görə tədris xəritələrinin hansı növləri var : 1-Divar xəritələri 2-Silindirik xəritələr 3-Stolüstü xəritələr 4-Mətn xəritələri 5-İqlim xəritələri',
     options: ['A) 1.3.4', 'B) 2.4.5', 'C) 1.2.3', 'D) 1.3.5', 'E) 3.4.5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3.4',
   },
   {
     number: 379,
@@ -4159,12 +4686,13 @@ export const cografiya = [
       'D) yerin modeli olub , böyük miqyaslı , təhrifli təsviridir',
       'E) xəritədə göstərilməsi mümkün olmayan obyektlərin təsviri verilən modeldir.',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) yerin modeli olub , kartoqrafik ölçüləri və yerin əyriliyini əks etdiri',
   },
   {
     number: 380,
     question:
-      '380. Sual: Müstəqil türk dövlətlərinin proqram üzrə mövzuların (XI sinif ) düzgün tədrisi ardıcıllığını müəyyən edin :  a) Türkiyə Respublikası    b) Azərbaycan Respublikası   ç) Qazağıstan Respublikası   c) Qırğızıstan Respublikası    d) Özbəkistan Respublikası    e)Türkmənistan Respublikası',
+      '380. Sual: Müstəqil türk dövlətlərinin proqram üzrə mövzuların (XI sinif ) düzgün tədrisi ardıcıllığını müəyyən edin : a) Türkiyə Respublikası b) Azərbaycan Respublikası ç) Qazağıstan Respublikası c) Qırğızıstan Respublikası d) Özbəkistan Respublikası e)Türkmənistan Respublikası',
     options: [
       'A) 1-b ; 2-a; 3-ç; 4-d; 5-c; 6-e',
       'B) 1-b ; 2-a; 3-ç; 4-d; 5-e; 6-c',
@@ -4172,12 +4700,12 @@ export const cografiya = [
       'D) 1-b ; 2-ç; 3-a; 4-d; 5-c; 6-e',
       'E) 1-d ; 2-a; 3-ç; 4-b; 5-c; 6-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-b ; 2-a; 3-ç; 4-d; 5-c; 6-e',
   },
   {
     number: 381,
     question:
-      '381. Sual: " Türk dünyasının coğrafi səciyyəsi " bölməsi üzrə ( XI) mövzuların tədrisinin düzgün ardıcıllığıdır :   a) Türk dünyası ölkələrin əhalisi    b) Türk dünyası ölkələrinin təsərüffatına təsir edən amillər   c) Türk dünyasının iqlimi , daxili suları . Torpaq və bitki örtüyü    d) Türk dünyası ölkələrinin ekoloji problemləri    e) Türk dünyası ölkələrinin təsərrüfatı. Beynəlxalq və regional təşkilatlarda iştirakı',
+      '381. Sual: " Türk dünyasının coğrafi səciyyəsi " bölməsi üzrə ( XI) mövzuların tədrisinin düzgün ardıcıllığıdır : a) Türk dünyası ölkələrin əhalisi b) Türk dünyası ölkələrinin təsərüffatına təsir edən amillər c) Türk dünyasının iqlimi , daxili suları . Torpaq və bitki örtüyü d) Türk dünyası ölkələrinin ekoloji problemləri e) Türk dünyası ölkələrinin təsərrüfatı. Beynəlxalq və regional təşkilatlarda iştirakı',
     options: [
       'A) 1-a ; 2-b; 3-ç; 4-c; 5-d; 6-e',
       'B) 1-b ; 2-a; 3-ç; 4-d; 5-e; 6-c',
@@ -4185,38 +4713,42 @@ export const cografiya = [
       'D) 1-b ; 2-ç; 3-a; 4-d; 5-c; 6-e',
       'E) 1-d ; 2-a; 3-ç; 4-b; 5-c; 6-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a ; 2-b; 3-ç; 4-c; 5-d; 6-e',
   },
   {
     number: 382,
     question:
-      '382. Sual: " Biosfer " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) Yer üzərində üzvi aləmin yaranması və inkişaf mərhələləri   b) torpaq c) təbii komplekslər , təbii zonalar , landşaftlar     d) coğrafi təbəqə . Yaranması və inkişaf mərhələləri',
+      '382. Sual: " Biosfer " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) Yer üzərində üzvi aləmin yaranması və inkişaf mərhələləri b) torpaq',
     options: [
+      'təbii komplekslər , təbii zonalar , landşaftlar     d) coğrafi təbəqə . Yaranması və inkişaf mərhələləri',
       'A) 1-a ; 2-b; 3-d; 4-c;',
       'B) 1-b ; 2-a; 3-d; 4-c;',
       'C) 1-c; 2-b; 3-d; 4-a;',
       'D) 1-d ; 2-b; 3-a; 4-c;',
       'E) 1-a ; 2-b; 3-c; 4-d;',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'təbii komplekslər , təbii zonalar , landşaftlar     d) coğrafi təbəqə . Yaranması və inkişaf mərhələləri',
   },
   {
     number: 383,
     question:
-      '383. Sual: " Hidrosfer " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) hidrosfer Yerin su təbəqəsidir   b) quru sular.Yeraltı suları .Çaylar c) göllər , bataqlıqlar. Buzlaqlar . Daimi donuşluq  d) su kütlələri və okeanda dinamiki proseslər',
+      '383. Sual: " Hidrosfer " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) hidrosfer Yerin su təbəqəsidir b) quru sular.Yeraltı suları .Çaylar',
     options: [
+      'göllər , bataqlıqlar. Buzlaqlar . Daimi donuşluq  d) su kütlələri və okeanda dinamiki proseslər',
       'A) 1-a ; 2-b; 3-d; 4-c;',
       'B) 1-b ; 2-a; 3-d; 4-c;',
       'C) 1-c; 2-b; 3-d; 4-a;',
       'D) 1-d ; 2-b; 3-a; 4-c;',
       'E) 1-a ; 2-b; 3-c; 4-d;',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'göllər , bataqlıqlar. Buzlaqlar . Daimi donuşluq  d) su kütlələri və okeanda dinamiki proseslər',
   },
   {
     number: 384,
     question:
-      '384. Sual: " Atmosfer" bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) atmosferin mənşəyi , tərkibi , quruluşu və əhəmiyyəti   b) havanın temperaturu. Günəş radiasiyası   c) atmosferdə su . Havanın rütubətliyi .Yağıntılar   e) hava və iqlim',
+      '384. Sual: " Atmosfer" bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) atmosferin mənşəyi , tərkibi , quruluşu və əhəmiyyəti b) havanın temperaturu. Günəş radiasiyası c) atmosferdə su . Havanın rütubətliyi .Yağıntılar e) hava və iqlim',
     options: [
       'A) 1-a ; 2-b; 3-d; 4-c; 5-e',
       'B) 1-a ; 2-b; 3-c; 4-d; 5-e',
@@ -4224,12 +4756,12 @@ export const cografiya = [
       'D) 1-a ; 2-e; 3-d; 4-c; 5-b',
       'E) 1-a ; 2-d; 3-b; 4-c; 5-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a ; 2-b; 3-d; 4-c; 5-e',
   },
   {
     number: 385,
     question:
-      '385. Sual: " Yer səthinin relyefi " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a)Relyefin formaları və onların təsnifatı   b)qurunun böyük dağ qurşaqları .Düzənliklər   c)ekzogen mənşəli relyef formaları   d) okean dibinin relyefi',
+      '385. Sual: " Yer səthinin relyefi " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a)Relyefin formaları və onların təsnifatı b)qurunun böyük dağ qurşaqları .Düzənliklər c)ekzogen mənşəli relyef formaları d) okean dibinin relyefi',
     options: [
       'A) 1-a ; 2-c; 3-c; 4-d;',
       'B) 1-b ; 2-a; 3-d; 4-c;',
@@ -4237,12 +4769,12 @@ export const cografiya = [
       'D) 1-d ; 2-b; 3-a; 4-c;',
       'E) 1-a ; 2-b; 3-c; 4-d;',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a ; 2-c; 3-c; 4-d;',
   },
   {
     number: 386,
     question:
-      '386. Sual: " Yerin daxili quruluşu  " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) Yerin planet kimi inkişafı və formalaşması     b) Yerin geoloji inkişaf mərhələləri. Geoxronoloji cədvəl    c) Əsas dağəmələgəlmə mərhələləri. Müasir tektokik hərəkətlər    ç) litosfer tavaları    d) Yerin daxili quruluşu.Yer qabığı    e) zəlzələ və vulkanizm prosesləri',
+      '386. Sual: " Yerin daxili quruluşu " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) Yerin planet kimi inkişafı və formalaşması b) Yerin geoloji inkişaf mərhələləri. Geoxronoloji cədvəl c) Əsas dağəmələgəlmə mərhələləri. Müasir tektokik hərəkətlər ç) litosfer tavaları d) Yerin daxili quruluşu.Yer qabığı e) zəlzələ və vulkanizm prosesləri',
     options: [
       'A) 1-a; 2-b; 3-d; 4-ç; 5-c; 6-e',
       'B) 1-b ; 2-a; 3-ç; 4-d; 5-e; 6-c',
@@ -4250,12 +4782,12 @@ export const cografiya = [
       'D) 1-b ; 2-ç; 3-a; 4-d; 5-c; 6-e',
       'E) 1-d ; 2-a; 3-ç; 4-b; 5-c; 6-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a; 2-b; 3-d; 4-ç; 5-c; 6-e',
   },
   {
     number: 387,
     question:
-      '387. Sual:  "Kainat və Günəş sistemi " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) Kainat və Günəş sistemi    b)Yerin Günəş sistemində mövqeyi   ç) Yer maqnetizmi   c) Ay Yerin peykidir d) yerin Günəş ətrafında hərəkəti və onun coğrafi nəticələri   d) Yerin Günəş ətrafında hərəkəti və onun coğrafi nəticələri e)Yerin öz oxu ətrafında hərəkəti və onun coğrafi nəticələri',
+      '387. Sual: "Kainat və Günəş sistemi " bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) Kainat və Günəş sistemi b)Yerin Günəş sistemində mövqeyi ç) Yer maqnetizmi c) Ay Yerin peykidir d) yerin Günəş ətrafında hərəkəti və onun coğrafi nəticələri d) Yerin Günəş ətrafında hərəkəti və onun coğrafi nəticələri e)Yerin öz oxu ətrafında hərəkəti və onun coğrafi nəticələri',
     options: [
       'A) 1-a; 2-b; 3-ç; 4-c; 5-e; 6-d',
       'B) 1-b ; 2-a; 3-ç; 4-d; 5-e; 6-c',
@@ -4263,12 +4795,12 @@ export const cografiya = [
       'D) 1-b ; 2-ç; 3-a; 4-d; 5-c; 6-e',
       'E) 1-d ; 2-a; 3-ç; 4-b; 5-c; 6-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a; 2-b; 3-ç; 4-c; 5-e; 6-d',
   },
   {
     number: 388,
     question:
-      '388. Sual:  "Coğrafi  və tropik xəritələr" bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) coğrafi xəritələr . Onlar tərtib xüsusiyyətləri.   B) coğrafi xəritələrin miqyasına , məzmununa və ərazi əhatə etməsinə görə təsnifatı    c) topoqrafik xəritələr   d) kartoqrafik təsvirlərdən istifadə',
+      '388. Sual: "Coğrafi və tropik xəritələr" bölməsi üzrə ( X sinif ) mövzuların tədrisinin düzgün ardıcıllığıdır: a) coğrafi xəritələr . Onlar tərtib xüsusiyyətləri. B) coğrafi xəritələrin miqyasına , məzmununa və ərazi əhatə etməsinə görə təsnifatı c) topoqrafik xəritələr d) kartoqrafik təsvirlərdən istifadə',
     options: [
       'A) 1-a ; 2-b; 3-c; 4-d;',
       'B) 1-b ; 2-a; 3-d; 4-c;',
@@ -4276,38 +4808,41 @@ export const cografiya = [
       'D) 1-d ; 2-b; 3-a; 4-c;',
       'E) 1-a ; 2-b; 3-d; 4-c;',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a ; 2-b; 3-c; 4-d;',
   },
   {
     number: 389,
     question:
-      '389. Sual: " Sənaye sahələrinin xarakteristikası " planı elementlərinin ardıcıllığını qurun :   a) sahəvi əhəmiyyəti    b)sahənin inkişaf perspektivləri   c) sahəvi strukturu d) ixrac və idxaldan sahənin asılılığı   e) əsas coğrafi xüsusiyyətləri və yerləşməsinə təsir edən amillər   f) sahənin inkişafı üçün təbii ilkin şərtlər',
+      '389. Sual: " Sənaye sahələrinin xarakteristikası " planı elementlərinin ardıcıllığını qurun : a) sahəvi əhəmiyyəti b)sahənin inkişaf perspektivləri c) sahəvi strukturu',
     options: [
+      'ixrac və idxaldan sahənin asılılığı   e) əsas coğrafi xüsusiyyətləri və yerləşməsinə təsir edən amillər   f) sahənin inkişafı üçün təbii ilkin şərtlər',
       'A) 1-f; 2-e; 3-c; 4-b; 5-d; 6-a',
       'B) 1-e; 2-f; 3-c; 4-b; 5-d; 6-a',
       'C) 1-a; 2-e; 3-c; 4-b; 5-d; 6-f',
       'D) 1-f; 2-e; 3-b; 4-c; 5-d; 6-a',
       'E) 1-f; 2-a; 3-c; 4-b; 5-d; 6-e',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'ixrac və idxaldan sahənin asılılığı   e) əsas coğrafi xüsusiyyətləri və yerləşməsinə təsir edən amillər   f) sahənin inkişafı üçün təbii ilkin şərtlər',
   },
   {
     number: 390,
     question:
-      '390. Sual: " ETİ və dünya təsərrüfatı " bölməsi üzrə ( IX sinif ) mövzuların tədrisinin düzgün ardıcıllığı : a) dünya təsərrüfatı  b) qloballaşma   c) ETİ-nin dünya təsərrüfatının sahəvi və ərazi strukturuna təsiri   d) dünya təsərrüfatı ETİ dövründə e) ETİ dövründə istehsalın yerləşdirilməsi',
+      '390. Sual: " ETİ və dünya təsərrüfatı " bölməsi üzrə ( IX sinif ) mövzuların tədrisinin düzgün ardıcıllığı : a) dünya təsərrüfatı b) qloballaşma c) ETİ-nin dünya təsərrüfatının sahəvi və ərazi strukturuna təsiri d) dünya təsərrüfatı ETİ dövründə',
     options: [
+      'ETİ dövründə istehsalın yerləşdirilməsi',
       'A) 1-a; 2-d; 3-c; 4-e; 5-b',
       'B) 1-d; 2-a; 3-c; 4-e; 5-b',
       'C) 1-a; 2-d; 3-e; 4-c; 5-b',
       'D) 1-a; 2-b; 3-c; 4-e; 5-d',
       'E) 1-e; 2-d; 3-c; 4-a; 5-b',
     ],
-    correctAnswer: '',
+    correctAnswer: 'ETİ dövründə istehsalın yerləşdirilməsi',
   },
   {
     number: 391,
     question:
-      '391. Sual: "Bəşəriyyətin qlobal problemləri " bölməsi üzrə (IX) mövzuların tədrisinin düzgün  ardıcıllığıdır:   a) qlobal problemlərin təsnifatı . Müharibə və sülh problemləri   b) demoqrafik problemlər ç) ekoloji problemlər c)ərzaq problemləri d) enerji və xammal problemləri . Qlobal problemlərin qarşılıqlı əlaqəsi',
+      '391. Sual: "Bəşəriyyətin qlobal problemləri " bölməsi üzrə (IX) mövzuların tədrisinin düzgün ardıcıllığıdır: a) qlobal problemlərin təsnifatı . Müharibə və sülh problemləri b) demoqrafik problemlər ç) ekoloji problemlər c)ərzaq problemləri d) enerji və xammal problemləri . Qlobal problemlərin qarşılıqlı əlaqəsi',
     options: [
       'A) 1-a; 2-ç; 3-b; 4-d; 5-c; 6-e',
       'B) 1-ç; 2-a; 3-b; 4-d; 5-c; 6-e',
@@ -4315,12 +4850,12 @@ export const cografiya = [
       'D) 1-a; 2-ç; 3-b; 4-d; 5-e; 6-c',
       'E) 1-c; 2-ç; 3-b; 4-d; 5-a; 6-e',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a; 2-ç; 3-b; 4-d; 5-c; 6-e',
   },
   {
     number: 392,
     question:
-      '392. Sual: Ölkə əhalisinin (V.P.Maksakovskiyə görə ) xarakteritikasında ardıcıllıq : a) əhalinin məskunlaşmasının əsas xüsusiyyətləri və məskunlaşmaya miqrasiyanın təsiri   b) əhalinin artması perspektivləri. Ümumi nəticə     ç) əhalinin sayı , təkrar artımı , demoqrafik siyasət c) şəhər və kənd əhalisi   d) əhalinin etno-linqvistik xüsusiyyətləri və dini tərkibi   e) urbanizasiyanın səviyyəsi , sürəti və formaları əsas şəhərləri və şəhər aqlomerasiyaları    f) əhalinin cins və yaş tərkibi , əmək resursları ilə təmin olunması',
+      '392. Sual: Ölkə əhalisinin (V.P.Maksakovskiyə görə ) xarakteritikasında ardıcıllıq : a) əhalinin məskunlaşmasının əsas xüsusiyyətləri və məskunlaşmaya miqrasiyanın təsiri b) əhalinin artması perspektivləri. Ümumi nəticə ç) əhalinin sayı , təkrar artımı , demoqrafik siyasət c) şəhər və kənd əhalisi d) əhalinin etno-linqvistik xüsusiyyətləri və dini tərkibi e) urbanizasiyanın səviyyəsi , sürəti və formaları əsas şəhərləri və şəhər aqlomerasiyaları f) əhalinin cins və yaş tərkibi , əmək resursları ilə təmin olunması',
     options: [
       'A) 1-a; 2-e; 3-d; 4-ç; 5-c; 6-f ;7-b',
       'B) 1-b; 2-e; 3-d; 4-ç; 5-c; 6-f ;7-a',
@@ -4328,12 +4863,12 @@ export const cografiya = [
       'D) 1-a; 2-e; 3-ç; 4-d; 5-c; 6-f ;7-b',
       'E) 1-a; 2-e; 3-d; 4-c; 5-ç; 6-f ;7-b',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a; 2-e; 3-d; 4-ç; 5-c; 6-f ;7-b',
   },
   {
     number: 393,
     question:
-      '393. Sual: "Dünya əhalisinin coğrafiyası " bölməsi üzrə (IX sinif) mövzularının düzgün ardıcıllığı;   a) əmək ehtiyatları və əhalinin yerləşməsi  b)dünya əhalisinin sayı və təkrar artımı  c) dünya əhalisinin dini fərqləri , yaş -cins piramida    d) dünya əhalisinin irqi, etnik tərkibi   e) əhalinin miqrasiyası',
+      '393. Sual: "Dünya əhalisinin coğrafiyası " bölməsi üzrə (IX sinif) mövzularının düzgün ardıcıllığı; a) əmək ehtiyatları və əhalinin yerləşməsi b)dünya əhalisinin sayı və təkrar artımı c) dünya əhalisinin dini fərqləri , yaş -cins piramida d) dünya əhalisinin irqi, etnik tərkibi e) əhalinin miqrasiyası',
     options: [
       'A) 1-a; 2-b; 3-c; 4-d; 5-e;',
       'B) 1-b; 2-a; 3-c; 4-d; 5-e;',
@@ -4341,12 +4876,12 @@ export const cografiya = [
       'D) 1-e; 2-b; 3-c; 4-d; 5-a;',
       'E) 1-d 2-b; 3-c; 4-a; 5-e;',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a; 2-b; 3-c; 4-d; 5-e;',
   },
   {
     number: 394,
     question:
-      '394. Sual: " Dünyanın təbii ehtiyyatlarının  coğrafiyası " bölməsi üzrə (IX sinif) mövzularının düzgün ardıcıllığı;  a) təbii ehtiyyatlar və təbiətdən istifadə    b) meşə və dünya okeanı ehtiyyatları    c)mineral torpaq və su ehtiyyatları    d)digər təbii ehtiyyatlar və ekoloji problemlər',
+      '394. Sual: " Dünyanın təbii ehtiyyatlarının coğrafiyası " bölməsi üzrə (IX sinif) mövzularının düzgün ardıcıllığı; a) təbii ehtiyyatlar və təbiətdən istifadə b) meşə və dünya okeanı ehtiyyatları c)mineral torpaq və su ehtiyyatları d)digər təbii ehtiyyatlar və ekoloji problemlər',
     options: [
       'A) 1-a; 2-b; 3-c; 4-d;',
       'B) 1-a; 2-b; 3-c; 4-d;',
@@ -4354,14 +4889,14 @@ export const cografiya = [
       'D) 1-d; 2-b; 3-c; 4-a;',
       'E) 1-a; 2-c; 3-b; 4-d;',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1-a; 2-b; 3-c; 4-d;',
   },
   {
     number: 395,
     question:
-      '395. Sual: Hansı mövzuların tədrisində qlobusdan istifadə edilməsi lazım gəlir ? 1- Yerin daxili quruluşu    2-Saat qurşaqları    3-Dərəcə toru   4-Atmosferin ümumi dövranı    5-Dünyanın əhalisi   6-Atmosferin tərkibi və quruluşu',
+      '395. Sual: Hansı mövzuların tədrisində qlobusdan istifadə edilməsi lazım gəlir ? 1- Yerin daxili quruluşu 2-Saat qurşaqları 3-Dərəcə toru 4-Atmosferin ümumi dövranı 5-Dünyanın əhalisi 6-Atmosferin tərkibi və quruluşu',
     options: ['A) 2,3,4', 'B) 1,2,3', 'C) 2,3,6', 'D) 1,5,6', 'E) 3,4,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 2,3,4',
   },
   {
     number: 396,
@@ -4374,7 +4909,7 @@ export const cografiya = [
       'D) obyekt və hadisələrin təsvirinin verildiyi tematik',
       'E) tematik və statistik',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) natural obyektə və hadisələrin təsvirinin verildiyi',
   },
   {
     number: 397,
@@ -4387,7 +4922,8 @@ export const cografiya = [
       'D) obyekt və hadisələrin təhlili və ölçülməsi üçün istifadə edilən',
       'E) texniki və statistik',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) obyekt və hadisələrin şərti işarə və simvollarla təsvir edildiyi',
   },
   {
     number: 398,
@@ -4400,7 +4936,7 @@ export const cografiya = [
       'D) tematik və statistik',
       'E) statistik və dinamik',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) natural obyekt və hadisələrin təsvirinin verildiyi',
   },
   {
     number: 399,
@@ -4413,7 +4949,7 @@ export const cografiya = [
       'D) tematik',
       'E) statistik',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) natural obyekt',
   },
   {
     number: 400,
@@ -4426,7 +4962,7 @@ export const cografiya = [
       'D) texniki vəsaitlər, qlobus',
       'E) xəritə , qlobus , modellər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dərslik, xəritə,qrafik və diaqramlar',
   },
   {
     number: 401,
@@ -4439,7 +4975,7 @@ export const cografiya = [
       'D) kinofilmlər, herbarilər, marketlət',
       'E) cədvəllər, xəritələr , dərsliklər',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) modellər, şəkillər, kinofilmlər',
   },
   {
     number: 402,
@@ -4451,19 +4987,19 @@ export const cografiya = [
       'D) Xəritə,maketlər',
       'E) kolleksiyalar, atlaslar',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) kolleksiyalar, herbarilər',
   },
   {
     number: 403,
     question:
-      '403. Sual: Obyekt və hadisələrin təhlili , ölçülməsi və müşahidəsi məqsədi istifadə edilən əyani vəsaitlərə aiddir :  1-nivelir   2-xəritə,atlas    3-barometr   4- modellər   5-herbari',
+      '403. Sual: Obyekt və hadisələrin təhlili , ölçülməsi və müşahidəsi məqsədi istifadə edilən əyani vəsaitlərə aiddir : 1-nivelir 2-xəritə,atlas 3-barometr 4- modellər 5-herbari',
     options: ['A) 1.3', 'B) 2.4', 'C) 3.5', 'D) 2.5', 'E) 1.4'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.3',
   },
   {
     number: 404,
     question:
-      '404. Sual: Obyekt və hadisələrin şərti işarələr və simvollarla təsvir edildiyi əyani vəsaitlərə aiddir:   1-dərslik    2-iş dəftəri   3-şəkil və fotolar    4-qrafik və diaqramlar 5-modellər   6-kartoqrafik vasitələr   7-herbarilər',
+      '404. Sual: Obyekt və hadisələrin şərti işarələr və simvollarla təsvir edildiyi əyani vəsaitlərə aiddir: 1-dərslik 2-iş dəftəri 3-şəkil və fotolar 4-qrafik və diaqramlar 5-modellər 6-kartoqrafik vasitələr 7-herbarilər',
     options: [
       'A) 1,2,4,6',
       'B) 3,5,6,7',
@@ -4471,14 +5007,14 @@ export const cografiya = [
       'D) 2,4,5,7',
       'E) 1,4,5,6',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,4,6',
   },
   {
     number: 405,
     question:
-      '405. Sual: Coğrafi obyekt və hadisələrin təsviri verilən əyani vəsaitlərə aiddir.   1- modellər  2-kolleksiyalar   3-herbarilər   4-diafilm və kinofilmlər    5- şəkil',
+      '405. Sual: Coğrafi obyekt və hadisələrin təsviri verilən əyani vəsaitlərə aiddir. 1- modellər 2-kolleksiyalar 3-herbarilər 4-diafilm və kinofilmlər 5- şəkil',
     options: ['A) 1,4,5', 'B) 2,3,5', 'C) 1,3,5', 'D) 2,4,5', 'E) 1,3,4'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,4,5',
   },
   {
     number: 406,
@@ -4491,7 +5027,7 @@ export const cografiya = [
       'D) təlimin fəallaşdırılması',
       'E) tədris əməliyyatı',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) təlim metodları',
   },
   {
     number: 407,
@@ -4504,14 +5040,14 @@ export const cografiya = [
       'D) Yeni mövzunun izahında daha yeni texniki vasitələrdən istifadə edilməsi',
       'E) Keçmiş dərsin sorğusunun daha əyləncəli formada keçrilməsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) mövzudan nəticə çıxarıəlması və tətbiq edilməsi',
   },
   {
     number: 408,
     question:
-      '408. Sual: CTM-də istifadə olunan təlim metodları hansı qruplarda birləşdiriloir. 1-Şifahi şərh   2-Laborator   3-İzahat   4-Əyani    5-Xəritə ilə iş    6-Praktik',
+      '408. Sual: CTM-də istifadə olunan təlim metodları hansı qruplarda birləşdiriloir. 1-Şifahi şərh 2-Laborator 3-İzahat 4-Əyani 5-Xəritə ilə iş 6-Praktik',
     options: ['A) 1,4,6', 'B) 1,2,3', 'C) 2,3,4', 'D) 3,4,5', 'E) 2,4,6'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,4,6',
   },
   {
     number: 409,
@@ -4524,7 +5060,7 @@ export const cografiya = [
       'D) izahlı-əyani',
       'E) izah',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) qismən axtarış',
   },
   {
     number: 410,
@@ -4537,7 +5073,7 @@ export const cografiya = [
       'D) tədqiqat',
       'E) müşahidə və təcrübələr',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) problemli şərh',
   },
   {
     number: 411,
@@ -4549,7 +5085,8 @@ export const cografiya = [
       'D) təlim prosesində müsahibə metodunun tətbiqinə',
       'E) təlim prosesində əyani vəsaitlərin tətbiqinə',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) coğrafiya təlimində qanunauyğunluq , səbəb nəticə əlaqələrinin  öyrənilməsinə',
   },
   {
     number: 412,
@@ -4562,12 +5099,12 @@ export const cografiya = [
       'D) demestrasiyaya',
       'E) illüstrasiya',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) deduktiv yola',
   },
   {
     number: 413,
     question:
-      '413. Sual: Əgər  şagirdlər məhlədəki coğrafi obyektlərlə tanışlıqdan onun əlamətlərini öyrəndikdən sonra coğrafi anlayışlar formalaşdırıllırsa bu uyğun gəlir ;',
+      '413. Sual: Əgər şagirdlər məhlədəki coğrafi obyektlərlə tanışlıqdan onun əlamətlərini öyrəndikdən sonra coğrafi anlayışlar formalaşdırıllırsa bu uyğun gəlir ;',
     options: [
       'A) induktiv yola',
       'B) deduktiv yola',
@@ -4575,7 +5112,7 @@ export const cografiya = [
       'D) demestrasiyaya',
       'E) izahlı-əyani',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) induktiv yola',
   },
   {
     number: 414,
@@ -4588,7 +5125,8 @@ export const cografiya = [
       'D) "Yer təbiətinin əsas xüsusiyyətləri" bölməsinin tədris edilməsi',
       'E) Giriş mövzusundan sonra "Plan və xəritə " bölməsinin tədris edilməsi',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) " Hidrosfer " bölməsinin " Atmosfer " bölməsindən sonra tədris edilməsi',
   },
   {
     number: 415,
@@ -4601,7 +5139,7 @@ export const cografiya = [
       'D) reproduktiv',
       'E) psixoloji',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzəri',
   },
   {
     number: 416,
@@ -4614,7 +5152,7 @@ export const cografiya = [
       'D) psixoloji',
       'E) qismən axtarış',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzəri',
   },
   {
     number: 417,
@@ -4627,7 +5165,7 @@ export const cografiya = [
       'D) mürəkkəb',
       'E) empirik',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzəri',
   },
   {
     number: 418,
@@ -4640,7 +5178,7 @@ export const cografiya = [
       'D) psixoloji',
       'E) psixoloji',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzəri',
   },
   {
     number: 419,
@@ -4653,7 +5191,7 @@ export const cografiya = [
       'D) psixoloji',
       'E) psixoloji',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzəri',
   },
   {
     number: 420,
@@ -4666,7 +5204,8 @@ export const cografiya = [
       'D) tədqiqatın predmeti və vəzifələrinin müəyyən edilməsi',
       'E) pedaqoji tədqiqatın məntiqi və ardıcıllığının seçilməsi',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) öyrənilən obyekt və hadilələrin qruplaşdırılması və əsas əlamətlərinin müəyyən edilməsi',
   },
   {
     number: 421,
@@ -4679,7 +5218,7 @@ export const cografiya = [
       'D) riyazi metoda',
       'E) müşahidə metoduna',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) tipoloji yanaşma',
   },
   {
     number: 422,
@@ -4692,14 +5231,14 @@ export const cografiya = [
       'D) statistik',
       'E) pedaqoji ekspert',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) müqayisə',
   },
   {
     number: 423,
     question:
-      '423. Sual: Emprik tədqiqat metodlarına aiddir: 1) Riyazi 2) Tarix 3) Müşahidə 4) Eksperimen   5) Müqayisə 6) Anket sorğusu',
+      '423. Sual: Emprik tədqiqat metodlarına aiddir: 1) Riyazi 2) Tarix 3) Müşahidə 4) Eksperimen 5) Müqayisə 6) Anket sorğusu',
     options: ['A) 3,4,6', 'B) 1,2,5', 'C) 1,3,6', 'D) 3,4,5', 'E) 4,5,6'],
-    correctAnswer: '',
+    correctAnswer: 'A) 3,4,6',
   },
   {
     number: 424,
@@ -4711,7 +5250,8 @@ export const cografiya = [
       'D) dərsliklərin və proqramın tərtibi üçün',
       'E) keçmiş bilikləri yada salmaq',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) elmin müasir inkişafı yollarını başa düşməyə şərait yaradır',
   },
   {
     number: 425,
@@ -4723,7 +5263,7 @@ export const cografiya = [
       'D) necə-və harad tədris etməli',
       'E) niyə və harada tədris etməli',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəyi və necə tədris etməli',
   },
   {
     number: 426,
@@ -4736,7 +5276,7 @@ export const cografiya = [
       'D) müqayisə priyomuna',
       'E) izahlı-əyani',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) induktiv yola',
   },
   {
     number: 427,
@@ -4749,12 +5289,12 @@ export const cografiya = [
       'D) tədqiqat',
       'E) müsahibə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) izahlı-əyani',
   },
   {
     number: 428,
     question:
-      '428. Sual: Şagirdlərin bilik və bacarıqlarını nümunə əsasındayeni tədris situasiyasına tətbiq etmələri  hansı təlim metodunun tətbiqini tələb edir :',
+      '428. Sual: Şagirdlərin bilik və bacarıqlarını nümunə əsasındayeni tədris situasiyasına tətbiq etmələri hansı təlim metodunun tətbiqini tələb edir :',
     options: [
       'A) repreduktiv',
       'B) izahlı-əyani',
@@ -4762,7 +5302,7 @@ export const cografiya = [
       'D) tədqiqat',
       'E) müsahibə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) repreduktiv',
   },
   {
     number: 429,
@@ -4775,7 +5315,7 @@ export const cografiya = [
       'D) tədqiqat',
       'E) müsahibə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) problemli şərh',
   },
   {
     number: 430,
@@ -4788,7 +5328,8 @@ export const cografiya = [
       'D) Buraxılış siniflərindən imtahanların keçirilməsi',
       'E) Tədris prosesində interaktiv metodların tətbiqi',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) "Yerşünaslıq " və " Türk dünyası " coğrafiyası kurslarının tədrisi',
   },
   {
     number: 431,
@@ -4801,7 +5342,7 @@ export const cografiya = [
       'D) Tədrisi XI sinfində IX sinfə keçrilmişdir',
       'E) Tədrisi VIII sinfində IX sinfə keçrilmişdir',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Tədrisi X sinfində IX sinfə keçrilmişdir',
   },
   {
     number: 432,
@@ -4814,7 +5355,7 @@ export const cografiya = [
       'D) Tədrisi XI sinfində IX sinfə keçrilmişdir',
       'E) Tədrisi VIII sinfində IX sinfə keçrilmişdir',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Tədrisi IX sinfində X sinfə keçrilmişdir',
   },
   {
     number: 433,
@@ -4827,7 +5368,7 @@ export const cografiya = [
       'D) İbtidai siniflərdə coğrafiyanın dərsliklərinin yazılması',
       'E) Azərbaycan coğrafiyası dərsliyinin yazılması',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) Buraxılış siniflərində coğrafiyanın tədrsi',
   },
   {
     number: 434,
@@ -4840,7 +5381,7 @@ export const cografiya = [
       'D) M.Lomonosov',
       'E) Anuçin',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) K.Uşinski',
   },
   {
     number: 435,
@@ -4853,12 +5394,12 @@ export const cografiya = [
       'D) Anuçin',
       'E) M.Lomonosov',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) K.Uşinski',
   },
   {
     number: 436,
     question:
-      '436. Sual: K.Uşinsinin coğrafiyanın tədrisində qəbul etdiyi ən mühüm pedaqoji prinsip  hansı olmuşdur?',
+      '436. Sual: K.Uşinsinin coğrafiyanın tədrisində qəbul etdiyi ən mühüm pedaqoji prinsip hansı olmuşdur?',
     options: [
       'A) yaxından uzağa prinsipi',
       'B) mürəkkəbdən sadəyə prinsipi',
@@ -4866,7 +5407,7 @@ export const cografiya = [
       'D) uzaqdan yaxına prinsipi',
       'E) fərdi yanaşma prinsipi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) yaxından uzağa prinsipi',
   },
   {
     number: 437,
@@ -4879,7 +5420,7 @@ export const cografiya = [
       'D) müqayisələr və tutuşdurmalar aparılması',
       'E) müəllim nitqinə xüsusi yer verməsi',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) diyarşünaslıq materiallarından istifadə edilməsi',
   },
   {
     number: 438,
@@ -4892,21 +5433,21 @@ export const cografiya = [
       'D) dərslikdən istifadə edilməməsi',
       'E) şagirdlərin biliyi qiymətləndirilir',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) fərdivə qrup formasında keçirilməsi',
   },
   {
     number: 439,
     question:
-      '439. Sual: Aşağıdakılardan hansılar Qafur Rəşad Mirzəzadənin xidmətidir ;  1- Milli dildə ilk coğrafioya dərsliyini yazıb   2-" Qafqazın coğrafiası" dərsliyinin müəllifidir  3-" Azərbaycan SSR-ni iqtisadi coğrafiyası" dərsliyini yazıb    4-"Ümumi coğrafiya " dərsliyinin müəllifidir    5-İlk milli coğrafiya proqramını yazıb',
+      '439. Sual: Aşağıdakılardan hansılar Qafur Rəşad Mirzəzadənin xidmətidir ; 1- Milli dildə ilk coğrafioya dərsliyini yazıb 2-" Qafqazın coğrafiası" dərsliyinin müəllifidir 3-" Azərbaycan SSR-ni iqtisadi coğrafiyası" dərsliyini yazıb 4-"Ümumi coğrafiya " dərsliyinin müəllifidir 5-İlk milli coğrafiya proqramını yazıb',
     options: ['A) 1,2,4', 'B) 3,4,5', 'C) 1,3,5', 'D) 2,3,5', 'E) 1,2,5'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1,2,4',
   },
   {
     number: 440,
     question:
-      '440. Sual: Təlim metodlarının  təsnifatı aparılır :   1-Bilik mənbələrinə görə     2- Praktik və müstəqil işlərin növünə görə   3-Xəritə və atlasda aparılan işlərə görə   4- Şagirdlərin dərketmə qabiliyyətinə görə   5-Dərs tipləri və ekskursiyalara görə',
+      '440. Sual: Təlim metodlarının təsnifatı aparılır : 1-Bilik mənbələrinə görə 2- Praktik və müstəqil işlərin növünə görə 3-Xəritə və atlasda aparılan işlərə görə 4- Şagirdlərin dərketmə qabiliyyətinə görə 5-Dərs tipləri və ekskursiyalara görə',
     options: ['A) 1.4', 'B) 2.5', 'C) 3.5', 'D) 1.2', 'E) 2.4'],
-    correctAnswer: '',
+    correctAnswer: 'A) 1.4',
   },
   {
     number: 441,
@@ -4919,7 +5460,7 @@ export const cografiya = [
       'D) təqvim tematik planı',
       'E) dərs vəsaiti',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) tədris planı',
   },
   {
     number: 442,
@@ -4932,7 +5473,7 @@ export const cografiya = [
       'D) katexizis',
       'E) psixoloji',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) empirik metodar',
   },
   {
     number: 443,
@@ -4945,7 +5486,7 @@ export const cografiya = [
       'D) dolayı və birbaşa',
       'E) evrestik və katexizis',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) qısa müddətli və uzun müddətli',
   },
   {
     number: 444,
@@ -4958,7 +5499,7 @@ export const cografiya = [
       'D) dolayı  müşahidə -nəzəri',
       'E) təbii müşahidə -nəzəri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) birbaşa müşahidə -empirik',
   },
   {
     number: 445,
@@ -4971,7 +5512,7 @@ export const cografiya = [
       'D) birbaşa müşahidə -empirik',
       'E) birbaşa müşahidə -nəzəri',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dolayı  müşahidə -empirik',
   },
   {
     number: 446,
@@ -4984,7 +5525,7 @@ export const cografiya = [
       'D) anket sorğu',
       'E) müsahibə',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) dolayı  müşahidə',
   },
   {
     number: 447,
@@ -4997,7 +5538,7 @@ export const cografiya = [
       'D) sistem -struktur yanaşma',
       'E) müşahidə metoduna',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) tarixi metod',
   },
   {
     number: 448,
@@ -5010,7 +5551,7 @@ export const cografiya = [
       'D) nəzarət siniflərində dərslikdən istifadə edilmir',
       'E) interaktiv metodlardan istifadə olunur',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) nəzratrət siniflərindən iş adi qayda üzrə aparılır',
   },
   {
     number: 449,
@@ -5022,7 +5563,7 @@ export const cografiya = [
       'D) fənlərin məzmununu əks etdirən proqramdır',
       'E) mövzuların saatlar üzrə həftəlik və aylıq bölgüsüdür',
     ],
-    correctAnswer: '',
+    correctAnswer: 'A) tədris prosesini təşkil üçün normativ dövlət sənədidir',
   },
   {
     number: 450,
@@ -5034,6 +5575,7 @@ export const cografiya = [
       'D) tədris olunan fənninkurslar üzrə məzmunu',
       'E) hər bir mövzunun geniş plan və icmalı',
     ],
-    correctAnswer: '',
+    correctAnswer:
+      'A) tədris olunan fənlərin və onlara verilən saatların miqdarı',
   },
 ];
