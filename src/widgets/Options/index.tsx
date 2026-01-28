@@ -4,10 +4,10 @@ import React from 'react';
 import s from './style.module.scss';
 import { useQuizStore } from '@/store/quizStore';
 import { useRouter } from 'next/navigation';
-import { NextIcon } from '@/assets/icons/NextIcon';
-import { PrevIcon } from '@/assets/icons/PrevIcon';
-import { TipsIcon } from '@/assets/icons/TipsIcon';
-import { FinishIcon } from '@/assets/icons/FinishIcon';
+import { GrPrevious } from 'react-icons/gr';
+import { GrNext } from 'react-icons/gr';
+import { IoEyeOutline } from "react-icons/io5";
+import { IoEyeOffOutline } from "react-icons/io5";
 
 export const Options = () => {
   const selectedAnswers = useQuizStore((store) => store.selectedAnswers);
@@ -61,8 +61,7 @@ export const Options = () => {
             className={s.secondary}
             onClick={() => setShowCorrectVariant(false)}
           >
-            <TipsIcon color="#fff" />
-            Gizlət
+            <IoEyeOffOutline color="#fff" size={40} />
           </button>
         ) : (
           <button
@@ -70,8 +69,7 @@ export const Options = () => {
             className={s.secondary}
             onClick={() => setShowCorrectVariant(true)}
           >
-            <TipsIcon color="#fff" />
-            Göstər
+            <IoEyeOutline color="#fff" size={40} />
           </button>
         )}
 
@@ -80,7 +78,6 @@ export const Options = () => {
           onClick={handleNavigate}
           className={s.primary}
         >
-          <FinishIcon color="#cfbacf" />
           Bitir
         </button>
         <button
@@ -89,8 +86,8 @@ export const Options = () => {
           onClick={handlePrevious}
           disabled={questionNumber === 0}
         >
-          <PrevIcon color="#cfbacf" />
-          Geri
+          {/* <PrevIcon color="#cfbacf" /> */}
+          <GrPrevious color="#cfbacf" size={24} />
         </button>
         <button
           type="button"
@@ -98,8 +95,7 @@ export const Options = () => {
           onClick={handleNext}
           disabled={questionNumber === randomQuestions.length - 1}
         >
-          <NextIcon color="#cfbacf" />
-          Ireli
+          <GrNext color="#cfbacf" size={24} />
         </button>
       </div>
     </div>

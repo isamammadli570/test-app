@@ -60,6 +60,7 @@
       padding: 20px;
       color: #2d2d2d;
       border: 1.5px solid #f1e9d9;
+      background-color: rgb(254, 250, 241);
 
       @include isMobile() {
         padding: 10px;
