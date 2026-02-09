@@ -4,8 +4,8 @@
   .header {
     display: flex;
     justify-content: space-between;
-    background-color: #cfbacf;
-    border: 1px solid #cfbacf;
+    background-color: #e7e6e9;
+    border: 1px solid #e7e6e9;
     border-radius: 12px;
 
     @include isMobile() {
@@ -31,7 +31,7 @@
     width: 100%;
     padding: 40px;
     font-size: 1.4rem;
-    color: #302944;
+    color: #1a1f2f;
 
     @include isMobile() {
       padding: 20px;
@@ -58,9 +58,8 @@
       font-weight: 500;
       border-radius: 10px;
       padding: 20px;
-      color: #2d2d2d;
-      border: 1.5px solid #f1e9d9;
-      background-color: rgb(254, 250, 241);
+      color: #1a1f2f;
+      border: 1.5px solid #dadada;
 
       @include isMobile() {
         padding: 10px;
@@ -71,13 +70,12 @@
 }
 
 .correct {
-  border: 2px solid #cfbacf !important;
-  background-color: #cfbacf !important  ;
-  color: white !important;
+  border: 1.5px solid #adc3df !important;
+  background-color: #adc3df !important  ;
 }
 
 .selected {
-  border: 2px solid #cfbacf !important;
+  border: 1.5px solid #adc3df !important;
 }
 
 .icon {

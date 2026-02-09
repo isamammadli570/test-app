@@ -8,7 +8,7 @@ import { QuestionProp } from '@/types/types';
 import { istehsal } from '@/data/data';
 import { multi } from '@/data/data1';
 import { cografiya } from '@/data/data2';
-import { mektebsunasliq } from '@/data/data3';
+import { azTarixi } from '@/data/data3';
 
 interface QuizProps {
   questionData?: QuestionProp[];
@@ -31,8 +31,8 @@ export const Quiz = ({ questionData, questionCategory }: QuizProps) => {
     quiz = multi;
   } else if (questionCategory === 'cografiya') {
     quiz = cografiya;
-  } else if (questionCategory === 'mektebsunasliq') {
-    quiz = mektebsunasliq;
+  } else if (questionCategory === 'azTarixi') {
+    quiz = azTarixi;
   }
 
   useEffect(() => {

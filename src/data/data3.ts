@@ -1,5605 +1,8224 @@
-export const mektebsunasliq = [
-  {
-    number: 1,
-    question:
-      'Buraxılmış ifadəni tapın : «Ölkə daxilində olan bütün təlim- tərbiyə müəssisələrinin məcmusu ............ adlanır',
-    options: [
-      'Təhsil sistemi',
-      'Maarif sistemi',
-      'Tərbiyə sistemi',
-      'Fasiləsiz təhsil sistemi',
-      'Distant təhsil sistemi',
-    ],
-    correctAnswer: 'Təhsil sistemi',
-  },
-  {
-    number: 2,
-    question: 'Təhsil sistemini şərtləndirən əsas amillər :',
-    options: [
-      'Cəmiyyətin təlabatı, ictimai- iqtisadi inkişafı',
-      'Müəllim  və valideynlər',
-      'Təhsil alanların səviyyəsi, maraqları',
-      'Fənlərin tədrisi vəziyyəti, texnologiyalar',
-      'Tədris planı, proqramlar',
-    ],
-    correctAnswer: 'Cəmiyyətin təlabatı, ictimai- iqtisadi inkişafı',
-  },
-  {
-    number: 3,
-    question: 'Təhsil Qanunu neçə fəsildən ibarətdir ?',
-    options: ['6', '5', '7', '8', '10'],
-    correctAnswer: '6',
-  },
-  {
-    number: 4,
-    question: 'Təhsil sisteminin prinsipləri :',
-    options: [
-      'Humanistlik, demokratiklik',
-      'Sistemlilik, elmilik',
-      'Şüurluluq, fəallıq',
-      'Müvafiqlik, fərdi yanaşma',
-      'Optimallıq, həyatla əlaqə',
-    ],
-    correctAnswer: 'Humanistlik, demokratiklik',
-  },
-  {
-    number: 5,
-    question: 'Hansı təhsil sisteminin prinsipi deyil ?',
-    options: [
-      'Müvafiqlik',
-      'Millilik və dünyəvilik',
-      'Bərabərlik',
-      'Səmərəlilik',
-      'Varislik',
-    ],
-    correctAnswer: 'Müvafiqlik',
-  },
-  {
-    number: 6,
-    question: 'Təhsil sisteminin belə bir prinsipi yoxdur :',
-    options: [
-      'Əyanilik',
-      'Keyfiyyətlilik',
-      'Varislik',
-      'Liberallaşma',
-      'İnteqrasiya',
-    ],
-    correctAnswer: 'Əyanilik',
-  },
-  {
-    number: 7,
-    question:
-      'İnsanın hüquq və azadlıqlarını, şəxsiyyət kimi inkişafını üstün sahə kimi nəzərdə tutan təhsil sisteminin hansı prinsipi :',
-    options: [
-      'Humanistlik',
-      'Demokratiklik',
-      'Liberallaşma',
-      'Səmərəlilik',
-      'Keyfiyyətlilik',
-    ],
-    correctAnswer: 'Humanistlik',
-  },
-  {
-    number: 8,
-    question:
-      'Təhsilalanların azad düşüncə ruhunda tərbiyəsini, özünüidarəsini ifadə edən təhsil sisteminin prinsipi:',
-    options: [
-      'Demokratiklik',
-      'Humanistlik',
-      'Liberallaşma',
-      'Səmərəlilik',
-      'Keyfiyyətlilik',
-    ],
-    correctAnswer: 'Demokratiklik',
-  },
-  {
-    number: 9,
-    question:
-      'Hamı üçün bərabər təhsil imkanları yaradılmasını nəzərdə tutan təhsil sisteminin prinsipi :',
-    options: [
-      'Bərabərlik',
-      'Demokratiklik',
-      'Humanistlik',
-      'Keyfiyyətlilik',
-      'Liberallaşma',
-    ],
-    correctAnswer: 'Bərabərlik',
-  },
-  {
-    number: 10,
-    question:
-      'Bəşəri və milli dəyərlərə əsaslanan dünyəvi təhsil sisteminin yaradılmasını nəzərdə tutan təhsil sisteminin prinsipi:',
-    options: [
-      'Millilik və dünyəvilik',
-      'Humanistlik',
-      'Demokratiklik',
-      'Liberallaşma',
-      'İnteqrasiya',
-    ],
-    correctAnswer: 'Millilik və dünyəvilik',
-  },
-  {
-    number: 11,
-    question:
-      'Təhsilin mövcud standartlara, cəmiyyətin tələblərinə uyğun qurulmasını ifadə edən təhsil sisteminin prinsipi :',
-    options: [
-      'Keyfiyyətlilik',
-      'Səmərəlilik',
-      'Bərabərlik',
-      'Humanistlik',
-      'Liberallaşma',
-    ],
-    correctAnswer: 'Keyfiyyətlilik',
-  },
-  {
-    number: 12,
-    question:
-      'Təhsildə müasir metodlar tətbiq etməklə yüksək nəticələr əldə etməyi nəzərdə tutan təhsil sisteminin prinsipi:',
-    options: [
-      'Səmərəlilik',
-      'Demokratiklik',
-      'Liberallaşma',
-      'İnteqrasiya',
-      'Humanistlik',
-    ],
-    correctAnswer: 'Səmərəlilik',
-  },
-  {
-    number: 13,
-    question:
-      'Təhsil pillələri arasında əlaqəni, həyat boyu təhsili nəzərdə tutan təhsil sisteminin prinsipi :',
-    options: [
-      'Fasiləsizlik, vəhdətlik, daimilik',
-      'İnteqrasiya',
-      'Keyfiyyətlilik',
-      'Demokratiklik',
-      'Humanistlik',
-    ],
-    correctAnswer: 'Fasiləsizlik, vəhdətlik, daimilik',
-  },
-  {
-    number: 14,
-    question:
-      'Təhsil pillələri arasında əlaqəni ifadə edən təhsil sisteminin prinsipi :',
-    options: [
-      'Varislik',
-      'İnteqrasiya',
-      'Liberallaşma',
-      'Keyfiyyətlilik',
-      'Fasiləsizlik',
-    ],
-    correctAnswer: 'Varislik',
-  },
-  {
-    number: 15,
-    question:
-      'Təhsil sahəsinin ictimaiyyət üçün açıqlığını  nəzərdə tutan təhsil sisteminin prinsipi :',
-    options: [
-      'Liberallaşma',
-      'Keyfiyyətlilik',
-      'Demokratiklik',
-      'Humanistlik',
-      'İnteqrasiya',
-    ],
-    correctAnswer: 'Liberallaşma',
-  },
-  {
-    number: 16,
-    question:
-      'Milli təhsil sisteminin dünya təhsil sisteminə uyğunlaşdırmağı nəzərdə tutan təhsil sisteminin prinsipi :',
-    options: [
-      'İnteqrasiya',
-      'Demokratiklik',
-      'Bərabərlik',
-      'Keyfiyyətlilik',
-      'Liberallaşma',
-    ],
-    correctAnswer: 'İnteqrasiya',
-  },
-  {
-    number: 17,
-    question:
-      'Təhsil sisteminə daxil olan müəssisələrin ardıcıllığını müəyyən edin :',
-    options: [
-      'Məktəbəqədər və ümumtəhsil müəssisələri',
-      'Məktəbəqədər və ilk peşə –ixtisas təhsil müəssisələri',
-      'Məktəbdənkənar və məktəbəqədər təhsil müəssisələri',
-      'Orta ixtisas və ilk peşə - ixtisas təhsili müəssisələri',
-      'Ali və orta ixtisas təhsili müəssisələri',
-    ],
-    correctAnswer: 'Məktəbəqədər və ümumtəhsil müəssisələri',
-  },
-  {
-    number: 18,
-    question: 'Ümum təhsil məktəb növlərinin ardıcıllığını müəyyən edin :',
-    options: [
-      'İbtidai, ümumi orta və tam orta təhsil məktəbləri',
-      'Ümumi orta, ibtidai və tam orta təhsil məktəbləri',
-      'Tam orta, ümumi orta və ibtidai təhsil məktəbləri',
-      'İlk peşə - ixtisas, tam orta və ümumi orta təhsili məktəbləri',
-      'İlk peşə- ixtisas, ümumi orta və tam orta təhsil məktəbləri',
-    ],
-    correctAnswer: 'İbtidai, ümumi orta və tam orta təhsil məktəbləri',
-  },
-  {
-    number: 19,
-    question: 'Hansı məktəblər ümum təhsil məktəb tipinə aid deyildir ?',
-    options: [
-      'Kolleclər',
-      'İnternat məktəblər',
-      'Gimnaziyalar',
-      'Liseylər',
-      'Ümumi orta təhsil məktəbləri',
-    ],
-    correctAnswer: 'Kolleclər',
-  },
-  {
-    number: 20,
-    question: 'Təhsilin hansı pilləsi təmayüllər üzrə qurulur ?',
-    options: [
-      'Tam orta təhsil',
-      'Ümumi orta təhsil',
-      'İlk peşə- ixtisas təhsili',
-      'Məktəbdənkənar təhsil',
-      'Əlavə təhsil',
-    ],
-    correctAnswer: 'Tam orta təhsil',
-  },
-  {
-    number: 21,
-    question:
-      'Əsasən humanitar sahədə istedadlı şagirdlər üçün fəaliyyət göstərən ümumi təhsil müəssisəsi :',
-    options: [
-      'Gimnaziyalar',
-      'Liseylər',
-      'İnternat məktəblər',
-      'Kolleclər',
-      'Akademiya',
-    ],
-    correctAnswer: 'Gimnaziyalar',
-  },
-  {
-    number: 22,
-    question:
-      'İstedadlı şagirdlər üçün təmayüllər üzrə təhsil xidməti göstərən ümumi təhsil müəssisəsi:',
-    options: ['Lisey', 'Kollec', 'Gimnaziya', 'Mədrəsə', 'İnternat məktəblər'],
-    correctAnswer: 'Lisey',
-  },
-  {
-    number: 23,
-    question: 'Hansı məktəbdənkənar təhsil müəssisəsi deyildir ?',
-    options: [
-      'İncəsənət muzeyləri',
-      'Uşaq yaradıcılıq mərkəzləri',
-      'Texniki və bədii yaradıcılıq mərkəzləri',
-      'Uşaq şahmat məktəbləri',
-      'Ekoloji tərbiyə mərkəzləri',
-    ],
-    correctAnswer: 'İncəsənət muzeyləri',
-  },
-  {
-    number: 24,
-    question: 'Hansı ali təhsilli mütəxəssis hazırlığı forması deyildir ?',
-    options: [
-      'Kollec',
-      'İnstitut',
-      'Universitet',
-      'Təhsil akademiyası',
-      'Rezidentura',
-    ],
-    correctAnswer: 'Kollec',
-  },
-  {
-    number: 25,
-    question:
-      'Subbakalavr peşə-ixtisas dərəcəsi vermək hüququ olan təhsili müəssisəsi:',
-    options: [
-      'Kolleclər',
-      'Peşə məktəbləri',
-      'Peşə liseyləri',
-      'Ali məktəblər',
-      'Əlavə təhsil müəssisələri',
-    ],
-    correctAnswer: 'Kolleclər',
-  },
-  {
-    number: 26,
-    question:
-      'Geniş spektrli mütəxəssislər hazırlayan, çoxprofilli aparıcı ali təhsil müəssisəsi:',
-    options: ['Universitet', 'Akademiya', 'İnstitut', 'Kollec', 'Lisey'],
-    correctAnswer: 'Universitet',
-  },
-  {
-    number: 27,
-    question:
-      'Müəyyən sahə üzrə yüksək ixtisaslı mütəxəssislər hazırlayan, fundamental və tətbiqi elmi tədqiqatlar aparan ali təhsil müəssisəsi:',
-    options: ['Akademiya', 'Universitet', 'İnstitut', 'Lisey', 'Kollec'],
-    correctAnswer: 'Akademiya',
-  },
-  {
-    number: 28,
-    question:
-      'Konkret ixtisaslar üzrə mütəxəssislər hazırlayan, tətbiqi tədqiqatlar aparan ali təhsil müəssisəsi :',
-    options: ['İnstitut', 'Universitet', 'Akademiya', 'Kollec', 'Lisey'],
-    correctAnswer: 'İnstitut',
-  },
-  {
-    number: 29,
-    question:
-      'Ali məktəbdə mütəxəssis hazırlığının səviyyələrinin ardıcıllığını müəyyən edin :',
-    options: [
-      'Bakalavriat, magistratura, doktorantura',
-      'Magistratura, bakalavriat, doktorantura',
-      'Doktorantura, bakalavriat, magistratura',
-      'Magistratura, doktorantura, bakalavriat',
-      'Bakalavriat, doktorantura, magistratura',
-    ],
-    correctAnswer: 'Bakalavriat, magistratura, doktorantura',
-  },
-  {
-    number: 30,
-    question: 'Fəlsəfə doktoru  elmi dərəcəsinin verildiyi təhsil pilləsi :',
-    options: [
-      'Doktorantura I pillədə',
-      'Doktorantura II pillədə',
-      'Rezidenturada',
-      'İnformal təhsildə',
-      'Qeyri- formal təhsildə',
-    ],
-    correctAnswer: 'Doktorantura I pillədə',
-  },
-  {
-    number: 31,
-    question: 'Ali təhsil müəssisəsində «akademik məsləhətçi » necə adlanır ?',
-    options: [
-      'Tyutor',
-      'Assistent',
-      'Professor köməkçisi',
-      'Təhsil menecmenti',
-      'Metodist',
-    ],
-    correctAnswer: 'Tyutor',
-  },
-  {
-    number: 32,
-    question:
-      'Təhsil müəssisələrinin fəaliyyətinə dövlət tərəfindən verilən xüsusi razılıq :',
-    options: [
-      'Lisenziya',
-      'Akkreditasiya',
-      'Təhsil krediti',
-      'Nostrifikasiya',
-      'Təhsil françayzinqi',
-    ],
-    correctAnswer: 'Lisenziya',
-  },
-  {
-    number: 33,
-    question:
-      'Təhsil müəssisələrinin statusunun müəyyən olunaraq təsdiq edilməsi proseduru:',
-    options: [
-      'Akkreditasiya',
-      'Lisenziya',
-      'Kampus',
-      'Təhsil krediti',
-      'Nostrifikasiya',
-    ],
-    correctAnswer: 'Akkreditasiya',
-  },
-  {
-    number: 34,
-    question: 'Təhsil sahəsində keyfiyyət sənədi :',
-    options: [
-      'Sertifikat',
-      'Lisenziya',
-      'Akkreditasiya',
-      'Təhsil krediti',
-      'Attestasiya',
-    ],
-    correctAnswer: 'Sertifikat',
-  },
-  {
-    number: 35,
-    question:
-      'Təhsialanların nailiyyətlərinin və təhsilverənlərin fəaliyyətinin qiymətləndirilməsi proseduru :',
-    options: [
-      'Attestasiya',
-      'Lisenziya',
-      'Təhsil krediti',
-      'Akkreditasiya',
-      'Nostrifikasiya',
-    ],
-    correctAnswer: 'Attestasiya',
-  },
-  {
-    number: 36,
-    question:
-      'Tədris prosesinin elektron, telekommunikasiya əsasında təşkil olunduğu təhsilalma forması:',
-    options: [
-      'Distant təhsil',
-      'Təhsil krediti',
-      'Evdə təhsil',
-      'Fərdi təhsil',
-      'Əlavə təhsil',
-    ],
-    correctAnswer: 'Distant təhsil',
-  },
-  {
-    number: 37,
-    question:
-      'Uzun müddət təhsildən kənarda qalmış, habelə xüsusi istedadlı şagirdlər üçün tətbiq edilən təhsil forması:',
-    options: [
-      'Fərdi təhsil',
-      'Evdə təhsil',
-      'Əlavə təhsil',
-      'Qeyri-formal təhsil',
-      'İnnovaziya',
-    ],
-    correctAnswer: 'Fərdi təhsil',
-  },
-  {
-    number: 38,
-    question:
-      'Orta ixtisas təhsili pilləsində (kolleclərdə) məzunlara verilən peşə –ixtisas dərəcəsi:',
-    options: ['Subbakalavr', 'Bakalavr', 'Təhsil krediti', 'Tyutor', 'Kampus'],
-    correctAnswer: 'Subbakalavr',
-  },
-  {
-    number: 39,
-    question: 'Təhsilin inkişafına sərmayə qoyuluşu :',
-    options: [
-      'Təhsil investisiyası',
-      'Təhsil krediti',
-      'Lisenziya',
-      'İnnovaziya',
-      'Nostrifikasiya',
-    ],
-    correctAnswer: 'Təhsil investisiyası',
-  },
-  {
-    number: 40,
-    question: 'Dövlət təhsil müəssisələrinə verilən müstəqillik :',
-    options: [
-      'Muxtariyyat',
-      'Sertifikat',
-      'Lisenziya',
-      'Akkreditasiya',
-      'Təhsil investisiyası',
-    ],
-    correctAnswer: 'Muxtariyyat',
-  },
-  {
-    number: 41,
-    question: 'Təhsildə mütərəqqi xarakterli yeniliklər :',
-    options: [
-      'Təhsildə innovasiya',
-      'Nostrifikasiya',
-      'İnteqrasiya',
-      'Təhsil investisiyası',
-      'Təhsil françayzinqi',
-    ],
-    correctAnswer: 'Təhsildə innovasiya',
-  },
-  {
-    number: 42,
-    question:
-      'Təhsil sahəsində vahid dövlət tələblərini əks etdirən ümumi normalar məcmusu:',
-    options: [
-      'Dövlət təhsil standartları',
-      'Təhsil krediti',
-      'Lisenziya',
-      'İnnovasiya',
-      'Akkreditasiya',
-    ],
-    correctAnswer: 'Dövlət təhsil standartları',
-  },
-  {
-    number: 43,
-    question:
-      'Dövlət təhsil sənədinin verilməsi ilə başa çatan təhsil forması  necə adlanır ?',
-    options: [
-      'Formal təhsil',
-      'Qeyri - formal təhsil',
-      'İnformal təhsil',
-      'Distant təhsil',
-      'Sərbəst təhsil',
-    ],
-    correctAnswer: 'Formal təhsil',
-  },
-  {
-    number: 44,
-    question:
-      'Müxtəlif kurslarda və fərdi məşğələlərdə əldə edilən və dövlət təhsil sənədinin verilməsi ilə müşayət olunmayan təhsil forması:',
-    options: [
-      'Qeyri - formal təhsil',
-      'Formal təhsil',
-      'İnformal təhsil',
-      'Əlavə təhsil',
-      'Sərbəst (eksternat) təhsil',
-    ],
-    correctAnswer: 'Qeyri - formal təhsil',
-  },
-  {
-    number: 45,
-    question: 'Özünütəhsil yolu ilə biliklərə yiyələnmək forması :',
-    options: [
-      'İnformal təhsil',
-      'Sərbəst təhsil',
-      'Fərdi təhsil',
-      'Qeyri - formal təhsil',
-      'Əlavə təhsil',
-    ],
-    correctAnswer: 'İnformal təhsil',
-  },
-  {
-    number: 46,
-    question:
-      'Ümumi təhsildən kənarda qalan şəxslərə təhsil almaq və ya vaxtından əvvəl bitirmək hüququ verən təhsilalma forması :',
-    options: [
-      'Sərbəst (eksternat) təhsil',
-      'Fərdi təhsil',
-      'Qeyri formal təhsil',
-      'İnformal təhsil',
-      'Əlavə təhsil',
-    ],
-    correctAnswer: 'Sərbəst (eksternat) təhsil',
-  },
-  {
-    number: 47,
-    question:
-      'Fənnin mənimsənilməsinə ayrılan vaxtın ölçü vahidi necə adlanır?',
-    options: [
-      'Təhsil krediti',
-      'Təhsil innovasiyası',
-      'Təhsil investisiyası',
-      'Təhsil françayzinqi',
-      'Nostrifikasiya',
-    ],
-    correctAnswer: 'Təhsil krediti',
-  },
-  {
-    number: 48,
-    question:
-      'İlk peşə, orta ixtisas və ali təhsil almış şəxslərin yenidən aldığı  təhsil:',
-    options: [
-      'Əlavə təhsil',
-      'Fərdi təhsil',
-      'İnformal təhsil',
-      'Sərbəst təhsil',
-      'Qeyri - formal təhsil',
-    ],
-    correctAnswer: 'Əlavə təhsil',
-  },
-  {
-    number: 49,
-    question: 'Əlavə təhsil verən müəssisələr:',
-    options: [
-      'Universitetlər, ixtisasartırma qurumları',
-      'Gimnaziyalar, liseylər',
-      'Məktəbdənkənar müəssisələr',
-      'Kolleclər',
-      'Uşaq- gənclər məktəbləri',
-    ],
-    correctAnswer: 'Universitetlər, ixtisasartırma qurumları',
-  },
-  {
-    number: 50,
-    question: 'Əlavə təhsilin istiqamətləri:',
-    options: [
-      'İxtisasartırma, stajkeçmə',
-      'Kollec və peşə təhsili',
-      'Gimnaziya və lisey təhsili',
-      'İnformal və qeyri -formal təhsili',
-      'İlkin ali və peşə təhsil',
-    ],
-    correctAnswer: 'İxtisasartırma, stajkeçmə',
-  },
-  {
-    number: 51,
-    question: 'Hansı əlavə təhsilin istiqaməti deyildir ?',
-    options: [
-      'İlkin ali təhsil',
-      'Yaşlıların təhsili',
-      'Stajkeçmə',
-      'İxtisasartırma',
-      'Təkrar ali təhsil',
-    ],
-    correctAnswer: 'İlkin ali təhsil',
-  },
-  {
-    number: 52,
-    question: 'Əlavə təhsilin belə istiqaməti yoxdur :',
-    options: [
-      'Qeyri- formal  təhsil',
-      'Təkrar ali təhsil',
-      'Stajkeçmə',
-      'Kadrların yenidən hazırlanması',
-      'Dərəcələrin yüksəldilməsi',
-    ],
-    correctAnswer: 'Qeyri- formal  təhsil',
-  },
-  {
-    number: 53,
-    question: 'Kimlər təhsil prosesinin iştirakçısı deyildir ?',
-    options: [
-      'Sosial təminat sahəsi işçiləri',
-      'Valideynlər',
-      'Praktik psixoloqlar',
-      'Məktəb kitabxanaçıları',
-      'Məktəb dərnək rəhbərləri',
-    ],
-    correctAnswer: 'Sosial təminat sahəsi işçiləri',
-  },
-  {
-    number: 54,
-    question: 'Qüvvədə olan təhsil qanunu nə vaxt qəbul edilmişdir?',
-    options: ['2009', '1992', '2005', '2007', '2003'],
-    correctAnswer: '2009',
-  },
-  {
-    number: 55,
-    question: 'Təhsil qanununa əsasən ali təhsil neçə pillədən ibarətdir?',
-    options: ['3', '5', '2', '4', '6'],
-    correctAnswer: '3',
-  },
-  {
-    number: 56,
-    question: 'Respublikamızda icbari təhsil növü:',
-    options: [
-      'Ümumi orta təhsil',
-      'Fasiləsiz təhsil',
-      'Orta ixtisas təhsili',
-      'Ali təhsil',
-      'İlk peşə-ixtisas təhsili',
-    ],
-    correctAnswer: 'Ümumi orta təhsil',
-  },
-  {
-    number: 57,
-    question:
-      'Sistemləşdirilmiş bilik, bacarıq və vərdişlərin mənimsənilməsi prosesi və onun nəticəsi necə adlanır ?',
-    options: ['Təhsil', 'Tərbiyə', 'Qavrama', 'Anlama', 'Dərketmə'],
-    correctAnswer: 'Təhsil',
-  },
-  {
-    number: 58,
-    question: 'Təhsilin formaları:',
-    options: [
-      'Formal, qeyri-formal, informal təhsil',
-      'İbtidai, orta, ali təhsil',
-      'Özünütəhsil, fasiləsiz təhsil',
-      'Ümumi, politexnik və peşə təhsili',
-      'bakalavr, magistr, doktorantura',
-    ],
-    correctAnswer: 'Formal, qeyri-formal, informal təhsil',
-  },
-  {
-    number: 59,
-    question: 'Hansı təhsil forması deyil ?',
-    options: [
-      'İbtidai təhsil',
-      'Formal təhsil',
-      'Qeyri- formal təhsil',
-      'İnformal təhsil',
-      'Formal və informal təhsil',
-    ],
-    correctAnswer: 'İbtidai təhsil',
-  },
-  {
-    number: 60,
-    question: 'Təhsilalma formaları :',
-    options: [
-      'Əyani, qiyabi, distant, sərbəst təhsil',
-      'İbtidai, ümumi və tam orta təhsil',
-      'İlk-peşə ixtisas, orta ixtisas və ali təhsil',
-      'Bakalavriat, magistratura və doktorantura təhsili',
-      'Formal, qeyri- formal və informal təhsil',
-    ],
-    correctAnswer: 'Əyani, qiyabi, distant, sərbəst təhsil',
-  },
-  {
-    number: 61,
-    question: 'Təhsilalmanın belə bir forması yoxdur :',
-    options: [
-      'Ümumi təhsil',
-      'Əyani  təhsil',
-      'Qiyabi təhsil',
-      'Sərbəst  təhsil',
-      'Distant təhsil',
-    ],
-    correctAnswer: 'Ümumi təhsil',
-  },
-  {
-    number: 62,
-    question: 'Təhsilin məzmununu müəyyən edən amillər :',
-    options: [
-      'Cəmiyyətin təlabatı, elmin inkişafı, təlimin məqsədi',
-      'Təlimin vasitə, metod və formaları',
-      'Təlim şəraiti və nəticələri',
-      'Dövlət, bələdiyyə və özəl məktəblərin imkanları',
-      'Məktəbin maliyyə - təsərrüfat imkanları',
-    ],
-    correctAnswer: 'Cəmiyyətin təlabatı, elmin inkişafı, təlimin məqsədi',
-  },
-  {
-    number: 63,
-    question: 'Təhsilin məzmununa aiddir:',
-    options: [
-      'Bilik, bacarıq və vərdişlər sistemi',
-      'Öyrədici və tərbiyəedici təlim',
-      'Özünütəhsil',
-      'Təlim və təhsil nəzəriyyəsi',
-      'Fasiləsiz təhsil',
-    ],
-    correctAnswer: 'Bilik, bacarıq və vərdişlər sistemi',
-  },
-  {
-    number: 64,
-    question: 'Təhsilin məzmununa dair  nəzəriyyələr:',
-    options: [
-      'Formal, maddi və dialektik təhsil nəzəriyyələri',
-      'Biogenetik və iki amil nəzəriyyələri',
-      '«Ağ lövhə», irsiyyət nəzəriyyələri',
-      'Konvergensiya və istedadlılıq nəzəriyyələri',
-      'Azad və təbii tərbiyə nəzəriyyələri',
-    ],
-    correctAnswer: 'Formal, maddi və dialektik təhsil nəzəriyyələri',
-  },
-  {
-    number: 65,
-    question: 'Təhsilin məzmununun əsas istiqamətləri:',
-    options: [
-      'Ümumi, politexnik, peşə təhsili',
-      'İbtidai, orta və tam orta təhsil',
-      'Dərslik və dərs vəsaitləri',
-      'Fasiləsiz və məsafədən təhsil',
-      'Əyani və qiyabı təhsil',
-    ],
-    correctAnswer: 'Ümumi, politexnik, peşə təhsili',
-  },
-  {
-    number: 66,
-    question: 'Ümumi təhsilin məzmunu nəyi əhatə edir?',
-    options: [
-      'Elmlərin əsaslarını',
-      'Humanitar elmləri',
-      'Texniki və əmək hazırlığını',
-      'Təbii-riyazi elmləri',
-      'Bütün elm sahələrini',
-    ],
-    correctAnswer: 'Elmlərin əsaslarını',
-  },
-  {
-    number: 67,
-    question:
-      'Gənc nəsli nəzəri və əməli cəhətdən istehsalata, həyata hazırlamaq məqsədi güdən təhsil sahəsi :',
-    options: [
-      'Politexnik təhsil',
-      'Fasiləsiz təhsil',
-      'Peşə təhsili',
-      'Ümumi təhsil',
-      'Məsafədən təhsil',
-    ],
-    correctAnswer: 'Politexnik təhsil',
-  },
-  {
-    number: 68,
-    question:
-      'Gələcək peşəsindən asılı olmayaraq hamı üçün zəruri olan minimum biliklər sistemini əks etdirən təhsil sahəsi:',
-    options: [
-      'Ümumi təhsil',
-      'Politexnik təhsil',
-      'Peşə təhsili',
-      'Humanitar təhsil',
-      'Texniki təhsil',
-    ],
-    correctAnswer: 'Ümumi təhsil',
-  },
-  {
-    number: 69,
-    question:
-      'İstehsalatla bağlı nəzəri biliklər və əməli bacarıqlar aşılamağı nəzərdə tutan təhsil sahəsi:',
-    options: [
-      'Politexnik təhsil',
-      'Ümumi təhsil',
-      'Peşə təhsili',
-      'Texniki təhsil',
-      'Humanitar təhsil',
-    ],
-    correctAnswer: 'Politexnik təhsil',
-  },
-  {
-    number: 70,
-    question:
-      'Konkret peşəyə xüsusi hazırlıq verməyi nəzərdə tutan təhsil sahəsi:',
-    options: [
-      'Peşə təhsili',
-      'Ümumi təhsil',
-      'Politexnik təhsil',
-      'Humanitar təhsil',
-      'Texniki təhsil',
-    ],
-    correctAnswer: 'Peşə təhsili',
-  },
-  {
-    number: 71,
-    question: 'Təhsilin məzmununun asas komponentləri:',
-    options: [
-      'Bilik və bacarıqlar sistemi, yaradıcılıq təcrübəsi, münasibətlər sistemi',
-      'Təlim, təhsil, tərbiyə',
-      'Tədris planı, proqram və dərsliklər',
-      'Ümumi, peşə və ixtisas təhsili',
-      'Formal, qeyri formal və infomal təhsil',
-    ],
-    correctAnswer:
-      'Bilik və bacarıqlar sistemi, yaradıcılıq təcrübəsi, münasibətlər sistemi',
-  },
-  {
-    number: 72,
-    question: 'Təhsilin məzmununun belə bir komponenti yoxdur:',
-    options: [
-      'Distant təhsil',
-      'Biliklər sistemi',
-      'Bacarıq və vərdişlər sistemi',
-      'Yaradıcı fəaliyyət təcrübəsi',
-      'Emosional münasibət təcrübəsi',
-    ],
-    correctAnswer: 'Distant təhsil',
-  },
-  {
-    number: 73,
-    question: 'Fənlər üzrə təhsilin məzmununu əks etdirən sənədlər:',
-    options: [
-      'Tədris planı, proqram və dərsliklər',
-      'Təqvim və dərs planları',
-      'Məktəb Nizamnaməsi və Əsasnaməsi',
-      'Dərs cadvəli, jurnallar, şəxsi işlər',
-      'Məktəbin iş planı, hesabatları',
-    ],
-    correctAnswer: 'Tədris planı, proqram və dərsliklər',
-  },
-  {
-    number: 74,
-    question:
-      'Məktəbdə keçilən fənləri və hər fənnə ayrılan saatları müəyyən edən dövlət sənədi:',
-    options: [
-      'Tədris planı',
-      'Təqvim-tematik plan',
-      'Məktəbin ümumi iş planı',
-      'Dərs planı',
-      'Dərsliklər',
-    ],
-    correctAnswer: 'Tədris planı',
-  },
-  {
-    number: 75,
-    question: 'Təhsilin məzmununu əks etdirən dövlət sənədi:',
-    options: [
-      'Tədris proqramları',
-      'Təhsil Qanunu',
-      'Ümumtəhsil məktəbinin nümunəvi əsasnaməsi',
-      'Azərbaycan Respublikası Konstitusiyası',
-      'Dərs jurnalları',
-    ],
-    correctAnswer: 'Tədris proqramları',
-  },
-  {
-    number: 76,
-    question: 'Bunlardan hansı dərsliklərin tərtibinə verilən tələb deyil?',
-    options: ['İqtisadi', 'Metodiki', 'Psixoloji', 'Pedaqoji', 'Didaktik'],
-    correctAnswer: 'İqtisadi',
-  },
-  {
-    number: 77,
-    question: 'Təhsilin məzmununu əks etdirən sənədləri ardıcıllıqla göstərin:',
-    options: [
-      'Tədris planı, tədris proqramı, dərslik',
-      'Dərslik, tədris planı, tədris proqramı',
-      'Tədris planı, dərslik, tədris proqramı',
-      'Tədris proqramı, dərslik, tədris planı',
-      'Dərslik, tədrs proqramı,tədris planı',
-    ],
-    correctAnswer: 'Tədris planı, tədris proqramı, dərslik',
-  },
-  {
-    number: 78,
-    question: 'Tədris planı əsasında tərtib olunan sənəd:',
-    options: [
-      'Dərs cədvəli',
-      'Təqvim-tematik plan',
-      'Dərs planı',
-      'Fərdi iş planı',
-      'Metodik iş planı',
-    ],
-    correctAnswer: 'Dərs cədvəli',
-  },
-  {
-    number: 79,
-    question: 'Tədris proqramı əsasında hansı sənəd tərtib olunur?',
-    options: [
-      'Dərsliklər',
-      'Tədris planı',
-      'Dərs cədvəli',
-      'Tərbiyə  işi planı',
-      'Məktəbdənkənar iş planı',
-    ],
-    correctAnswer: 'Dərsliklər',
-  },
-  {
-    number: 80,
-    question: 'Hansı tədris planına verilən tələb deyil?',
-    options: [
-      'Tədris proqramına əsaslanmalı',
-      'Dövlət təhsil standartlarına uyğun olmalı',
-      'Fənlərin keçilmə ardıcıllığı gözlənilməli',
-      'Regionların milli tərkibi nəzərə alınmalı',
-      'Şagirdlərin fərdi maraq və qabiliyyətlərini təmin etməli',
-    ],
-    correctAnswer: 'Tədris proqramına əsaslanmalı',
-  },
-  {
-    number: 81,
-    question:
-      'Hər fənn üzrə bilik və bacarıqların həcmini, sistemini müəyyən edən dövlət sənədi:',
-    options: [
-      'Tədris proqramı',
-      'Tədris planı',
-      'Dərslik',
-      'Təhsil proqramı',
-      'Təqvim- tematik plan',
-    ],
-    correctAnswer: 'Tədris proqramı',
-  },
-  {
-    number: 82,
-    question: 'Hansı tədris proqramına verilən tələb deyil?',
-    options: [
-      'Dərsliyə əsaslanmalı',
-      'Fənn üzrə təhsil standartlarına cavab verməli',
-      'Fənlərarası əlaqələr gözlənməli',
-      'Müstəqil iş üçün imkan yaratmalı',
-      'Nəzəriyyə və təcrübənin əlaqəsi təmin edilməli',
-    ],
-    correctAnswer: 'Dərsliyə əsaslanmalı',
-  },
-  {
-    number: 83,
-    question:
-      'Təhsilin məzmununu və mənimsəmə texnologiyasını əks etdirən sənəd:',
-    options: [
-      'Təhsil proqramı (kurikulum)',
-      'Tədris planı',
-      'Tədris proqramı',
-      'Dərslik',
-      'Təqvim- tematik plan',
-    ],
-    correctAnswer: 'Təhsil proqramı (kurikulum)',
-  },
-  {
-    number: 84,
-    question:
-      'Müəyyən fənn üzrə proqram mövzularını didaktik prinsiplər əsasında şərh edən sənəd:',
-    options: [
-      'Tədris proqramı',
-      'Dərslik',
-      'Tədris planı',
-      'Kurikulum',
-      'Təqvim- tematik plan',
-    ],
-    correctAnswer: 'Tədris proqramı',
-  },
-  {
-    number: 85,
-    question: 'Başlıca didaktiv kateqoriyalar olan bəndi seçin:',
-    options: [
-      'Təhsil sistemi, təhsilin məzmunu, təlim prosesi, təlimin prinsipləri və s.',
-      'Tərbiyə, özünütərbiyə, yenidəntərbiyə',
-      'Təlimin üsulları, dərs, tərbiyəvi söhbətlər',
-      'Humanizm, vətənpərvərlik, vətəndaşlıq vəs.',
-      'Tərbiyə prosesinin yol və vasitələri',
-    ],
-    correctAnswer:
-      'Təhsil sistemi, təhsilin məzmunu, təlim prosesi, təlimin prinsipləri və s.',
-  },
-  {
-    number: 86,
-    question:
-      'Ekoloji, sosial, iqtisadi, ideoloji, psixoloji və s. amillərin təsiri altında insanın sosial varlıq kimi təşəkkülü prosesi necə adlanır?',
-    options: ['Formalaşma', 'Təhsil', 'Təlim', 'Fiziki inkişaf', 'Öyrənmə'],
-    correctAnswer: 'Formalaşma',
-  },
-  {
-    number: 87,
-    question:
-      '..........insan orqanizmində kəmiyyət və keyfiyyət dəyişiklikləri prosesinin nəticəsidir:',
-    options: ['İnkişaf', 'Təhsil', 'Qavrama', 'Yaddasaxlama', 'Təlim'],
-    correctAnswer: 'İnkişaf',
-  },
-  {
-    number: 88,
-    question:
-      'Pedaqoji fakt, hadisə və proseslərin dərk edilməsı və dəyişdirilməsi haqqında nəzəri müddəaların məcmusu necə adlanır?',
-    options: [
-      'Pedaqoqikanm metodologiyası',
-      'Pedaqoji qanunauyğunluq',
-      'Şəxsiyyətin formalaşması',
-      'Pedaqoji texnologiyalar',
-      'Pedaqoji situasiyalar',
-    ],
-    correctAnswer: 'Pedaqoqikanm metodologiyası',
-  },
-  {
-    number: 89,
-    question: 'Dəyərlərin dəyişməsi nədən asılı olaraq baş verir?',
-    options: [
-      'İctimai inkişafm mərhələİərindən',
-      'Təhsil və tərbiyənin məqsədindən',
-      'Şəxsiyyətin inkişafmm yaş dövrlərindən',
-      'İnsanm tələbatlanm ödəmək arzusundan',
-      'İnsanlann fərdi fərqlərindən',
-    ],
-    correctAnswer: 'İctimai inkişafm mərhələİərindən',
-  },
-  {
-    number: 90,
-    question:
-      'Müəllimin dərsə hazırlaşmasmın hansı mərhələlərini doğru hesab etmək olar? 1. Umumi hazırlıq 2. Akademik hazırlıq 3. Kommunikativ hazırlıq 4. Mövzu üzrə hazırlıq 5. Didaktik hazırlıq 6. Gündəlik hazırlıq',
-    options: ['1, 4, 6', '2, 4, 5', '4,5,6', '3, 4, 5', 'l,2,3'],
-    correctAnswer: '1, 4, 6',
-  },
-  {
-    number: 91,
-    question:
-      'Şagirdləri insanların ictimai və əmək həyatı ilə, onda baş verən dəyişikliklərlə tanış etmək tərbiyənin hansı prinsipinin toləblərindəndir?',
-    options: [
-      'Tərbiyənin həyatla və əməklə əlaqəsi prinsipi',
-      'Tərbiyənin ictimai istiqamət prinsipi',
-      'Tərbiyənin humanistləşdirilməsi prinsipi',
-      'Şəxsiyyətyönümlü tərbiyə prinsipi',
-      'Tələblərdə vahidlik prinsipi',
-    ],
-    correctAnswer: 'Tərbiyənin həyatla və əməklə əlaqəsi prinsipi',
-  },
-  {
-    number: 92,
-    question: '...tərbiyə işinin mərhələlərindəndir:',
-    options: [
-      'Tərbiyə işinin məqsədinin müəyyənləşdirilməsi',
-      'Pedaqoqun və məktəblilərin imkanları',
-      'Kollektivin və ayrı-ayrı şəxsiyyətlərin vəziyyəti',
-      'Yeni tərbiyə texnologiyalarından istifadə',
-      'Özünü qiymətləndirmə metodları',
-    ],
-    correctAnswer: 'Tərbiyə işinin məqsədinin müəyyənləşdirilməsi',
-  },
-  {
-    number: 93,
-    question: '..tərbiyə işinin mərhələsi deyil:',
-    options: [
-      'Təlim-tərbiyə fəaliyyətinə daxili stimulların təsiri',
-      'Tərbiyə işini planıaşdırmaq',
-      'Tərbiyəvi işin təşkili',
-      'Tərbiyəvi işin həyata keçirilməsi',
-      'Əldə olunan nəticələrin təhlili',
-    ],
-    correctAnswer: 'Təlim-tərbiyə fəaliyyətinə daxili stimulların təsiri',
-  },
-  {
-    number: 94,
-    question:
-      'Bunlardan biri sinifdənxaric və məktəbdənkənar təhsil-tərbiyə fəaliyyətinin prinsipi deyil:',
-    options: [
-      'Məktəblinin həyat tərzi',
-      'Tərbiyənin həyatla və əməklə əlaqəsi',
-      'Tərbiyədə müsbət keyfiyyətlərə əsaslanmaq',
-      'Tərbiyənin humanistləşdirilməsi',
-      'Tərbiyəvi təsirlərdə vahidlik',
-    ],
-    correctAnswer: 'Məktəblinin həyat tərzi',
-  },
-  {
-    number: 95,
-    question:
-      'Aşağıdakılardan biri tərbiyənin humanistləşdirilməsi prinsipi deyil:',
-    options: [
-      'Tərbiyəvi işin həyata keçirilməsi',
-      'Şagird şəxsiyyətinə humanist münasibət bəsləmək',
-      'Şagird hüquqlarına və azadlığına hörmət etmək',
-      'Şagirdin mövqeyinə hörmət etmək',
-      'Tələb olunan keyfiyyətləri zor gücünə formalaşdırmamaq',
-    ],
-    correctAnswer: 'Tərbiyəvi işin həyata keçirilməsi',
-  },
-  {
-    number: 96,
-    question: 'Bunlardan hansı məktəbi idarəetmənin prinsipi deyil?',
-    options: [
-      'məktəblilərin əməyinin planlaşdırılması',
-      'idarəetmədə planlılıq',
-      'idarəetmədə səmərəliliyə,yekun nəticələrə nail olmaq',
-      'idarəetmədə demokratikləşmə, humanistləşdirmə',
-      'idarəetmədə sistemlilk və komplekslilik',
-    ],
-    correctAnswer: 'məktəblilərin əməyinin planlaşdırılması',
-  },
-  {
-    number: 97,
-    question: 'Bunlardan hansı məktəbi idarəetmənin prinsipidir?',
-    options: [
-      'kollegiallıqla vahid rəhbərliyin əlaqələndirilməsi',
-      'şagirdlərin məhsuldar əməyi və peşəyönümü işini təşkil etmək',
-      'dərslərdə politexnik təlimin səviyyəsini yüksəltmək',
-      'şagirdlərin əldə etdikləri bilikləri həyata tətbiq etmək',
-      'əməyin elmi təşkilini tədris prosesinə tətbiq etmək',
-    ],
-    correctAnswer: 'kollegiallıqla vahid rəhbərliyin əlaqələndirilməsi',
-  },
-  {
-    number: 98,
-    question: 'Məktəb direktorunun vəzifələrinə nə aiddir?',
-    options: [
-      'təhsil-tərbiyə işini planlaşdırır',
-      'valideyn iclasını təşkil edir',
-      'yarışların keçirilməsini təşkil edir',
-      'məktəbin təmizlik işlərinə nəzarət edir',
-      'ekskursiyaların təşkilinə nəzarət edir',
-    ],
-    correctAnswer: 'təhsil-tərbiyə işini planlaşdırır',
-  },
-  {
-    number: 99,
-    question:
-      'Bunlardan hansı məktəbdaxili nəzarətin təşkilinə verilən tələblərə aid deyil',
-    options: [
-      'özünənəzarət',
-      'nəzarətin sistematikliyi',
-      'nəzarətin obyektivliyi',
-      'nəzarətin təsirliliyi',
-      'nəzarəti həyata keçirənin səriştəli olması',
-    ],
-    correctAnswer: 'özünənəzarət',
-  },
-  {
-    number: 100,
-    question:
-      'Təhsil sisteminin prinsipləri hansı hüquqi sənəddə öz əksini tapıb?',
-    options: [
-      'Təhsil Qanununda',
-      'milli kurrikulum layihəsində',
-      'Konstitusiyada',
-      'məktəb nizamnaməsində',
-      'Dövlət Təhsil Standartlarında',
-    ],
-    correctAnswer: 'Təhsil Qanununda',
-  },
-  {
-    number: 101,
-    question:
-      'İbtidai siniflərdə ev tapşırıqlarının yerinə yetirilmə müddəti olan bəndi seçin:',
-    options: ['1-2 saat', '1 saat', '2-3 saat', '2,5-3,5 saat', '3-4 saat'],
-    correctAnswer: '1-2 saat',
-  },
-  {
-    number: 102,
-    question: 'Təhsilin məzmununda gözlənilən iki aspekt hansıdır?',
-    options: [
-      'millilik və ümumbəşərilik',
-      'keyfiyyətlilik və səmərəlilik',
-      'bərabərlik və humanistlik',
-      'varislik və bərabərlik',
-      'fasiləsizlik və dinamiklik',
-    ],
-    correctAnswer: 'millilik və ümumbəşərilik',
-  },
-  {
-    number: 103,
-    question:
-      'Dərslik təhsilin məzmununa verilən hansı tələblərə cavab verməlidir?',
-    options: [
-      'stabillik və mobillik',
-      'sabit əsasın olmaması',
-      'ensiklopedizm',
-      'alternativlik',
-      'pedaqoji imkanlara malik olmaq',
-    ],
-    correctAnswer: 'stabillik və mobillik',
-  },
-  {
-    number: 104,
-    question: 'Təhsilin məzmununa verilən tələblər nə ilə müəyyən olunur?',
-    options: [
-      'Təhsilin inkişafı üzrə dövlət strategiyası ilə',
-      'şəxsi tələbatlarla',
-      'pedaqoji imkanlarla',
-      'elmi nailiyyətlərlə',
-      'qabaqcıl təcrübə ilə',
-    ],
-    correctAnswer: 'Təhsilin inkişafı üzrə dövlət strategiyası ilə',
-  },
-  {
-    number: 105,
-    question:
-      'Təhsil sahəsində aşağıdakılardan hansı dövlət siyasətinin prinsipləridir?',
-    options: [
-      'humanistlik, demokratiklik, bərabərlik, varislik, inteqrasiya',
-      'nəticəyönümlilik, şəxsiyyətyönümlülük, tələbyönümllülük',
-      'millilik, şagirdyönümlülük, müəllimyönümlülü',
-      'qloballaşma, inteqrasiya, təklifyönümlülük',
-      'vahidlik, icbarilik, könüllülük',
-    ],
-    correctAnswer:
-      'humanistlik, demokratiklik, bərabərlik, varislik, inteqrasiya',
-  },
-  {
-    number: 106,
-    question:
-      'Müəyyən tip tədris müəssisələrində öyrənmək üçün seçilmiş bilik, bacarıq və vərdişlər sistemi nə adlanır?',
-    options: [
-      'təhsilin məzmunu',
-      'təhsilin məqsədi',
-      'təlim üsulları',
-      'təhsilin prinsipləri',
-      'tərbiyənin prinsipləri.',
-    ],
-    correctAnswer: 'təhsilin məzmunu',
-  },
-  {
-    number: 107,
-    question:
-      'Azərbaycanda əlavə təhsilin istiqamətlərini seçin 1 - ixtisasartırma 2 - orta təhsil 3 - stajkeçmə. 4 - peşə təhsili 5 - ali təhsil 6 - təkrar ali təhsil 7 - yenidənhazırlanma',
-    options: [
-      '1, 3, 6, 7',
-      '2, 4, 5, 6',
-      '4, 5, 6, 2',
-      '2, 3, 5, 4',
-      '4, 5, 2, 3',
-    ],
-    correctAnswer: '1, 3, 6, 7',
-  },
-  {
-    number: 108,
-    question:
-      'Təhsilin məzmununu şərtləndirən sistemlərin ardıcıllığını müəyyən edin 1 - qəbul olunmuş məqsədlər 2 - şəxsi tələbatlar 3 - pedaqoji imkanlar 4 - sosial tələbatlar 5 - sosial və elmi nailiyyətlər',
-    options: [
-      '1; 4; 5; 2; 3',
-      '3; 2; 1; 4; 5',
-      '2; 3; 4; 5; 1',
-      '1; 2; 3; 4; 5',
-      '4; 3; 5; 2; 1',
-    ],
-    correctAnswer: '1; 4; 5; 2; 3',
-  },
-  {
-    number: 109,
-    question:
-      'Təhsilin məzmununun struktur ardıcıllığını müəyyən edin 1 - qarışıq 2 - konsentrik 3 - xətti. 4 - spiralvari',
-    options: [
-      '3; 2; 4; 1',
-      '1; 2, 3, 4',
-      '2; 4; 3; 1',
-      '1; 3; 4; 2',
-      '1; 3; 2; 4',
-    ],
-    correctAnswer: '3; 2; 4; 1',
-  },
-  {
-    number: 110,
-    question:
-      'Tədris planında əks olunanların ardıcıllığını göstərin 1 - tədris ilinin, rüblərin və tətillərin müddətini 2 - tədris müəssisəsində öyrənilən fənlərin tam siyahısını 3 - praktikumların strukturu 4 - hər fənnə ayrılan həftəlik saatların miqdarı',
-    options: [
-      '1; 2; 4; 3',
-      '1; 2, 3, 4',
-      '2; 3; 4; 1',
-      '3; 4; 1; 2',
-      '1; 4; 3; 2',
-    ],
-    correctAnswer: '1; 2; 4; 3',
-  },
-  {
-    number: 111,
-    question:
-      'Dərslik hansı funksiyaları yerinə yetirir? 1 - yönəldici 2 - motivasiyalaşdırıcı 3 - bərpaedici. 4 - informasiyavermə 5 - nəzarət - korreksiya',
-    options: ['2; 4; 5', '1; 3, 5', '3; 4; 5', '1; 2; 3', '2; 3; 4'],
-    correctAnswer: '2; 4; 5',
-  },
-  {
-    number: 112,
-    question:
-      'Proqram mənbələrinə daxil olanların məntiqi ardıcıllığını göstərin 1 - Təhsil Qanunu. 2 - Qanuna müvafiq verilmiş Qanunvericilik aktları 3 - Azərbaycan Respublikasının Konstitusiyası 4 - Təhsil müəssisələrinin Nizamnamələri',
-    options: [
-      '3; 1; 2; 4',
-      '1; 2, 3, 4',
-      '2; 3; 4; 1',
-      '3; 4; 2; 1',
-      '2; 3; 1; 4',
-    ],
-    correctAnswer: '3; 1; 2; 4',
-  },
-  {
-    number: 113,
-    question:
-      'Təhsilalma formalarının ardıcıllığını göstərin. 1 - sərbəst (eksternat) 2 - qiyabi 3 - distant (məsafədən) 4 - əyani',
-    options: [
-      '4; 2; 3; 1',
-      '2, 3, 4; 1',
-      '1; 3; 4; 2',
-      '3; 4; 2; 1',
-      '4; 1; 3; 2',
-    ],
-    correctAnswer: '4; 2; 3; 1',
-  },
-  {
-    number: 114,
-    question:
-      'Mülkiyyət növünə görə təhsil müəssisələrinin tiplərini müəyyən edin 1 - Dövlət 2 – formal. 3 - bələdiyyə 4 – informal. 5 - özəl',
-    options: ['1; 3; 5', '1; 2; 3', '2; 3; 4', '3; 4; 5', '2; 4; 5'],
-    correctAnswer: '1; 3; 5',
-  },
-  {
-    number: 115,
-    question:
-      'Təhsilin pillələrinin ardıcıllığını göstərin 1 - ümumi təhsil 2 - məktəbəqədər təhsil 3 - ali təhsil 4 - orta ixtisas təhsili',
-    options: [
-      '2; 1; 4; 3',
-      '1; 2; 3; 4',
-      '3; 4; 1; 2',
-      '4; 3; 2; 1',
-      '2; 3; 4; 1',
-    ],
-    correctAnswer: '2; 1; 4; 3',
-  },
-  {
-    number: 116,
-    question:
-      'Təhsilin pillələri və səviyyələri arasında uyğunluğu müəyyən edin. 1 - Ümumi təhsil 2 - Ali təhsil a - tam orta təhsil b - bakalavriat c - ibtidai təhsil d - magistratura e - ümumi orta təhsil. f - doktorantura',
-    options: [
-      '1 - c, e, a; 2 - b, d, f',
-      '1 - a, b, c; 2 - d, e, f',
-      '1 - c, d, e; 2 - b, f, a',
-      '1 - b, d, f; 2 - e, d, a',
-      '1 - d, c, f; 2 - a, b, e',
-    ],
-    correctAnswer: '1 - c, e, a; 2 - b, d, f',
-  },
-  {
-    number: 117,
-    question:
-      'Təhsilin məzmununun strukturu və onların mahiyyəti arasında uyğunluğu müəyyən edin. 1 - xətti struktur 2 - konsentrik struktur 3 - spiralvari struktur 4 - qarışıq struktur: a - tədris materialının ayrı - ayrı hissələri fasiləsiz ardıcıllıqla məktəb təlimi dövründə bir dəfə öyrədilir; b - bütün strukturların kombinasiyasıdır; c - başlanğic problemlə bağlı biliklər yavaş - yavaş genişlənir; d - əvvəl öyrənilən biliklərə qayıtmağı nəzərdə tutur.',
-    options: [
-      '1 - a; 2 - d; 3 - c; 4 - b',
-      '1 - c; 2 - a; 3 - b; 4 - d',
-      '1 - b; 2 - c; 3 - d; 4 - b',
-      '1 - a; 2 - c, 3 - c; 4 - b',
-      '1 - c; 2 - a; 3 - b; 4 - d.',
-    ],
-    correctAnswer: '1 - a; 2 - d; 3 - c; 4 - b',
-  },
-  {
-    number: 118,
-    question:
-      'Təhsilin məzmununu əks etdirən sənədlər və onların mahiyyəti arasında uyğunluğu tapın. 1 - Tədris planı 2 - Tədris proqramı 3 - Dərslik. a - tədris müəssisəsində öyrənilən fənlərin tam siyahısını, fənlərin təlim illəri üzrə bölüşdürülməsini, hər fənnə ayrılan həftəlik saatların miqdarını müəyyən edir; b - müvafiq tədris proqramı əsasında tərtib edilir, proqramın bölmə və mövzularını aydın şərh edir, əyaniliklə müşayiət olunur; c - tədris planında olan hər fənnin tematik məzmununu, şagirdlərin bilik və bacarıqlarına verilən tələbləri əks etdirir.',
-    options: [
-      '1 - a; 2 - c; 3 - b',
-      '1 - c; 2 - a; 3 - b',
-      '2 - a; 3 - c; 1 - b',
-      '1 - a; 2 - b; 3 - c',
-      '1 - b; 2 - c; 3 - a',
-    ],
-    correctAnswer: '1 - a; 2 - c; 3 - b',
-  },
-  {
-    number: 119,
-    question:
-      'Təhsilin formaları və onların mahiyyəti arasındakı uyğunluğu tapın 1 - formal 2 - qeyri',
-    options: [
-      'formal 3 - informal  a - özünütəhsil yolu ilə biliklərə yiyələnmə forması b - dövlət təhsil sənədinin verilməsi ilə müşayiət olunmayan təhsil forması c - dövlət təhsil sənədinin verilməsi ilə başa çatan təhsil forması',
-      '1 - c; 2 - b; 3 - a',
-      '1 - a; 2 - c; 3 - b',
-      '1 - b; 2 - c; 3 - a',
-      '1 - a; 2 - b, 3 - c',
-      '1 - c; 2 - a; 3 - b',
-    ],
-    correctAnswer:
-      'formal 3 - informal  a - özünütəhsil yolu ilə biliklərə yiyələnmə forması b - dövlət təhsil sənədinin verilməsi ilə müşayiət olunmayan təhsil forması c - dövlət təhsil sənədinin verilməsi ilə başa çatan təhsil forması',
-  },
-  {
-    number: 120,
-    question:
-      'Təhsil - tərbiyənin məqsədinə təsir edən amilləri seçin 1 - ictimai tələbatlardan 2 - cəmiyyətin inkişaf fəaliyyətindən və tempindən 3 - elmi tərəqqidən 4 - cəmiyyətin tələbat və imkanlarından 5 - öyrənilən materialın xarakterindən 6 - pedaqoyi elm və praktikanın inkişaf səviyyəsi imkanlarından 7 - məktəblilərin yaş səviyyəsindən',
-    options: ['2, 4, 6', '1, 5, 7', '7, 5, 1', '1, 7, 5', '2, 5, 7'],
-    correctAnswer: '2, 4, 6',
-  },
-  {
-    number: 121,
-    question:
-      'Təhsil - tərbiyənin məqsədini müəyyən edən amilləri məntiqi ardıcıllıqla göstərin 1 - cəmiyyətin tələbat və imkanları 2 - cəmiyyətin inkişaf səviyyəsi və tempi 3 - pedaqoji elmin və praktikanın inkişaf səviyyəsi',
-    options: ['2; 1; 3', '1; 2; 3', '3; 1; 2', '2; 3; 1', '3; 2; 1'],
-    correctAnswer: '2; 1; 3',
-  },
-  {
-    number: 122,
-    question: 'Fəal təlim metodlarının mahiyyəti dedikdə nə başa düşülür?',
-    options: [
-      'Müəllim və şagirdlərin birgə, qarşılıqlı fəaliyyəti prosesində şagirdlərin ağlını, düşüncəsini, təfəkkürünü formalaşdırmaq',
-      'Hafizə və yaddaşı möhkəmləndirmək',
-      'Şagirdlərin duyğu üzvlərini inkişaf etdirmək',
-      'Şagirdlərin xarakterini möhkəmləndirmək',
-      'Şagird şəxsiyyətini sosiallaşdırmaq',
-    ],
-    correctAnswer:
-      'Müəllim və şagirdlərin birgə, qarşılıqlı fəaliyyəti prosesində şagirdlərin ağlını, düşüncəsini, təfəkkürünü formalaşdırmaq',
-  },
-  {
-    number: 123,
-    question: 'Demonstrasiya metoduna aid olan bəndi seçin',
-    options: [
-      'Fakt və hadisələri dəyişmə və inkişaf halında nümayiş etdirməkdir',
-      'Konkret problem üzrə fikirlər mübadiləsi etməkdir',
-      'Fakt və hadisələri statik - hərəkətsiz vəziyyətdə göstərməkdir',
-      'İnformasiyanın yalnız ekran vasitəsilə verilməsidir',
-      'Şagirdlərin mənimsədikləri biliklərin bacarıq və vərdişlərə çevrilməsidir',
-    ],
-    correctAnswer:
-      'Fakt və hadisələri dəyişmə və inkişaf halında nümayiş etdirməkdir',
-  },
-  {
-    number: 124,
-    question: 'Biliklərin alınması və bacarıqların mənbəyini nə təşkil edir?',
-    options: [
-      'Təlim vasitələri',
-      'Tərbiyə vasitələri',
-      'Müsahibə',
-      'Müşahidə',
-      'Biliyin möhkəmləndirilməsi',
-    ],
-    correctAnswer: 'Təlim vasitələri',
-  },
-  {
-    number: 125,
-    question:
-      'İnteraktiv təlim metoduna daxil olmayanları seçin 1 - dəyirmi masa 2 - müəllimin şərhi. 3 - rollu oyunlar 4 - əqli hücum 5 - məktəb mühazirəsi 6 - klaster 7 - müəllimin izahı',
-    options: ['2, 5, 7', '1, 3, 4', '4, 6, 3', '3, 4, 6', '1, 4, 6'],
-    correctAnswer: '2, 5, 7',
-  },
-  {
-    number: 126,
-    question:
-      'Fəal təlimin metodlarını seçin 1 - Beyin həmləsi 2 - müəllimin şərhi 3 - klaster 4 - müsahibə. 5 - insert 6 - BİBÖ cədvəli',
-    options: [
-      '1, 3, 5, 6',
-      '1, 2, 3, 5',
-      '1, 2, 3, 4',
-      '2, 3, 4, 5',
-      '3, 4, 5, 1',
-    ],
-    correctAnswer: '1, 3, 5, 6',
-  },
-  {
-    number: 127,
-    question:
-      'Fəal təlimin iş formalarının ardıcıllığını müəyyən edin 1 - Fərdi iş 2 - qrupla iş 3 - bütün siniflə iş 4 - cütlərlə iş',
-    options: [
-      '1; 4; 2; 3',
-      '1; 2, 3, 4',
-      '2; 3; 4; 1',
-      '1; 3; 4; 2',
-      '3; 4; 2; 1',
-    ],
-    correctAnswer: '1; 4; 2; 3',
-  },
-  {
-    number: 128,
-    question:
-      'Fəal dərsin mərhələlərinin ardıcıllığını göstərin 1 - Motivasiya 2 - Məlumat mübadiləsi. 3 - Tədqiqatın təşkili 4 - Nəticələrin şıxarılması 5 - Məlumatın təşkili 6 - Qiymətləndirmə. 7 - Tətbiqetmə',
-    options: [
-      '1; 3; 2; 5; 4; 7; 6',
-      '1; 2; 3; 4; 5; 6; 7',
-      '2; 3; 5; 7; 4; 1; 6',
-      '1; 3; 5; 4; 2; 6; 7',
-      '2; 3; 5; 7; 6; 1; 4',
-    ],
-    correctAnswer: '1; 3; 2; 5; 4; 7; 6',
-  },
-  {
-    number: 129,
-    question:
-      'Fəal təlimin iş formaları və üsullari arasındakı uyğunluğu müəyyən edin. 1 - İş formaları. 2- Təlim üsulları a - cütlərlə iş b - insert c - qrupla iş d - klaster e - bütün siniflə iş; ə - beyin həmləsi',
-    options: [
-      '1 - a, c, e; 2 - b, d, ə',
-      '1 - c, b, ə; 2 - a, e, d',
-      '1 - b, d, e; 2 - a, c, ə',
-      '1 - e, ə, d; 2 - a, b, e',
-      '1 - ə, b, d; 2 - d, e, c',
-    ],
-    correctAnswer: '1 - a, c, e; 2 - b, d, ə',
-  },
-  {
-    number: 130,
-    question:
-      'Təlim metodlarının qrupları və onlar arasındakı uyğunluğu tapın 1 - Yeni təlim metodlarının əsasən qavranılmasına xidmət edən metodlar 2 - Bilik, bacarıq və vərdişlərin əsasən formalaşdırılmasına xidmət edən metodlar 3 - Bilik, bacarıq və vərdişlərin əsasən tətbiqinə xidmət edən metodlar a - idraki oyunlar, tədris müsahibəsi, müstəqil işlər b - praktik işlər, müstəqil işlər c - müəllimin şərhi, müsahibə, kitab üzərində iş d - problem situasiya, təkrarlar, çalışmalar e - illüstrasiya, çalışmalar, yoxlama yazı işləri',
-    options: [
-      '1 - c; 2 - d; 3 - b',
-      '1 - d; 2 - b; 3 - a',
-      '1 - b 2 - c; 3 - a',
-      '1 - a; 2 - c; 3 - d',
-      '1 - b; 2 - e; 3 - c',
-    ],
-    correctAnswer: '1 - c; 2 - d; 3 - b',
-  },
-  {
-    number: 131,
-    question:
-      'Məktəbdə şagirdlərin ictimai - faydalı əməyin növləri və onlar arasındakı uyğunluğu tapın. 1 - öz kollektivi üçün olan əmək 2 - başqa kollektivlərə kömək məqsədilə olan əmək. 3',
-    options: [
-      'fərdi əmək qabiliyyətini inkişaf etdirmək, sahibkarlıq vərdişləri qazanmaq üçün olan əmək a - maddi və mənəvi tələblərini təmin etmək üçün qarşıya qoyulmuş məqsəd b - sinif otağını təmizləmək, məktəb mebelini təmiz etmək, idman meydançası salmaq c - bu əməyə fərdi , faydalı ixtisaslar qazanmaq, sahibkarlıq formalaşdıran məşğələ və seminarlarda iştirak. d- əmək şagirdlərin yaşına və gücünə uyğun olmalıdır e - uşaq bağçalarını hamiliyə götürmək, ictimai yerlərdə növbətçilik, yaşıllaşdırma işləri aparmaq',
-      '1 - b; 2 - e; 3 - c',
-      '1 - a; 2 - d; 3 - e',
-      '1 - e; 2 - a; 3 - b',
-      '1 - c ; 2 - b; 3 - d',
-      '1 - d; 2 - c; 3 - a',
-    ],
-    correctAnswer:
-      'fərdi əmək qabiliyyətini inkişaf etdirmək, sahibkarlıq vərdişləri qazanmaq üçün olan əmək a - maddi və mənəvi tələblərini təmin etmək üçün qarşıya qoyulmuş məqsəd b - sinif otağını təmizləmək, məktəb mebelini təmiz etmək, idman meydançası salmaq c - bu əməyə fərdi , faydalı ixtisaslar qazanmaq, sahibkarlıq formalaşdıran məşğələ və seminarlarda iştirak. d- əmək şagirdlərin yaşına və gücünə uyğun olmalıdır e - uşaq bağçalarını hamiliyə götürmək, ictimai yerlərdə növbətçilik, yaşıllaşdırma işləri aparmaq',
-  },
-  {
-    number: 132,
-    question: 'Şagird kollektivi üçün səciyyəvi olmayan əlamətlər hansıdır?',
-    options: [
-      'dəstə, toplanış, yığın',
-      'fəaliyyət və məqsəd birliyi',
-      'özünün idarə orqanlarına malik olmaq',
-      'qarşılıqlı məsuliyyət münasibəti',
-      'rəhbər orqanlara malik olmaq',
-    ],
-    correctAnswer: 'dəstə, toplanış, yığın',
-  },
-  {
-    number: 133,
-    question:
-      'Şəxsiyyət və kollektiv arasında münasibətlərin inkişafının modellərini və onların arasındakı uyğunluğu tapın 1 - birinci model 2 - üçüncü model 3 - ikinci model. a - şəxsiyyət zahirən kollektivin tələblərinə tabedir, daxili müstəqilliyini saxlayır; onun norma dəyərlərinə uyğunlaşma motivləri müxtəlifdir. b - Kollektiv şəxsiyyəti öz həyatının normalarına, dəyərlərinə və ənənələrinə tabe edir c - şagirdlərin səviyyələrinə istinad edilir. d - fərdi xüsusiyyətləri maksimum nəzərə alınır e - kollektivi şəxsiyyətin özünə tabe etməsi',
-    options: [
-      '1 - b; 2 - a; 3 - e',
-      '1 - a; 2 - c; 3 - c',
-      '1 - d; 2 - b; 3 - c',
-      '1 - c ; 2 - e; 3 - d',
-      '1 - e; 2 - d; 3 - b',
-    ],
-    correctAnswer: '1 - b; 2 - a; 3 - e',
-  },
-  {
-    number: 134,
-    question:
-      'Tərbiyə prosesinin formalarını seçin 1 - fərdi 2 - birgə 3 - kiçik qrup 4 - kütləvi 5 - qrup (kollektiv) 6 - cütlərlə',
-    options: [
-      '1; 2; 5; 4',
-      '1; 2; 3; 4',
-      '2; 3; 4; 5',
-      '3; 4; 5; 6',
-      '6; 5; 4; 3',
-    ],
-    correctAnswer: '1; 2; 5; 4',
-  },
-  {
-    number: 135,
-    question:
-      'Şagird kollektivinin ümumi seçkili orqanları vardır, bu qrupun əlamətləri hansılardı? 1-mütəşəkkilliyi 2 - qarşılıqlı asılılığı 3 - xeyirxahlıq 4 - kollektiv üzvlərinin hüquq və vəzifələrinin bərabərliyi 5 - özünüdərketmə 6 - özünü təşkil etmə',
-    options: ['1; 2; 4', '5; 6; 3', '2; 4; 6', '1; 2; 3', '6; 1; 2'],
-    correctAnswer: '1; 2; 4',
-  },
-  {
-    number: 136,
-    question:
-      'Şəxsiyyət və kollektiv arasında münasibətlərin inkişafının üç modelini fərqləndirin. 1 - şəxsiyyət kollektivə tabedir 2 - şəxsiyyətlərin münasibətləri məsələsi xüsusi əhəmiyyət kəsb edir 3 - şəxsiyyət və kollektiv optimal münasibətlərdədir 4 - perspektivlərin fasiləsiz olaraq dəyişdirilməsi 5 - şəxsiyyət kollektivi özünə tabe edir 6 - şagird kollektivi sistem kimi',
-    options: ['1; 3; 5', '5; 4; 3', '1; 2; 6', '3; 5; 4', '2; 1; 6'],
-    correctAnswer: '1; 3; 5',
-  },
-  {
-    number: 137,
-    question:
-      'Sinif rəhbərinin işinin planlaşdırılmasının tələblərini seçin 1 - yaş və fərdi xüsusiyyətləri nəzərə almaq 2 - pedaqoqun və məktəblilərin imkanları 3 - planlaşdırma kollektiv xarakterdə olmalıdır 4 - şəbəkə planlaşdırılması və qrafik planların tərtibi metodikası ilə tanış olun',
-    options: ['1; 3; 4', '3; 2; 4', '4; 3; 2', '1; 2; 3', '4; 1; 2'],
-    correctAnswer: '1; 3; 4',
-  },
-  {
-    number: 138,
-    question:
-      'İdrak fəaliyyətinin məhsuldarlığının xassələrinin məntiqi ardıcıllığını göstər 1 - ümumiləş diriciliyi və düşünülmüş olması 2 - mütəşəkkilliyin olması 3 - çevikliyi 4 - sabitliyi 5 – kollek tivin dəyərləri 6 - müstəqilliyi',
-    options: [
-      '1; 3; 4; 6',
-      '3; 4; 5; 6',
-      '1; 2; 3; 4',
-      '2 ; 3; 4; 5',
-      '5; 1; 6; 2',
-    ],
-    correctAnswer: '1; 3; 4; 6',
-  },
-  {
-    number: 139,
-    question:
-      'S. Makarenkoya görə kollektivin inkişaf prinsiplərinin ardıcıllığını göstər 1 - məsuliyyət. 2 - paralel təsir 3 - aşkarlıq 4 - perspektiv xətlər',
-    options: [
-      '3; 1; 4; 2',
-      '2; 3; 4; 1',
-      '1; 2; 3; 4',
-      '4; 1; 2; 3',
-      '2; 3; 4; 1',
-    ],
-    correctAnswer: '3; 1; 4; 2',
-  },
-  {
-    number: 140,
-    question:
-      'Sinifdənkənar iş kimlər tərəfindən aparılır? 1 - pedaqoji kollektivin üzvləri. 2 - fənn müəllimləri 3 - uşaq kitabxanasının işçiləri 4 - sinif rəhbərləri 5 - musiqi məktəbinin müəllimləri 6 - uşaq idman məktəblərinin müəllimləri',
-    options: ['1, 2, 4', '2, 4, 6', '1, 3, 5', '4, 5, 6', '2, 3, 6'],
-    correctAnswer: '1, 2, 4',
-  },
-  {
-    number: 141,
-    question:
-      'Məktəbdənkənar tərbiyə müəssisələrinə aid olanı seçin 1 - uşaq idman məktəbləri 2 - liseylər 3 - musiqi məktəbləri 4 - gimnaziyalar 5 - gənc tamaşaçılar teatrı 6 - uşaq kitabxanası 7 - fənn dərnəkləri',
-    options: [
-      '1, 3, 5, 6',
-      '2, 3, 4, 5',
-      '1, 2, 4, 7',
-      '1, 2, 4, 6',
-      '3, 4, 5, 7',
-    ],
-    correctAnswer: '1, 3, 5, 6',
-  },
-  {
-    number: 142,
-    question:
-      'Sinif rəhbərinin işinin məzmununda aparılan işlərin məntiqi ardıcıllığını göstər 1 - dərs dənkənar işlərin təşkili 2 - müəllimlərlə görüşüb məlumatlar toplamaq 3 - təlim keyfiyyətlərini yüksəltmək 4 - şagirdlərin dünyagörüşünü formalaşdırır 5 - valideynlərlə iş aparır',
-    options: ['3; 1; 5', '1; 2; 3', '2; 3; 4', '4; 5; 3', '2; 1; 4'],
-    correctAnswer: '3; 1; 5',
-  },
-  {
-    number: 143,
-    question:
-      'Sinif rəhbərinin planının məntiqi ardıcıllığını göstərin 1 - şagirdlərin valideynləri ilə əməkdaşlıq məsələləri 2 - şagirdlərin bədən tərbiyəsi və idman işlərinin təşkili 3 - dərs dənkənar işlərin təşkili 4 - şagirdlərin təlim keyfiyyətinin yüksəldilməsi 5 - sinif kollektivinin təşkili və onun tərbiyəlilik səviyyəsi',
-    options: [
-      '5; 4; 3; 1; 2',
-      '2; 3; 4; 5; 1',
-      '3; 4; 5; 1; 2',
-      '4; 5; 3; 2; 1',
-      '3; 1; 4; 5; 2',
-    ],
-    correctAnswer: '5; 4; 3; 1; 2',
-  },
-  {
-    number: 144,
-    question:
-      'Kollektivin əlamətləri və onların arasındakı uyğunluğu tapın 1 - ümumi sosial əhəmiyyəti olan məqsəd qoymaq 2 - qarşıda qoyulmuş məqsədə çatmaq üçün birgə fəaliyyət 3 - kollektivin üzvləri arasındaməsuliyyətli asılılıq münasibətləri 4 - ümumi seçkili rəhbər orqanların yaradılması a - kollektivin məqsədi ictimai məqsədlərə uyğun gəldiyindən dövlət onu müdafiə edir b - məzmunun dəyişməsi formanın dəyişməsinə gətirib çıxarır c - məqsəd və fəaliyyətlərlə əlaqədar olaraq yaranan hiss və duyğuları əks etdirir d - insanlar kollektivlərdə ona görə birləşirlər ki, birgə səylərlə müəyyən məqsədə tez nail olsun e - kollektivdə demokratik münasibətlər yaranır',
-    options: [
-      '1 - a; 2 - d; 3 - c; 4 - e',
-      '1 - b; 2 - e; 3 - d; 4 - c',
-      '1 - c; 2 - a; 3 - e; 4 - b',
-      '1 - e ; 2 - b; 3 - a; 4 - c',
-      '1 - d; 2 - c; 3 - b; 4 - d',
-    ],
-    correctAnswer: '1 - a; 2 - d; 3 - c; 4 - e',
-  },
-  {
-    number: 145,
-    question:
-      'Uşaqların tərbiyəsində məktəb, ailə və ictimaiyyətin əlbir işi. /Azərbaycan Uşaqlar Birliyinin fiziki tərbiyə məqsədi daşıyan fəaliyyət istiqaməti hansıdır?',
-    options: [
-      'Güclülər, cəsurlar, çeviklər',
-      'İş insanın cövhəridir',
-      'Ağlın çırağı',
-      'Yaşıl dünya',
-      'Mərhəmət',
-    ],
-    correctAnswer: 'Güclülər, cəsurlar, çeviklər',
-  },
-  {
-    number: 146,
-    question:
-      'Tərbiyə vasitəsilə insanın ləyaqətli ailə başçısına çevrilməsi keyfiyyəti və vəzifələri hansılardı?1 - sağlam və fəal həyat tərzinə malik olmalıdır 2 - beynəlmiləlçi olmalıdır. 3 - ümumi, iqtisadi və peşə biliklərinə malik olmalıdır 4 - yaxşı istirahət etməyi bacarmalıdır. 5',
-    options: [
-      'əmək təcrübəsinə malik olmalıdır 6 - uşaqları tərbiyə etməyi bacarmalıdır',
-      '1; 4; 6',
-      '2; 3; 5',
-      '3; 5; 6',
-      '2; 4; 6',
-      '1; 2; 3',
-    ],
-    correctAnswer:
-      'əmək təcrübəsinə malik olmalıdır 6 - uşaqları tərbiyə etməyi bacarmalıdır',
-  },
-  {
-    number: 147,
-    question:
-      'Ailə tərbiyəsinə mənfi təsir göstərən səbəbləri göstərin: 1 - ailələrin iqtisadi vəziyyətinin zəif olması 2 - ictimai həyatın mədəni səviyyəsinin aşağı olması 3 - normal ailə münasibətləri. 4 - boşanma hallarının artması 5 - ailə və məktəb arasında əlaqə',
-    options: ['1, 2, 4', '1, 2, 3', '1, 3, 5', '2, 4, 5', '1, 4, 5'],
-    correctAnswer: '1, 2, 4',
-  },
-  {
-    number: 148,
-    question:
-      'Məktəblə ailənin fərdi əlaqə formalarını müəyyən edin: 1 - müəllimlərin ailələrə gedişi. 2 - sinif, valideyn yığıncağı 3 - valideynin məktəbə dəvət edilməsi 4 - ümumi məktəb yığıncaqları 5 - gündəlik vasitəsilə 6 - pedaqoji lektoriyalar',
-    options: ['1, 3, 5', '1, 2, 5', '2, 3, 6', '2, 4, 5', '1, 5, 6'],
-    correctAnswer: '1, 3, 5',
-  },
-  {
-    number: 149,
-    question:
-      'Şagirdlərin tərbiyəsində birgə fəaliyyət göstərən sistemi müəyyən edin 1 - məktəb 2 - təhsil idarəsi 3 - təhsil nazirliyi 4 - ailə 5 - dövlət 6 - həmkarlar təşkilatı 7 - ictimaiyyət',
-    options: ['1, 4, 7', '1, 2, 4', '4, 6, 3', '5, 6, 2', '3, 5, 7'],
-    correctAnswer: '1, 4, 7',
-  },
-  {
-    number: 150,
-    question:
-      'Gün rejimi əsasında bədən tərbiyəsi sağlamlıq tədbirlərin növləri və onların arasındakı uyğunluğu tapın 1 - evdə 2 - əmək təlimi dərslərində 3 - məktəbdə a - sağlamlıq günləri, idman gecələri b - gəzintilər, mütəhərrik oyunlar, dərslərə hazırlaşarkən bədən tərbiyəsi fasilələri c - ümumi fiziki hazırlıq, idman bölmələri d - bədən tərbiyəsi fasilələri e - tənəf füslərdə mütəhərrik oyunlar, ibtidai siniflərdə bədən tərbiyəsi fasilələri, məşğələlərdən əvvəl gimnastika',
-    options: [
-      '1 - b; 2 - d; 3 - e',
-      '1 - a; 2 - e; 3 - b',
-      '1 - c; 2 - a; 3 - d',
-      '1 - d ; 2 - b; 3 - e',
-      '1 - e; 2 - a; 3 - c',
-    ],
-    correctAnswer: '1 - b; 2 - d; 3 - e',
-  },
-  {
-    number: 151,
-    question: 'Tərbiyəyə kompleks yanaşma deyəndə nə başa düşülür?',
-    options: [
-      'Tərbiyəvi işlər prosesində tərbiyənin tərkib hissələrinin eyni zamanda üzvi əlaqədə tətbiqi',
-      'Keçmişdə mənimsənilənlərin yeni öyrədilənlərlə əlaqəsinin təmin edilməsi',
-      'Tərbiyə prosesinə yaradıcı yanaşmaqla yeni metodlardan istifadə',
-      'Şəxsiyyətin ayrı - ayrı strukturlarının formalaşdırılması',
-      'Tərbiyə işlərinin sistemliliyi ilə fəallığın əlaqələndirilməsi',
-    ],
-    correctAnswer:
-      'Tərbiyəvi işlər prosesində tərbiyənin tərkib hissələrinin eyni zamanda üzvi əlaqədə tətbiqi',
-  },
-  {
-    number: 152,
-    question:
-      'Valideynlərin hansı keyfiyyətləri ailədə övladların düzgün tərbiyəsinə güclü təsir edir? 1 - sözlə əməlin birliyi 2 - ciddi və sərt davranış 3 - müsbət nümunəsi 4 - qoyduqları qadağalar 5 - uşağa vahid tələblər verməsi',
-    options: ['1, 3, 5', '1, 2, 3', '1, 4, 5', '2, 3, 5', '1, 2, 4'],
-    correctAnswer: '1, 3, 5',
-  },
-  {
-    number: 153,
-    question:
-      'Mövcudluq müddətinə görə fərqlənən uşaq birlikləri hansıdır?  1 – daimi   2 - təsadüfi 3',
-    options: [
-      'mütəşəkkil 4 - müvəqqəti 5 - situativ',
-      '1, 4, 5',
-      '1, 2, 3',
-      '2, 3, 4',
-      '3, 4, 5',
-      '2, 4, 5',
-    ],
-    correctAnswer: 'mütəşəkkil 4 - müvəqqəti 5 - situativ',
-  },
-  {
-    number: 154,
-    question:
-      'Məktəbin direktorunun təşkilati işinə aiddir 1 - Məktəbin maddi - texniki bazasının gücləndirilməsi 2 - Məktəbin kadrlarının seçilib yerləşdirilməsi 3 - Dərs cədvəlini tutmaq 4',
-    options: [
-      'Şagirdlərin yaradıcı birliklərinin işinin təşkili 5 - Pedaqoji kadrların yüksək işgüzarlığını təmin etmək şəraitinin yaradılması',
-      '2; 4; 5',
-      '1; 2; 3',
-      '2; 3; 4',
-      '4; 5; 1',
-      '5; 3; 4',
-    ],
-    correctAnswer:
-      'Şagirdlərin yaradıcı birliklərinin işinin təşkili 5 - Pedaqoji kadrların yüksək işgüzarlığını təmin etmək şəraitinin yaradılması',
-  },
-  {
-    number: 155,
-    question:
-      'İdarəetmənin mərhələləri ardıcıllığını seç 1 - məqsəd irəli sürülür 2 - görüləcək işin proqramı işlənir 3 - vəziyyət öyrənilir 4 - təshihlər aparılır, əks əlaqə yaradılır 5 - proqram üzrə işin təşkili təmin edilir 6 - qiymətləndirilir və nəticə çıxarılır',
-    options: [
-      '1, 3, 2, 5, 4, 6',
-      '2, 4, 5, 6, 3, 1',
-      '4, 3, 2, 5, 1, 6',
-      '6, 2, 4, 5, 1, 3',
-      '5, 1, 4, 6, 3, 2',
-    ],
-    correctAnswer: '1, 3, 2, 5, 4, 6',
-  },
-  {
-    number: 156,
-    question:
-      'Məktəbi idarəetmə sisteminin strukturunda dörd səviyyə və onlar arasındakı uyğunluğu tapın. 1 – birinci səviyyə 2 – ikinci səviyyə 3 – üçüncü səviyyə 4 – dördüncü səviyyə: a - dövlət orqanı tərəfindən seçilmiş məktəb direktoru, məktəb şurası, şagird komitəsi, ictimai təşkilatların rəhbərləri b - dövlət, qeyri dövlət müəssisələri, təhsil şöbələri, şöbə rəhbərləri c - şagirdlər sinif və ümumməktəb şagird özünüidarəsi d - müəllimlər, tərbiyəçilər, sinif rəhbərləri e - məktəb direktorlarının müavinləri, məktəbin psixoloqu, sosial pedaqoqu, inzibati təsərrüfat işləri üzrə direktor köməkçisi',
-    options: [
-      '1 - a; 2 - e; 3 - d; 4 - c',
-      '1 - b; 2 - c; 3 - c; 4 - e',
-      '1 - c; 2 - d; 3 - b; 4 - d',
-      '1 - d ; 2 - b; 3 - e; 4 - a',
-      '1 - e; 2 - a; 3 - a; 4 - b',
-    ],
-    correctAnswer: '1 - a; 2 - e; 3 - d; 4 - c',
-  },
-  {
-    number: 157,
-    question:
-      'Pedaqoji sistemlərin idarəetmə dəyərləri hansılardır? 1 - dəyər məqsədlər 2 - dəyər təşkil 3 - dəyər biliklər 4 - dəyər münasibətlər 5 - dəyər bacarıqlar 6 - dəyər vərdişlər 7 - dəyər kompetensiyalar 8 - dəyər keyfiyyətlər',
-    options: [
-      '1; 3; 4; 7',
-      '2; 4; 6; 7',
-      '7; 6; 5; 4',
-      '4; 3; 2; 8',
-      '6; 5; 4; 3',
-    ],
-    correctAnswer: '1; 3; 4; 7',
-  },
-  {
-    number: 158,
-    question:
-      'Pedaqoji sistemlərin idarəetmə dəyərləri və onlar araslndakl uyğunluğu tapın 1 - Dəyərlər - məqsədlər 2 - Dəyərlər - biliklər 3 - Dəyərlər - münasibətlər 4 - Dəyərlər - keyfiyyətlər: a - idarəetmə sahəsində biliklərin əhəmiyyəti və mənasını açır b - pedaqoji prosesin iştirakçıları arasında qarşılıqlı münasibətlərin, pedaqoji və şagird kollektivlərində şəxsiyyətlərarası münasibətlər c - tam pedaqoji prosesin idarəetmənin məqsədinin əhəmiyyətivə mənasını açıb göstərir d - məktəbdaxili nəzatəri aşkar etmək e - idarəetmənin subyekti olan məktəb rəhbərinin – menecerin müxtəlif fərdi, kommunikativ, davranış keyfiyyətlərini açır',
-    options: [
-      '1 - c; 2 - a; 3 - b; 4 - e',
-      '1 - a; 2 - d; 3 - e; 4 - d',
-      '1 - b; 2 - b; 3 - d; 4 - b',
-      '1 - d ; 2 - e; 3 - c; 4 - a',
-      '1 - e; 2 - c; 3 - a; 4 - c',
-    ],
-    correctAnswer: '1 - c; 2 - a; 3 - b; 4 - e',
-  },
-  {
-    number: 159,
-    question:
-      'Tərbiyəvi işin pedaqoji təhlili zamanı onun keçirilmə ardıcıllığını göstər 1 - birgə planlaşdırma 2 - tərbiyə işin bilavasitə keçirilməsi 3 - işi birgə yekunlaşdırmaq və onun təhlili 4 - işin hazırlanmasında uşaqların iştirakı və müəllimlərin pedaqoji rəhbərliyinin xüsusiyyətləri 5 - məqsədin birgə müəyyənləşdirilməsi, tərbiyəvi işin vəzifələri, keçirilmə forması',
-    options: [
-      '5; 1; 4; 2; 3',
-      '3; 2; 1; 5; 4',
-      '5; 4; 3; 2; 1',
-      '3; 1; 5; 2; 4',
-      '2; 4; 3; 1; 5',
-    ],
-    correctAnswer: '5; 1; 4; 2; 3',
-  },
-  {
-    number: 160,
-    question:
-      'Məktəb işinin planlarının növlərini göstər 1 - ümumi 2 - perspektiv 3 - xüsusi 4 - illik 5 – cari',
-    options: ['2; 4; 5', '1; 2; 3', '4; 5; 1', '2; 3; 4', '1; 3; 4'],
-    correctAnswer: '2; 4; 5',
-  },
-  {
-    number: 161,
-    question:
-      'Məktəbdə idarəetmə fəaliyyətinin müxtəlif formalarını ardıcıllıqla qeyd edin 1 - pedaqoji şura 2 - məktəb şurası 3 - direktoryanı müşavirə 4 - metod - seminar 5 - komisiyaların iclasları 6- direktorun müavini yanında müşavirə 7 - operativ müşavirə 8 - şagird komitəsinin iclası',
-    options: [
-      '2; 1; 3; 6; 7; 4; 5; 8',
-      '3; 1; 4; 7; 8; 5; 2; 6',
-      '5; 3; 2; 1; 6; 7; 8; 4',
-      '8; 7; 6; 5; 4; 3; 1; 2',
-      '1; 2; 3; 4; 5; 6; 7; 8',
-    ],
-    correctAnswer: '2; 1; 3; 6; 7; 4; 5; 8',
-  },
-  {
-    number: 162,
-    question:
-      'Müəllimlərin ixtisasartırmaları yollarını qeyd edin 1 - özünü təhsillə 2 - ictimai tərəqqinin tələbləri ilə ayaqlaşmaq 3 - qabaqcıl iş təcrübəsinin yaradıcı şəkildə öyrənilməsi 4 - konfrans və seminarlarda, pedaqoji mühazirələrdə iştirak etməsi 5 - sinif iclası',
-    options: ['1; 3; 4', '3; 4; 5', '5; 4; 3', '1; 2; 3', '4; 5; 1'],
-    correctAnswer: '1; 3; 4',
-  },
-  {
-    number: 163,
-    question:
-      'Attestasiyanın mərhələlərinin məntiqi ardıcıllığını göstər 1 - komissiyanın yaradılması 2 - qərarların qəbulu 3 - qiymətləndirmənin təşkili',
-    options: ['1; 3; 2', '1; 2; 3', '3; 2; 1', '3; 1; 2', '2; 3; 1'],
-    correctAnswer: '1; 3; 2',
-  },
-  {
-    number: 164,
-    question:
-      'Attestasiyanın prinsipləri hansılardır?   1 - könüllülük   2 - açıqlıq    3 - fərdi yanaşma  4',
-    options: [
-      'sistemlilik 5 - tamlıq 6 - obyektivlilik',
-      '1; 2; 4; 5; 6',
-      '5; 4; 2; 3; 1',
-      '6; 5; 3; 4; 2',
-      '2; 3; 4; 5; 6',
-      '3; 2; 5; 4; 1',
-    ],
-    correctAnswer: 'sistemlilik 5 - tamlıq 6 - obyektivlilik',
-  },
-  {
-    number: 165,
-    question:
-      'Pedaqoji şuranın sahələri və onlar arasındakı uyğunluğu tapın 1 - istehsalat rəsmi sahə 2 - elmi - pedaqoji sahə a - elmi metodiki fəaliyyətinin inkişafı pedaqoji kollektivin peşə ixtisasının yüksək səviyyəsinə b - elmi - pedaqoji sahəyə yuxarı orqanların göstərişlərinin elmi tədqiqat işlərinin müzakirəsi qabaqcıl təcrübənin tətbiqi, pedaqoji prosesin təhlili c - məktəbin illik planının təsdiqi, rüblərin yekunları, müzakirəsi, imtahanlara hazırlıq və onların təşkilinin planının təsdiqi, şagirdlərin sinifdən sinfə keçirilməsi və buraxılışı, dərs ilinin yekunlar d - təlim - tərbiyə prosesinin təşkili ilə bağlı məsələləri həll etməli, onu təkmilləşdirmək yollarını müəyyənləşdirməlidir e - pedaqoji şuralar təlim və təhsil - tərbiyənin əsas problemlərini işləyib hazırlayır',
-    options: [
-      '1 - b; 2 - c',
-      '1 - c; 2 - e',
-      '1 - b; 2 - d',
-      '1 - e ; 2 - a',
-      '1 - a; 2 - b',
-    ],
-    correctAnswer: '1 - b; 2 - c',
-  },
-  {
-    number: 166,
-    question:
-      'Məktəb şurasının sektoru və onlar arasındakı uyğunluğu tapın 1 – pedaqoji sektor 2 – valideyn sektoru 3 – şagird sektoru a - kadr məsələləri ilə məşğul olur, müəllimlərin ixtisasını artırmaqla və onların attestasiyası ilə məşğul olur b - uşaq özünüidarəsinin funksiyalarını həyata keçirir, növbətçiliyi, idman yarışlarını, yürüşləri, olimpiadaları təşkil edir c - məktəbin perspektivləri və cari ildə vəzifələri haqqında direktorun məruzəsini dinləyir və müzakirə edir d - məktəbin təmiri məsələlərinə kömək edir, valideynlərlə iş aparılır, tərbiyəvi tədbirlərin keçirilməsinə kömək göstərir e - bu və ya digər sahələrə cavabdeh olan adamların məlumatınıdinləyir, qəbul olunan qərarların həlli yollarını müəyyənləşdirir',
-    options: [
-      '1 - a; 2 - d; 3 - b',
-      '1 - d; 2 - a; 3 - c',
-      '1 - c; 2 - b; 3 - d',
-      '1 - e ; 2 - c; 3 - e',
-      '1 - b; 2 - e; 3 - a',
-    ],
-    correctAnswer: '1 - a; 2 - d; 3 - b',
-  },
-  {
-    number: 167,
-    question:
-      'Məktəbdaxili nəzarətin təşkilinə verilən tələblərin ardıcıllığını göstərin. 1 - nəzarətin sistematikliyi 2 - nəzarətin təsirliliyi 3 - nəzarətin obyektivliyi 4 - nəzarətin həyata keçirilməsinin səriştəli olması',
-    options: [
-      '1; 3; 2; 4',
-      '4; 3; 2; 1',
-      '3; 4; 1; 2',
-      '3; 2; 4; 1',
-      '1; 2; 3; 4',
-    ],
-    correctAnswer: '1; 3; 2; 4',
-  },
-  {
-    number: 168,
-    question:
-      'Məktəbdaxili nəzarətin növlərini və onun uyğunluqlarını tapın 1 - tematik nəzarət 2 - frontal nəzarət a - tematik nəzarətin məzmununu pedaqoji proseslərin müxtəlif istiqamətləri təşkil edir b - müəllimin fəaliyyətində şəxsi nəzarət onun professional təşəkkülü üçün stimuldur c - frontal nəzarət pedaqoji kollektivin, metodbirləşmələrin və ayrıca müəllimin fəaliyyətini hərtərəfli öyrənməyi nəzərdə tutur d - məktəbdə müntəzəm nəzarət sisteminin yaradılmasına yönəldilmişdir e - keçirilən nəzarətin nəticələri pozitiv dəyişikliklərə gətirib çıxarır',
-    options: [
-      '1 - a; 2 - c',
-      '1 - b; 2 - d',
-      '1 - c; 2 - e',
-      '1 - d ; 2 - a',
-      '1 - e; 2 - b',
-    ],
-    correctAnswer: '1 - a; 2 - c',
-  },
-  {
-    number: 169,
-    question:
-      'Nəzarətin formalarını seçin 1 - şəxsi nəzarət 2 - sinif - ümumiləşdirici nəzarət 3 - tematik nəzarət 4 - fənn ümumiləşdirici nəzarət 5 - frontal nəzarət 6 - tematik ümumiləşdirici nəzarət 7 - kompleks ümumiləşdirici nəzarət',
-    options: [
-      '1; 2; 4; 6; 7',
-      '1; 2; 3; 4; 5',
-      '6; 7; 5; 4; 3',
-      '5; 4; 3; 2; 1',
-      '5; 3; 6; 7; 4',
-    ],
-    correctAnswer: '1; 2; 4; 6; 7',
-  },
-  {
-    number: 170,
-    question:
-      'Azərbaycan Respublikası Avropa ali təhsil məkanı haqqında Boloniya Konvensiyasına uyğun olaraq nə vaxt Boloniya sisitemi qoşulmuşdur?',
-    options: [
-      '2005-05-19 00:00:00',
-      '2004-03-19 00:00:00',
-      '1999-05-20 00:00:00',
-      '2005-06-15 00:00:00',
-      '2001-05-19 00:00:00',
-    ],
-    correctAnswer: '2005-05-19 00:00:00',
-  },
-  {
-    number: 171,
-    question:
-      'Çoxpilləli al təhsilə keçiddə- bakalavriat pilləsinə nə vaxt keçirilmişdir?',
-    options: [
-      '1993-1994-cü tədris ilində',
-      '1993-1995-ci tədris ilində',
-      '1994-1995-ci tədris ilində',
-      '1995-1996-cı tədris ilində',
-      '1992-1993-cü tədris ilində',
-    ],
-    correctAnswer: '1993-1994-cü tədris ilində',
-  },
-  {
-    number: 172,
-    question:
-      'Azərbaycan Respublikası magistratura təhsil pilləsinə nə vaxt keçmişdir?',
-    options: [
-      '1997-1998-ci tədris ilində',
-      '1995-1996-cı tədris ilində',
-      '1994-1995-ci tədris ilində',
-      '1998-1999-cu tədris ilində',
-      '2000-2001-ci tədris ilində',
-    ],
-    correctAnswer: '1997-1998-ci tədris ilində',
-  },
-  {
-    number: 173,
-    question:
-      '2007-2008-ci ildən tədris olunan “ Təhsilin təşkili və idarəedilməsi” ixtisası üzrə ilk kadr hazırlığına hansı ali məktəbdə aparılmışdır?',
-    options: [
-      'Azərbaycan Dövlət Pedaqoji Universitetində',
-      'Bakı Dövlət Universitetində',
-      'Bakı Slavyan Universitetində',
-      'Gəncə Dövlət Universitetində',
-      'Azərbaycan Müəllimlər İnstitutunda',
-    ],
-    correctAnswer: 'Azərbaycan Dövlət Pedaqoji Universitetində',
-  },
-  {
-    number: 174,
-    question:
-      '“Təhsil haqqında” Azərbaycan Respublikasının qanununda Milli Məclisdə I oxunuşda qəbul olunmuş yeni layihəsi nə vaxt təsdiqlənmişdi?',
-    options: [
-      '2007-ci il dekabr ayında',
-      '2005-ci ilin sentyabr ayında',
-      '2003-cü ilin avqust ayında',
-      '2001-ci ilin yanvar ayında',
-      '2008-ci ilin mart ayında',
-    ],
-    correctAnswer: '2007-ci il dekabr ayında',
-  },
-  {
-    number: 175,
-    question:
-      'YUNESKO tərəfindən XXI əsr “Təhsil əsri” elan edilərkən idarəetmə orqanları qarşısında neçə təməl prinsip müəyyənləşdirilmişdir?',
-    options: ['4 prinsip', '6 prinsip', '5 prinsip', '7 prinsip', '13 prinsip'],
-    correctAnswer: '4 prinsip',
-  },
-  {
-    number: 176,
-    question:
-      'Azərbaycan Respublikasının Prezidentinin 15 iyun 1999-cu il tarixli 168 saylı sərəncamı nə olmuşdur?',
-    options: [
-      'Azərbaycan Respublikasının təhsil sahəsində İslahat Proqramı',
-      'Bakalavr təhsil pilləsinə keçid',
-      'Magistratura təhsil pilləsinə keçid',
-      'Baloniya təhsil sisteminə inteqrasiya',
-      'Azərbaycan Müəllimlər İnstitunun təsisi',
-    ],
-    correctAnswer:
-      'Azərbaycan Respublikasının təhsil sahəsində İslahat Proqramı',
-  },
-  {
-    number: 177,
-    question:
-      'Azərbaycan Respublikası Təhsil Sistemində islahatlar neçə mərhələdə aparılması nəzərdə tutulmuşdur?',
-    options: [
-      '3 mərhələdə',
-      '5 mərhələdə',
-      '7 mərhələdə',
-      '9 mərhələdə',
-      '13 mərhələdə',
-    ],
-    correctAnswer: '3 mərhələdə',
-  },
-  {
-    number: 178,
-    question:
-      'Təhsil sahəsində aparılan islahatların II mərhələsi neçənci illəri əhatə edirdi?',
-    options: [
-      '2000-2003 cü illər',
-      '2000-2004 cü illər',
-      '2000-2005 ci illər',
-      '2000-2006 cı illər',
-      '1999-2001 ci illər',
-    ],
-    correctAnswer: '2000-2003 cü illər',
-  },
-  {
-    number: 179,
-    question:
-      'Azərbaycan Respublikası Təhsil islahatı proqramında bütovlüklə neçə tədbirin həyata keçirilməsi müəyyənləşdirilmişdir?',
-    options: [
-      '128 tədbir',
-      '212 tədbir',
-      '121 tədbir',
-      '140 tədbir',
-      '120 tədbir',
-    ],
-    correctAnswer: '128 tədbir',
-  },
-  {
-    number: 180,
-    question:
-      '. Azərbaycan Respublikası Təhsil sahəsində islahatı proqramında I mərhələdə neçə tədbir həyata keçirilməli idi?',
-    options: [
-      '50  tədbir',
-      '57  tədbir',
-      '21  tədbir',
-      '128 tədbir',
-      '65 tədbir',
-    ],
-    correctAnswer: '50  tədbir',
-  },
-  {
-    number: 181,
-    question:
-      'Azərbaycan Respublikası Təhsil sahəsində islahatı proqramında II mərhələdə neçə tədbir həyata keçirilməli idi?',
-    options: ['57 tədbir', '50tədbir', '65 tədbir', '71 tədbir', '89 tədbir'],
-    correctAnswer: '57 tədbir',
-  },
-  {
-    number: 182,
-    question:
-      '. Azərbaycan Respublikası Təhsil sahəsində islahatı proqramında III mərhələdə neçə tədbir həyata keçirilməli idi?',
-    options: ['21 tədbir', '29 tədbir', '50 tədbir', '57 tədbir', '25 tədbir'],
-    correctAnswer: '21 tədbir',
-  },
-  {
-    number: 183,
-    question:
-      'Təhsil sahəsində aparılan islahatlar proqramının III mərhələsi hansı illərdən sonranı əhatə edir?',
-    options: [
-      '2004 – cü ildən sonrakı dövrü',
-      '2005 – ci ildən sonrakı dövrü',
-      '2006 – cı ildən sonrakı dövrü',
-      '2009 – cu ildən sonrakı dövrü',
-      '2001 – ci ildən sonrakı dövrü',
-    ],
-    correctAnswer: '2004 – cü ildən sonrakı dövrü',
-  },
-  {
-    number: 184,
-    question:
-      '“Təhsil haqqında” Azərbaycan Respublikası Qanununda Təhsil sahəsində dövlət siyasətinin əsas prinsipləri neçə cür müəyyən edilmişdir?',
-    options: [
-      '9 prinsip',
-      '10 prinsip',
-      '12 prinsip',
-      '7 prinsip',
-      '13 prinsip',
-    ],
-    correctAnswer: '9 prinsip',
-  },
-  {
-    number: 185,
-    question:
-      'Azərbaycan Respublikası Təhsil sahəsində dövlət siyasətinin son hədəfi nə olmuşdur?',
-    options: [
-      'Dünya təsil sisteminə inteqrasiya olmaq',
-      'Fasiləsizlik, vəhdətlilik və daimilik nəzərdə tutur',
-      'Təhsili idarə etmənin prinsiplərinin öyrənmək',
-      'Təhsil sahəsində əldə olunmuş əks əlaqə',
-      'Milli və ümumbəşəri dəyərlərin qorunması',
-    ],
-    correctAnswer: 'Dünya təsil sisteminə inteqrasiya olmaq',
-  },
-  {
-    number: 186,
-    question:
-      'Təhsilin müasir standartlara, normalara, dövlət, cəmiyyət və şəxsiyyətin maraqlarına uyğunluğu təhsil siyasətinin hansı prinsipində göstərilmişdir?',
-    options: [
-      'Keyfiyyətlilik',
-      'Səmərəlilik',
-      'Bərabərlik',
-      'Demokratiklik',
-      'Humanistlik',
-    ],
-    correctAnswer: 'Keyfiyyətlilik',
-  },
-  {
-    number: 187,
-    question:
-      'Bunlardan hansı “Təhsil haqqında” Azərbaycan Respublikası Qanununda Təhsil sahəsində dövlət siyasətinin əsas prinsiplərindəndir?',
-    options: [
-      'İnteqrasiya, bərabərlik, keyfiyyətlilik',
-      'Təlimin prinsipləri',
-      'Tərbiyənin prinsipləri',
-      'Təhsilin təşkili və idarə olunması prinsipi',
-      'Təhsildə yeni informasiya texnologiyalarının tətbiqi',
-    ],
-    correctAnswer: 'İnteqrasiya, bərabərlik, keyfiyyətlilik',
-  },
-  {
-    number: 188,
-    question:
-      'Azərbaycan Respulikası Prezidenti “Təhsil haqqında” islahat proqramını nə vaxt imzalamışdır?',
-    options: [
-      '15 iyun 1999-cu il',
-      '19 may 1995-ci il',
-      '17 iyul 1999-cu il',
-      '15 iyul 1999-cu il',
-      '14 sentyabr 1998-ci il',
-    ],
-    correctAnswer: '15 iyun 1999-cu il',
-  },
-  {
-    number: 189,
-    question:
-      'Təhsil proqramı islahatlarının aparılmasında neçə strateji istiqamət nəzərdə tutulmuşdur?',
-    options: [
-      '8 istiqamət',
-      '9 istiqamət',
-      '10 istiqamət',
-      '12 istiqamət',
-      '5 istiqamət',
-    ],
-    correctAnswer: '8 istiqamət',
-  },
-  {
-    number: 190,
-    question:
-      'Bunlardan biri təhsil sahəsində İslahat Proqramının strateji istiqaməti deyil?',
-    options: [
-      '1 il müddətini əhatə edən I mərhələ',
-      'Təhsil sisteminin idarə olunması',
-      'Təhsil sisteminin iqtisadiyyatı',
-      'Kadr hazırlığı və təminatı',
-      'Təlim-tərbiyənin, təhsilin məzmunu',
-    ],
-    correctAnswer: '1 il müddətini əhatə edən I mərhələ',
-  },
-  {
-    number: 191,
-    question:
-      '“Təhsil sahəsində əldə olunmuş bilik və təcrübənin ardıcıl olaraq növbəti nəsilə ötürülməsi” təhsil siyasətinin hansı prinsipində deyildir ?',
-    options: [
-      'Varislik',
-      'Səmərəlilik',
-      'Keyfiyyətlilik',
-      'Bərabərlik',
-      'Demokratiklik',
-    ],
-    correctAnswer: 'Varislik',
-  },
-  {
-    number: 192,
-    question:
-      'Milli və ümumbəşəri dəyərlərin, şəxsiyyətin azad inkişafının, hüquq və azadlıqların, tolerantlıq və dözümlülük keyfiyyətlərinin prioritet kimi qəbul olunması hansı prinsipə aiddir?',
-    options: [
-      'Humanistlik',
-      'Millilik və Dünyəvilik',
-      'İnteqrasiya',
-      'Səmərəlilik',
-      'Bərabərlik',
-    ],
-    correctAnswer: 'Humanistlik',
-  },
-  {
-    number: 193,
-    question: 'Aşağıdakılardan hansılar Ümumtəhsil proqramlarına daxildir?',
-    options: [
-      'Məktəbəqədər, ibtidai',
-      'Məktəb işinin planlaşdırılması',
-      'Məktəbin kollegial idarəetmə orqanları',
-      'Məktəbdə metodiki işlər',
-      'Təhsili idarə etmənin əsasları',
-    ],
-    correctAnswer: 'Məktəbəqədər, ibtidai',
-  },
-  {
-    number: 194,
-    question: 'Təhsil sisteminin qruluşuna neçə təhsil pilləsi daxildir?',
-    options: ['5', '6', '7', '4', '9'],
-    correctAnswer: '5',
-  },
-  {
-    number: 195,
-    question:
-      '“Erkən yaş dövründə uşaqların inkişafı proqramı” kim tərəfindən hazırlanmışdır?',
-    options: [
-      'Asiya İnkişaf Bankı tərəfindən',
-      'Azərbaycan Respublikası Təhsil Nazirliyi tərəfindən',
-      'Xarici İşlər Nazirliyi tərəfindən',
-      'Azərbaycan Milli Bankı tərəfindən',
-      'Səhiyyə Nazirliyi tərəfindən',
-    ],
-    correctAnswer: 'Asiya İnkişaf Bankı tərəfindən',
-  },
-  {
-    number: 196,
-    question:
-      'Azərbaycan Respublikasında məktəbəqədər təhsilin təkmilləşdirilməsinə dair Dövlət Proqramı neçənci illəri əhatə edir?',
-    options: [
-      '2007-2010-cu illər',
-      '1999-2005-ci illər',
-      '2000-2009-cu illər',
-      '2001-2010-cu illər',
-      '2005-2011-ci illər',
-    ],
-    correctAnswer: '2007-2010-cu illər',
-  },
-  {
-    number: 197,
-    question:
-      '2007-ci ilin son statistik məlumatına görə ölkədə neçə məktəbəqədər tərbiyə müəssisəsi mövcud olmuşdur?',
-    options: ['1758', '1785', '1258', '2000', '2751'],
-    correctAnswer: '1758',
-  },
-  {
-    number: 198,
-    question:
-      'Azərbaycan Respulikası Prezidentinin “Azərbaycan Respulikasında məktəbəqədər təhsilin təkmilləşdirilməsinə dair Dövlət Proqramı” nə vaxt qəbul edilmişdir?',
-    options: [
-      '12 aprel 2007-ci il',
-      '17 dekabr 2007-ci il',
-      '12 may 2010-cu il',
-      '21 mart 2005-ci il',
-      '9 aprel 2001-ci il',
-    ],
-    correctAnswer: '12 aprel 2007-ci il',
-  },
-  {
-    number: 199,
-    question: 'Ümumtəhsil məktəbi neçə pillədən ibarətdir?',
-    options: [
-      '3 pillədən',
-      '5 pillədən',
-      '7pillədən',
-      '9 pillədən',
-      '13 pillədən',
-    ],
-    correctAnswer: '3 pillədən',
-  },
-  {
-    number: 200,
-    question:
-      'Ümumi orta təhsil neçə yaşdan başlayır və neçənci sinifləri əhatə edir?',
-    options: [
-      '6 yaşdan I-XI sinifləri',
-      '5 yaşdan I-XI sinifləri',
-      '6 yaşdan I-XI sinifləri',
-      '14 yaşdan I-XI sinifləri',
-      '12 yaşdan I-XI sinifləri',
-    ],
-    correctAnswer: '6 yaşdan I-XI sinifləri',
-  },
-  {
-    number: 201,
-    question: 'Əsas təhsil neçənci sinifləri əhatə edir?',
-    options: [
-      'V-IX sinifləri',
-      'I-IV sinifləri',
-      'X-XI sinifləri',
-      'I-IX sinifləri',
-      'IX-XI sinifləri',
-    ],
-    correctAnswer: 'V-IX sinifləri',
-  },
-  {
-    number: 202,
-    question:
-      'Hazırda respublikada neçə ümumitəhsil məktəbi fəaliyyət göstərir?',
-    options: [
-      '4547 ümumtəhsil məktəbi',
-      '5444 ümumtəhsil məktəbi',
-      '4457 ümumtəhsil məktəbi',
-      '4745 ümumtəhsil məktəbi',
-      '4574 ümumtəhsil məktəbi',
-    ],
-    correctAnswer: '4547 ümumtəhsil məktəbi',
-  },
-  {
-    number: 203,
-    question: 'Ölkədə fəaliyyət göstərən Lisey və Gimnaziyaların sayı neçədir?',
-    options: ['53', '55', '59', '77', '81'],
-    correctAnswer: '53',
-  },
-  {
-    number: 204,
-    question:
-      '2008-2009-cu tədris ilindən Ümumtəhsil məktəblərinin I sinifləri hansı üsulla işləməyə başlamışlar?',
-    options: [
-      'Milli kurrikulum',
-      '5 günlük iş həftəsinə keçid',
-      'Bilik gününün təsis edilməsinə başlamaq',
-      'Ömür boyu təhsil sistemi ilə işləmək',
-      'Ümumtəhsil məktəblərinin 3 pilləli olmasına',
-    ],
-    correctAnswer: 'Milli kurrikulum',
-  },
-  {
-    number: 205,
-    question:
-      '21 avqust 2004-cü il tarixində Prezident hansı fərmanı vermişdir?',
-    options: [
-      '“Bilik gününün” təsis edilməsi',
-      'Milli  kurrikuluma keçid',
-      'Ümumi orta təhsilin 6 yaşdan başlanması',
-      'Ibtidai təhsilin I-IV sinifləri əhatə etməsi',
-      '6 günlük iş həftəsinə keçid',
-    ],
-    correctAnswer: '“Bilik gününün” təsis edilməsi',
-  },
-  {
-    number: 206,
-    question:
-      'Ümumtəhsil sistemində mövcud olan problemlərin həlli məqsədilə Təhsil Nazirliyi neçə dövlət proqramı hazırlamışdır?',
-    options: [
-      '10 proqram hazırlamışdır.',
-      '5 proqram hazırlamışdır.',
-      '9 proqram hazırlamışdır.',
-      '13 proqram hazırlamışdır.',
-      '21 proqram hazırlamışdır.',
-    ],
-    correctAnswer: '10 proqram hazırlamışdır.',
-  },
-  {
-    number: 207,
-    question:
-      'Bakı şəhəri və Abşeron rayonunda məktəb tikintisi proqramı hansı illəri əhatə edir?',
-    options: [
-      '2006-2008-ci illər',
-      '2005-2009-cu illər',
-      '2005-2007-ci illər',
-      '2006-2015-ci illər',
-      '2003-2007-ci illər',
-    ],
-    correctAnswer: '2006-2008-ci illər',
-  },
-  {
-    number: 208,
-    question:
-      'Azərbaycan Respulikası “Yoxsulluğun azaldılması və iqtisadi inkişaf üzrə Dövlət Proqramı” hansı illəri nəzərdə tuturdu?',
-    options: [
-      '2003-2005-ci illər',
-      '2006-2008-ci illər',
-      '2009-2012-ci illər',
-      '2010-2015-ci illər',
-      '2005-2007-ci illər',
-    ],
-    correctAnswer: '2003-2005-ci illər',
-  },
-  {
-    number: 209,
-    question:
-      'Xüsusi istedada malik uşaq və gənclərin yaradıcılıq potensialının inkişafı üzrə DövlətProqramı neçənci illəri əhatə edirdi?',
-    options: [
-      '2006-2010-cu illəri',
-      '2010-2015-ci illəri',
-      '2003-2005-ci illəri',
-      '2003-2007-ci illəri',
-      '2006-2015-ci illəri',
-    ],
-    correctAnswer: '2006-2010-cu illəri',
-  },
-  {
-    number: 210,
-    question:
-      '“Azərbaycan Respulikasında dövlət uşaq müəssisələrində uşaqların ailələrə verilməsinə alternativ qayğı üzrə Dövlət Proqramı” bu illəri əhatə edirdi:',
-    options: [
-      '2006-2015-ci illəri',
-      '2003-2007-ci illəri',
-      '2003-2005-ci illəri',
-      '2005-2009-cu illəri',
-      '2005-2077-ci illəri',
-    ],
-    correctAnswer: '2006-2015-ci illəri',
-  },
-  {
-    number: 211,
-    question:
-      '“Təhsil Sektorunun İnkişafı Proqramının” layihəsinin himayəçisi hansı təşkilat idi?',
-    options: [
-      'Dünya Bankı',
-      'Asiya İnkişaf Bankı',
-      'Milli Bank',
-      'Beynəlxalq Bank',
-      'Azərbaycan Respublikası Təhsil Nazirliyi',
-    ],
-    correctAnswer: 'Dünya Bankı',
-  },
-  {
-    number: 212,
-    question:
-      '“Təhsil Sektorunun İnkişafı Proqramının” I mərhələsi neçənci illəri əhatə edir?',
-    options: [
-      '2003-2007-ci illəri',
-      '2005-2007-ci illəri',
-      '2001-2003-cü illəri',
-      '2005-2009-cu illəri',
-      '2006-2015-ci illəri',
-    ],
-    correctAnswer: '2003-2007-ci illəri',
-  },
-  {
-    number: 213,
-    question:
-      'Azərbaycan Respulikası Prezidentinin “Azərbaycan Respublikasında texniki-peşə təhsilinin inkişafı üzrə Dövlət Proqramı haqqında Sərəncamı nə vaxt verilmişdir?',
-    options: [
-      '3 iyul 2007-ci il',
-      '10 iyun 2007-ci il',
-      '25 may 2007-ci il',
-      '17 dekabr 2007-ci il',
-      '15 iyun  1999-cu il',
-    ],
-    correctAnswer: '3 iyul 2007-ci il',
-  },
-  {
-    number: 214,
-    question:
-      'Azərbaycanda hazırda neçə orta ixtisas təhsili müəssisəsi fəaliyyət göstərir?',
-    options: [
-      '55 təhsil müəssisəsi',
-      '53 təhsil müəssisəsi',
-      '54 təhsil müəssisəsi',
-      '41 təhsil müəssisəsi',
-      '35 təhsil müəssisəsi',
-    ],
-    correctAnswer: '55 təhsil müəssisəsi',
-  },
-  {
-    number: 215,
-    question:
-      'Azərbaycan Respulikasının ali təhsil müəssisələrində mütəxəssis hazırlığı neçə pilləli təhsil sisteminə əsaslanır?',
-    options: [
-      '2 pilləli',
-      '3 pilləli',
-      '4 pilləli',
-      '5pilləli',
-      '6 pilləli və daha çox',
-    ],
-    correctAnswer: '2 pilləli',
-  },
-  {
-    number: 216,
-    question:
-      'Hazırda Azərbaycanda neçə ali təhsil müəssisəsi fəaliyyət göstərir?',
-    options: [
-      '48 ali təhsil müəssisəsi',
-      '29 ali təhsil müəssisəsi',
-      '34 ali təhsil müəssisəsi',
-      '43 ali təhsil müəssisəsi',
-      '45 ali təhsil müəssisəsi',
-    ],
-    correctAnswer: '48 ali təhsil müəssisəsi',
-  },
-  {
-    number: 217,
-    question: 'Azərbaycanda neçə özəl təhsil müəssisəsi fəaliyyət göstərir?',
-    options: [
-      '15 özəl təhsil müəssisəsi',
-      '29 özəl təhsil müəssisəsi',
-      '17 özəl təhsil müəssisəsi',
-      '18 özəl təhsil müəssisəsi',
-      '30 özəl təhsil müəssisəsi',
-    ],
-    correctAnswer: '15 özəl təhsil müəssisəsi',
-  },
-  {
-    number: 218,
-    question: 'Neçə dövlət ali təhsil müəssisəsi fəaliyyət göstərir?',
-    options: [
-      '29 dövlət ali təhsil müəssisəsi',
-      '34 dövlət ali təhsil müəssisəsi',
-      '45 dövlət ali təhsil müəssisəsi',
-      '15 dövlət ali təhsil müəssisəsi',
-      '43 dövlət ali təhsil müəssisəsi',
-    ],
-    correctAnswer: '29 dövlət ali təhsil müəssisəsi',
-  },
-  {
-    number: 219,
-    question:
-      '“2007-2015-ci illərdə Azərbaycan gənclərinin xarici ölkələrdə təhsili üzrə Dövlət Proqramı” haqqında Prezident İ. Əliyev hansı ayda sərəncam imzalamışdır?',
-    options: [
-      '16 aprel 2007-ci ildə',
-      '25 aprel 2007-ci ildə',
-      '16 may 2005-ci ildə',
-      '15 iyun 2007-ci ildə',
-      '5 mart 2007-ci ildə',
-    ],
-    correctAnswer: '16 aprel 2007-ci ildə',
-  },
-  {
-    number: 220,
-    question:
-      'Xalq Maarifi Nazirliyinin əsas vəzifə, funksiya və səlahiyyətlərini müəyyən edən ştat cədvəli və Əsasnamə hökümət tərəfindən nə vaxt təsdiq edilmişdir?',
-    options: [
-      '2 avqust 1918-ci il',
-      '28 avqust 1918-ci il',
-      '2 avqust 1919-cu il',
-      '27 avqust 1920-ci il',
-      '28 avqust 1920-ci il',
-    ],
-    correctAnswer: '2 avqust 1918-ci il',
-  },
-  {
-    number: 221,
-    question: '1918-ci il 28 avqust tarixində Hökümət hansı qərarı vermişdir?',
-    options: [
-      'Bütün ibtidai təhsil müəssisələrində təhsil ana dilində-dövlət dilində aparılsın.',
-      'Bakı Dövlət Universitetinin təsis edilməsi',
-      'Azərbaycan SSRİ Xalq Maarifi Komissarlığının yaradılması',
-      'Azərbaycan Müvəqqəti İnqilab Komitəsinin yaradılması',
-      'Xalq Maarifi Nazirliyinin təsis edilməsi',
-    ],
-    correctAnswer:
-      'Bütün ibtidai təhsil müəssisələrində təhsil ana dilində-dövlət dilində aparılsın.',
-  },
-  {
-    number: 222,
-    question:
-      '1919-cu ilin əvvəllərində Azərbaycanda neçə dövlət hesabına orta ixtisas təhsili məktəbi fəaliiyət göstərir?',
-    options: [
-      '23 orta ixtisas məktəbi',
-      '32 orta ixtisas məktəbi',
-      '21 orta ixtisas məktəbi',
-      '20 orta ixtisas məktəbi',
-      '45 orta ixtisas məktəbi',
-    ],
-    correctAnswer: '23 orta ixtisas məktəbi',
-  },
-  {
-    number: 223,
-    question:
-      'Hökümətin 1919-cu ildə keçirdiyi islahatlar nəticəsində dövlət hesabına açılan ibtidai məktəblərin sayı neçə idi?',
-    options: [
-      '637 ibtidai məktəb',
-      '736 ibtidai məktəb',
-      '635 ibtidai məktəb',
-      '655 ibtidai məktəb',
-      '633 ibtidai məktəb',
-    ],
-    correctAnswer: '637 ibtidai məktəb',
-  },
-  {
-    number: 224,
-    question:
-      'Azərbaycan Müvəqqəti İnqilab Komitəsinin 28 aprel 1920-ci il tarixli 1No-li dekreti ilə”Xalq Maarifi Nazirliyi” ləğv edildikdən sonra hansı qurum yaradıldı?',
-    options: [
-      'Azərbaycan SSRİ Xalq Maarifi Komissarlığı',
-      'Komitə Xalq Maarifi Komissarlığı',
-      'Baş Texniki Peşə Təhsili İdarəsi',
-      'Azərbaycan SSRİ Nazirlər Soveti',
-      'Əmək Ehtiyatları Baş İdarəsi təsis edildi',
-    ],
-    correctAnswer: 'Azərbaycan SSRİ Xalq Maarifi Komissarlığı',
-  },
-  {
-    number: 225,
-    question:
-      'Azərbaycan Respulikası Prezidentinin 3 sentyabr 1993-cü il tarixli fərmanı ilə hansı nazirlik yaradıldı?',
-    options: [
-      'Azərbaycan Respulikası Təhsil Nazirliyi',
-      'Dövlət  Texniki Peşə Təhsili Nazirliyi',
-      'Xalq Maarifi Nazirliyi',
-      'Ali və orta ixtisas Təhsili Nazirliyi',
-      'Xalq Təhsili Nazirliyi',
-    ],
-    correctAnswer: 'Azərbaycan Respulikası Təhsil Nazirliyi',
-  },
-  {
-    number: 226,
-    question:
-      'Azərbaycan Respulikası Prezidentinin “Təhsil sisteminin təkmilləşdirilməsi haqqında” fərmanı nə vaxt verildi?',
-    options: [
-      '13 iyun 2000-ci il',
-      '15 iyun 2000-ci il',
-      '21 mart 2001-ci il',
-      '9 noyabr 2000-ci il',
-      '17 noyabr 2002-ci il',
-    ],
-    correctAnswer: '13 iyun 2000-ci il',
-  },
-  {
-    number: 227,
-    question:
-      '1 mart 2005-ci il tarixli 203No-li fərmanla nə təsdiq olunmuşdur?',
-    options: [
-      'Azərbaycan Respulikası Təhsil Nazirliyi haqqında Əsasnamə',
-      'Bəzi orta ixtisas məktəbləri Səhiyyə Nazirliyinə keçdi',
-      'Bir sıra Ali məktəblər Kənd Təsərrüfat Nazirliyinə tabe oldu',
-      'Dövlət  Texniki Peşə Təhsili Komitəsi ləğv edildi',
-      'Ali və orta ixtisas Təhsili Nazirliyi yaradıldı',
-    ],
-    correctAnswer: 'Azərbaycan Respulikası Təhsil Nazirliyi haqqında Əsasnamə',
-  },
-  {
-    number: 228,
-    question: 'Təhsil Nazirliyinin əsas neçə vəzifəsi vardır?',
-    options: ['6 vəzifə', '8 vəzifə', '12 vəzifə', '10 vəzifə', '17 vəzifə'],
-    correctAnswer: '6 vəzifə',
-  },
-  {
-    number: 229,
-    question:
-      'Aşağıdakılardan hansı Təhsil Nazirliyinin əsas vəzifələrinə aiddir:',
-    options: [
-      'Təhsil sahəsində vahid dövlət siyasətinin formalaşmasında iştirak etmək',
-      'Təhsilin inkişafı ilə bağlı proqramlar hazırlamaq',
-      'Təhsil müəssisələrinin şəbəkəsini müəyyənləşdirmək',
-      'Təhsil sisteminin inkişafı sahəsində monitorinqlər keçirmək',
-      'Təhsil alanların bir tədris müəssisəsindən digərinə köçürülməsi qaydaları',
-    ],
-    correctAnswer:
-      'Təhsil sahəsində vahid dövlət siyasətinin formalaşmasında iştirak etmək',
-  },
-  {
-    number: 230,
-    question: 'Təhsil Nazirliyinin neçə funksiyaları vardır?',
-    options: [
-      '46 funksiya',
-      '41 funksiya',
-      '54 funksiya',
-      '64 funksiya',
-      '77 funksiya',
-    ],
-    correctAnswer: '46 funksiya',
-  },
-  {
-    number: 231,
-    question: 'Bunlardan biri Təhsil Nazirliyinin funksiyalarına aid deyil:',
-    options: [
-      'Yaradılmış test bankının mütəmadi təftişini aparmaq',
-      'Müxtəlif səviyyəli və miqyaslı fənn olimpiyadalarını təşkil etmək',
-      'Icbari ümumi orta təhsilin həyata keçirilməsi',
-      'Pedaqoji kadrların və təhsil işçilərinin hazırlanması',
-      'Yenidən hazırlama və ixtisas artırma',
-    ],
-    correctAnswer: 'Yaradılmış test bankının mütəmadi təftişini aparmaq',
-  },
-  {
-    number: 232,
-    question: 'Hansı bənd Təhsil Nazirliyinin funksiyalarına aiddir?',
-    options: [
-      'Distant təhsili üçün müvafiq şəraitin yaradılması',
-      'Test imtahanlarının məzmunu və mahiyyəti',
-      'Test bankının yaradılması və formalaşdırılması',
-      'Müasir informatika texnologiyalarını tətbiq etmək',
-      'Respublikanın Ali məktəblərinə qəbulun aparılması',
-    ],
-    correctAnswer: 'Distant təhsili üçün müvafiq şəraitin yaradılması',
-  },
-  {
-    number: 233,
-    question:
-      'Azərbaycan Respulikası Təhsil Nazirliyi haqqında Əsasnamə hansı tarixdə təsdiq olunmuşdur?',
-    options: [
-      '1 mart 2005-ci il',
-      '21 mart 2005-ci il',
-      '8 mart 2005-ci il',
-      '14 fevral 2005-ci il',
-      '27 noyabr 1977-ci il',
-    ],
-    correctAnswer: '1 mart 2005-ci il',
-  },
-  {
-    number: 234,
-    question:
-      '31 mart 2006-cı il tarixdə Prezidentin hansı sərəncamı olmuşdur?',
-    options: [
-      'Azərbaycan Respulikası Təhsil Nazirliyinin strukturunun təkmilləşdirilməsi haqqında',
-      'Bakı şəhəri üzrə Təhsil İdarəsi yaradıldı',
-      'Tələbə Qəbulu üzrə Dövlət Komissiyası yaradıldı',
-      'Təhsil sahəsində beynəlxalq təşkilatlarla əməkdaşlığın həyata keçirilməsi',
-      'Müasir Təhsil İnnovasiyaları Mərkəzi yarandı',
-    ],
-    correctAnswer:
-      'Azərbaycan Respulikası Təhsil Nazirliyinin strukturunun təkmilləşdirilməsi haqqında',
-  },
-  {
-    number: 235,
-    question:
-      'Ali və orta ixtisas məktəbləri test üsuluna nə vaxt keçirilmişdir?',
-    options: [
-      '1992-ci ildə',
-      '1991-ci ildə',
-      '1993-cü ildə',
-      '1994-cü ildə',
-      '1995-ci ildə',
-    ],
-    correctAnswer: '1992-ci ildə',
-  },
-  {
-    number: 236,
-    question:
-      'Azərbaycan Respulikası Prezidentinin 6 aprel 2005-ci il tarixli 219 No-li fərmanı nə olmuşdur?',
-    options: [
-      'Tələbə Qəbulu üzrə Dövlət Komissiyası haqqında Əsasnamə təsdiq olundu',
-      'Bakı şəhəri üzrə Baş Təhsil İdarəsi ləğv edildi',
-      'Bakı şəhər RTŞ-ləri ləğv olundu',
-      'Təhsil işçilərinə “Əmək veteranı” adı təsis edildi',
-      'Təhsil sahəsində beynəlxalq təşkilatlarla əlaqə yaradıldı',
-    ],
-    correctAnswer:
-      'Tələbə Qəbulu üzrə Dövlət Komissiyası haqqında Əsasnamə təsdiq olundu',
-  },
-  {
-    number: 237,
-    question:
-      'Azərbaycan Respulikası Prezidenti yanında Təhsil üzrə Komissiya yaradılması haqqında” Prezidentin sərəncamı nə vaxt verilmişdir?',
-    options: [
-      '31 may 2005-ci il',
-      '31 mart 2005-ci il',
-      '1 mart 2005-ci il',
-      '31 aprel 2005-ci il',
-      '27 noyabr 1977-ci il',
-    ],
-    correctAnswer: '31 may 2005-ci il',
-  },
-  {
-    number: 238,
-    question:
-      '“Xalq Maarifi Komissarlığı” neçənci illərdə fəaliyyət göstərmişdir?',
-    options: [
-      '1920-1950-ci illər',
-      '1920-1941-ci illər',
-      '1926-1950-ci illər',
-      '1918-1950-ci illər',
-      '1928-1950-ci illər',
-    ],
-    correctAnswer: '1920-1950-ci illər',
-  },
-  {
-    number: 239,
-    question:
-      '“Xalq Maarif Nazirliyi” fəaliyyətini nə vaxta kimi davam etdirmişdir?',
-    options: [
-      '1988-ci ilə kimi',
-      '1990-cı ilə kimi',
-      '1991-ci ilə kimi',
-      '1992-ci ilə kimi',
-      '1996-ci ilə kimi',
-    ],
-    correctAnswer: '1988-ci ilə kimi',
-  },
-  {
-    number: 240,
-    question:
-      'Məktəbdaxili nəzarətin ümumi formaları özlüyündə neçə yerə ayrılır?',
-    options: ['2', '4', '5', '7', '9'],
-    correctAnswer: '2',
-  },
-  {
-    number: 241,
-    question:
-      'Məktəb işinin müəyyən sahələri və müəllimlərin iş sistemi haqqında dəqiq məlumat toplamaq məqsədilə aparılan nəzarətə nə deyilir?',
-    options: [
-      'Frontal nəzarət',
-      'Tematik nəzarət',
-      'Cari nəzarət',
-      'Gündəlik nəzarət',
-      'Fərdi nəzarət',
-    ],
-    correctAnswer: 'Frontal nəzarət',
-  },
-  {
-    number: 242,
-    question:
-      'Məktəbdə təlim-tərbiyə prosesininkeyfiyyətinin yüksəldilməsində mühüm əhəmiyyətə malik olan mövzular üzrə aparılan nəzarətə nə deyilir?',
-    options: [
-      'Tematik nəzarət',
-      'Frontal nəzarət',
-      'Cari nəzarət',
-      'Fərdi nəzarət',
-      'Gündəlik nəzarət',
-    ],
-    correctAnswer: 'Tematik nəzarət',
-  },
-  {
-    number: 243,
-    question: 'Aşağıdakılardan biri məktəbdaxili nəzarətin formalarına aiddir?',
-    options: ['Spesifik', 'Müqayisəli', 'Izləyici', 'Icmal', 'Yazılı'],
-    correctAnswer: 'Spesifik',
-  },
-  {
-    number: 244,
-    question:
-      'Tematik nəzarət mövzusunun xarakteri və əhatə dairəsinə görə neçə formada aparılır?',
-    options: ['2 formada', '5 formada', '7 formada', '9 formada', '13 formada'],
-    correctAnswer: '2 formada',
-  },
-  {
-    number: 245,
-    question:
-      'Məktəbdaxili nəzarətin xüsusi formaları neçə konkret nəzarət formalarına ayrılır?',
-    options: ['4', '7', '9', '12', '13'],
-    correctAnswer: '4',
-  },
-  {
-    number: 246,
-    question:
-      'Bunlardan biri məktəbdaxili nəzarətin xüsusi formalarına aiddir?',
-    options: [
-      'Sinif-ümumiləşdirici nəzarət',
-      'Problem,xarakterli nəzarət',
-      'Tələb və nəzarət',
-      'Aşkarlıq,operatiklik,təsirlilik',
-      'Elmilik, prinsipiallıq',
-    ],
-    correctAnswer: 'Sinif-ümumiləşdirici nəzarət',
-  },
-  {
-    number: 247,
-    question:
-      'Eyni bir sinifdə müxtəlif mövzular üzrə yoxlamalar aparıb onun nəticəsini ümumiləşdirməkdən ibarət olan nəzarətə______________ deyilir?',
-    options: [
-      'Sinif-ümumiləşdirici nəzarət',
-      'Spesifik nəzarət',
-      'Müqayisəli nəzarət',
-      'Izləyici nəzarət',
-      'İcmal nəzarət',
-    ],
-    correctAnswer: 'Sinif-ümumiləşdirici nəzarət',
-  },
-  {
-    number: 248,
-    question:
-      'Aşağıdakılardan biri məktəbdaxili nəzarətin xüsusi formalarına aid deyil?',
-    options: [
-      'Spesifik nəzarət',
-      'İcmal nəzarət',
-      'Izləyici nəzarət',
-      'Müqayisəli nəzarət',
-      'Sinif-ümumiləşdirici nəzarət',
-    ],
-    correctAnswer: 'Spesifik nəzarət',
-  },
-  {
-    number: 249,
-    question: 'Məktəbdaxili nəzarətə hansı tələblər verilir?',
-    options: [
-      'Tələb və nəzarətdə vahidliyi gözləmək',
-      'Təhsil işçilərinin həvəsləndirilməsi və mükafatlar',
-      'Təhsil sahəsində beynəlxal təşkilatlarla əlaqə',
-      'Pedaqoji kadrlarla olan tələbatın ödənilməsi',
-      'Qanunvericilikdə tutulan funksiyalar',
-    ],
-    correctAnswer: 'Tələb və nəzarətdə vahidliyi gözləmək',
-  },
-  {
-    number: 250,
-    question: 'Məktəbdaxili nəzarətin metodları neçə qrupa ayrılır?',
-    options: ['2 qrupa', '4 qrupa', '6 qrupa', '9 qrupa', '12 qrupa'],
-    correctAnswer: '2 qrupa',
-  },
-  {
-    number: 251,
-    question:
-      'Əhatə dairəsi və işlənmə yerinə görə müəyyənləşən metodlar qrupunun özü neçə yerə bölünür?',
-    options: ['3 metod', '5 metod', '7 metod', '9 metod', '13 metod'],
-    correctAnswer: '3 metod',
-  },
-  {
-    number: 252,
-    question:
-      'Həyata keçirilmə tərzinə görə müəyyənləşən metodlar qrupunun neçə yoxlama forması vardır?',
-    options: ['5', '7', '9', '12', '14'],
-    correctAnswer: '5',
-  },
-  {
-    number: 253,
-    question:
-      'Məktəb işinin ayrı-ayrı konkret sahələrində real vəziyyəti aydınlaşdırrmağa xidmət edən metod hansıdır ?',
-    options: [
-      'Spesifik metodlar',
-      'Müsahibə metodu',
-      'Müşahidə metodu',
-      'Ümumi metod',
-      'Anketləşdirmə və statistik təhlil',
-    ],
-    correctAnswer: 'Spesifik metodlar',
-  },
-  {
-    number: 254,
-    question:
-      'Bunlardan biri həyata keçirilmə tərzinə görə müəyyənləşən metodlar qrupuna daxil deyil.',
-    options: [
-      'Ümumi metodlar',
-      'Şifahi yoxlama metodu',
-      'Texniki vasitələrin köməyi ilə yoxlama metodu',
-      'Yazılı yoxlama metodu',
-      'Eməli-təcrübi yoxlama metodu',
-    ],
-    correctAnswer: 'Ümumi metodlar',
-  },
-  {
-    number: 255,
-    question:
-      'Dərsdə şagird fəaliyyətinin səviyyəsi neçə meyarla müəyyən edilməlidir?',
-    options: [
-      '8 meyarla',
-      '5 meyarla',
-      '12 meyarla',
-      '14 meyarla',
-      '17 meyarla',
-    ],
-    correctAnswer: '8 meyarla',
-  },
-  {
-    number: 256,
-    question:
-      'Bu bəndlərdən biri dərsdə şagird fəaliyyətinin səviyyəsini müəyyən edən meyar deyil?',
-    options: [
-      'Tələb və nəzarətin vahidliyi',
-      'Dərsdə şagirdlərin fəallığı',
-      'Keçirilən dərsdə marağın səviyyəsi',
-      'Əsas anlayışların qavranılması',
-      'Şagirdlərin nitqi',
-    ],
-    correctAnswer: 'Tələb və nəzarətin vahidliyi',
-  },
-  {
-    number: 257,
-    question:
-      'Dərsdə şagird fəaliyyətinin səviyyəsini müəyyən edən meyar hansı bənddədir?',
-    options: [
-      'Təlimin kollektiv və fərdi formalarda fəallığı',
-      'Yazılı məlumatların və hesabatların təhlili',
-      'Seçmə yolla vəziyyəti öyrənmək',
-      'Problem xarakterli mövzular üzrə nəzarət',
-      'Məktəbdaxili nəzarətin məzmunu və forması',
-    ],
-    correctAnswer: 'Təlimin kollektiv və fərdi formalarda fəallığı',
-  },
-  {
-    number: 258,
-    question: 'Pedaqoji şuranın iclasları ildə neçə dəfə keçirilməlidir?',
-    options: ['4 dəfə', '5 dəfə', '6 dəfə', '9 dəfə', '12 dəfə'],
-    correctAnswer: '4 dəfə',
-  },
-  {
-    number: 259,
-    question:
-      'Pedaqoji şuranın müzakirə və həll edəcəyi məsələləri əsasən neçə qütbə ayırmaq olar?',
-    options: ['2 qütbə', '4 qütbə', '5 qütbə', '6 qütbə', '8 qütbə'],
-    correctAnswer: '2 qütbə',
-  },
-  {
-    number: 260,
-    question: 'Pedaqoji şuranın fəaliyyəti neçə mərhələdə tamamlanır?',
-    options: [
-      '6 mərhələdə',
-      '5 mərhələdə',
-      '7 mərhələdə',
-      '8 mərhələdə',
-      '14 mərhələdə',
-    ],
-    correctAnswer: '6 mərhələdə',
-  },
-  {
-    number: 261,
-    question:
-      'Aşağıdakılardan biri  Pedaqoji şuranın fəaliyyətində mərhələ deyil?',
-    options: [
-      'Şagirdlərlə fərdi işin təşkili',
-      'Iclasın gedişi',
-      'Icranın təşkili',
-      'Icraya nəzarət',
-      'Planlaşdırma',
-    ],
-    correctAnswer: 'Şagirdlərlə fərdi işin təşkili',
-  },
-  {
-    number: 262,
-    question:
-      'Pedaqoji şuranın qərarları şura üzvlərinin azı neçə hissəsinin iştirakı ilə qəbul olunur?',
-    options: [
-      'Üçdə iki hissəsinin',
-      'Üçdə bir hissəsinin',
-      'Bütün üzvlərin hamısı',
-      'Dörddə iki hissəsinin',
-      'Dörddə bir hissəsinin',
-    ],
-    correctAnswer: 'Üçdə iki hissəsinin',
-  },
-  {
-    number: 263,
-    question:
-      'Yerli komitə ilə razılaşma əsasında direktoryanı müşavirənin tərkibi kimin əmri ilə müəyyən edilib?',
-    options: [
-      'Məktəb direktorunun',
-      'Həmkarlar təşkilatı yerli komitənin',
-      'Ibtidai sinif üzrə müavinin',
-      'Hərbi rəhbərin',
-      'Rayon təhsil şöbəsinin müdiri',
-    ],
-    correctAnswer: 'Məktəb direktorunun',
-  },
-  {
-    number: 264,
-    question:
-      'Bu bəndlərdən biri direktoryanı müşavirənin funksiyasına daxildir.',
-    options: [
-      'Məktəbin illik iş planı və pedaqoji şuranın planının müzakirəsi',
-      'Təlim prosesində şagirdələrin tərbiyəsi',
-      'Dərsdə əyani və texniki vasitələrdən istəfadə',
-      'Şagirdlərlə fərdi işin təşkili',
-      'Fakültetiv məşğələlərin təşkili və keçirilməsi',
-    ],
-    correctAnswer:
-      'Məktəbin illik iş planı və pedaqoji şuranın planının müzakirəsi',
-  },
-  {
-    number: 265,
-    question:
-      'Direktoryanı müşavirə adətən həftənin neçənci günləri keçirilir?',
-    options: ['V gün', 'I gün', 'III gün', 'IV gün', 'II gün'],
-    correctAnswer: 'V gün',
-  },
-  {
-    number: 266,
-    question: 'Müəllim əməyi neçə səviyyədə həll olunmaq imkanına malikdir?',
-    options: ['2', '3', '5', '8', '12'],
-    correctAnswer: '2',
-  },
-  {
-    number: 267,
-    question:
-      'Respublikda pedaqoji fəaliyyət sahəsində hazırlıq əsasən neçə mərhələdə aparılır?',
-    options: [
-      '3 mərhələdə',
-      '5 mərhələdə',
-      '7 mərhələdə',
-      '4 mərhələdə',
-      '8 mərhələdə',
-    ],
-    correctAnswer: '3 mərhələdə',
-  },
-  {
-    number: 268,
-    question:
-      'Bu bəndlərdən biri pedaqoji fəaliyyət sahəsində hazırlıq mərhələsinə aiddir?',
-    options: [
-      'Ali və orta ixtisas pedaqoji tədris müəssisələrində',
-      'Məktəbdə təlim – tərbiyə prosesinin idarə edilməsində',
-      'İdarəetmə işinin tədbiqi, tədqiqi və elmi asasları',
-      'Məktəbşünaslığın metodoloji əsasları',
-      'Məktəbdaxili idarəetmənin elmi-praktik təşkili',
-    ],
-    correctAnswer: 'Ali və orta ixtisas pedaqoji tədris müəssisələrində',
-  },
-  {
-    number: 269,
-    question:
-      'Ümumdövlət səviyyəsində təhsil sistemini idarə edən başlıca subyektlər hansılardır?',
-    options: [
-      'Respublika Nazirlər Kabineti Təhsil Nazirliyi',
-      'Respublika Kənd Təsərüfatı Nazirliyi',
-      'Respublika Səhiyyə Naziliyi',
-      'Respublika Gənclər və İdman Nazirliyi',
-      'Respublika Müdafiə və Sənaye Nazirliyi',
-    ],
-    correctAnswer: 'Respublika Nazirlər Kabineti Təhsil Nazirliyi',
-  },
-  {
-    number: 270,
-    question: 'Bir elm sahəsi kimi məktəbşünaslıq neçə struktura malikdir?',
-    options: [
-      '5 struktur',
-      '6struktur',
-      '7 struktur',
-      '9 struktur',
-      '13 struktur',
-    ],
-    correctAnswer: '5 struktur',
-  },
-  {
-    number: 271,
-    question: 'Aşağıdakılardan hansı məktəbşünaslığın strukturuna daxildir?',
-    options: [
-      'Təhsil sisteminin idarəetmə fəaliyyətinin nəzəri əsaslar',
-      'İcbaritəhsilinhəyatakeçirilməsi',
-      'Pedaqoji kollektivin təcrübə və yaradıcılıq meylləri',
-      'Məktəb, ailə, ictimaiyyətin əlbir işi',
-      'Məktəbin maliyyə - təsərrüfat fəaliyyətinə aid planları',
-    ],
-    correctAnswer: 'Təhsil sisteminin idarəetmə fəaliyyətinin nəzəri əsaslar',
-  },
-  {
-    number: 272,
-    question: 'Bunlardan biri məktəbşünaslığın strukturuna daxil deyildir?',
-    options: [
-      'Məktəbdaxili nəzarətin nöqsanları',
-      'Məktəbşünaslığın metodoloji əsasları',
-      'Məktəbdaxili idarə etmənin elmi-praktik təşkili',
-      'Təhsil sisteminin maddi-təsərrüfat və iqtisadi əsasları',
-      'Məktəbin idarə edilməsində məktəb, ailə, ictimaiyyətin əlaqəsi',
-    ],
-    correctAnswer: 'Məktəbdaxili nəzarətin nöqsanları',
-  },
-  {
-    number: 273,
-    question:
-      '“Məktəbdaxili nəzarətin forma və metodları” kitabının  müəllifidir?',
-    options: [
-      'N.Əhmədov',
-      'K.D.Uşinski',
-      'N.İ.Piraqov',
-      'N.F.Bunakov',
-      'N.A.Korf',
-    ],
-    correctAnswer: 'N.Əhmədov',
-  },
-  {
-    number: 274,
-    question:
-      'Təhsilin ümumi təşkili əsaslarının hazırlanmasına daha çox diqqət yetirildiyi dövr.',
-    options: [
-      '1900 – 1930 cu illər',
-      '1905 – 1907 ci illər',
-      '1900 – 1921 ci illər',
-      '1900 – 1918 cu illər',
-      '1900 – 1928 cu illər',
-    ],
-    correctAnswer: '1900 – 1930 cu illər',
-  },
-  {
-    number: 275,
-    question:
-      'Məktəbşünaslığa sırf elmi – metodik ədəbiyyatların ilkin hazırlıq dövrü.',
-    options: [
-      '1930 – 1960 cıillər',
-      '1900 – 1930 cu illər',
-      '1960 – 1980 cu illər',
-      '1960 – 1977 cu illər',
-      '1980 – 1988 cu illər',
-    ],
-    correctAnswer: '1930 – 1960 cıillər',
-  },
-  {
-    number: 276,
-    question:
-      'Məktəbi idarəetmənin çoxşaxəli istiqamətləri üzrə problemlərin tədqiqinə diqqətin daha çox artırıldığı dövr hansı illərdir.',
-    options: [
-      '1960 – 1980 cıillər',
-      '1930 – 1966 cıillər',
-      '1966 – 1980 cıillər',
-      '1980 – 1999 cu illər',
-      '1960 – 1984 cüillər',
-    ],
-    correctAnswer: '1960 – 1980 cıillər',
-  },
-  {
-    number: 277,
-    question:
-      'Müstəqil dövlət quruculuğu mərhələsində təhsilin milli zəmində beynəlxalq standartlara uyğunlaşdırılmasına xidmət edən islahatçı dövr hansıdır?',
-    options: [
-      '1990 cıillər',
-      '1991 ci illər',
-      '1992 ci illər',
-      '1996 cıillər',
-      '1999 cu illər',
-    ],
-    correctAnswer: '1990 cıillər',
-  },
-  {
-    number: 278,
-    question:
-      'Məktəb işinin planlaşdırılması zamanı neçə prinsip əsas götürülməlidir?',
-    options: [
-      '5 prinsip',
-      '7 prinsip',
-      '9 prinsip',
-      '12 prinsip',
-      '13 prinsip',
-    ],
-    correctAnswer: '5 prinsip',
-  },
-  {
-    number: 279,
-    question:
-      'Bu bəndlərdən biri məktəb işinin planlaşdırılmasında əsas götürülən prinsipdir.',
-    options: [
-      'Məktəb haqqındakı son direktiv və normativ sənədləri əsas götürmək',
-      'Məktəbin ilk inişplanıperspektiv iş planı',
-      'Pedaqoji kollektivlə aparılacaq iş planları',
-      'Məktəbin mikro ərazisində aparılacaq tərbiyəvi tədbirlərin iş planı',
-      'Məktəb valideyn komitəsinin iş planı',
-    ],
-    correctAnswer:
-      'Məktəb haqqındakı son direktiv və normativ sənədləri əsas götürmək',
-  },
-  {
-    number: 280,
-    question:
-      'Məktəbi idarəetmənin planlaşdırılmasında hansı iş planı növlərindən istifadə edilir?',
-    options: [
-      'Perspektiv planlar',
-      'Icbari təhsilin həyata keçirilməsi planı',
-      'Iş planlarının quruluşu',
-      'Məktəb valideyn komitəsinin iş planı',
-      'Şagird kollektivinin fəaliyyətini əks etdirən planlar',
-    ],
-    correctAnswer: 'Perspektiv planlar',
-  },
-  {
-    number: 281,
-    question:
-      'Məktəbin illik iş planlarının optimal quruluşunun I bölməsi nəyi izah edir?',
-    options: [
-      'Icbari təhsilin həyata keçirilməsi',
-      'Cari planlar',
-      'Operativ planlar',
-      'Valideynlektoriyasınınişplanı',
-      'Məktəb valideyn komitəsinin iş planı',
-    ],
-    correctAnswer: 'Icbari təhsilin həyata keçirilməsi',
-  },
-  {
-    number: 282,
-    question:
-      'Məktəbin illik iş planının optimal quruluşu neçə bölmədən ibarətdir?',
-    options: [
-      '6 bölmədən',
-      '5 bölmədən',
-      '7 bölmədən',
-      '8 bölmədən',
-      '12bölmədən',
-    ],
-    correctAnswer: '6 bölmədən',
-  },
-  {
-    number: 283,
-    question:
-      'Aşağıdakılardan biri illik iş planlarının optimal quruluşuna aid deyil.',
-    options: [
-      'İcbari təhsilin həyat akeçirilməsi',
-      'Maliyyə-təsərrüfat işləri',
-      'Pedaqoji kadrlarla iş',
-      'Tərbiyə işləri',
-      'Təlim işi',
-    ],
-    correctAnswer: 'İcbari təhsilin həyat akeçirilməsi',
-  },
-  {
-    number: 284,
-    question:
-      'Məktəbin illik işplanlarının optimal quruluşunun III bölməsi hansıdır?',
-    options: [
-      'Tərbiyə işləri',
-      'Təlim işi',
-      'Pedaqoji kadrlarla iş',
-      'Maliyyə-təsərrüfat işləri',
-      'Icbari təhsilin həyata keçirilməsi',
-    ],
-    correctAnswer: 'Tərbiyə işləri',
-  },
-  {
-    number: 285,
-    question:
-      'Məktəbin illik iş planlarının optimal quruluşunun V bölməsi hansıdır?',
-    options: [
-      'Məktəb,ailə, ictimaiyyətin əlbir işi',
-      'Tərbiyə işləri',
-      'Pedaqoji kadrlarla iş',
-      'Məntiqi-praktik planlaşdırma',
-      'Şagird kollektivinin fəaliyyətini əks etdirən iş planı',
-    ],
-    correctAnswer: 'Məktəb,ailə, ictimaiyyətin əlbir işi',
-  },
-  {
-    number: 286,
-    question: 'Planlaşdırmanın neçə növü vardır?',
-    options: ['3 növü', '5 növü', '7 növü', '9 növü', '12 növü'],
-    correctAnswer: '3 növü',
-  },
-  {
-    number: 287,
-    question: 'Məktəbə rəhbərliyin mahiyyətini nə təşkil edir?',
-    options: [
-      'Azərbaycan Respublikasının Təhsil Qanununun tələbləri əsasında məktəbdə həyata keçirilən rəhbərlik təşkil edir.',
-      'Öz fəaliyyətinə görə konfrans və məktəb şurası qarşısında məsuliyyət daşıyır.',
-      'Təlim-tərbiyə işinin yekunları haqqında hesabat təşkil etməkdir.',
-      'Fərdi, məxsusi funksiyalarınəlaqələndirilməsini təşkil edir',
-      'Məktəb rəhbərlərinin funksiyalarını təşkil edir',
-    ],
-    correctAnswer:
-      'Azərbaycan Respublikasının Təhsil Qanununun tələbləri əsasında məktəbdə həyata keçirilən rəhbərlik təşkil edir.',
-  },
-  {
-    number: 288,
-    question:
-      'Ümumtəhsil məktəb Nizamnaməsində Məktəb direktoru üçün müəyyən etdiyi konkret neçə funksiya vardır?',
-    options: [
-      '5 funksiya',
-      '4funksiya',
-      '7funksiya',
-      '8funksiya',
-      '12funksiya',
-    ],
-    correctAnswer: '5 funksiya',
-  },
-  {
-    number: 289,
-    question:
-      'Məktəbin idarə olunmasını lazımi səviyyədə aparmaq üçün məktəb direktoru öz iş vaxtı büdcəsinin neçə faizini təlim-tərbiyə prosesinə sərf etməlidir?',
-    options: ['0.5', '0.75', '0.8', '1', '0.9'],
-    correctAnswer: '0.5',
-  },
-  {
-    number: 290,
-    question:
-      'Təlim-tərbiyə işləri üzrə direktor müavini, təlim-tərbiyə prosesinə öz iş vaxtının neçə faizini sərf etməlidir?',
-    options: ['0.75', '0.6', '0.5', '0.85', '0.9'],
-    correctAnswer: '0.75',
-  },
-  {
-    number: 291,
-    question:
-      'Bu bəndlərdən biri Təlim-tərbiyə işləri üzrə direktor müavinin funksiyasıdır',
-    options: [
-      'Şagirdlərin davranışına,dərs cədvəlinə,metodiki işi təşkil edir',
-      'Məktəb fondu vəsaitlərindən səmərəli istifadə edilməsini təşkil edir',
-      'Konfrans və məktəb şurası qarşısında məsuliyyət daşıyır',
-      'Sinifdənkənar və məktəbdənxaric işlərin təşkilinə lazımi şərait yaradır',
-      'Şagirdlərin və valideynlərin rəylərini nəzərə alaraq sinif rəhbərini təyin edir',
-    ],
-    correctAnswer:
-      'Şagirdlərin davranışına,dərs cədvəlinə,metodiki işi təşkil edir',
-  },
-  {
-    number: 292,
-    question:
-      'İdarə funksiyalarının əlaqələndirilməsi neçə istiqamət üzrə aparılmalıdır?',
-    options: [
-      '3 istiqamət',
-      '5 istiqamət',
-      '7 istiqamət',
-      '9 istiqamət',
-      '13 istiqamət',
-    ],
-    correctAnswer: '3 istiqamət',
-  },
-  {
-    number: 293,
-    question:
-      'Məktəb qarşısında qoyulan təlim-tərbiyə vəziyyətinin həyata keçirilməsi hansı idarəetmə funksiyasına aiddir?',
-    options: [
-      'Ümumi funksiyalar',
-      'Müxtəsər funksiyalar',
-      'Fərdi funksiyalar',
-      'Məktəb rəhbərlərinin funksiyaları',
-      'Təlim-tərbiyə işləri üzrə direktor müavininin funksiyaları',
-    ],
-    correctAnswer: 'Ümumi funksiyalar',
-  },
-  {
-    number: 294,
-    question:
-      'Metodbirləşmələrin iş planında aşağıdakı məsələlərin hansının əks etdirilməsi məqsədəuyğun sayılır?',
-    options: [
-      'Didaktik materiallar və əyani vasitələrin hazırlanması',
-      'Il ərzində keçiriləcək seminar və praktikumlar',
-      'Müəllimin hər hansı məruzəsinin dinlənilməsi',
-      'Proqram materiallarının bölğüsünün aparılması',
-      'Iş keyfiyyətinin nəzərə alınması',
-    ],
-    correctAnswer: 'Didaktik materiallar və əyani vasitələrin hazırlanması',
-  },
-  {
-    number: 295,
-    question:
-      'Bütün müəllimlər və tərbiyəçilər neçə ildən bir attestasiyadan keçirilir?',
-    options: [
-      '5 ildən bir',
-      '4 ildən bir',
-      '6 ildən bir',
-      '3 ildən bir',
-      '7 ildən bir',
-    ],
-    correctAnswer: '5 ildən bir',
-  },
-  {
-    number: 296,
-    question:
-      'Özünün ilkin funksiyasına görə məktəbin əsas kolleqial idarəetmə orqanlarından biri sayılır, bu həmdə məktəbdə aparılan metodiki işin nəzərə çarpan növlərindən biridir.',
-    options: [
-      'Məktəb metodbirləşmələri',
-      'Ümumməktəb metodşuraşı',
-      'Pedaqoji şura',
-      'Müəllimlərin problem qrupları',
-      'Operativ metodiki müşavirələr',
-    ],
-    correctAnswer: 'Məktəb metodbirləşmələri',
-  },
-  {
-    number: 297,
-    question:
-      '____________ məktəbdə elmi-pedaqoji yenilikləri təcili olaraq kollektiv üzvlərinə çatdırmaq məqsədilə yaradılır',
-    options: [
-      'Operativ metodiki müşavirələr',
-      'Mektəb metodbirləşmələri',
-      'Ümumməktəb metodşuraşı',
-      'Pedaqoji şura',
-      'Didaktik materiallar və əyani vasitələr',
-    ],
-    correctAnswer: 'Operativ metodiki müşavirələr',
-  },
-  {
-    number: 298,
-    question:
-      '_____________ müəllimlərin elmi-nəzəri və metodiki səviyyələrini yüksəltmək və pedaqoji ustalığın təkmilləşdirilməsi ilə yaradılır.',
-    options: [
-      'Ümumməktəb metodşurası',
-      'Mektəb metodbirləşmələri',
-      'Müəllimlərin problem qrupları',
-      'Operativ metodiki müşavirələr',
-      'Pedaqoji şura',
-    ],
-    correctAnswer: 'Ümumməktəb metodşurası',
-  },
-  {
-    number: 299,
-    question:
-      '“Əlifba” kitabı, şagirdlərin ad, soyadları yazılmaqla mətkəbdə neçə il saxlanılır?',
-    options: ['50 il', '75 il', '3 il', '5 il', '20 il'],
-    correctAnswer: '50 il',
-  },
-  {
-    number: 300,
-    question:
-      'Məktəbi bitirdikdən sonra şagirdlərin şəxsi işləri məktəb arxivində nə qədər saxlanılır?',
-    options: ['3 il', '5 il', '7 il', '50 il', '75 il'],
-    correctAnswer: '3 il',
-  },
-  {
-    number: 301,
-    question: 'Sinif jurnalı neçə il arxivdə saxlanılır?',
-    options: ['50 il', '5 il', '3 il', '7 il', '25 il'],
-    correctAnswer: '50 il',
-  },
-  {
-    number: 302,
-    question:
-      'Maraq dərsləri, günüuzadılmış qruplar, üçün jurnallar məktəbdə nə qədər qalmalıdır?',
-    options: ['50 il', '7 il', 'Daimi', '15 il', '5 il'],
-    correctAnswer: '50 il',
-  },
-  {
-    number: 303,
-    question:
-      'Orta təhsil haqqında attestatların verilməsinə dair kitablar məktəbdə neçə il qalmalıdır?',
-    options: ['50 il', '75 il', '10 il', '5 il', 'Daimi'],
-    correctAnswer: '50 il',
-  },
-  {
-    number: 304,
-    question:
-      'Pedaqoji şuranın protokolları kitabı məktəbdə nə qədər qalmalıdır?',
-    options: ['Daimi', '50 il', '75 il', '5 il', '20 il'],
-    correctAnswer: 'Daimi',
-  },
-  {
-    number: 305,
-    question:
-      'Pedaqoji heyətin şəxsi tərkibini hesaba alma kitabı məktəbdə neçə il saxlanılır?',
-    options: ['75 il', '50 il', '25 il', 'Daimi', '5 il'],
-    correctAnswer: '75 il',
-  },
-  {
-    number: 306,
-    question: 'Məktəbin əmr kitabı məktəbdə nə qədər qalmalıdır?',
-    options: ['75 il', '25 il', '50 il', '5 il', '3 il'],
-    correctAnswer: '75 il',
-  },
-  {
-    number: 307,
-    question:
-      'Sinif jurnallarının səliqəli və müntəzəm doldurulmasına kim nəzarət edir ?',
-    options: [
-      'Direktorun tədris işləri üzrə müavini',
-      'Məktəb direktoru',
-      'Sinif rəhbəri',
-      'Valideyn komitəsi',
-      'Sinif müəllimləri',
-    ],
-    correctAnswer: 'Direktorun tədris işləri üzrə müavini',
-  },
-  {
-    number: 308,
-    question: 'Məktəb sənədlərinə aid MH-1 nə vaxt doldurulmalıdır?',
-    options: [
-      'Tədris ilinin əvvəlində',
-      'Dərs ilinin əvvəlində',
-      'Dərs ilinin sonunda',
-      'Müntəzəm olaraq',
-      'Pedaqoji kolletivlə birlikdə',
-    ],
-    correctAnswer: 'Tədris ilinin əvvəlində',
-  },
-  {
-    number: 309,
-    question: 'Məktəb sənədlərinin içində neçə cür MH-tı vardır?',
-    options: ['3', '5', '7', '9', '12'],
-    correctAnswer: '3',
-  },
-  {
-    number: 310,
-    question:
-      'Aşağıdakı variantlardan hansı təhsil sisteminin strukturuna aid deyil?',
-    options: [
-      'dini təhsil;',
-      'ümumi orta təhsil;',
-      'peşə - ixtisas təhsil;',
-      'ali təhsildən sonrakı təhsil;',
-      'diplomdan sonrakı təhsil.',
-    ],
-    correctAnswer: 'dini təhsil;',
-  },
-  {
-    number: 311,
-    question:
-      'Pedaqoqikanın hansı bölməsində məktəb işinin məzmunu və idarəetmə metodları öyrənilir?',
-    options: [
-      'təhsil sisteminin idarə edilməsi;',
-      'didaktika;',
-      'sosial pedaqoqika;',
-      'tərbiyə nəzəriyyəsi;',
-      'korreksion pedaqoqika.',
-    ],
-    correctAnswer: 'təhsil sisteminin idarə edilməsi;',
-  },
-  {
-    number: 312,
-    question:
-      'Azərbaycan Respublikası Boloniya təhsil prosesinə neçənci ildən qoşulmuşdu?',
-    options: [
-      '2005,19 may Berqin ş.;',
-      '2003,22 may Praqa ş.;',
-      '2004,26 may Sorbonna ş.;',
-      '2005, 30 iyun Boloniya ş.;',
-      '2004,19 sentyabr Berlin ş.;',
-    ],
-    correctAnswer: '2005,19 may Berqin ş.;',
-  },
-  {
-    number: 313,
-    question: 'Məktəb sözünün hərfi mənası nədir?',
-    options: [
-      'ərəbcə "yazı yazılan yer";',
-      'yunanca "dərs oxuma";',
-      'latınca "ictimai yer";',
-      'yunanca "uşaq,elm";',
-      'ərəbcə "bilik ocağı".',
-    ],
-    correctAnswer: 'ərəbcə "yazı yazılan yer";',
-  },
-  {
-    number: 314,
-    question:
-      'Azərbaycanda təhsil müəssisələrinin dövlətçilik prinsipləri əsasında idarə olunmasının təməli nə vaxt qoyulmuşdur?',
-    options: [
-      '1918-1920;',
-      '1920-1928;',
-      '1935-1937;',
-      '1928-1932;',
-      '1928-1938.',
-    ],
-    correctAnswer: '1918-1920;',
-  },
-  {
-    number: 315,
-    question:
-      '"Təhsilin bir tərəfdən em və istehsalatla qarşılıqlı əlaqədə,digər tərəfdən dünya təhsil sisteminə ən səmərəli formada qoşulmaqla təşkili və inkişafı"-təhsil sahəsində dövlət siyasətinin hansı prinsipinə məxsusdur?',
-    options: [
-      'inteqrasiya;',
-      'fasiləsizlik;',
-      'varislik;',
-      'səmərəlilik;',
-      'millilik və dünyəvilik.',
-    ],
-    correctAnswer: 'inteqrasiya;',
-  },
-  {
-    number: 316,
-    question: '"Pablik skulz"tipli orta məktəb hansı dövlətə məxsusdur?',
-    options: ['İngiltərə;', 'Fransa;', 'Norveç;', 'Türkiyə;', 'İsveçə.'],
-    correctAnswer: 'İngiltərə;',
-  },
-  {
-    number: 317,
-    question:
-      'Aşağıdakı variantlardan hansı Azərbaycan təhsil idarəetmə prinsiinə aid deyil?',
-    options: [
-      'avtoritarizm;',
-      'humanizm;',
-      'demokratizm;',
-      'peşəkarlıq;',
-      'differensasiya.',
-    ],
-    correctAnswer: 'avtoritarizm;',
-  },
-  {
-    number: 318,
-    question:
-      'Təhsil haqqinda "Azərbaycan Təhsil Qanunda"təhsil sahəsində dövlət siyasətini əks etdirən prinsip hansıdır?',
-    options: [
-      'bütün variantlar doğrudur;',
-      'daimilik;',
-      'varislik;',
-      'fasiləsizlik;',
-      'bərabərlik.',
-    ],
-    correctAnswer: 'bütün variantlar doğrudur;',
-  },
-  {
-    number: 319,
-    question:
-      'Tədris prosesinin elektron,telekommunikasiya,proqram-texniki vasitələr əsasında təşkil olunduğu təhsilalma forması necə adlanır?',
-    options: ['distant;', 'ekstermat;', 'əyani;', 'qiyabi;', 'sərbəst.'],
-    correctAnswer: 'distant;',
-  },
-  {
-    number: 320,
-    question:
-      'Bu sözlərin müəllifi kimdir? "Müəllimin evi məktəb, müsafirləri şağirdlər,onun sazı- nəğməsi şagirdlərinin sədası,istirahəti isə dəftərlərinin təsnifidir."',
-    options: [
-      'S.M.Qənizadə;',
-      'N.Nərimanov;',
-      'M.Ə.Rəsulzadə;',
-      'H.B.Zərdabi;',
-      'F.B.Kцçərli.',
-    ],
-    correctAnswer: 'S.M.Qənizadə;',
-  },
-  {
-    number: 321,
-    question: 'Hal-hazırda Azərbaycanda təhsil sisteminin məqsədi?',
-    options: [
-      'respublika quruculuğunu uğurla reallaşdıracaq insan,vətəndaş və şəxsiyyət tərbiyə etmək;',
-      'gələcək dövrün vətəndaşlarını yetişdirmək;',
-      'uşaqlarda bacarıq və istəklər formalaşdırmaq;',
-      'şəxsiyyətə və cəmiyyətə lazım olan vacib keyfiyyətləri inkişaf etdirmək;',
-      'şəxsiyyətin tərbiyəsində mövcud qüsurları aradan qaldırmaq.',
-    ],
-    correctAnswer:
-      'respublika quruculuğunu uğurla reallaşdıracaq insan,vətəndaş və şəxsiyyət tərbiyə etmək;',
-  },
-  {
-    number: 322,
-    question:
-      'İdarəetmə haqqında elm sahəsində iki əsas termin vardır: fəaliyyət və .....',
-    options: ['nəzarət;', 'nəticə;', 'səbəb;', 'proses;', 'ziddiyyət.'],
-    correctAnswer: 'nəzarət;',
-  },
-  {
-    number: 323,
-    question: 'Məktəb necə sistemdir?',
-    options: ['açıq;', 'qapalı;', 'ziddiyyətli;', 'bağlı;', 'işğüzar.'],
-    correctAnswer: 'açıq;',
-  },
-  {
-    number: 324,
-    question: 'Ümumtəhsil məktəbinə kim rəhbərlik edir?',
-    options: [
-      'direktor;',
-      'maarif şöbəsi;',
-      'məktəb şurası;',
-      'metodbirləşmə;',
-      'pedaqoji şura.',
-    ],
-    correctAnswer: 'direktor;',
-  },
-  {
-    number: 325,
-    question:
-      'Hansı halda məktəb direktoru məktəb şurasının qərarını ləğv edə bilər?',
-    options: [
-      'əgər qanunvericiliyə ziddirsə;',
-      'direktorun xoşuna gəlmirsə;',
-      'müəllimlər arasında narazıiıq yaradarsa;',
-      'sinifdənxaric işlərə aiddirsə;',
-      'şagirdləri təmin etmirsə.',
-    ],
-    correctAnswer: 'əgər qanunvericiliyə ziddirsə;',
-  },
-  {
-    number: 326,
-    question: 'Klassik təhsil nədir?',
-    options: [
-      'əsasən yunan.latın dillərini,antiq ədəbiyyatı öyrənən;',
-      'rus və latın dilini öyrənən;',
-      'dini,sxolastikanı təmsil edən;',
-      'dünyanı olduğu kimi deyil,xəyallarla əks etdirməyə çalışan',
-      'adət-ənənələri təbliğ etməyəçalışan.',
-    ],
-    correctAnswer: 'əsasən yunan.latın dillərini,antiq ədəbiyyatı öyrənən;',
-  },
-  {
-    number: 327,
-    question: 'Müşahidə metodunun məqsədi?',
-    options: [
-      'obyektiv gerçəkliyin şagirdlər tərəfindən bilavasitə qavranılması;',
-      'biliklərin möhkəmləndiriləsi;',
-      'qarşıya qoyulmuş məqsədə müvafiq konkret cisim və hadisələrin mühüm cəhətlərini,əlamətlərini aydınlaşdırmaq;',
-      'şagirdlərdə elmə maraq oyatmaq;',
-      'dərsdə verilən biliklərin tərbiyəvi tərəflərini aşkar etmək.',
-    ],
-    correctAnswer:
-      'obyektiv gerçəkliyin şagirdlər tərəfindən bilavasitə qavranılması;',
-  },
-  {
-    number: 328,
-    question: 'İnteraktiv üsul hansı mənanı verir?',
-    options: ['ən fəal;', 'ən üstün;', 'ən birinci;', 'ən ağıllı;', 'ən yeni.'],
-    correctAnswer: 'ən fəal;',
-  },
-  {
-    number: 329,
-    question: 'Tədris proqramı-?',
-    options: [
-      'ayrı-ayrı fənnlərdən bilik,bacarıq və vərdişlərə,mövzu və bölmələrə verilən saatların miqdarını müəyyən edən dövlət sənədi;',
-      'tədris fənnlərini tədris müddəti üçün bцlüşdürən sənsd;',
-      'təhsil müəssisələrində dərs məşğələlərinin başlanması,',
-      'qurtarması və tətillərin vaxtını müəyyən edən sənəd;',
-      'tədris müəssisəsində öyrənilmək üçün müəyyən olunmuş bilik,bacarıq və vərdişlər sistemi;',
-    ],
-    correctAnswer:
-      'ayrı-ayrı fənnlərdən bilik,bacarıq və vərdişlərə,mövzu və bölmələrə verilən saatların miqdarını müəyyən edən dövlət sənədi;',
-  },
-  {
-    number: 330,
-    question:
-      '"Azərbaycan Respublikasında fasiləsiz pedaqoji təhsil və müəllim hazırlığı konsepsiyası və strategiyası "adlı Nazirlər Kabinetinin qərarı neçənci ildə təsdiq olunmuşdur?',
-    options: ['2007;', '2009;', '2005;', '2002;', '2010.'],
-    correctAnswer: '2007;',
-  },
-  {
-    number: 331,
-    question: 'Məktəbin maliyyə-təssərüfat sənədinə aid olanı qeyd edin.',
-    options: [
-      'məktəbin texniki pasportu;',
-      'şagirdlərin şəxsi işi;',
-      'məktəbin əmr kitabı;',
-      'məktəb şurasının protokollar kitabı;',
-      'sinif jurnalı.',
-    ],
-    correctAnswer: 'məktəbin texniki pasportu;',
-  },
-  {
-    number: 332,
-    question:
-      'Ali,orta-ixtisas və ümumtəhsil məktəblərinin məqsəd, vəzifə və quruluşu,onların təlim- tərbiyə və təşkilat fəalliyyətlərini müəyyən edən qanunverici hüquqi sənəd necə adlanır?',
-    options: [
-      'məktəb nizamnaməsi;',
-      'məktəbin iş planı;',
-      'təhsil qanunu;',
-      'məktəb islahatı;',
-      'təhsil standartları.',
-    ],
-    correctAnswer: 'məktəb nizamnaməsi;',
-  },
-  {
-    number: 333,
-    question:
-      'Müəllim və şagirdlərin sosial müdafiəsi,onların əmək və istirahətinin yaxşılaşdırılması məktəbin hansı iş planına daxildir?',
-    options: [
-      'perspektiv plan;',
-      'illik plan;',
-      'sinifdənkənar,metodiki və təşkilatçılıq işlərinin  qrafik planı;',
-      'məktəb nəzarətinin qrafik planı;',
-      'ictimai təşkilatların planı.',
-    ],
-    correctAnswer: 'perspektiv plan;',
-  },
-  {
-    number: 334,
-    question:
-      'Pedaqoji şura,direktoryanı müşavirə,metodbirləşmə yığıncaqları hansı orqanı təmsil edir?',
-    options: [
-      'məktəbin kollegial idarəetmə;',
-      'maarif şöbəsini;',
-      'c)metodbirləşməni;',
-      'attestasiya komissiyasını;',
-      'elmi-metodiki mərkəzi.',
-    ],
-    correctAnswer: 'məktəbin kollegial idarəetmə;',
-  },
-  {
-    number: 335,
-    question: 'Məktəbdaxili nəzarətin əsas funksiyalarına nələr daxildir?',
-    options: [
-      'bütün variantlar düzdür;',
-      'planlaşdırma;',
-      'nəzarət;',
-      'təşkilatçılıq;',
-      'pedaqoji analiz.',
-    ],
-    correctAnswer: 'bütün variantlar düzdür;',
-  },
-  {
-    number: 336,
-    question: '. Məktəb direktorunun səlahiyyətinə aid deyil?',
-    options: [
-      'müxtəlif fənlər üzrə sinifdənxaric işlərin təşkili;',
-      'məktəbdə sağlamlıq gigiyenasının təmin edilməsi ;',
-      'məktəbin elmi-maddi bazasının möhkəmlənirilməsi;',
-      'məktəbə texniki işçilərin qəbul və işdən azad olunması;',
-      'şagirdlərin peşəyönümü ilə bağlı tərbiyə işlərinin təşkili.',
-    ],
-    correctAnswer: 'müxtəlif fənlər üzrə sinifdənxaric işlərin təşkili;',
-  },
-  {
-    number: 337,
-    question:
-      'Tədris proqramının yerinə yetirilməsinə nəzarət məktəbdə kimin funksiyasına aiddir?',
-    options: [
-      'təlim-tərbiyə işləri üzrə direktor müavinin;',
-      'məktəb direktorunun;',
-      'sinifdənxaric və məktəbdənkənar tərbiyə işləri üzrə direktor müavini;',
-      'təsərrüfat üzrə direktor müavini;',
-      'məktəb şurası',
-    ],
-    correctAnswer: 'təlim-tərbiyə işləri üzrə direktor müavinin;',
-  },
-  {
-    number: 338,
-    question: 'Məktəbdaxili nəzarətin xüsusi formasına aid deyil?',
-    options: [
-      'tematik;',
-      'icmal;',
-      'izləyici;',
-      'müqayisəli;',
-      'sinif-ümumiləşdirici.',
-    ],
-    correctAnswer: 'tematik;',
-  },
-  {
-    number: 339,
-    question:
-      '"Azərbaycan respublikasının təhsil sahəsində İslahat Proqramı" Azərbaycan Respublikası Prezidentinin neçə saylı əmri ilə təsdiq olunmuşdur.',
-    options: [
-      '15 iyun 1999;',
-      '25may  2001;',
-      '22 aprel 1998;',
-      '10 sentyabr 2002;',
-      '10 mart 2000.',
-    ],
-    correctAnswer: '15 iyun 1999;',
-  },
-  {
-    number: 340,
-    question:
-      'Kombinəedilmiş sorğu məktəbdaxili nəzarətin hansı metoduna  aiddir?',
-    options: [
-      'spesifik;',
-      'müsahibə;',
-      'anketləşdirmə;',
-      'statistik;',
-      'müşahidə.',
-    ],
-    correctAnswer: 'spesifik;',
-  },
-  {
-    number: 341,
-    question: 'Əsas təhsil hansı sinifləri əhatə edir?',
-    options: [
-      '2025-08-05 00:00:00',
-      '2025-08-01 00:00:00',
-      '2025-11-05 00:00:00',
-      '2025-11-09 00:00:00',
-      '2025-11-01 00:00:00',
-    ],
-    correctAnswer: '2025-08-05 00:00:00',
-  },
-  {
-    number: 342,
-    question:
-      'Ali məktəblərin elmi şuraları tərəfindən verilən 2-ci elmi dərəcə necə  adlanır?',
-    options: [
-      'magistr;',
-      'bakalavr;',
-      'doktor;',
-      'aspirant;',
-      'baş elmi işçi.',
-    ],
-    correctAnswer: 'magistr;',
-  },
-  {
-    number: 343,
-    question:
-      'Təhsilin müasir standartlara,sosial-iqtisadi tələblərə,dövlət,cəmiyyət və şəxsiyyət maraqlarına uyğunluğu hansı prinsipi təmsil edir?',
-    options: [
-      'keyfiyyətlilik;',
-      'fasiləsizlik;',
-      'varislik;',
-      'səmərəlilik;',
-      'inteqrasiya.',
-    ],
-    correctAnswer: 'keyfiyyətlilik;',
-  },
-  {
-    number: 344,
-    question:
-      'Azərbaycanda müəllim kadrlarının hazırlığında böyük xidmətləri olmuş  pedaqoq?',
-    options: [
-      'K.D.Uşinski;',
-      'N.Nərimanov;',
-      'L.N.Tolstoy;',
-      'N.F.Bunakov;',
-      'N.F.Korf',
-    ],
-    correctAnswer: 'K.D.Uşinski;',
-  },
-  {
-    number: 345,
-    question:
-      'Azərbaycan Respublikasında "Bilik gününün "təsis edilməsi haqqında Prezident fərmanı ...',
-    options: [
-      '21 avqust,2004;',
-      '28 avqust,2003;',
-      '25 may,2003;',
-      '28 iyun,2004;',
-      '15 avqust,2002.',
-    ],
-    correctAnswer: '21 avqust,2004;',
-  },
-  {
-    number: 346,
-    question:
-      'Azərbaycan Respublikasında ümumtəhsil məktəblərinin avadanlıqlarla təmin olunmasına dair inkişaf proqramı hansı illəri əhatə edir?',
-    options: [
-      '2005-2009;',
-      '2007-2011;',
-      '2006-2010;',
-      '2003-2007;',
-      '2004-2008.',
-    ],
-    correctAnswer: '2005-2009;',
-  },
-  {
-    number: 347,
-    question: 'Ümumtəhsil məktəblərində pedaqoji işcilərin iş vaxtı..?',
-    options: [
-      'həftədə -24saat;',
-      'həftədə -30 saat;',
-      'həftədə - 40 saat;',
-      'həftədə -36 saat;',
-      'həftədə -42 saat.',
-    ],
-    correctAnswer: 'həftədə -24saat;',
-  },
-  {
-    number: 348,
-    question:
-      'Aşağıdakı variantlardan hansı avtoritarizm rəhbərliyinə xas xüsusiyyətdir?',
-    options: [
-      'qorxuzmaqla qadağa qoymaq;',
-      'mükafatlandırmaqdan uzaq olmaq;',
-      'yoldaşlıq məsləhətləri vermək;',
-      'tələbkarlıqdan kənar gəzmək;',
-      'işin məqsədini şəxsi marağa uyğun qurmaq.',
-    ],
-    correctAnswer: 'qorxuzmaqla qadağa qoymaq;',
-  },
-  {
-    number: 349,
-    question: 'Qori müəllimlər seminariyası kimin layihəsi əsasında yaradılıb?',
-    options: [
-      'K.D.Uşinski;',
-      'L.N.Tolstoy;',
-      'H.B.Zərdabi;',
-      'M.F.Axundov;',
-      'S.M.Qənizadə.',
-    ],
-    correctAnswer: 'K.D.Uşinski;',
-  },
-  {
-    number: 350,
-    question:
-      'Aşağıdakı variantlardan hansı idarəetmə prinsiplərinə aid deyil?',
-    options: [
-      'avtoritarizm;',
-      'demokratizm;',
-      'humanizm;',
-      'sistemlilik və vahidlik;',
-      'obyektivlik',
-    ],
-    correctAnswer: 'avtoritarizm;',
-  },
-  {
-    number: 351,
-    question: 'Menecer sözünün mənası?',
-    options: [
-      'idarə edən;',
-      'müşahidəedən;',
-      'qayda yaradan;',
-      'yoxlayan;',
-      'təcrübə aparan.',
-    ],
-    correctAnswer: 'idarə edən;',
-  },
-  {
-    number: 352,
-    question: 'Pedaqoji menecment nə deməkdir?',
-    options: [
-      'pedaqoji prosesin müxtəlif mərhələlərinə rəhbərlik',
-      'əmək şəraitinin yaxşılaşdırılmasına və kadrlara rəhpərlik',
-      'əmək müqavilələrinin bağlanmasına nəzarət',
-      'elmi-tədqiqatların aparilmasına nəzarət',
-      'qarşıya qoyulan məqsədə uyğun idarəedənin və idarəolunanın birgə fəaliyyəti.',
-    ],
-    correctAnswer: 'pedaqoji prosesin müxtəlif mərhələlərinə rəhbərlik',
-  },
-  {
-    number: 353,
-    question: 'Pedaqoji menecmentə xas olmayan xüsusiyyət?',
-    options: [
-      'menecer nisbəti',
-      'menecer əməyinin predmeti',
-      'menecer əməyinin məhsulu',
-      'menecerin silahı',
-      'menecer əməyinin nəticəsi',
-    ],
-    correctAnswer: 'menecer nisbəti',
-  },
-  {
-    number: 354,
-    question: 'Məktəbin tədris-pedaqoji sənədlərinə nə aid deyil?',
-    options: [
-      'məktəbin kitabxana fondunun inventar kitabı;',
-      'şağirdlərin şəxsi işi;',
-      'sinif jurnalı;',
-      'dərs cədvəli;',
-      'fakultativ məşğələlərin jurnalı.',
-    ],
-    correctAnswer: 'məktəbin kitabxana fondunun inventar kitabı;',
-  },
-  {
-    number: 355,
-    question: 'Azərbaycan təhsil sisteminin mərkəzi nöqtəsini nə təşkil edir?',
-    options: [
-      'ümumi orta təhsil;',
-      'özünütəhsil;',
-      'orta peşə ixtisas təhsili;',
-      'ali təhsil;',
-      'ali-peşə ixtisas təhsili.',
-    ],
-    correctAnswer: 'ümumi orta təhsil;',
-  },
-  {
-    number: 356,
-    question: 'Çex pedaqoqu Y.A.Komenski məktəbi nə adlandırırdı?',
-    options: [
-      'humanizm emalatxanası;',
-      'günəş adası;',
-      'istirahət ocağı;',
-      'bilik mənbəyi;',
-      'sevinc guşəsi.',
-    ],
-    correctAnswer: 'humanizm emalatxanası;',
-  },
-  {
-    number: 357,
-    question: 'Direktoryanı müşavirənin tərkibi necə müəyyən edilir?',
-    options: [
-      'direktorun əmri ilə;',
-      'pedaqoji şuranın qərarı ilə;',
-      'metodbirləşmə tərəfindən;',
-      'maarif şöbəsindən;',
-      'pedaqoji kollektivin rəyi ilə.',
-    ],
-    correctAnswer: 'direktorun əmri ilə;',
-  },
-  {
-    number: 358,
-    question:
-      'Əsasən direktoryanı müşavirə həftənin neçənci günləri keçirilir?',
-    options: ['V', 'I', 'II', 'IV', 'VI.'],
-    correctAnswer: 'V',
-  },
-  {
-    number: 359,
-    question: 'Direktoryanı müşavirənin tərkibinə aid deyil:',
-    options: [
-      'valideyn komitəsi;',
-      'məktəb direktoru;',
-      'həmkarlar təşkilatının yerli komitəsinin sədri;',
-      'təlim-tərbiyə işləri üzrə direktor müavini;',
-      'hərbi rəhbər.',
-    ],
-    correctAnswer: 'valideyn komitəsi;',
-  },
-  {
-    number: 360,
-    question: 'Məktəbin əmr kitabı neçə il saxlanilmalıdır?',
-    options: ['daima;', '75 il;', '30 il;', '50 il;', '5 il.'],
-    correctAnswer: 'daima;',
-  },
-  {
-    number: 361,
-    question: '. MH-2 sənədi nəyi əks etdirir?',
-    options: [
-      'şagirdlərin dərs ili ərzində müvəffəqiyətlərini;',
-      'dərs ili ərzində hesabatları;',
-      'əmr kitabıdır;',
-      'pedaqoji heyətin şəxsi tərkibini hesabaalma kitabıdır;',
-      'məktəbin uğurlarını əks etdirir.',
-    ],
-    correctAnswer: 'şagirdlərin dərs ili ərzində müvəffəqiyətlərini;',
-  },
-  {
-    number: 362,
-    question: 'Sinif jurnalı necə il saxlanılır?',
-    options: ['5 il;', '7 il;', '6 il;', '10 il;', '3 il.'],
-    correctAnswer: '5 il;',
-  },
-  {
-    number: 363,
-    question:
-      'Məktəbşünaslığın inkişaf tarixinin təsnifində hansı variant səhvdir?',
-    options: [
-      '1870-1910;',
-      '1900-1930;',
-      '1930-1960;',
-      '1960-1980;',
-      '1990- sonrakı.',
-    ],
-    correctAnswer: '1870-1910;',
-  },
-  {
-    number: 364,
-    question:
-      'Görkəmli rus pedaqoqu N.İ Piroqovun məktəbşünaslığın inkişafında xidməti?',
-    options: [
-      'məktəbə rəhbərlikdə kollegiallığı əsas prinsip kimi irəli sürüb;',
-      'əhali arasında mədəni-maarif işi aparılması tələbini irəli sürüb;',
-      'təhsilə ehtiyacı olan uşaqlara məktəbin maddi yardım etməsini təklif edib;',
-      'xalq məktəblərinin təşkili ideyasını irəli sürüb;',
-      'müəllimlər üçün metodiki vəsaitlərin hazırlanması təşəbbüsünü qaldırıb.',
-    ],
-    correctAnswer:
-      'məktəbə rəhbərlikdə kollegiallığı əsas prinsip kimi irəli sürüb;',
-  },
-  {
-    number: 365,
-    question: 'Məktəbi idarəetmənin əsas fəaliyyət üsuluna aid deyil?',
-    options: [
-      'liberallaşma;',
-      'planlaşdırma;',
-      'təşkilatçılıq;',
-      'stimullaşdirma;',
-      'pedaqoji prosesin nəticələnin yoxlanılması.',
-    ],
-    correctAnswer: 'liberallaşma;',
-  },
-  {
-    number: 366,
-    question: 'Məktəbşünaslığın ümumi funksional məzmununa aid deyil:',
-    options: [
-      'tərbiyə işlərinin təşkili;',
-      'məktəbşünaslığın nəzəri metodoloji əsasları;',
-      'məktəb işinin təşkili;',
-      'məktəbdaxili nəzarət;',
-      'məktəbin ailə və ictimaiyyətlə qarşılıqlı əlaqəsi.',
-    ],
-    correctAnswer: 'tərbiyə işlərinin təşkili;',
-  },
-  {
-    number: 367,
-    question:
-      'Məktəbşünaslıq xarakterli "Tri elementı şkolı" məqaləsinin müəllifi kimdir?',
-    options: [
-      'K.D.Uşinski;',
-      'N.F.Bunakov;',
-      'N.A.Korf;',
-      'D.İ.Tixomirov;',
-      'A.S.Makarenko.',
-    ],
-    correctAnswer: 'K.D.Uşinski;',
-  },
-  {
-    number: 368,
-    question:
-      'Şagird əməyinin elmi təşkilində uğurlu nəticə əldə etmək üçün müəyyən edilmiş prinsiplər sırasına aid deyil:',
-    options: [
-      'ideoloji;',
-      'tənzimləmə;',
-      'optimallaşdirma;',
-      'fərdiləşdirmə;',
-      'humanitarlaşdırma.',
-    ],
-    correctAnswer: 'ideoloji;',
-  },
-  {
-    number: 369,
-    question:
-      '"Optimal" anlayişı aşağıdakı variantlardan hansına daha çox uyğun gəlir?',
-    options: [
-      'mümkün olanların ən əlverışlisi;',
-      'düzgün yaradıcılıq fəaliyyəti;',
-      'müasir təlim texnologiyalarına meyllik;',
-      'həqiqəti meydana cıxarmaq üçün tədqiqatçılıq;',
-      'təbii imkanların reallaşdırılması.',
-    ],
-    correctAnswer: 'mümkün olanların ən əlverışlisi;',
-  },
-  {
-    number: 370,
-    question:
-      'Azərbaycan Respublikasında bakalavr təhsil pilləsinin hazırlığına hansı dərs ilindən başlanılmışdır?',
-    options: [
-      '1993-1994;',
-      '1992-1993;',
-      '1994-1995;',
-      '1995-1996;',
-      '1996-1997.',
-    ],
-    correctAnswer: '1993-1994;',
-  },
-  {
-    number: 371,
-    question:
-      'Təhsil qanunvericiliyinə uyğun hər bir müəllim-tərbiyəçi neçə ildən bir attestasiyadan keçməlidir?',
-    options: ['5 il;', '4il;', '3il;', '7il;', '2il.'],
-    correctAnswer: '5 il;',
-  },
-  {
-    number: 372,
-    question: 'Kollec,gimnaziya-hansı təlim-tərbiyə müəssisələrinə aiddir?',
-    options: [
-      'orta ixtisas məktəblərinə;',
-      'texniki peşə məktəblərinə;',
-      'ali məktəbə;',
-      'məktəbdənkənar təlim-tərbiyə müəssisələrinə;',
-      'ümumi orta təhsil məktəblərinə.',
-    ],
-    correctAnswer: 'orta ixtisas məktəblərinə;',
-  },
-  {
-    number: 373,
-    question: 'Pedaqoji şuranın fəaliyyətində hansı mərhələ mövcud deyil?',
-    options: [
-      'müvəffəqiyyətlərin qiymətləndiriməsi;',
-      'planlaşdırma və hazırlıq;',
-      'iclasın gadişi;',
-      'sənədləşdirmə;',
-      'icranın təşkili və ona nəzarət.',
-    ],
-    correctAnswer: 'müvəffəqiyyətlərin qiymətləndiriməsi;',
-  },
-  {
-    number: 374,
-    question:
-      'Məktəb şurasının qərarı şura tərkibinin neçə hissəsinin səs verməsi ilə səlahiyyətli sayılır?',
-    options: ['2/3;', '1/2;', '3/4;', '1/3;', '2/4.'],
-    correctAnswer: '2/3;',
-  },
-  {
-    number: 375,
-    question:
-      'Məktəb sənədi "Əlifba kitabı"nəyi əks etdirir və məktəbdə necə il saxlanılır?',
-    options: [
-      'şagirdlərin adı,soyadı yazılır,sinifdən-sinfə keçməsini əks etdirir(50 il);',
-      'orta təhsil haqqında attestat verilməsinə dair kitabdir(50il);',
-      'şagirdlərin şəxsi işləridir(3 il);',
-      'şagirdlərin olimpiadalarda iştirakını əks etdirən kitab(11il);',
-      'tədris ilinə dair hesabat kitabı(3 il).',
-    ],
-    correctAnswer:
-      'şagirdlərin adı,soyadı yazılır,sinifdən-sinfə keçməsini əks etdirir(50 il);',
-  },
-  {
-    number: 376,
-    question: 'Frontal nəzarət nədir?',
-    options: [
-      'məktəb işinin müəyyən sahələri və müəllimlərin iş sistemi haqqında səhih məlumat toplamaq məsədilə aparılan nəzarət;',
-      'pedaqoji kollektivin əmək intizamı haqqında dərin məlumat toplamaq məqsədilə aparılan nəzarət;',
-      'məktəbin müxtəlif sahələrində iş fəaliyyətinin ilkin nəticələrini müəyyənləşdirmək məqsədilə aparılan nəzarət;',
-      'məktəb direktorunun şəxsən müəllim kollektivinin fəaliyyətini ardıcıl yoxlamaq məqsədilə aparılan nəzarət;',
-      'məktəbdə təlim-tərbiyənin keyfiyyətini yüksəltmək məqsədilə aparılan nəzarət.',
-    ],
-    correctAnswer:
-      'məktəb işinin müəyyən sahələri və müəllimlərin iş sistemi haqqında səhih məlumat toplamaq məsədilə aparılan nəzarət;',
-  },
-  {
-    number: 377,
-    question: 'Məktəb pedaqoji şuranın sədri?',
-    options: [
-      'məktəb direktoru;',
-      'hərbi rhbər;',
-      'uşaq təşkilatı birliyinin sədri;',
-      'tərbiyə işləri üzrə direktor müavini;',
-      'metodbirləşmənin rəhbərlərindən biri.',
-    ],
-    correctAnswer: 'məktəb direktoru;',
-  },
-  {
-    number: 378,
-    question:
-      'Pedaqoji şuranın əmrlər kitabı müəssisədə nə qədər saxlanmalıdır?',
-    options: ['daima;', '5il;', '10 il;', '30 il;', '50il.'],
-    correctAnswer: 'daima;',
-  },
-  {
-    number: 379,
-    question: 'Pedaqoji şura hansı  şərt əsasında yaradılır?',
-    options: [
-      'ən azı 3 nəfərdən artıq pedaqoji kollektivi olan ümumtəhsil müəssisəsində;',
-      '25 nəfərdən artıq müəllimi olan məktəbdə;',
-      'məktəbin güclü maddi-texniki bazası olduğu halda;',
-      'məktəbdə ən azı 8 nəfər baş müəllim olduğu təqdirdə;',
-      'məktəbdə pedaqoji işçilərin sayı ən azı 50 nəfər olan ümumtətsil məktəbində.',
-    ],
-    correctAnswer:
-      'ən azı 3 nəfərdən artıq pedaqoji kollektivi olan ümumtəhsil müəssisəsində;',
-  },
-  {
-    number: 380,
-    question: 'Məktəb pedaqoji şurasının vəzifələri aiddir?',
-    options: [
-      'bütün variantlar doğrudur;',
-      'məktəbin illik və perspektiv fəaliyyət planlarının təsdiqlənməsi;',
-      'istedadlı şagirdlərlə işin təşkili;',
-      'dərs bölgüsünün təsdiqi ;',
-      'məktəbin iş rejiminin təkmilləşdirilməsi.',
-    ],
-    correctAnswer: 'bütün variantlar doğrudur;',
-  },
-  {
-    number: 381,
-    question: 'Təhsilin məzmununu necə düzgün müəyyən etmək olar?',
-    options: [
-      'dövlət standartlarına uyğun bilik,bacarıq,vərdişlərin məcmusu;',
-      'ictimai elmlərin inkişaf səviyyəsinin nəticəsi;',
-      'pedaqoji elmin və pedaqoji fəaliyyətin inkisafının idarə olunması;',
-      'cəmiyyətin siyasi və sosial-iqtisadi quruluşu ilə',
-      'bütün variantlar səhvdir.',
-    ],
-    correctAnswer:
-      'dövlət standartlarına uyğun bilik,bacarıq,vərdişlərin məcmusu;',
-  },
-  {
-    number: 382,
-    question:
-      'İnsanın bütün ömrü boyu təhsilini təmin edən dövlət sistemi necə adlanır?',
-    options: [
-      'fasiləsiz təhsil;',
-      'sistemli təhsil;',
-      'təhsil;',
-      'maariflənmək;',
-      'distant təhsil;',
-    ],
-    correctAnswer: 'fasiləsiz təhsil;',
-  },
-  {
-    number: 383,
-    question: 'Pedaqoji sistem pedaqoqika elminin hansı bölməsində öyrənilir?',
-    options: [
-      'məktəbşünaslıq;',
-      'didaktika;',
-      'tərbiyə nəzəriyyəsi və metodikası;',
-      'sosial-pedaqoqika;',
-      'bütün variantlar səhvdir.',
-    ],
-    correctAnswer: 'məktəbşünaslıq;',
-  },
-  {
-    number: 384,
-    question: 'Sinif rəhbərini kim təyin edir?',
-    options: [
-      'məktəb direktoru;',
-      'pedaqoji şura;',
-      'sinfin şagirdləri;',
-      'direktoryanı müşavirə.',
-      'Sinif rəhbəri.',
-    ],
-    correctAnswer: 'məktəb direktoru;',
-  },
-  {
-    number: 385,
-    question: 'Sinif rəhbərinin vəzifəsinə aid deyil?',
-    options: [
-      'şagirdin цzü iştirak etmədiyi şəraitdə onun hərəkətlərini müzakirə etmək;',
-      'şagirdlərin xarici gцrünüşünə, geyiminə nəzarət etmək;',
-      'Azərbaycanın milli bayramları, əlamətdar tarixi hadisələri ilə bağlı tədbirlər təşkil etmək, mərasimləri qeyd etmək;',
-      'sinifdə ümumməktəb kollektivinin fəaliyyəti çərçivəsində şagird şəxsiyyətinin müsbət potensialının inkişafı üçün əlverişli təlim-tərbiyə mühiti yaratmaq;',
-      'eyni yaşda olan uşaqlarla işin psixoloji və pedaqoji əsaslarını, ən yeni texnologiyaları, tərbiyə işinin üsul və formalarını bilmək.',
-    ],
-    correctAnswer:
-      'şagirdin цzü iştirak etmədiyi şəraitdə onun hərəkətlərini müzakirə etmək;',
-  },
-  {
-    number: 386,
-    question: 'Məktəbin illik iş planı hansı aylar tərtib edilir?',
-    options: [
-      'may-iyun;',
-      'avqust-sentyarb;',
-      'dekabr-yanvar;',
-      'mart-aprel;',
-      'bütün variantlar səhvdir.',
-    ],
-    correctAnswer: 'may-iyun;',
-  },
-  {
-    number: 387,
-    question: 'Pedaqoji analizin növlərinə aid deyil?',
-    options: [
-      'korreksion analiz;',
-      'tematik analiz;',
-      'illik analiz;',
-      'parametrik analiz;',
-      'aspektli analiz.',
-    ],
-    correctAnswer: 'korreksion analiz;',
-  },
-  {
-    number: 388,
-    question: 'Parametrik analizin məqsədi?',
-    options: [
-      'tədris prosesinin gedişi və nəticələri barədə hər gün məlumat əldə etmək;',
-      'tədris fəaliyyətini ümumi şəkildə öyrənmək;',
-      'tədrisin konkret şəraitdə necə cərayan etməsini öyrənmək;',
-      'təlim-tərbiyə prosesinin bəzi sahələri üzrə analizlər aparmaq;',
-      'tədris-tərbiyə prosesnin ümumi nəticələrini öyrənmək.',
-    ],
-    correctAnswer:
-      'tədris prosesinin gedişi və nəticələri barədə hər gün məlumat əldə etmək;',
-  },
-  {
-    number: 389,
-    question: 'Məktəbdaxili idaətmənin əsas funksiyalarına aiddir?',
-    options: [
-      'motivasiya;',
-      'pedaqoji analiz;',
-      'məqsədəmüvafiqlik;',
-      'planlaşdırma və nəzarət;',
-      'bütün variantlar doğrudur.',
-    ],
-    correctAnswer: 'motivasiya;',
-  },
-  {
-    number: 390,
-    question:
-      'Müəllimliyi "günəş altında ən yüksəkdə duran, ən əla vəzifə" adlandıran pedaqoq kimdir?',
-    options: [
-      'Y.A.Komenski;',
-      'İ.H.Pestalotsi;',
-      'N.Nərimanov;',
-      'V.A.Suxomlinski',
-      'S.M.Qənizadə.',
-    ],
-    correctAnswer: 'Y.A.Komenski;',
-  },
-  {
-    number: 391,
-    question: 'Məktəbdə metodiki işin formalarına aid deyil?',
-    options: [
-      'fənn metodbirləşmələri;',
-      'innovasiya qrupları;',
-      'açiq dərslərin keçirilməsi;',
-      'elmi-pedaqoji konfranslar;',
-      'mühazirələrin keçirilməsi',
-    ],
-    correctAnswer: 'fənn metodbirləşmələri;',
-  },
-  {
-    number: 392,
-    question: 'Monitorinq və qiymətləndirmə şöbəsinin vəzifəsi?',
-    options: [
-      'təhsilin məzmunu və müvafiq qiymətləndirmə standartları ilə fənn kurrikulumlarının qiymətləndirilməsinin həyata keçirilməsi',
-      'mövcud tədris plan və proqramında dəyişiklik aparılması üzrə tövsiyələr vermək;',
-      'tədris prosesində əyani və texniki vasitələrdən səmərəli istifadə edilməsini təşkil etmək;',
-      'tədrisi fəallaşdırma metodlarından istifadə edərək, tələbələr tərəfindən proqram materiallarının mənimsənilmə səviyyəsini yüksəltmək;',
-      'etədris prosesində tədris olunan fənnin digər fənnlərdəki mövzularla əlaqəsini təmin etmək.',
-    ],
-    correctAnswer:
-      'təhsilin məzmunu və müvafiq qiymətləndirmə standartları ilə fənn kurrikulumlarının qiymətləndirilməsinin həyata keçirilməsi',
-  },
-  {
-    number: 393,
-    question: 'Sinif rəhbərinin fəaliyyətində aşağıdakılar yolverilməzdir:',
-    options: [
-      'şagirdi cəzalandırmaq məqsədilə dərs zamanı əsassız olaraq təlim müvəffəqiyyətini əks etdirən qiymətini aşağı salmaq;',
-      'valideynləri(onlar əvəz edən şəxsləri) təhsil müəssisəsinə dəvət etmək, onlarla işgüzar əlaqə yaratmaq;',
-      'tərbiyə problemləri üzrə təcrübi-eksperimental iş aparmaq;',
-      'uşaqların fiziki sağlamlığı barədə müntəzəm olaraq məlumat əldə etmək;',
-      'treninqlər vasitəsilə pedaqoji işin müxtəlif qrup və kollektiv formalarında iştirak etmək.',
-    ],
-    correctAnswer:
-      'şagirdi cəzalandırmaq məqsədilə dərs zamanı əsassız olaraq təlim müvəffəqiyyətini əks etdirən qiymətini aşağı salmaq;',
-  },
-  {
-    number: 394,
-    question: 'Təhsil sistemi anlayışı nəyi xarakterizə edir?',
-    options: [
-      'bu və ya digər ölkədə qarşılıqlı əlaqə şəraitində fəaliyyət göstərən,müxtəlif təlim- tərbiyə müəssisələr şəbəkəsi;',
-      'bilik,bacarıq və vərdişlər aşılayan elm ocaqları;',
-      'sənaye,kənd təsərrüfatı,nəqliyyat və müxtəlif sahələr üçün kadr hazırlayan məktəblər;',
-      'gənclərin münasib peşəyə yiyələnməsi və işə düzəlməsi məqsədilə aparılan ictimai- pedaqoji tədbirlər sistemi;',
-      'orta təhsilli mütəxəssislər hazırlayan məktəblər məcmusu.',
-    ],
-    correctAnswer:
-      'bu və ya digər ölkədə qarşılıqlı əlaqə şəraitində fəaliyyət göstərən,müxtəlif təlim- tərbiyə müəssisələr şəbəkəsi;',
-  },
-  {
-    number: 395,
-    question: 'Ümumtəhsil məktəbində ali idarəetmə orqanı hansıdır?',
-    options: [
-      'pedaqoji şura;',
-      'məktəb direktoru;',
-      'məktəb şurası;',
-      'rayon(şəhər)',
-      'maarif şöbəsi.',
-    ],
-    correctAnswer: 'pedaqoji şura;',
-  },
-  {
-    number: 396,
-    question: 'Ümumtəhsil məktəblərinə direktorları kim təyin edir?',
-    options: [
-      'Təhsil Nazirliyi;',
-      'pedaqoji şura;',
-      'maarif şöbələri;',
-      'Respublika Prezidenti;',
-      'məktəb kollektivi.',
-    ],
-    correctAnswer: 'Təhsil Nazirliyi;',
-  },
-  {
-    number: 397,
-    question: 'Ümumtəhsil məktəbində təhsilalanların hüquqlarına nə aid deyil?',
-    options: [
-      'tədrisin formasını, metodlarını və vasitələrini sərbəst seçmək;',
-      'dövlət, cəmiyyət, ailə qarşısında və özünə münasibətdə şəxsi məsuliyyətini dərk etmək;',
-      'təhsil alacağı ümumtəhsil məktəbini, tədris dilini, təhsilin təmayülünü, sinifdənkənar məşğuliyyəti sərbəst seçmək;',
-      'sağlamlıq üçün təhlükəsiz və zərərsiz təhsil şəraiti ilə təmin olunmaq;',
-      'təhsil prosesinin təşkilində və idarə olunmasında iştirak etmək, öz fikir və mülahizələrini sərbəst ifadə etmək.',
-    ],
-    correctAnswer:
-      'tədrisin formasını, metodlarını və vasitələrini sərbəst seçmək;',
-  },
-  {
-    number: 398,
-    question:
-      'Azərbaycan Respublikası Nazirlər Kabinetinin hansı qərarına uyğun olaraq, səhhətinə görə bilavasitə ümumtəhsil məktəbində təhsil ala bilməyən şagirdlər üçün xüsusi tədris planı əsasında "Evdə təhsil" forması tətbiq edilmişdir?',
-    options: [
-      '2002,10 may',
-      '2003,20 aprel',
-      '2001,30  yanvar',
-      '2003, 28 may',
-      '2005, 10 sentyabr.',
-    ],
-    correctAnswer: '2002,10 may',
-  },
-  {
-    number: 399,
-    question: 'Ümumtəhsil Məktəb Nizamnaməsinin hansı bəndi səhvdir?',
-    options: [
-      'Ümumtəhsil məktəbində siyasi partiyaların və dini qurumların strukturlarının yaradılmasına və fəaliyyətinə yol verilir;',
-      'Mülkiyyət formasına görə dövlət ümumtəhsil məktəbləri ilə yanaşı, bələdiyyə və özəl ümumtəhsil məktəbləri də təşkil edilə bilər;',
-      '. Ümumtəhsil məktəbi mцvcud qanunvericilik çərçivəsində inzibati və maliyyə- təsərrüfat fəaliyyətini həyata keçirməkdə sərbəstdir;',
-      'Mülkiyyət formasına görə dövlət ümumtəhsil məktəbləri ilə yanaşı, bələdiyyə və özəl ümumtəhsil məktəbləri də təşkil edilə bilər;',
-      'Dövlət ümumtəhsil məktəblərində təhsil pulsuzdur.',
-    ],
-    correctAnswer:
-      'Ümumtəhsil məktəbində siyasi partiyaların və dini qurumların strukturlarının yaradılmasına və fəaliyyətinə yol verilir;',
-  },
-  {
-    number: 400,
-    question: 'Məktəbin perspektiv planı hansı müddət üçün nəzərdə tutulur?',
-    options: ['1 il;', 'yarım il;', '2il;', '6 ay.', '3 ay'],
-    correctAnswer: '1 il;',
-  },
-  {
-    number: 401,
-    question: 'Məktəbin sanitar vəziyyətinə kim cavabdehlik daşıyır?',
-    options: [
-      'təsərrüfat işləri üzrə direktor müavini;',
-      'məktəb direktoru;',
-      'təlim-tərbiyə işləri üzrə direktor müavini;',
-      'sinifdənxaric və məktəbdənkənar tərbiyə işləri üzrə direktor müavini;',
-      'sinif rəhbəri.',
-    ],
-    correctAnswer: 'təsərrüfat işləri üzrə direktor müavini;',
-  },
-  {
-    number: 402,
-    question:
-      '"Müəllim nə qədər ki oxuyur,o yaşayır,oxumağı dayandırdıqda o artıq yaşamır"-bu sitatın müəllifi kimdir?',
-    options: [
-      'K.D.Uşinski',
-      'A.S.Makarenko',
-      'C.Məmmədquluzadə',
-      'L.N.Tolstoy',
-      'M.Ə.Sabir.',
-    ],
-    correctAnswer: 'K.D.Uşinski',
-  },
-  {
-    number: 403,
-    question: 'Təhsilin əsas komponentləri:',
-    options: [
-      'bilik,bacarıq,vərdişlər;',
-      'bacarıq,bilik,idrak;',
-      'vərdiş,bacarıq,idrak;',
-      'bacarıq,meyl,qavrama;',
-      'idrak,yaddaş,qabiliyyət.',
-    ],
-    correctAnswer: 'bilik,bacarıq,vərdişlər;',
-  },
-  {
-    number: 404,
-    question: '"Asandan mürəkkəbə doğru"hansı prinsipə aiddir?',
-    options: [
-      'ardıcıllıq və sistematiklik;',
-      'müvafiqlik;',
-      'elmilik;',
-      'nəzəriyyə ilə təcrübənin vəhdəti;',
-      'əyanilik.',
-    ],
-    correctAnswer: 'ardıcıllıq və sistematiklik;',
-  },
-  {
-    number: 405,
-    question: 'Təlim prosesinin təşkili formasına aid deyil:',
-    options: [
-      'müşahidə;',
-      'dərs;',
-      'ev tapşırıqları;',
-      'fakultativ məşğələ;',
-      'ekskursiyalar.',
-    ],
-    correctAnswer: 'müşahidə;',
-  },
-  {
-    number: 406,
-    question: 'Pedaqoji prosesi elmi əsaslarla idarəedən kollegial orqan?',
-    options: [
-      'pedaqoji şura;',
-      'elmi-konfrans;',
-      'metod şura;',
-      'istehsalat müşavirəsi;',
-      'fənn birləşməsi.',
-    ],
-    correctAnswer: 'pedaqoji şura;',
-  },
-  {
-    number: 407,
-    question:
-      '"Əmr"," töhmət","göstəriş" pedaqoji ünsiyyətin hansı stilinə aiddir?',
-    options: [
-      'avtoritarizm;',
-      'demokratizm;',
-      'liberalizm;',
-      'əməkdaşlıq;',
-      'anlaşma.',
-    ],
-    correctAnswer: 'avtoritarizm;',
-  },
-  {
-    number: 408,
-    question: 'Latın sözü "paradiqma" hansı mənanı bildirir?',
-    options: ['nümunə;', 'istiqamət;', 'təlimat;', 'proekt;', 'münasibət.'],
-    correctAnswer: 'nümunə;',
-  },
-  {
-    number: 409,
-    question:
-      'Azərbaycan Respublikası Konstitusiyasına müvafiq hər bir vətəndaş üçün müyəssər və icbari olan təhsil hansıdır?',
-    options: [
-      'ümumu orta təhsil;',
-      'ali təhsil;',
-      'orta ümumi təhsil;',
-      'orta peşə təhsili;',
-      'texniki peşə təhsili.',
-    ],
-    correctAnswer: 'ümumu orta təhsil;',
-  },
-  {
-    number: 410,
-    question:
-      'Təhsil standartlarına uyğun təhsilalanlara bilik məlumatlarını müyəssər edən mənbə?',
-    options: [
-      'dərslik;',
-      'tədrıs planı;',
-      'tədris proqramı;',
-      'iş dəftəri;',
-      'metodiki tövsiyələr.',
-    ],
-    correctAnswer: 'dərslik;',
-  },
-  {
-    number: 411,
-    question: 'Yeniyetməlik dövrünə xas fəaliyyət növü?',
-    options: [
-      'təlim fəaliyyəti;',
-      'oyun fəaliyyəti;',
-      'həmyaşıdları ilə ünsiyyət;',
-      'təlim-peşə fəaliyyəti;',
-      'emosional ünsiyyət.',
-    ],
-    correctAnswer: 'təlim fəaliyyəti;',
-  },
-  {
-    number: 412,
-    question: 'Təlimin bir tərəfini öyrənmə,digər tərəfini nə təşkil edir?',
-    options: ['öyrətmə;', 'mənimsəmə;', 'qavrama;', 'dərketmə;', 'anlama.'],
-    correctAnswer: 'öyrətmə;',
-  },
-  {
-    number: 413,
-    question: 'Məktəbdə təlimin təşkilinin aparıcı forması nədir?',
-    options: [
-      'dərs;',
-      'məsləhət;',
-      'təlim diskusiyası;',
-      'fakultativ məşğələ;',
-      'elmi-dialoq.',
-    ],
-    correctAnswer: 'dərs;',
-  },
-  {
-    number: 414,
-    question: 'Təlimin məzmunu hansı sualla müəyyən edilir?',
-    options: [
-      'nə öyrədirlər;',
-      'kimi öyrədirlər;',
-      'niyə öyrədirlər;',
-      'necə öyrədirlər;',
-      'hansı müddətə öyrədirlər.',
-    ],
-    correctAnswer: 'nə öyrədirlər;',
-  },
-  {
-    number: 415,
-    question: 'Sinif-dərs sisteminin yaranması kimin adı bağlıdır?',
-    options: [
-      'Y.A.Komenski;',
-      'Platon;',
-      'Sokrat;',
-      'V.A.Suxomlinski;',
-      'İ.H.Pestalotsinin.',
-    ],
-    correctAnswer: 'Y.A.Komenski;',
-  },
-  {
-    number: 416,
-    question: 'Pedaqoqa görə öyrətmə nə deməkdir?',
-    options: [
-      'şagirdlərin bilik,bacarıq,vərdişlərə yiyələnməsinə səy göstərmək;',
-      'öyrənməyə məcbur etmək;',
-      'fənnin düzgün mənimsənilməsinə nəzarət etmək;',
-      'mövzunu düzgün şərh etmək;',
-      'elmi biliyini genişləndirməyə çalışmaq.',
-    ],
-    correctAnswer:
-      'şagirdlərin bilik,bacarıq,vərdişlərə yiyələnməsinə səy göstərmək;',
-  },
-  {
-    number: 417,
-    question: 'Təlim prosesin hərəkətverici qüvvəsi?',
-    options: [
-      'mövcud elmi biliklərlə şagirdlərin şəxsi bilikləri arasındakı ziddiyət;',
-      'müəlliminin didaktik bacarığı;',
-      'şagird fəaliyyət növlərinin ardıcıllıqla bir-birini əvəz etməsi;',
-      'bilik,bacarıq,vərdişlərin şagirdlər tərəfindən dərk olunması;',
-      'müəllimin iradi keyfiyyətləri.',
-    ],
-    correctAnswer:
-      'mövcud elmi biliklərlə şagirdlərin şəxsi bilikləri arasındakı ziddiyət;',
-  },
-  {
-    number: 418,
-    question: 'Proqramlaşdırılmış təlimin mahiyyəti:',
-    options: [
-      'bilik,bacarıq,vərdişlərinin mənimsənilməsinin proqramlaşdırılmış nəzarətlə təlimi;',
-      'proqramlaşdırılmış dərslik üzrə müstəqil iş.',
-      'tədris proqramlarından istifadə;',
-      'təlimin avtomatlaşdırılması;',
-      'mövzunun "az" normayla öyrənilməsı.',
-    ],
-    correctAnswer:
-      'bilik,bacarıq,vərdişlərinin mənimsənilməsinin proqramlaşdırılmış nəzarətlə təlimi;',
-  },
-  {
-    number: 419,
-    question: 'Tədris fənninə müvafiq elmi biliklərin əsasını öyrədən kitab?',
-    options: [
-      'dərslik;',
-      'avtoreferat;',
-      'monoqrafiya;',
-      'metodiki vəsait;',
-      'didaktik material.',
-    ],
-    correctAnswer: 'dərslik;',
-  },
-  {
-    number: 420,
-    question: 'Tədris fənnini əks etdirən sənəd?',
-    options: [
-      'tədris proqramı;',
-      'tədris dərsliyi;',
-      'dərs vəsaiti;',
-      'xüsusi proqram;',
-      'tədris planı.',
-    ],
-    correctAnswer: 'tədris proqramı;',
-  },
-  {
-    number: 421,
-    question: 'Təhsili məzmununu fənnlər  və illər üzrə bölüşdürən sənəd?',
-    options: [
-      'tədris planı;',
-      'təqvim planı;',
-      'tematik plan;',
-      'plan-konspekt;',
-      'sərbəst plan.',
-    ],
-    correctAnswer: 'tədris planı;',
-  },
-  {
-    number: 422,
-    question:
-      'Məktəbin idarəetmə sistemini və ona rəhbərliyi müəyyən edən başlıca sənəd?',
-    options: [
-      'nizamnamə;',
-      'dövlət standartları;',
-      'nəzəriyyə;',
-      'normativ sənədlər;',
-      'nümunəvi plan.',
-    ],
-    correctAnswer: 'nizamnamə;',
-  },
-  {
-    number: 423,
-    question: 'Attestasiyanı keçirməkdə məqsəd?',
-    options: [
-      'müəllimlərin həqiqi reşə ustalığı səviyyəsini müəyyən etmək;',
-      'pedaqoji fəaliyyətin diaqnostikası;',
-      'müəllimlərin metodiki hazırlığı;',
-      'özünütəhsilin inkişafı;',
-      'müəllimin nəzəri hazırlıq səviyyəsinin yüksəldilməsi.',
-    ],
-    correctAnswer:
-      'müəllimlərin həqiqi reşə ustalığı səviyyəsini müəyyən etmək;',
-  },
-  {
-    number: 424,
-    question:
-      'Pedaqoji prosesin iştirakçılarının əməkdaşlığına əsaslanan fəaliyyət növü?',
-    options: [
-      'pedaqoji əməkdaşlıq;',
-      'özünüidarəetmə;',
-      'avtoritar rəhbərlik;',
-      'liberal rəhbərlik;',
-      'kommunal metodika.',
-    ],
-    correctAnswer: 'pedaqoji əməkdaşlıq;',
-  },
-  {
-    number: 425,
-    question: 'Ali təhsil verən müəssisə-?',
-    options: [
-      'institut,universitet,akademiya.',
-      'institut,kollec,akademiya.',
-      'universitet,akademiya,kollec.',
-      'litsey,institut,universitet.',
-      'kollec,litsey,akademiya.',
-    ],
-    correctAnswer: 'institut,universitet,akademiya.',
-  },
-  {
-    number: 426,
-    question:
-      'İnkişafetdirici təlim prinsipləri sistemi ilk dəfə kim tərəfindən irəli sürülüb?',
-    options: [
-      'L.S.Zankov.',
-      'İ.P.İvanov.',
-      'L.S.Vıqotski.',
-      'İ.S.Yakimanskaya.',
-      'L.P.Krivşenko.',
-    ],
-    correctAnswer: 'L.S.Zankov.',
-  },
-  {
-    number: 427,
-    question: 'Standart dərsin müddəti?',
-    options: ['45 d.', '60 d.', '90 d.', '30 d.', '35 d.'],
-    correctAnswer: '45 d.',
-  },
-  {
-    number: 428,
-    question:
-      'Məktəbdaxili nəzarətin ümumi metodlar qrupuna nələr aiddir?1.müşahidə; 2.müsahibə; 3.anketləşdirmə; 4.frontalsorğu; 5.kombinəedilmiş sorğu.',
-    options: ['1;2;3.', '2;3;4.', '1;3;4.', '2;4;5.', '1;5;3'],
-    correctAnswer: '1;2;3.',
-  },
-  {
-    number: 429,
-    question:
-      'Pedaqoji şuranın fəaliyyəti hansı mərhələlərlə tamamlanır? 1.planlaşdırma; 2.şuraya hazırlıq; 3.iclasın gedişi; 4sənədləşdirmə; 5.icranın təşkili; 6.icraya nəzarət;7.müşahidə; müsahibə.',
-    options: [],
-    correctAnswer: '',
-  },
-  {
-    number: 430,
-    question: 'Məktəbdə metodiki işin məqsədi?',
-    options: [
-      'müəllimlərin metodik və psixoloji hazırlıq səviyyəinin artırılması ilə pedaqoji prosesin səviyyəsini yüksəltmək.',
-      'müəllimlərə metodiki köməklik etmək.',
-      'pedaqoji prosesin səviyyəsini yüksəltmək.',
-      'müəllimlərin pedaqoji hazırlıq səviyyəsini artırmaq.',
-      'pedaqoji və metodiki ədəbiyyatda qaldırılan məsələlərə münasibəti bildirmək.',
-    ],
-    correctAnswer:
-      'müəllimlərin metodik və psixoloji hazırlıq səviyyəinin artırılması ilə pedaqoji prosesin səviyyəsini yüksəltmək.',
-  },
-  {
-    number: 431,
-    question: 'Müəllimə metodiki köməklik nə deməkdir?',
-    options: [
-      'pedaqoji prosesin səviyyəsini yüksəltməq məqsədilə təlim,tərbiyə,təhsil,psixoloji inkişafın nəzəri məsələlinin müəllimlərlə digər şəxslərin müzakirəsi.',
-      'pedaqoji prosesin səviyyəsini yüksəltmək məqsədilə metodistlərin müəllimlərlə praktik məsələlətin müzakirəsi.',
-      'metodbirləşmənin müəllimlərlə təlim-tərbiyənin ümumi məsələləini araşdırmaları.',
-      'müəllimlərin metodiki hazırlıq səviyyəsinin yüksəldilməsi.',
-      'metodiki ədəbiyyatda qaldırılan məsələlərə münasibət bildirmək məqsədilə yıgıncaqların keçirilməsi.',
-    ],
-    correctAnswer:
-      'pedaqoji prosesin səviyyəsini yüksəltməq məqsədilə təlim,tərbiyə,təhsil,psixoloji inkişafın nəzəri məsələlinin müəllimlərlə digər şəxslərin müzakirəsi.',
-  },
-  {
-    number: 432,
-    question: '"Pedaqoji poemanın "müəllifi kimdir?',
-    options: [
-      'A.S.Makarenko;',
-      'B.A.Suxomlinski;',
-      'L.S.Vıqotski;',
-      'M.Lipman;',
-      'K.D.Uşinski.',
-    ],
-    correctAnswer: 'A.S.Makarenko;',
-  },
-  {
-    number: 433,
-    question:
-      'İlk dəfə Sokrat dialoqunu kim təlim metodu ideyası kimi irəli sürmüşdür?',
-    options: [
-      'K.D.Uşinski;',
-      'C.Dyui;',
-      'İ.F.Herbart;',
-      'C.Lokk;',
-      'M.V.Lomonosov.',
-    ],
-    correctAnswer: 'K.D.Uşinski;',
-  },
-  {
-    number: 434,
-    question: 'Rəğbətləndirmə və cəzalandırma necə metoddur?',
-    options: [
-      'stimullaşdırıcı;',
-      'təcrübi;',
-      'əyani;',
-      'tədqiqatçı;',
-      'sözlü.',
-    ],
-    correctAnswer: 'stimullaşdırıcı;',
-  },
-  {
-    number: 435,
-    question: 'Nəyə görə dərs-təlimin əsas təşkilat forması hesab olunur?',
-    options: [
-      'ona görə ki,təlimin digər təşkili  formalarından fərqli dərsdə dövlətin təhsil sahəsindəki məqsədləri həyata keçirilir;',
-      'çünki,dərsdə təlim materialının əsas hissəsi öyrədilir;',
-      'ona görə ki, hamısı əsas forma ola bilməz;',
-      'məktəbdə təşkil edildiyi üçün;',
-      'ona görə ki,onu görkəmli pedaqoq Y.A.Konenski irəli sürmüşdür',
-    ],
-    correctAnswer:
-      'ona görə ki,təlimin digər təşkili  formalarından fərqli dərsdə dövlətin təhsil sahəsindəki məqsədləri həyata keçirilir;',
-  },
-  {
-    number: 436,
-    question: 'Ali təhsilin yeni modeli ?',
-    options: [
-      'bakalavr,magistir,doktorantura.',
-      'orta məktəb,kollec,institut.',
-      'institut,aspirantura,doktorontura.',
-      'kollec,institut,universitet.',
-      'orta məktəb,peşə ixtisas təhsili.',
-    ],
-    correctAnswer: 'bakalavr,magistir,doktorantura.',
-  },
-  {
-    number: 437,
-    question: 'Bütöv pedaqoji prosesin əsas elementləri?',
-    options: [
-      'məqsəd,vəzifə,məzmun,forma,metod,nəticə.',
-      'struktur,istiqamət,məzmun.',
-      'şagird,müəllim,fənn predmeti.',
-      'mövzu,məqsəd,gedişi,biliyin qiymətləndirilməsi.',
-      'dərsin gedişi,məqsəd,əyani vasitələr.',
-    ],
-    correctAnswer: 'məqsəd,vəzifə,məzmun,forma,metod,nəticə.',
-  },
-  {
-    number: 438,
-    question: 'Tərbiyənin subyektiv amilləri?',
-    options: [
-      'kütləvi informasiya vasitələri;',
-      'təbii amillər;',
-      'irsiyyət;',
-      'elm və texnikanın inkişaf səviyyəsi.',
-      'ailədə qarşılıqlı münasibət.',
-    ],
-    correctAnswer: 'kütləvi informasiya vasitələri;',
-  },
-  {
-    number: 439,
-    question: 'Ayrı-ayrı fənlər arasında əlaqə necə adlanır?',
-    options: [
-      'fənnlərarası əlaqə;',
-      'elm və fənn arasında əlaqədir;',
-      'qohum fənnlər arasında əlaqədir;',
-      'humanitar və təbii elmlər arasında əlaqədir;',
-      'müxtəlif fənnlər arasinda əlaqə.',
-    ],
-    correctAnswer: 'fənnlərarası əlaqə;',
-  },
-  {
-    number: 440,
-    question: 'Təlim metodları hansı sualla baglıdır?',
-    options: [
-      'necə öyrədirlər?',
-      'nə öyrədirlər?',
-      'harda öyrədirlər?',
-      'niyə öyrədirlər?',
-      'nə vaxt öyrədirlər.',
-    ],
-    correctAnswer: 'necə öyrədirlər?',
-  },
-  {
-    number: 441,
-    question: 'Metod birləşmənin sənədləri harada saxlanılır?',
-    options: [
-      'metod kabinetdə;',
-      'direktorda;',
-      'müəllim otağında;',
-      'təlim işləri üzrə direktor müavinində;',
-      'kitabxanada.',
-    ],
-    correctAnswer: 'metod kabinetdə;',
-  },
-  {
-    number: 442,
-    question: 'Uşağın psixologiyasını bilmək müəllimə imkan verir ki:',
-    options: [
-      'uşaq şəxsiyyətinin imkanlarını,intellektini öyrınməyə imkan verir.',
-      'uşaq fəallıgının planlaşdırılmasına;',
-      'bacarıqlara yiyələnmələrinə;',
-      'elmə bacarıq və marağın artırılması;',
-      'müşahidənin inkişaf etdirilməsi.',
-    ],
-    correctAnswer:
-      'uşaq şəxsiyyətinin imkanlarını,intellektini öyrınməyə imkan verir.',
-  },
-  {
-    number: 443,
-    question: 'Kollektivdə iştirak etməyən pedaqoqun davranış stili?',
-    options: [
-      'liberallıq.',
-      'demokratiklik.',
-      'avtoritarlıq.',
-      'əməkdaşlıq.',
-      'neytrallıq.',
-    ],
-    correctAnswer: 'liberallıq.',
-  },
-  {
-    number: 444,
-    question: 'Pedaqoqa verilən  əsas tələblər?',
-    options: [
-      'pedaqoji ustalıq və pedaqoji texnika.',
-      'pedaqoji texnika və iradinin gücü.',
-      'müşahidəçilik,təkidlilik.',
-      'təmkinlilik,müstəqil fikir yürütmək bacarıgı.',
-      'təkidlilik,diqqətlilik.',
-    ],
-    correctAnswer: 'pedaqoji ustalıq və pedaqoji texnika.',
-  },
-  {
-    number: 445,
-    question: 'Sosial təcrübənin nəsldən-nəslə ötürülməsinin vacibliyi?',
-    options: [
-      'insan cəmiyyətinin meydana gəlməsi.',
-      'b)təhsilin texniki vasitələrindən istifadə.',
-      'pedaqoji elmin inkişafı.',
-      'elmi-texniki tərəqqi.',
-      'təhsilin məzmunun yeniləşdirilməsi.',
-    ],
-    correctAnswer: 'insan cəmiyyətinin meydana gəlməsi.',
-  },
-  {
-    number: 446,
-    question: 'Metodiki işin formaları?',
-    options: [
-      'sinifdənxaric işlər;',
-      'müəllimin mütailəsi;',
-      'fənn komissiyalarının işi;',
-      'metodbirləşmənin işi;',
-      'müəllimlərin öz təşəbbüsü ilə həmkarlarının məşğələlərində olması.',
-    ],
-    correctAnswer: 'sinifdənxaric işlər;',
-  },
-  {
-    number: 447,
-    question: 'Fənn komissiyası nədir?',
-    options: [
-      'eyni fənn üzrə məəllimlərin məktəbdə birləşdikləri ictimai qurum.',
-      'fənni yoxlayan komissiya.',
-      'müxtəlif fənnlər üzrə ictimai qurum.',
-      'müəllimlərin öztəşəbbüsləri ilə yaratdıqları qurum.',
-      'ibtidai sinif fənnlərini yoxlayan komissiya qrupu.',
-    ],
-    correctAnswer:
-      'eyni fənn üzrə məəllimlərin məktəbdə birləşdikləri ictimai qurum.',
-  },
-  {
-    number: 448,
-    question: 'Məktəbdaxili nəzarət metodlarını necə qrupa ayırmaq olar?',
-    options: ['2.', '3.', '4.', '5.', 'bütün variantlar düzdür.'],
-    correctAnswer: '2.',
-  },
-  {
-    number: 449,
-    question: 'Təhsil sisteminə rəhbərliyi olkədə kim həyata keçirir?',
-    options: [
-      'Təhsil Nazirliyi.',
-      'məktəb direktoru.',
-      'sinif rəhbəri;',
-      'maarif müdiri;',
-      'müəllim.',
-    ],
-    correctAnswer: 'Təhsil Nazirliyi.',
-  },
-  {
-    number: 450,
-    question: 'Tender sözünün mənası?',
-    options: ['müsabiqə.', 'müşahidə.', 'qovüşmaq.', 'yenilik.', 'məsafə.'],
-    correctAnswer: 'müsabiqə.',
-  },
-  {
-    number: 451,
-    question: 'Boloniya Bəyannaməsində necə müddəa əks olunmuşdur?',
-    options: ['8.', '10.', '7', '9.', '15.'],
-    correctAnswer: '8.',
-  },
-  {
-    number: 452,
-    question: 'Boloniya prosesi nə deməkdir?',
-    options: [
-      'Avropa məkanında ali təhsilin yaradılması.',
-      'Avropada təhsil sisteminin yaradılması.',
-      'Avropa ölkələnin  təhsil sahəsində ittifaqı',
-      'Avropa məkanında təhsilin yaradılması.',
-      'Vahid təhsil sisteminin yaradılması.',
-    ],
-    correctAnswer: 'Avropa məkanında ali təhsilin yaradılması.',
-  },
-  {
-    number: 453,
-    question: 'Boloniya prosesinin tarixində necə mərhələ vardır?',
-    options: ['3', '5', '2', '4', '1'],
-    correctAnswer: '3',
-  },
-  {
-    number: 454,
-    question:
-      'Milli pedaqogikaya esasen agil ve agil terbiyesi haqqinda danismagin nece basilica sэbэbi var?',
-    options: ['3', '2', '5', '7', '1'],
-    correctAnswer: '3',
-  },
-  {
-    number: 455,
-    question: 'Qədim yunan sozu olan intellekt nə dəməkdir?',
-    options: ['bacarıq', 'bilik', 'ağıl', 'vərdiş', 'hamısı'],
-    correctAnswer: 'bacarıq',
-  },
-  {
-    number: 456,
-    question:
-      'Hər hansi işi görməzdən əvvəl onun nə ilə nəticələnəcəyini aydın təsəvvür etmək bacariği insanın necə olduğuna dəlalət edir?',
-    options: ['agıllı', 'kut', 'agilsiz', 'hamisi', 'hec biri'],
-    correctAnswer: 'agıllı',
-  },
-  {
-    number: 457,
-    question:
-      'Digər məktəbdən məktəbə şagird qəbuluna əsas verən sənəd hansıdır?',
-    options: [
-      'Şagirdin şəxsi işi.',
-      'Şagirdin qiymət kitabçası',
-      'Şagird haqqında psixoloq rəyi',
-      'Hamısı birlikdə',
-      'Məktəb direktorunun razılıq məktubu',
-    ],
-    correctAnswer: 'Şagirdin şəxsi işi.',
-  },
-  {
-    number: 458,
-    question: 'Tərbiyənin üsulları...',
-    options: [
-      'Şəxsiyyəti formalaşdırmaq üçün istifadə olunan yoldur',
-      'Dərsə verilən pedaqoji tələbdir',
-      'Qarşılıqlı fəaliyyətdir',
-      'Məktəb, ailə və ictimaiyyətin əlbir işidir',
-      'Şagirdin özünü tərbiyəsidir',
-    ],
-    correctAnswer: 'Şəxsiyyəti formalaşdırmaq üçün istifadə olunan yoldur',
-  },
-  {
-    number: 459,
-    question: 'Bunlardan hansı tərbiyənin üsuludur?',
-    options: [
-      'Tərbiyədə nəzarət, özünə nəzarət və özünə qiymət üsulları',
-      'Uşaqlarda qənaətçillik anlayışı formalaşdırır',
-      'Şagirdləri bilik və bacarıqlarla silahlandırır',
-      'Şagirdləri əməyə sövq edir',
-      'Məktəb rəhbərliyl ilə müsbət münasibətlər yaradır',
-    ],
-    correctAnswer: 'Tərbiyədə nəzarət, özünə nəzarət və özünə qiymət üsulları',
-  },
-  {
-    number: 460,
-    question: 'Tərbiyədə iştirak edən əsas amil hansıdır?',
-    options: [
-      'Şagirdin şəxsiyyət xüsusiyyətləri',
-      'Qanuna tabelik münasibətləri',
-      'Əməkdaşlıq münasibətləri',
-      'Bütün şagirdlərlə əks əlaqə yaratmaq',
-      'Pedaqoji texnologiyalar',
-    ],
-    correctAnswer: 'Şagirdin şəxsiyyət xüsusiyyətləri',
-  },
-  {
-    number: 461,
-    question: 'Başlıca didaktik kateqoriyalar hansılardır?',
-    options: [
-      'Təlim,dərs, təhsil sistemi, təhsilin məzmunu, təlim prinsipləri və.s',
-      'Yadda saxlama, təlim-tərbiyəvi söhbətlər, disputlar',
-      'Humanizm, vətənpərvərlik, tərbiyəvi təsir',
-      'Dərs, özünütərbiyə, pedaqoji proses, yenidən tərbiyə',
-      'Mənimsəmə, inkişafetmə, tərbiyəvi adətlər, vərdişlər, rəğbətləndirmə',
-    ],
-    correctAnswer:
-      'Təlim,dərs, təhsil sistemi, təhsilin məzmunu, təlim prinsipləri və.s',
-  },
-  {
-    number: 462,
-    question: 'Təhsilin məzmununun əks olunduğu dövlət sənədləri:',
-    options: [
-      'Təhsil qanunu',
-      'Milli kurrikulum layihəsi',
-      'Konstitusiya',
-      'Məktəb nizamnaməsi',
-      'Dövlət Təhsil Standartları',
-    ],
-    correctAnswer: 'Təhsil qanunu',
-  },
-  {
-    number: 463,
-    question: 'Pedaqoji texnikaya yiyələnmək:',
-    options: [
-      'Pedaqoji ustalığın göstəricisidir',
-      'Pedaqoji prosesin komponentidir',
-      'Pedaqoji prosesin ziddiyətidir',
-      'Attestasiyanın mərhələsidir',
-      'Pedaqoji kvalimetriyanın göstəricisidir',
-    ],
-    correctAnswer: 'Pedaqoji ustalığın göstəricisidir',
-  },
-  {
-    number: 464,
-    question:
-      'Məqsəd,məzmun, fəaliyyət, nəticə hansı prosesin komponentləridir?',
-    options: [
-      'Pedaqoji proses',
-      'Özünütərbiyə',
-      'Pedaqoji əməkdaşlıq',
-      'Pedaqoji qanunauyğunluq',
-      'Özünütəhsil',
-    ],
-    correctAnswer: 'Pedaqoji proses',
-  },
-  {
-    number: 465,
-    question: 'Çalışma .....bu şərtlərdən asılı deyil:',
-    options: [
-      'Müəllimin şəxsi nümunəsindən',
-      'Çalışmaların gücə müvafiqliyindən',
-      'Çalışmaların həcmindən',
-      'Çalışmaların təkrarlanma tezliyindən',
-      'Nəzarət və korreksiyadan',
-    ],
-    correctAnswer: 'Müəllimin şəxsi nümunəsindən',
-  },
-  {
-    number: 466,
-    question: 'Çalışma....bu şərtdən asılıdır:',
-    options: [
-      'çalışmaların təkrarlanma tezliyindən',
-      'müəllımin şəxsi nümunəsindən',
-      'pedaqoji tələbdən',
-      'istehsalat təcrübəsindən',
-      'öyüd-nəsihətdən',
-    ],
-    correctAnswer: 'çalışmaların təkrarlanma tezliyindən',
-  },
-  {
-    number: 467,
-    question: 'Kollektivin əsas əlamətidir:',
-    options: [
-      'kollektivin üzvləri arasında məsuliyyət asılılıq münasibətləri',
-      'aşkarlıq',
-      'məsuliyyət',
-      'perspektiv xətlər',
-      'paralel təsir',
-    ],
-    correctAnswer:
-      'kollektivin üzvləri arasında məsuliyyət asılılıq münasibətləri',
-  },
-  {
-    number: 468,
-    question: 'Bunlardan hansı məktəbdənkənar tərbiyə müəssisələrinə aiddir:',
-    options: [
-      'gənc təbiətçilər stansiyası',
-      'kimya dərnəyi',
-      'şagird özünüidarə təşkilatları',
-      'valideyn komitələri',
-      'metodkabinələr',
-    ],
-    correctAnswer: 'gənc təbiətçilər stansiyası',
-  },
-  {
-    number: 469,
-    question:
-      'Məktəb, ailə, ictimaiyyət və istehsalat kollektivlərinin fərdi əlaqə forması deyil:',
-    options: [
-      'istehsalat kollektivlərində, müvafiq müəssisələrdə pedaqoji lektoriyalar',
-      'müəllimlərin ailələrə, valideynlərin iş yerlərinə getməsi',
-      'valideynlərin, istehsalat nümayəndələrinin məktəbə dəvət olunması',
-      'məktəb, ailə və ictimaiyyət nümayəndələri ilə məktublaşma',
-      'məktəb, ailə və ictimaiyyət nümayəndələri ilə açıq qapı günləri keçirmək',
-    ],
-    correctAnswer:
-      'istehsalat kollektivlərində, müvafiq müəssisələrdə pedaqoji lektoriyalar',
-  },
-  {
-    number: 470,
-    question: 'Bunlardan hansı kollektiv əlaqə forması deyil?',
-    options: [
-      'məktəb, ailə və ictimaiyyət nümayəndələri ilə məktublaşma',
-      'sinif valideyn iclasları',
-      'ümumməktəb valideyn iclasları',
-      'istehsalat kollektivlərində, müvafiq müəssisələrdə pedaqoji lektoriyalar',
-      'asudə vaxtın təşkilində ailə, məktəb və ictimaiyyətin fəal iştirakını təmin etmək',
-    ],
-    correctAnswer: 'məktəb, ailə və ictimaiyyət nümayəndələri ilə məktublaşma',
-  },
-  {
-    number: 471,
-    question:
-      'Bunlardan hansı məktəbdənkənar tərbiyə müəssisələrinə aid deyil?',
-    options: [
-      'şagird özünüidarə təşkilatları',
-      'gənc konstruktorlar stansiyası',
-      'uşaq və yeniyetmələr sarayları və evləri',
-      'gənc təbiətçilər stansiyaları',
-      'turist-diyarşünaslıq dərnəkləri',
-    ],
-    correctAnswer: 'şagird özünüidarə təşkilatları',
-  },
-  {
-    number: 472,
-    question: 'Məktəbdənkənar tərbiyə müəssisələrinin vəzifəsidir...',
-    options: [
-      'qazandıqlari bilikləri həyata tətbiq etmələrinə imkan yaradır',
-      'valideyn komitələri ilə birgə iş aparır',
-      'uşaqların istehsalata ekskursiyalarını təşkil edir',
-      'uşaqlarda bədii yaradıcılıq təfəkkürü formalaşdırır',
-      'şagirdlərin əmək adamları ilə görüşünü təşkil edir',
-    ],
-    correctAnswer:
-      'qazandıqlari bilikləri həyata tətbiq etmələrinə imkan yaradır',
-  },
-  {
-    number: 473,
-    question:
-      'Müşahidə,müsahibə, eksperiment, qabaqcıl təcrübənin öyrənilməsi:',
-    options: [
-      'pedaqogikanın elmi-tədqiqat metodlarıdır',
-      'pedaqogikanın mənbələridir',
-      'təlimin təşkili formalarıdır',
-      'pedaqogikanın bölmələridir',
-      'təlimin növləridir',
-    ],
-    correctAnswer: 'pedaqogikanın elmi-tədqiqat metodlarıdır',
-  },
-  {
-    number: 474,
-    question: 'Müəllimin pedaqoji qabiliyyətlərinə aid deyil:',
-    options: [
-      'nəzarətedici',
-      'kommunikativ',
-      'perseptiv',
-      'təşkilatçılıq',
-      'tədqiqatçılıq',
-    ],
-    correctAnswer: 'nəzarətedici',
-  },
-  {
-    number: 475,
-    question: 'Müəllimin vəzifələrinə aid deyil:',
-    options: [
-      'konstruktiv',
-      'öyrədici',
-      'idarəedici',
-      'qiymətləndirmə',
-      'layihələndirici',
-    ],
-    correctAnswer: 'konstruktiv',
-  },
-  {
-    number: 476,
-    question: 'Pedaqoji sistemlərin idarəetmə dəyərləri deyil:',
-    options: [
-      'pedaqoji innovasiyalar',
-      'dəyərlər-məqsədlər',
-      'dəyərlər-biliklər',
-      'dəyərlər-münasibətlər',
-      'dəyərlər-keyfiyyətlər',
-    ],
-    correctAnswer: 'pedaqoji innovasiyalar',
-  },
-  {
-    number: 477,
-    question: '... pedaqogikanın bölməsidir:',
-    options: [
-      'pedaqogikanın ümumi əsasları',
-      'inkişaf nəzəriyyəsi',
-      'formalaşma nəzəriyyəsi',
-      'inkişaf nəzəriyyəsi',
-      'sosioloji nəzəriyyə',
-    ],
-    correctAnswer: 'pedaqogikanın ümumi əsasları',
-  },
-  {
-    number: 478,
-    question: 'Direktorun vəzifələrinə aiddir?',
-    options: [
-      'təhsil-tərbiyə işini planlaşdırır',
-      'valideyn iclasını təşkil edir',
-      'yarışların keçirilməsini təşkil edir',
-      'məktəbin təmizlik işlərinə nəzarət edir',
-      'ekskursiyaların təşkilinə nəzarət edir',
-    ],
-    correctAnswer: 'təhsil-tərbiyə işini planlaşdırır',
-  },
-  {
-    number: 479,
-    question: '...direktorun vəzifələrinə aid deyil?',
-    options: [
-      'məktəb,ailə və ictimaiyyətin əlbir fəaliyyətinə nəzarət',
-      'dövlət və ictimai orqanlarda məktəbin mənafeyini təmsil edir',
-      'sinifdənxaric və məktəbdənkənar işlərin təşkilinə şərait yaradır',
-      'müavinlərini seçir',
-      'rəhbər olduğu məktəbin fəaliyyəti üçün məsuliyyət daşıyır',
-    ],
-    correctAnswer: 'məktəb,ailə və ictimaiyyətin əlbir fəaliyyətinə nəzarət',
-  },
-  {
-    number: 480,
-    question: 'Pedaqoji şuraların keçirilməsinin mərhələlərinə aıd deyil:',
-    options: [
-      'beş il ərzində keçiriləcək pedaqoji şuraların planlaşdırılması',
-      'konkret pedaqoji şuranın keçirilməsinə hazırlıq',
-      'pedaqoji şuranin qərarlarının yerinə yetirilməsi üzrə iş',
-      'pedaqoji şuranın bilavasitə keçirilməsi',
-      'il ərzində keçiriləcək pedaqoji şuraların planlaşdırılması',
-    ],
-    correctAnswer:
-      'beş il ərzində keçiriləcək pedaqoji şuraların planlaşdırılması',
-  },
-  {
-    number: 481,
-    question: 'Pedaqoji şuranin vəzifələrinə aiddir...',
-    options: [
-      'perspektiv,illik, cari iş planlarının yerinə yetirilməsi',
-      'məktəbin ailə və ictimaiyyətlə əlbir işi',
-      'pedaqoji kadrlarla iş',
-      'məktəbin maddi-texniki bazasının möhkəmləndirilməsi',
-      'müəllim və şagirdlərin sosial müdafiəsi',
-    ],
-    correctAnswer: 'perspektiv,illik, cari iş planlarının yerinə yetirilməsi',
-  },
-  {
-    number: 482,
-    question: 'Pedaqoji şuranın vəzifələrinə aid deyil:',
-    options: [
-      'dövlət və ictimai orqanlarda məktəbin mənafeyini müdafiə edir',
-      'perspektiv, illik ,cari iş planlarını yerinə yetirmək',
-      'təlim-təhsil-tərbiyə işinin keyfiyyətini yüksəltmək',
-      'müəllimlərin,tərbiyəçilərin ixtisasını yüksəltmək',
-      'pedaqoji kollektivdə innovasiya mühitini formalaşdırmaq',
-    ],
-    correctAnswer:
-      'dövlət və ictimai orqanlarda məktəbin mənafeyini müdafiə edir',
-  },
-];
+export const azTarixi = [
+  {
+    "number": 1,
+    "question": "Ox və yay meydana gəlmişdir:",
+    "options": [
+      "Aşel dövründə",
+      "Neolit dövründə",
+      "Mustye dövründə",
+      "Mezolit dövründə",
+      "Eneolit dövründə"
+    ],
+    "correctAnswer": "Mezolit dövründə"
+  },
+  {
+    "number": 2,
+    "question": "Azərbaycanda birinci böyük ictimai əmək bölgüsü baş verib?",
+    "options": [
+      "Erkən  orta əsrlərdə",
+      "Eneolit dövründə",
+      "Erkən  Tunc dövründə",
+      "Neolit dövründə",
+      "Antik dövrdə"
+    ],
+    "correctAnswer": "Erkən  Tunc dövründə"
+  },
+  {
+    "number": 3,
+    "question": "Qızılbaşlar  Ağqoyunlular üzərində ilk qələbəni nə zaman qazandı:",
+    "options": [
+      "1503- cü ildə Almaqulağı döyüşündə",
+      "1500- cü ildə Cabani döyüşündə",
+      "1514- cü ildə Çaldıran döyüşündə",
+      "1501- ci ildə Şərur döyüşündə",
+      "1510- cu ildə  Mərv döyüşündə"
+    ],
+    "correctAnswer": "1501- ci ildə Şərur döyüşündə"
+  },
+  {
+    "number": 4,
+    "question": "Çaldıran döyüşünün nəticəsi nədən ibarət oldu:",
+    "options": [
+      "Türkiyə Ərzurum şəhəri ilə birlikdə Şərqi  Anadolu və Şimali Mesopotamiyaya yiyələndi.",
+      "Səfəvilər bütün Azərbaycan ərazisini itirdilər.",
+      "Döyüş nəticəsiz başa çatdı.",
+      "Cənubi Azərbaycan Osmanlılara verildi.",
+      "Gürcüstan ərazisi Səfəvilərlə Osmanlılar arasında bölüşdürüldü."
+    ],
+    "correctAnswer": "Türkiyə Ərzurum şəhəri ilə birlikdə Şərqi  Anadolu və Şimali Mesopotamiyaya yiyələndi."
+  },
+  {
+    "number": 5,
+    "question": "Laçın rayonu düşməndən  azad olundu:",
+    "options": [
+      "2020- ci il dekabrın 1-də",
+      "2020 - ci il oktyabrın 3- də",
+      "2020 - ci il sentyabrın 27- də",
+      "2019- cu il aprelin 3- də",
+      "2021- ci il avqustun 15- də"
+    ],
+    "correctAnswer": "2020- ci il dekabrın 1-də"
+  },
+  {
+    "number": 6,
+    "question": "2003-2018- ci il inkişaf konsepsiyası çərçivəsində Bakıda hansı inşaat konmpleksi yaradılmışdı:",
+    "options": [
+      "Təzəpir məscidi",
+      "Şirvanşahlar sarayı",
+      "Alov qüllələri",
+      "Bakı darvazası",
+      "Gənclik meydanı"
+    ],
+    "correctAnswer": "Alov qüllələri"
+  },
+  {
+    "number": 7,
+    "question": "1994- cü il mayın 12- də Azərbaycan - Ermənistan arasında bağlanmış atəşkəsdən sonra Azərbaycan qoşunlarının təmas xəttində ənböyük hərbi qarşıdurma idi:",
+    "options": [
+      "Daşaltı əməliyyatı",
+      "Xankəndi əməliyyatı",
+      "Aprel döyüşləri",
+      "Şuşa əməliyyatı",
+      "Xocalı döyüşləri"
+    ],
+    "correctAnswer": "Aprel döyüşləri"
+  },
+  {
+    "number": 8,
+    "question": "Azərbaycan- Türkiyə münasibətlərini müttəfiqlik səviyyəsinə qaldıran saziş necə adlanır:",
+    "options": [
+      "Şuşa bəyannaməsi",
+      "Bağdad  sazişi",
+      "Ankara müqaviləsi",
+      "İstanbul  müqaviləsi",
+      "Bişkeş sazişi"
+    ],
+    "correctAnswer": "Şuşa bəyannaməsi"
+  },
+  {
+    "number": 9,
+    "question": "Azərbaycan Respublikası və Türkiyə arasında \"Strateji tərəfdaşlıq və qarşılıqlı yardım haqqında \" müqavilə imzalanmışdı:",
+    "options": [
+      "2010- cu il avqustun 16- da",
+      "2017- ci il sentyabrın 9- da",
+      "2008- ci il oktyabrın 16- da",
+      "2012- ci il avqustun 3- də",
+      "2015- ci il iyulun 2- də"
+    ],
+    "correctAnswer": "2010- cu il avqustun 16- da"
+  },
+  {
+    "number": 10,
+    "question": "1989- cu il sentyabrın 23- də \"Azərbaycan SSR- nin suverenliyi haqqında\" qəbul edilmiş konstitusiya qanunun mahiyyəti hansı bənddədüzgün əks edilmişdir:",
+    "options": [
+      "Azərbaycan SSR qanunlarının İttifaq qanunlarından üstün olması",
+      "Naxçıvan \"mübahisəli\" ərazi hesab edilirdi",
+      "SSRİ ilə iqtisadi razılaşma  əldə edilirdi",
+      "Azərbaycanın milli parlamentinin fəaliyyəti qadağan  edilirdi",
+      "Azərbaycanın məhkəmə sistemi  SSR  qanunları ilə idarə olunmalı idi"
+    ],
+    "correctAnswer": "Azərbaycan SSR qanunlarının İttifaq qanunlarından üstün olması"
+  },
+  {
+    "number": 11,
+    "question": "Heydər Əliyevin rəhbərliyi altında \"Torpaq islahatı haqqında\" qanun verildi:",
+    "options": [
+      "1996- cı il iyulun 16- da",
+      "1994- cü il oktyabrın 18- də",
+      "1997- ci il noyabrın 12- də",
+      "1993- cü il martın 18- də",
+      "1995- ci il avqustun 3- də"
+    ],
+    "correctAnswer": "1996- cı il iyulun 16- da"
+  },
+  {
+    "number": 12,
+    "question": "Heydər Əliyevin təşəbüssü ilə Azərbaycanda ölüm hökmü ləğv edildi:",
+    "options": [
+      "1993- cü ilin avqustunda",
+      "1994- cü ilin noyabrında",
+      "1997- ci ilin mayında",
+      "1995- ci ilin sentyabrında",
+      "1998- ci ilin fevralında"
+    ],
+    "correctAnswer": "1998- ci ilin fevralında"
+  },
+  {
+    "number": 13,
+    "question": "Azərbaycan NATO- nun \"Sülh naminə tərəfdaşlıq \" proqramına qoşuldu:",
+    "options": [
+      "1995- ci il aprelin 2- də",
+      "1994- cü il mayın 4-də",
+      "1991- ci il avqustun 2- də",
+      "1992- ci il iyunun 16- da",
+      "1993- cü il sentyabrın 9- da"
+    ],
+    "correctAnswer": "1994- cü il mayın 4-də"
+  },
+  {
+    "number": 14,
+    "question": "\"Azərbaycan SSR -in suverenliyi haqqında \" konstitusiya qanunu qəbul edildi:",
+    "options": [
+      "1992- ci il oktyabrın 20 - də",
+      "1993- cü il noyabrın 5- də",
+      "1989-cu il sentyabrın 23- də",
+      "1990 -cı il avqustun 5- də",
+      "1991- ci aprelin 19- da"
+    ],
+    "correctAnswer": "1989-cu il sentyabrın 23- də"
+  },
+  {
+    "number": 15,
+    "question": "Azərbaycanda ilk dəfə prezident vəzifəsinin təsis edilməsi haqqında qərar  verildi:",
+    "options": [
+      "1989- cu il sentyabrın 23- də",
+      "1993- cü il  oktyabrın 6- da",
+      "1990- cı il mayın 19- da",
+      "1991- ci il  mayın  7- də",
+      "1992- ci il  aprelin 16- da"
+    ],
+    "correctAnswer": "1990- cı il mayın 19- da"
+  },
+  {
+    "number": 16,
+    "question": "Azərbaycan İqtisadi Əməkdaşlıq təşkilatına qoşuldu:",
+    "options": [
+      "1995- ci ilin martında",
+      "1990 - cı ilin fevralında",
+      "1994- cü ilin mayında",
+      "1993- cü ilin aprelində",
+      "1992- ci ilin fevralında"
+    ],
+    "correctAnswer": "1992- ci ilin fevralında"
+  },
+  {
+    "number": 17,
+    "question": "1992- ci ilin martın 2-də Azərbaycan hansı beynəlxalq təşkilata daxil olmuşdu:",
+    "options": [
+      "Birləşmiş Millətlər Təşkilatına",
+      "Avropa Şurasına",
+      "İslam Konfransı Təşkilatına",
+      "İqtisadi Əməkdaşlıq Təşkilatına",
+      "Şimali Atlantika Əməkdaşlıq Şurasına"
+    ],
+    "correctAnswer": "Birləşmiş Millətlər Təşkilatına"
+  },
+  {
+    "number": 18,
+    "question": "2020- ci il iyul ayında  Azərbaycanın dövlət  sərhədlərini pozaraq  Ermənistan hansı istiqamətdə təxribat törətmişdir:",
+    "options": [
+      "Naxçıvan",
+      "Tovuz",
+      "Qarabağ",
+      "Laçın",
+      "Kəlbəcər"
+    ],
+    "correctAnswer": "Tovuz"
+  },
+  {
+    "number": 19,
+    "question": "Qarabağın azadlıq  rəmzi elan edilmişdi:",
+    "options": [
+      "Ağ leylək",
+      "Buta",
+      "Xarıbülbül",
+      "Göyərçin",
+      "Qara qartal"
+    ],
+    "correctAnswer": "Xarıbülbül"
+  },
+  {
+    "number": 20,
+    "question": "Qarabağ və Şərqi Zəngəzur iqtisadi zonaları yaradıldı:",
+    "options": [
+      "2021- ci il iyulun 7- də",
+      "2019 - cu ilin noyabrın 2- də",
+      "2023- cü ilin oktyabrın 20 - də",
+      "2025- ci ilin mayın 15- də",
+      "2022- ci ilin avqustun 8- də"
+    ],
+    "correctAnswer": "2021- ci il iyulun 7- də"
+  },
+  {
+    "number": 21,
+    "question": "2019- cu il oktyabrın 15- də hansı beynəlxalq təşkilata sədrlik Azərbaycana  həvalə edilmişdir:",
+    "options": [
+      "MDB ölkələri Təhlükəsizlik  Şurasına",
+      "Türkdilli Dövlətlərin  Əməkdaşlıq Şurasına",
+      "Avropada Təhlükəsizlik  və Əməkdaşlıq Təşkilatına",
+      "İslam Konfransı Təşkilatına",
+      "NATO  - nun Təhlükəsizlik Şurasına"
+    ],
+    "correctAnswer": "Türkdilli Dövlətlərin  Əməkdaşlıq Şurasına"
+  },
+  {
+    "number": 22,
+    "question": "İlham Əliyev \" İslam Həmrəyliyi ili\" elan etmişdi:",
+    "options": [
+      "2017- ci ili",
+      "2019- cu ili",
+      "2016- cı ili",
+      "2020- ci ili",
+      "2015- ci ili"
+    ],
+    "correctAnswer": "2017- ci ili"
+  },
+  {
+    "number": 23,
+    "question": "Azərbaycan Respublikasının sənaye nazirliyi yaradılmışdı:",
+    "options": [
+      "2007- ci ildə",
+      "2010 - cu ildə",
+      "2005- ci ildə",
+      "2009- cu ildə",
+      "2003- cü ildə"
+    ],
+    "correctAnswer": "2005- ci ildə"
+  },
+  {
+    "number": 24,
+    "question": "2016- cı il aprel döyüşləri nəticəsində: 1.Erməni tərəfinin xeyli canlı qüvvə və hərbi texnikası məhv edildi Fizuli, Cəbrayıl və  Tərtər rayonlarının işğal altında olan 2 min  hektardan çox ərazisi azad edildi 3.Cəbrayıl rayonunun Cocuq Mərcanlı və Fizuli rayonunun İranla sərhəd ərazilərinin təhlükəsizliyi təmin edildi Fizuli rayonu işğaldan azad edildi 5.Ağbənd qəsəbəsi azad edildi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 25,
+    "question": "İranla dövlət sərhəddi tam nəzarətə götürüldü:",
+    "options": [
+      "Şuşanın azad edilməsi ilə",
+      "Madagizin azad edilməsi ilə",
+      "Zəngilanın Ağbənd qəsəbəsinin azad edilməsi ilə",
+      "Cəbrayılın azad edilməsi ilə",
+      "Fizulinin azad edilməsi ilə"
+    ],
+    "correctAnswer": "Zəngilanın Ağbənd qəsəbəsinin azad edilməsi ilə"
+  },
+  {
+    "number": 26,
+    "question": "Bakı -Tiflis -Ərzurum  qaz kəmərinin tikintisi başa çatdırılmışdır:",
+    "options": [
+      "2005- ci ildə",
+      "2006- cı ildə",
+      "2009- cu ildə",
+      "2003- cü ildə",
+      "2004- cü ildə"
+    ],
+    "correctAnswer": "2006- cı ildə"
+  },
+  {
+    "number": 27,
+    "question": "Azərbaycanın ərazi bütövlüyü və suverenliyi bərpa olundu:",
+    "options": [
+      "2009- cu il İslam Konfransı təşkilatı tərəfindən Bakının paytaxt edilməsi ilə",
+      "2011- ci il Azərbaycanın BMT təhlükəsizlik Şurasına üzv seçilməsi ilə",
+      "2023- cü il  anti - terror əməliyyatı nəticəsində",
+      "2021- ci il Şuşa bəyannaməsi əsasında",
+      "2020 - ci il Zəgilanın Ağbənd qəsəbəsinin azad edilməsi ilə"
+    ],
+    "correctAnswer": "2023- cü il  anti - terror əməliyyatı nəticəsində"
+  },
+  {
+    "number": 28,
+    "question": "Vətən müharibəsi dövründə Ermənistan müharibə cinayətləri  törədərək hansı Azərbaycan şəhərlərini bombalamışdı: 1.Şəki  2.Gəncə  3.Mingəçevir Bərdə   5.Şamaxı 6.Bakı",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 29,
+    "question": "Naxcıvanda  Günnüt zəfəri qazanıldı:",
+    "options": [
+      "2013- cü il avqustun 31- də",
+      "2012- ci il dekabrın 12- də",
+      "2018- cil il mayın 27 -də",
+      "2016- cı il iyunun  16- da",
+      "2019- cu il aperlin 20 -də"
+    ],
+    "correctAnswer": "2018- cil il mayın 27 -də"
+  },
+  {
+    "number": 30,
+    "question": "2019-2022- ci illərdə Azərbaycan hansı təşkilata sədrlik etmişdir:",
+    "options": [
+      "İslam Konfransı Təşkilatına",
+      "Avropada Əməkdaşlıq və Təhlükəsizlik Təşkilatına",
+      "Qoşulmama hərəkatına",
+      "BMT Təhlükəsizlik Şurasına",
+      "Avropa Şurasına"
+    ],
+    "correctAnswer": "Qoşulmama hərəkatına"
+  },
+  {
+    "number": 31,
+    "question": "İslam Konfransı Təşkilatı tərəfindən Azərbaycanın paytaxtı Bakı şəhəri İslam mədəniyyətinin paytaxtı elan edilmişdir:",
+    "options": [
+      "2009- cu ildə",
+      "2023- cü ildə",
+      "2020- ci ildə",
+      "2013- cü ildə",
+      "2015- ci ildə"
+    ],
+    "correctAnswer": "2009- cu ildə"
+  },
+  {
+    "number": 32,
+    "question": "2020-ci ilin iyununda baş vermiş Tovuz döyüşləri zamanı məhz bu general mayorumuz qəhrəmancasına şəhidlik zirvəsinə yüksəlmişdi:",
+    "options": [
+      "Polad Həşimov",
+      "İbad Hüseynov",
+      "Hikmət Həsənov",
+      "Hikmət Mirzəyev",
+      "İlqar Mirzəyev"
+    ],
+    "correctAnswer": "Polad Həşimov"
+  },
+  {
+    "number": 33,
+    "question": "Vətən müharibəsi dövründə Azərbaycanın hərbi əməliyyat planı adlanırdı:",
+    "options": [
+      "Bayraqdar",
+      "Dəmir yumruq",
+      "Zərbə",
+      "Qara pələng",
+      "Harap"
+    ],
+    "correctAnswer": "Dəmir yumruq"
+  },
+  {
+    "number": 34,
+    "question": "İşğaldan azad edildikdən sonra Madagiz kəndı necə adlandırıldı:",
+    "options": [
+      "Varanda",
+      "Qaryagin",
+      "Suqovuşan",
+      "Ağbənd",
+      "Yuxarı Əbdurəhmanlı"
+    ],
+    "correctAnswer": "Suqovuşan"
+  },
+  {
+    "number": 35,
+    "question": "Azərbaycan BMT -nin Təhlükəsizlik Şurasına qeyri - daimi üzv seçildi:",
+    "options": [
+      "2009- cu ildə",
+      "2020- ci ildə",
+      "2019-cu ildə",
+      "2010- cu  ildə",
+      "2011- ci ildə"
+    ],
+    "correctAnswer": "2011- ci ildə"
+  },
+  {
+    "number": 36,
+    "question": "Xocalı faciəsinin nəticələri hansı bənddə düzgün göstərilmişdir:",
+    "options": [
+      "119 nəfər həlak olmuş, 500 nəfər işgəncələrə məruz qalmışdı",
+      "712  Xocalı  sakini əsir düşmüşdü",
+      "Şəhər əhalisinin yarısı evsiz- eşiksiz qalmışdı",
+      "613 nəfər  dinc sakin  qətlə yetirilmiş ,1275 nəfər girov götürülmüşdü",
+      "Faciə 930 nəfərin girov götürülməsi ilə nəticələnmişdi"
+    ],
+    "correctAnswer": "613 nəfər  dinc sakin  qətlə yetirilmiş ,1275 nəfər girov götürülmüşdü"
+  },
+  {
+    "number": 37,
+    "question": "Azərbaycan  İslam Konfransı təşkilatına üzv qəbul  olunmuşdu:",
+    "options": [
+      "1994- cü ilin iyulunda",
+      "1995- ci ilin iyununda",
+      "1992- ci ilin aprelində",
+      "1993- cü ilin avqustunda",
+      "1991- ci ilin  dekabrında"
+    ],
+    "correctAnswer": "1991- ci ilin  dekabrında"
+  },
+  {
+    "number": 38,
+    "question": "Azərbaycan Respublikasında  ilk  dəfə test  üsulu tətbiq edildi:",
+    "options": [
+      "1993- cü ildə",
+      "1995- ci ildə",
+      "1996- cı ildə",
+      "1994 - cü ildə",
+      "1992- ci ildə"
+    ],
+    "correctAnswer": "1992- ci ildə"
+  },
+  {
+    "number": 39,
+    "question": "1993- cü ilin fevralında Müstəqil Azərbaycan  Respublikasının dövlət rəmzlərindən biri qəbul edildi:",
+    "options": [
+      "Dövlət Himni",
+      "Milli Valyuta",
+      "Dövlət Bayrağı",
+      "Konstitusiya (Əsas qanun)",
+      "Dövlət Gerbi"
+    ],
+    "correctAnswer": "Dövlət Gerbi"
+  },
+  {
+    "number": 40,
+    "question": "1992- ci il  martın 5- də Azərbaycan Respublikasının Ali Sovetinin sədri təyin olunmuşdu:",
+    "options": [
+      "Yaqub  Məmmədov",
+      "İsa Qənbər",
+      "Ayaz Mütəllibov",
+      "Kamran Bağırov",
+      "Heydər  Əliyev"
+    ],
+    "correctAnswer": "Yaqub  Məmmədov"
+  },
+  {
+    "number": 41,
+    "question": "1991- ci il dekabrın 29- da respublikada keçirilən referendum hansı  tarixi əhəmiyyət daşıyan məsələyə  həsr olunmuşdu:",
+    "options": [
+      "Azərbaycanın BMT- yə qəbul edilməsinə",
+      "Azərbaycanın İslam Konfransı təşkilatına daxil olmasına",
+      "Dağlıq Qarabağ probleminə",
+      "Dövlət müstəqilliyimiz haqqında  Konstitusiya aktının müzakirəsinə",
+      "Azərbaycanın NATO ilə əlaqələrinin  gücləndirilməsinə"
+    ],
+    "correctAnswer": "Dövlət müstəqilliyimiz haqqında  Konstitusiya aktının müzakirəsinə"
+  },
+  {
+    "number": 42,
+    "question": "Dağlıq Qarabağdan Azərbaycan əhalisinin qovulması prosesi həlledici mərhələyə qədəm qoydu:",
+    "options": [
+      "1992- ci ilin noyabrından",
+      "1989- cu ilin yanvarından",
+      "1992- ci ilin martından",
+      "1993- cü ilin  avqustundan",
+      "1991- ci ilin sentyabrından"
+    ],
+    "correctAnswer": "1991- ci ilin sentyabrından"
+  },
+  {
+    "number": 43,
+    "question": "Azərbaycan SSR- nin qanunlarının İttifaq qanunlarından üstün olması və onun hətta SSRİ tərkibindən  çıxa bilməsi  təsdiqlənirdi:",
+    "options": [
+      "1998- ci ilin fevralında  verilmiş \"İnsan və vətəndaş hüquqlarının və azadlıqlarının təmin edilməsi sahəsində tədbirlər\" haqqındasənədlə",
+      "1991- ci il oktyabrın 18- də  qəbul edilmiş \"Azərbaycanın Dövlət Müstəqilliyi haqqında \" Konstitusiya aktı ilə",
+      "1990 - cı il mayın 21- də qəbul edilmiş 28 may gününün Azərbaycan dövlətçiliyinin bərpa olunması günü elan edilməsi haqqındaqanunla",
+      "1989- cu il sentyabrın 23- də qəbul olunmuş \"Azərbaycan SSR -nin suverenliyi  haqqında \"qanunla",
+      "1991- ci il avqustun 30 - da qəbul olunmuş Azərbaycan Respublikasının müstəqilliyinin bərpa edilməsi haqqında Bəyannamə ilə"
+    ],
+    "correctAnswer": "1989- cu il sentyabrın 23- də qəbul olunmuş \"Azərbaycan SSR -nin suverenliyi  haqqında \"qanunla"
+  },
+  {
+    "number": 44,
+    "question": "Ermənilər tərəfindən Sumqayıt  fitnəkarlığı törədilmişdir:",
+    "options": [
+      "1993- cü il avqustun 31- də",
+      "1992- ci il fevralın 25-26- da",
+      "1990 - cı il yanvarın 20- də",
+      "1989- cu il fevralın 15- də",
+      "1988- ci il fevralın 28- də"
+    ],
+    "correctAnswer": "1988- ci il fevralın 28- də"
+  },
+  {
+    "number": 45,
+    "question": "Azərbaycanlıların Ermənistandan deportasiyası başlanmışdır:",
+    "options": [
+      "1993- cü ilin avqustunda",
+      "1988- ci ilin yanvarında",
+      "1989- cu ilin mayında",
+      "1992- ci ilin mayında",
+      "1990- cı ilin aprelində"
+    ],
+    "correctAnswer": "1988- ci ilin yanvarında"
+  },
+  {
+    "number": 46,
+    "question": "1988 - ci il noyabrın 17- dən  “Azadlıq” meydanında keçirilən mitinq:",
+    "options": [
+      "Azərbaycanm sərhəd bölgələrində ermənilərin fitnəkarlığının qarşısını almaq üçün könüllü birləşmələr yaratdı.",
+      "Ermənistandan didərgin salınmış Azərbaycan türklərinin Dağlıq Qarabağa köçürülməsi haqda qərar qəbul etdi.",
+      "Azərbaycanın  SSRİ - nin tərkibindən çıxmasını zəruri saydı.",
+      "Azərbaycan Kommunist  Partiyasının  buraxılmasını  tələb etdi.",
+      "Xalq hərəkatının  birinci - kortəbii mərhələsinin zirvəsi idi."
+    ],
+    "correctAnswer": "Xalq hərəkatının  birinci - kortəbii mərhələsinin zirvəsi idi."
+  },
+  {
+    "number": 47,
+    "question": "Prezident H.Əliyev  əlaçı  ali məktəb tələbələri üçün prezident  təqaüdü təsis etdi:",
+    "options": [
+      "1995- ci ildə",
+      "1996- cı ildə",
+      "1998- ci ildə",
+      "2002- ci ildə",
+      "2001- ci ildə"
+    ],
+    "correctAnswer": "2001- ci ildə"
+  },
+  {
+    "number": 48,
+    "question": "Yeni Azərbaycan Partiyası təsis edildi:",
+    "options": [
+      "1991- ci il oktyabrın 18 - də",
+      "1993- cü il iyunun 15- də",
+      "1993- cü il oktyabrın 3- də",
+      "1993- cü il iyunun 4- də",
+      "1992- ci il noyabrın 21- də"
+    ],
+    "correctAnswer": "1992- ci il noyabrın 21- də"
+  },
+  {
+    "number": 49,
+    "question": "Azərbaycan Milli Qəhramanı adı təsis olundu:",
+    "options": [
+      "1992- ci il oktyabrın 9- da",
+      "1992- ci il mayın 25-də",
+      "1992- ci il martın 25- də",
+      "1992- ci il fevralın 5- də",
+      "1992- ci il  mayın 28- də"
+    ],
+    "correctAnswer": "1992- ci il martın 25- də"
+  },
+  {
+    "number": 50,
+    "question": "Azərbaycan Respublikasının müstəqilliyini ilk olaraq  tanımış dövlətlər:",
+    "options": [
+      "Türkiyə , Rusiya , İran",
+      "Rumıniya , İran , Fransa",
+      "Türkiyə, Rumıniya, Pakistan",
+      "Türkiyə, Pakistan, ABŞ",
+      "Türkiyə, ABŞ, İran"
+    ],
+    "correctAnswer": "Türkiyə, Rumıniya, Pakistan"
+  },
+  {
+    "number": 51,
+    "question": "Dağlıq Qarabağ münaqişəsini həll etmək üçün  ATƏM - in Minsk qrupu yaradılmışdı?",
+    "options": [
+      "1996-cı ildə",
+      "1992-ci ildə",
+      "1994-cü ildə",
+      "1993-cü ildə",
+      "1995-ci ildə"
+    ],
+    "correctAnswer": "1992-ci ildə"
+  },
+  {
+    "number": 52,
+    "question": "Azərbaycan Respublikasının milli ordu hissələrinin təşkili və silah- sursatla təminatında böyük rol oynamışdı:",
+    "options": [
+      "Bişkek protokolu",
+      "ATƏT-in Budapeşt sammiti",
+      "Alma - Ata sazişi",
+      "Daşkənd müqaviləsi",
+      "ATƏT-in Helsinki sammiti"
+    ],
+    "correctAnswer": "Daşkənd müqaviləsi"
+  },
+  {
+    "number": 53,
+    "question": "Azərbaycanın cənub bölgəsində milli dövlətçiliyə qarşı qaldırılmış qiyam yatırıldı:",
+    "options": [
+      "1994- ci ilin aprelində",
+      "1991- ci ilin avqustunda",
+      "1989- cu ilin sentyabrında",
+      "1995- ci ilin martında",
+      "1993- cü ilin iyununda"
+    ],
+    "correctAnswer": "1993- cü ilin iyununda"
+  },
+  {
+    "number": 54,
+    "question": "Dövlət Müdafiə Şurası yaradıldı:",
+    "options": [
+      "1993- cü il noyabrın 1- də",
+      "1989- cu il aprelin 5- də",
+      "1991- ci iyunun 5- də",
+      "1992- ci il avqustun 30 – da",
+      "1994- cü il sentyabrın 20 - də"
+    ],
+    "correctAnswer": "1993- cü il noyabrın 1- də"
+  },
+  {
+    "number": 55,
+    "question": "Dünya azərbaycanlılarının həmrəylik gününün qeyd olunması haqqında qərar qəbul olundu:",
+    "options": [
+      "1988- ci il noyabrın 3- də",
+      "1989- cu il fevralın 12- də",
+      "1991- ci il dekabrın 25- də",
+      "1993- cü il fevralın 25- də",
+      "1992- ci il sentyabrın 15- də"
+    ],
+    "correctAnswer": "1991- ci il dekabrın 25- də"
+  },
+  {
+    "number": 56,
+    "question": "Azərbaycan Respublikasında 1991- cı il  dekabrın 29- da  keçirilmiş ümumxalq səsverməsinin əsas  nəticələri :",
+    "options": [
+      "Azərbaycan xalqı yekdilliklə respublikanın dövlət   müstəqilliyinə  tərəfdar çıxdı",
+      "Azərbaycan xalqı prezident idarə  üsulunun tətbiqinə   səs   verdi",
+      "Azərbaycanın inzibati - idarəetmə sistemində  dəyişiklik  edildi",
+      "Azərbaycan Respublikasının yeni konstitusiyası qəbul edildi",
+      "Azərbaycan xalqı yekdilliklə SSRİ- nin saxlanılmasına  tərəfdar  çıxdı"
+    ],
+    "correctAnswer": "Azərbaycan xalqı yekdilliklə respublikanın dövlət   müstəqilliyinə  tərəfdar çıxdı"
+  },
+  {
+    "number": 57,
+    "question": "Bakıda Dünya Azərbaycanlılarının birinci qurultayı keçirildi:",
+    "options": [
+      "2006- cı ildə",
+      "2003- cü ildə",
+      "1996- cı ildə",
+      "2001- ci ildə",
+      "1998- ci ildə"
+    ],
+    "correctAnswer": "2001- ci ildə"
+  },
+  {
+    "number": 58,
+    "question": "Gəncə şəhərinin tarixi adı bərpa edildi:",
+    "options": [
+      "1990- cı ildə",
+      "1992- ci ildə",
+      "1989- cu ildə",
+      "1988- ci ildə",
+      "1991- ci ildə"
+    ],
+    "correctAnswer": "1989- cu ildə"
+  },
+  {
+    "number": 59,
+    "question": "1991- ci  il dekabrın 25- də  Azərbaycan Respublikası Ali  Sovetinin qəbul etdiyi qərarlar içərisində mühüm yer  tuturdu:",
+    "options": [
+      "Milli müdafiə qüvvələrinin yaradılması",
+      "Azərbaycanın BMT- yə qəbul  edilməsi",
+      "Üç rəngli bayrağın yenidən   qaldırılması",
+      "Orta  məktəblərdə tədrisin yalnız  Azərbaycan dilində aparılması",
+      "Kiril əlifbasından latın əlifbasına keçilməsi"
+    ],
+    "correctAnswer": "Kiril əlifbasından latın əlifbasına keçilməsi"
+  },
+  {
+    "number": 60,
+    "question": "Müstəqil Azərbaycan Respublikasının  Dövlət Himni qəbul olundu:",
+    "options": [
+      "1996- cı il yanvarın 19- da",
+      "1992- ci il mayın 27- də",
+      "1993- cü il aprelin 19- da",
+      "1994- ci il sentyabrın 20- də",
+      "1995- ci il noyabrın 12- də"
+    ],
+    "correctAnswer": "1992- ci il mayın 27- də"
+  },
+  {
+    "number": 61,
+    "question": "Bakı- Tiflis- Ceyhan boru kəmərinin  tikintisi başa çatdırılmışdır:",
+    "options": [
+      "2009- ci ilin  dekabrın 15- də",
+      "2008- ci ilin avqustun 12- də",
+      "2006- cı ilin iyulun 13- də",
+      "2005 - ci ilin oktyabrın 5- də",
+      "2004- cü ilin sentyabrın 14- də"
+    ],
+    "correctAnswer": "2006- cı ilin iyulun 13- də"
+  },
+  {
+    "number": 62,
+    "question": "Vətən müharibəsi başlandı:",
+    "options": [
+      "27 sentyabr 2020",
+      "21 oktyabr 2020",
+      "23 oktyabr 2020",
+      "21 iyul 2020",
+      "21 avqust 2020"
+    ],
+    "correctAnswer": "27 sentyabr 2020"
+  },
+  {
+    "number": 63,
+    "question": "2020 - ci il oktyabrın 4-də:",
+    "options": [
+      "Xudafərin azad edildi",
+      "Tərtərin Madagiz kəndi düşmən tapdağından azad edildi",
+      "Fizuli şəhəri azad edildi",
+      "Cəbrayıl şəhəri azad  edildi",
+      "Zəngilan şəhəri azad  edildi"
+    ],
+    "correctAnswer": "Cəbrayıl şəhəri azad  edildi"
+  },
+  {
+    "number": 64,
+    "question": "Zəngilan şəhəri düşmən tapdağından azad edildi:",
+    "options": [
+      "22 oktyabr 2020",
+      "28 oktyabr  2020",
+      "8 noyabr 2020",
+      "24 oktyabr 2020",
+      "20 oktyabr 2020"
+    ],
+    "correctAnswer": "20 oktyabr 2020"
+  },
+  {
+    "number": 65,
+    "question": "1990- cı il mayın 21- də qəbul edilmiş qərara əsasən:",
+    "options": [
+      "Azərbaycan Xalq Cəbhəsinin bağlanmasına qərar verildi",
+      "Stepanakertin adı dəyişdirilib Xankəndi qoyulmalı idi",
+      "Xalq Cümhuriyyətinin yarandığı 28 may günü- Azərbaycan dövlətçiliyinin bərpası günü kimi elan edildi",
+      "Azərbaycanda erməni milli icmasının fəaliyyəti dayandırılmalı idi",
+      "Azərbaycanda ali məktəblərə qəbul imtahanlarının test üsulu ilə keçirilməsi nəzərdə tutulurdu"
+    ],
+    "correctAnswer": "Xalq Cümhuriyyətinin yarandığı 28 may günü- Azərbaycan dövlətçiliyinin bərpası günü kimi elan edildi"
+  },
+  {
+    "number": 66,
+    "question": "1989-cu ilə aid olanları müəyyən edin.1)DQMV - dəki idarə və müəssisələr Azərbaycan SSR - in tabeliyindən çıxarıldı 2)Dağlıq Qarabağda vəziyyəti normal hala salmaq üçün Xüsusi İdarəetmə Komitəsi ləğv edildi. 3)SSRİ Ali Sovetinin Rəyasət Heyəti DQMV və başqa rayonlarda fövqəladə vəziyyət elan etdi.4)Azərbaycan SSR Ali Soveti Ermənistanla sərhəd boyu fövqəladə vəziyyət elan etdi",
+    "options": [
+      "1,2;",
+      "2, 4;",
+      "1,3;",
+      "2, 3;",
+      "1,4;"
+    ],
+    "correctAnswer": "1,2;"
+  },
+  {
+    "number": 67,
+    "question": "Ermənistandan  azərbaycanlıların deportasiyası prosesi başa çatdı:",
+    "options": [
+      "1991- ci ilin avqustun 8- də",
+      "1992 – ci ilin fevralın 4- də",
+      "1992- ci ilin dekabrın 16- da",
+      "1993- cü  ilin noyabrın 5- də",
+      "1989- cu ilin avqustun  6-da"
+    ],
+    "correctAnswer": "1991- ci ilin avqustun 8- də"
+  },
+  {
+    "number": 68,
+    "question": "Kəlbəcər  rayonu ermənilər tərəfindən  işğal olundu:",
+    "options": [
+      "1993- cü il aperiln 3- də",
+      "1992- ci il martın 3- də",
+      "1995-ci il iyunun 2- də",
+      "1992-  ci il mayın 5- də",
+      "1993- cü il oktyabrın 28- də"
+    ],
+    "correctAnswer": "1993- cü il aperiln 3- də"
+  },
+  {
+    "number": 69,
+    "question": "1990 - cı il noyabrın 17- də Naxçıvan parlamentinin sesiyasında  qəbul  edilmiş  qərarlar: 1.20 yanvar hadisəsinə siyasi qiymət  verildi Naxçıvan Muxtar Respublikasının adından\"sovet  sosialist\" sözləri  götürüldü 3.AXC- nin üçrəngli  bayrağı dövlət  bayrağı  kimi qəbul edildi SSRİ  konstitusiyasının 6- cı maddəsi  ləğv  edildi 5.SSRİ- nin saxlanmasına  dair referundumun nəticələri bəyənildi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 70,
+    "question": "Azərbaycan  Respublikasının Dövlət Müstəqilliyini bərpa  etmək haqqında Azərbaycan Respublikası Ali  Sovetinin Bəyannaməsi qəbuledildi:",
+    "options": [
+      "1991- ci il dekabrın 29- da",
+      "1991- ci il avqustun 30 - da",
+      "1991- ci il noyabrın 17- də",
+      "1991- ci il sentyabrın 3- də",
+      "1991- ci il oktyabrın 18- də"
+    ],
+    "correctAnswer": "1991- ci il avqustun 30 - da"
+  },
+  {
+    "number": 71,
+    "question": "1995- ci il noyabrın 12- də qəbul  edilmiş Azərbaycan Respublikası Konstitusiyasının maddələrinin  təqbirən üçdə biri aiddir:",
+    "options": [
+      "mülkiyyət  məsələlərinə",
+      "dövlət quruculuğuna",
+      "İnsan hüquq və  azadlıqlarına",
+      "ümumbəşəri dəyələrə",
+      "vətəndaş cəmiyyətinin bərqərar edilməsinə"
+    ],
+    "correctAnswer": "İnsan hüquq və  azadlıqlarına"
+  },
+  {
+    "number": 72,
+    "question": "Prezident İlham Əliyevin \"XXI əsrin müqaviləsi\" adlandırdığı sənəd hansı sazişə şamil olunurdu:",
+    "options": [
+      "Regionların sosial- iqtisadi inkişafı üzrə Dövlət Proqramına",
+      "Bakı-Tiflis - Ərzurum qaz kəməri layihəsinə",
+      "\"Şahdəniz\"  qaz ixracı layihəsinə",
+      "\"Azəri\", \"Çıraq\" yataqlarından ilk neftin çıxarılmasına",
+      "\"Şahdəniz-2\" Yekun İnvestisiya qərarına"
+    ],
+    "correctAnswer": "\"Şahdəniz-2\" Yekun İnvestisiya qərarına"
+  },
+  {
+    "number": 73,
+    "question": "Azərbaycan Respublikası Ali Sovetinin qərarı ilə Dağlıq Qarabağ  Muxtar  Vilayətinin  statusu ləğv edildi:",
+    "options": [
+      "1989- cu il avqustun 5- də",
+      "1990- cı il mayın 27- də",
+      "1988- ci il yanvarın 26- da",
+      "1991- ci il noyabrın 26- da",
+      "1992- ci il oktyabrın 5- də"
+    ],
+    "correctAnswer": "1991- ci il noyabrın 26- da"
+  },
+  {
+    "number": 74,
+    "question": "Dağlıq Qarabağ münaqişəsinin həlli ilə bağlı yaradılmış ATƏT-in Minsk qrupunun həmsədr dövlətləri hansılardır:",
+    "options": [
+      "İngiltərə, ABŞ , Türkiyə",
+      "İran , Fransa, İngiltərə",
+      "Rusiya , İtaliya, Almaniya",
+      "Rusiya, Fransa , ABŞ",
+      "Almaniya , Fransa, Türkiyə"
+    ],
+    "correctAnswer": "Rusiya, Fransa , ABŞ"
+  },
+  {
+    "number": 75,
+    "question": "1991 - ci il avqustun 30- da Azərbaycan Respublikası Ali Sovetinin növbədənkənar sessiyasında qəbul edilmişdi:",
+    "options": [
+      "Azərbaycan  vətəndaşlarının Dağlıq  Qarabağdan çıxarılması haqqında qərar",
+      "Bütün siyasi partiyaların qadağan edilməsini nəzərdə  tutan sərəncam",
+      "Azərbaycan  SSR  adından \"Sovet və Sosialist\"  sözlərinin çıxarılması barədə  fərman",
+      "Azərbaycanın Dövlət müstəqilliyinin bərpası haqqında \"Bəyannamə\"",
+      "Türkiyə dövləti ilə iqtisadi  əlaqələrin daha da inkişaf etdirilməsini təmin edən saziş"
+    ],
+    "correctAnswer": "Azərbaycanın Dövlət müstəqilliyinin bərpası haqqında \"Bəyannamə\""
+  },
+  {
+    "number": 76,
+    "question": "2020 -ci il dekabrın 10- da :",
+    "options": [
+      "Şuşa azad edildi",
+      "Zəngilan azad edildi",
+      "Zəfər paradı keçirildi",
+      "Fizuli azad edildi",
+      "Cəbrayıl azad edildi"
+    ],
+    "correctAnswer": "Zəfər paradı keçirildi"
+  },
+  {
+    "number": 77,
+    "question": "2020- ci  dekabrın 1- də :",
+    "options": [
+      "Kəlbəcər azad  edildi",
+      "Cəbrayıl azad edildi",
+      "Şuşa şəhəri işğaldan azad edildi",
+      "Laçın azad edildi",
+      "Zəngilan şəhəri  azad edildi"
+    ],
+    "correctAnswer": "Laçın azad edildi"
+  },
+  {
+    "number": 78,
+    "question": "2020- ci il noyabrın 25- də:",
+    "options": [
+      "Kəlbəcər azad edildi",
+      "Ağdam şəhəri azad edildi",
+      "Cəbrayıl azad edildi",
+      "Zəngilan  şəhəri azad edildi",
+      "Şuşa şəhəri işğaldan azad edildi"
+    ],
+    "correctAnswer": "Kəlbəcər azad edildi"
+  },
+  {
+    "number": 79,
+    "question": "2020 - ci il noyabrın 20 -də:",
+    "options": [
+      "Qubadlı şəhəri azad edildi",
+      "Ağdam şəhəri azad  edildi",
+      "Şuşa şəhəri işğaldan azad edildi",
+      "Zəngilan şəhəri azad edildi",
+      "Cəbrayıl azad edildi"
+    ],
+    "correctAnswer": "Ağdam şəhəri azad  edildi"
+  },
+  {
+    "number": 80,
+    "question": "2020 - ci il oktyabrın 25- də :",
+    "options": [
+      "Qubadlı şəhəri azad edildi",
+      "Cəbrayıl  azad edildi",
+      "Şuşa şəhəri azad  edildi",
+      "Fizuli  azad edildi",
+      "Zəngilan azad  edildi"
+    ],
+    "correctAnswer": "Qubadlı şəhəri azad edildi"
+  },
+  {
+    "number": 81,
+    "question": "2020 - ci il oktyabrın 18- də :",
+    "options": [
+      "Zəngilanın Ağbənd qəsəbəsi azad edildi",
+      "Cəbrayıl şəhəri azad edildi",
+      "Fizuli şəhəri azad edildi",
+      "Xudafərin  körpüsü üzərində üçrəngli bayrağımız qaldırıldı",
+      "Şuşa azad edildi"
+    ],
+    "correctAnswer": "Xudafərin  körpüsü üzərində üçrəngli bayrağımız qaldırıldı"
+  },
+  {
+    "number": 82,
+    "question": "2020 - ci il  oktyabrın  17- də :",
+    "options": [
+      "Şuşa azad edildi",
+      "Zəngilan şəhəri azad edildi",
+      "Fizuli şəhəri azad edildi",
+      "Xudafərin  azad edidi",
+      "Laçın azad edildi"
+    ],
+    "correctAnswer": "Fizuli şəhəri azad edildi"
+  },
+  {
+    "number": 83,
+    "question": "Azərbaycan Respublikasının prezidenti İlham Əliyev və Türkiyə prezidenti Rəcəb Tayyib Ərdoğan arasında \"Şuşa bəyannaməsi\"imzalanmışdır:",
+    "options": [
+      "15 iyul 2021",
+      "16 yanvar 2021",
+      "15 avqust 2021",
+      "16 sentyabr 2021",
+      "15 iyun 2021"
+    ],
+    "correctAnswer": "15 iyun 2021"
+  },
+  {
+    "number": 84,
+    "question": "2023- cü ilin  19-20 sentyabrında  keçirilən antiterror  əməliyyatlarının nəticəsi nədən ibarət oldu:",
+    "options": [
+      "Avropa İttifaqının  beynəlxalq missiyası Qarabağ bölgəsinə yerləşdirildi",
+      "Qarabağda qondarma separatçı -terrorçu rejim ləğv edildi",
+      "Rusiya sülhməramlıları bölgədən çıxarıldı",
+      "Laçın və Kəlbəcər rayonları erməni işğalçılarından azad edildi",
+      "Qarabağda məskunlaşan ermənilərə mədəni muxtariyyət verildi"
+    ],
+    "correctAnswer": "Qarabağda qondarma separatçı -terrorçu rejim ləğv edildi"
+  },
+  {
+    "number": 85,
+    "question": "1920-ci ildə Sovet hökumətinə qarşı uğurla mübarizə apararaq Qarabağın hakimi elan edilmişdi:",
+    "options": [
+      "Vəhib paşa",
+      "Ənvər paşa",
+      "Mürsəl paşa",
+      "Nuru paşa",
+      "İsmət paşa"
+    ],
+    "correctAnswer": "Nuru paşa"
+  },
+  {
+    "number": 86,
+    "question": "1936-cı ilin avqustunda Müsavat partiyasının konqresi keçirilmişdi:",
+    "options": [
+      "Berlində",
+      "Parisdə",
+      "İstanbulda",
+      "Romada",
+      "Varşavada"
+    ],
+    "correctAnswer": "Varşavada"
+  },
+  {
+    "number": 87,
+    "question": "1923-cü ildə Türkiyədə çap olunan “Müxtəsər Azərbaycan tarixi” kitabının müəllifi idi:",
+    "options": [
+      "C.Zeynalov",
+      "M.Rəsulzadə",
+      "M.Baharlı",
+      "M.B.Məmmədzadə",
+      "Ə.Hüseynzadə"
+    ],
+    "correctAnswer": "C.Zeynalov"
+  },
+  {
+    "number": 88,
+    "question": "Azərbaycan xalqının ədəbi irsinin toplanması və sistemləşdirilməsində mühüm rol oynayırdı:",
+    "options": [
+      "B.Talıblı",
+      "B. Çobanzadə",
+      "M.Baharlı",
+      "F.Köçərli",
+      "Salman Mümtaz"
+    ],
+    "correctAnswer": "Salman Mümtaz"
+  },
+  {
+    "number": 89,
+    "question": "Kommunist Partiyası qolçomaqları bir təbəqə kimi ləğv etmək siyasətinə keçdi:",
+    "options": [
+      "1928-ci ildə",
+      "1930-cu ildə",
+      "1926-cı ildə",
+      "1929-cu ildə",
+      "1927-ci ildə"
+    ],
+    "correctAnswer": "1929-cu ildə"
+  },
+  {
+    "number": 90,
+    "question": "1926-cı ildə təşkil olunmuş respublikanı sənayeləşdirmə üzrə komissiyanın sədri idi:",
+    "options": [
+      "Ə.Qarayev",
+      "Ç.İldırım",
+      "H.Sultanov",
+      "D.Bünyadzadə",
+      "Q.Musabəyov"
+    ],
+    "correctAnswer": "Q.Musabəyov"
+  },
+  {
+    "number": 91,
+    "question": "1934-cü ildə yaradılmış gizli “ Azərbaycan Milli təşkilatının” rəhbəri idi:",
+    "options": [
+      "Ə. Haqverdiyev",
+      "R. Axundov",
+      "Ə. Cavad",
+      "B. Çobanzadə",
+      "T. Şahbazi"
+    ],
+    "correctAnswer": "R. Axundov"
+  },
+  {
+    "number": 92,
+    "question": "Gəncə üsyanını (1920-ci il may) yatıranda qəddarlığı ilə fərqlənən komissar:",
+    "options": [
+      "H.Sultanov",
+      "Ç.İldırım",
+      "Mirzoyan",
+      "Ə.Qarayev",
+      "Mikoyan"
+    ],
+    "correctAnswer": "H.Sultanov"
+  },
+  {
+    "number": 93,
+    "question": "RSFSR  və Azərbaycan SSR arasında hərbi iqtisadi ittifaq  haqqında müqavilə bağlandı?",
+    "options": [
+      "1922-ci il oktyabrın 25-də",
+      "1923-ci il iyulun 10-da",
+      "1920-ci il sentyabrın 30-da",
+      "1921-ci il dekabrın 14-də",
+      "1925-ci il sentyabrın 20-də"
+    ],
+    "correctAnswer": "1920-ci il sentyabrın 30-da"
+  },
+  {
+    "number": 94,
+    "question": "1926-1929-cu ildə Qazax rayonunda antisovet hərəkat zamanı yaradılmış gizli təşkilat:",
+    "options": [
+      "Qurtuluş",
+      "Çənlibel",
+      "Yurd",
+      "Həqiqət ordusu",
+      "Zirək"
+    ],
+    "correctAnswer": "Həqiqət ordusu"
+  },
+  {
+    "number": 95,
+    "question": "Azərbaycan SSR- nin  birinci  konstitusiyası  qəbul  olundu:",
+    "options": [
+      "1921- ci il mayın 6- da",
+      "1923- cü il  dekabrın 6- da",
+      "1922- ci il aprelin 15- də",
+      "1924 - ci il  mayın 3- də",
+      "1921- ci il oktyabrın 6- da"
+    ],
+    "correctAnswer": "1921- ci il mayın 6- da"
+  },
+  {
+    "number": 96,
+    "question": "Azərbaycan Xalq  Cümhuriyyətinin süqutundan sonra Fətəli xan Xoyskinin Tiflisdə yaratdığı  komitə adlanırdı:",
+    "options": [
+      "Azad Azərbaycan Komitəsi",
+      "İstiqlal Komitəsi",
+      "Musavat Komitəsi",
+      "Yeni Qafqasiya Komitəsi",
+      "Azərbaycan  Qurtuluş Komitəsi"
+    ],
+    "correctAnswer": "Azərbaycan  Qurtuluş Komitəsi"
+  },
+  {
+    "number": 97,
+    "question": "İstanbulda \"Yeni Qafqasiya\" məcmuəsinin nəşrinə başlanıldı:",
+    "options": [
+      "1923- cü ildə",
+      "1922- ci ildə",
+      "1942- ci ildə",
+      "1920- ci ildə",
+      "1943- cü ildə"
+    ],
+    "correctAnswer": "1923- cü ildə"
+  },
+  {
+    "number": 98,
+    "question": "1920- ci il aprelin 27- də Bakıda M.Ə.Rəsulzadənin təşəbbüsü ilə yaradılmışdı:",
+    "options": [
+      "Vətən və ya ölüm təşkilatı",
+      "İctimai İdarə heyyəti",
+      "Dördlər Şurası",
+      "Müqavimət Komitəsi",
+      "Gizli təşkilat"
+    ],
+    "correctAnswer": "Müqavimət Komitəsi"
+  },
+  {
+    "number": 99,
+    "question": "Sovet Rusiyası fəal şəkildə  milliləşdirmə siyasəti həyata  keçirmişdi:",
+    "options": [
+      "1926-1932- ci illərdə",
+      "1920- 1925- cı illərdə",
+      "1930- 1932- ci illərdə",
+      "1921-1925-cı illərdə",
+      "1920-1922- ci illərdə"
+    ],
+    "correctAnswer": "1920-1922- ci illərdə"
+  },
+  {
+    "number": 100,
+    "question": "1920- ci ildə  Azərbaycan Kommunist  Partiyası Mərkəzi Komitəsinin  birinci katibi olmuşdu:",
+    "options": [
+      "L.Mirzoyan",
+      "Q. Kamınski",
+      "R.Rubenov",
+      "V.Polonski",
+      "S. M.Kirov"
+    ],
+    "correctAnswer": "Q. Kamınski"
+  },
+  {
+    "number": 101,
+    "question": "Sovetlər dövründə Azərbaycana rəhbərlik edərək milli dəyərlərin qorunmasında böyük səy  göstərmişdir:",
+    "options": [
+      "Mir Cəfər Bağırov",
+      "İmam Mustafayev",
+      "Əbdülrəhman Vəzirov",
+      "Mirzə Davud Hüseynov",
+      "Kamran Bağırov"
+    ],
+    "correctAnswer": "İmam Mustafayev"
+  },
+  {
+    "number": 102,
+    "question": "Mehdi Hüseynzadəyə Sovet İttifaqı Qəhrəmanı adı verildi:",
+    "options": [
+      "1945-ci ildə",
+      "1948-ci ilodə",
+      "1965-ci ildə",
+      "1955-ci ildə",
+      "1957-ci ildə"
+    ],
+    "correctAnswer": "1957-ci ildə"
+  },
+  {
+    "number": 103,
+    "question": "402-ci milli atıcı diviziya təşkil olundu:",
+    "options": [
+      "1938-ci ilin avqustunda",
+      "1943-cü ilin avqustunda",
+      "1940-cı ilin avqustunda",
+      "1942-ci ilin avqustunda",
+      "1941-ci ilin avqustunda"
+    ],
+    "correctAnswer": "1941-ci ilin avqustunda"
+  },
+  {
+    "number": 104,
+    "question": "II Dunya müharibəsi illərində Azərbaycanda sənaye malları satışı üzrə kartoçka sistemi tətbiq edildi:",
+    "options": [
+      "1941-cı ilin sentyabrında",
+      "1939-cu ilin sentyabrında",
+      "1943-cü ilin mayında",
+      "1942-cı ilin aprelində",
+      "1940-cı ilin martında"
+    ],
+    "correctAnswer": "1942-cı ilin aprelində"
+  },
+  {
+    "number": 105,
+    "question": "1976-ci ildə Azərbaycanın üçrəngli bayrağını qaldıraraq sovet hökumətinə qarşı mübarizə aparan təşkilat adlanırdı?",
+    "options": [
+      "Milli Azadlıq hərəkatı",
+      "Azərbaycan Federalistlər İttifaqı",
+      "Azərbaycan Milli Demokrat İttifaqı",
+      "Cəmiyyəti Xeyriyyə",
+      "Müdafiə təşkilatı"
+    ],
+    "correctAnswer": "Azərbaycan Milli Demokrat İttifaqı"
+  },
+  {
+    "number": 106,
+    "question": "1945-ci ildə təşkil olunmuş Azərbaycan SSR Elmlər Akademiyasının ilk prezidenti oldu:",
+    "options": [
+      "H.Hüseynov",
+      "Z.Xəlilov",
+      "M.Mirqasımov",
+      "M.Topçubaşov",
+      "Y.Məmmədəliyev"
+    ],
+    "correctAnswer": "M.Mirqasımov"
+  },
+  {
+    "number": 107,
+    "question": "“Türkiyə casusu” kimi damğalanmış azərbaycanlı akademik:",
+    "options": [
+      "H.Hüseynov",
+      "M.Dadaşzadə",
+      "M.İbrahimov",
+      "M.Rəfili",
+      "M.Arif"
+    ],
+    "correctAnswer": "M.Dadaşzadə"
+  },
+  {
+    "number": 108,
+    "question": "1955-1959-cu illərdə Musavat partiyasının  rəhbəri olmuşdur:",
+    "options": [
+      "Mirzə Bala Məmmədzadə",
+      "Mirzə Əbdürrəhim Talıbov",
+      "Sultan Məcid Qənizadə",
+      "İsmayıl Şıxlı",
+      "İsrafil Axundov"
+    ],
+    "correctAnswer": "Mirzə Bala Məmmədzadə"
+  },
+  {
+    "number": 109,
+    "question": "Azərbaycanda təhsilinin rus  dilində aparılmasına geniş yer verən qanun verildi?",
+    "options": [
+      "1945-ci ildə",
+      "1952-ci ildə",
+      "1968-ci ildə",
+      "1972-ci ildə",
+      "1959-cu ildə"
+    ],
+    "correctAnswer": "1959-cu ildə"
+  },
+  {
+    "number": 110,
+    "question": "Azərbaycan ziyalılarından təşkil  olunan “Milli Azadlıq Qərargahı” yaradıldı:",
+    "options": [
+      "1968-ci il yanvarın 15-də",
+      "1963-cü il avqustun 18-də",
+      "1969-ci il iuylun 31-də",
+      "1965-ci il oktyabrın 30-da",
+      "1962-ci il dekabrın 17-də"
+    ],
+    "correctAnswer": "1962-ci il dekabrın 17-də"
+  },
+  {
+    "number": 111,
+    "question": "1959-cu ildə Azərbaycan KP MK-nın birinci katibi vəzifəsinə gətirildi:",
+    "options": [
+      "K.Bağırov",
+      "İ.Mustafayev",
+      "H.Əliyev",
+      "V.Axundov",
+      "Ə.Vəzirov"
+    ],
+    "correctAnswer": "V.Axundov"
+  },
+  {
+    "number": 112,
+    "question": "Haqsızlığa intiharla cavab verən azərbaycanlı alim:",
+    "options": [
+      "M.Dadaşzadə",
+      "S.Vəliyev",
+      "V.Vəkilov",
+      "H.Hüseynov",
+      "M.Rəfili"
+    ],
+    "correctAnswer": "H.Hüseynov"
+  },
+  {
+    "number": 113,
+    "question": "1930–cu ildə sovetlərə qarşı ən böyük üsyan baş vermişdi:",
+    "options": [
+      "Qarabağda",
+      "Naxçıvanda",
+      "Nuxada",
+      "Gəncədə",
+      "Şəki – Zaqatala qəzasında"
+    ],
+    "correctAnswer": "Şəki – Zaqatala qəzasında"
+  },
+  {
+    "number": 114,
+    "question": "Azərbaycanda qabaqcıl ziyalıların  1962-ci il dekabrın 17-də yaratdıqları təşkilat adlanırdı:",
+    "options": [
+      "“İldırım”",
+      "“Qurtuluş”",
+      "“Azərbaycan Milli təşkilatı”",
+      "“Həqiqət ordusu”",
+      "“Milli Azadlıq Qərargahı”"
+    ],
+    "correctAnswer": "“Milli Azadlıq Qərargahı”"
+  },
+  {
+    "number": 115,
+    "question": "Azərbaycanda  dənizdə ilk  neft quyusu fontan vurdu:",
+    "options": [
+      "1947-ci il sentyabrın 12-də",
+      "1948-ci il mayın 28-də",
+      "1958-ci il martın - 2-də",
+      "1962-ci il avqustun 10-da",
+      "1949-cu il noyabrın 7-də"
+    ],
+    "correctAnswer": "1949-cu il noyabrın 7-də"
+  },
+  {
+    "number": 116,
+    "question": "II Dünya müharibəsi zamanı Berlində Milli Azərbaycan komitəsi təşkil olundu:",
+    "options": [
+      "1941-ci ilin sentyabrında",
+      "1944-cü ilin fevralında",
+      "1942-ci ilin fevralında",
+      "1940-cı ilin baharında",
+      "1943-cü ilin baharında"
+    ],
+    "correctAnswer": "1943-cü ilin baharında"
+  },
+  {
+    "number": 117,
+    "question": "SSRİ Nazirlər Sovetinin 1947 - ci il 23 dekabr tarixli qərarının mahiyyəti:",
+    "options": [
+      "İkinci Dünya müharibəsində əsir düşüb xalq düşməni adlandırılmış şəxslərin azad edilməsi",
+      "DQMV - nin Ermənistana birləşdirilməsi",
+      "DQMV - də yaşayan ermənilərə xüsusi statusun verilməsi",
+      "Azərbaycanda yaşayan ermənilərə və digər azlıqda qalan xalqlara öz ana dillərində orta məktəb açmaq hüququnun verilməsi",
+      "Ermənistan SSR - dən kolxozçuların və başqa azərbaycanlı əhalinin Azərbaycan SSR-in Kür - Araz ovalığına köçürülməsi"
+    ],
+    "correctAnswer": "Ermənistan SSR - dən kolxozçuların və başqa azərbaycanlı əhalinin Azərbaycan SSR-in Kür - Araz ovalığına köçürülməsi"
+  },
+  {
+    "number": 118,
+    "question": "1930-cu ildə Müsavatın xaricdəki bürosu ilə əlaqə yaratmış, onun direktivləri əsasında qeyri-leqal mərkəz yaratmışdı:",
+    "options": [
+      "T.Şahbazi",
+      "M.Məmmədzadə",
+      "C.Cabbarlı",
+      "X.İbrahimov",
+      "M.Baharlı"
+    ],
+    "correctAnswer": "X.İbrahimov"
+  },
+  {
+    "number": 119,
+    "question": "İkinci Dünya müharibəsi illərində Bolqarıstan, Macarıstan, Rumıniya və Yuqoslaviyanın azad edilməsində fərqlənmiş Azərbaycanınmilli diviziyası:",
+    "options": [
+      "77-ci",
+      "416-cı",
+      "402-ci",
+      "271-ci",
+      "223-cü"
+    ],
+    "correctAnswer": "223-cü"
+  },
+  {
+    "number": 120,
+    "question": "1921- ci ildə RSFSR  və Türkiyə  arasında imzalanmış müqaviləyə əsasən  Naxçıvanda  hansı  idarəetmə sistemi  təşkil edilirdi",
+    "options": [
+      "Naxçıvan Türkiyə   tərkibində  saxlanılırdı",
+      "Naxçıvan  Türkiyə  tərkibində qalmaqla   yerli  sturukturlar tərəfindən  idarə edilməli idi",
+      "Naxçıvana xüsusi özünü idarəetmə hüququ verilirdi",
+      "Azərbaycan tərkibində  qalmaq  şərti  ilə Naxçıvan SSR yaradıldı",
+      "Azərbaycan tərkibində qalmaqla  Naxçıvan Muxtar Vilayəti yaradılırdı"
+    ],
+    "correctAnswer": "Azərbaycan tərkibində  qalmaq  şərti  ilə Naxçıvan SSR yaradıldı"
+  },
+  {
+    "number": 121,
+    "question": "Berlindəki kuçə döyüşlərində və Reyxstaqın alınmasında göstərdiyi igidliyə ğörə Sovet İttifaqı Qəhrəmanı adı alan azərbaycanlı:",
+    "options": [
+      "C.Əliyev",
+      "Y.Sadıqov",
+      "Z. Bünyadov",
+      "A.Vəzirov",
+      "M.Abdullayev"
+    ],
+    "correctAnswer": "Y.Sadıqov"
+  },
+  {
+    "number": 122,
+    "question": "Sovet Rusiyasının  Azərbaycanı  işğal etməsindən sonra Bakıda hansı - leqal mətbuat orqanı fəaliyyət göstərirdi:",
+    "options": [
+      "Azərbaycan qəzeti",
+      "İstiqlal  qəzeti",
+      "Qurtuluş qəzeti",
+      "Açıq  söz qəzeti",
+      "Yeni Qafqasiya  qəzeti"
+    ],
+    "correctAnswer": "İstiqlal  qəzeti"
+  },
+  {
+    "number": 123,
+    "question": "XX əsrin 60-cı illərində Bakı Dövlət Univeristetində azadlıq uğrunda gizli siyasi mübarizəyə rəhbərlik edirdi?",
+    "options": [
+      "İsmayıl Qasımov",
+      "Namiq Axundov",
+      "Əbülfəz Elçibəy",
+      "Faiq İskəndərov",
+      "Xudu  Məmmədov"
+    ],
+    "correctAnswer": "Əbülfəz Elçibəy"
+  },
+  {
+    "number": 124,
+    "question": "1941-1945-cı illər müharibəsi zamanı Ali Baş Komandanlıq Azərbaycan SSR-də hərbi vəziyyət elan etdi:",
+    "options": [
+      "1943-cü ilin fevralında",
+      "1942-cı ilin yanvarında",
+      "1941-cı ilin iyunuda",
+      "1942-cı ilin sentyabrında",
+      "1940-cı ilin iyununda"
+    ],
+    "correctAnswer": "1942-cı ilin sentyabrında"
+  },
+  {
+    "number": 125,
+    "question": "SSRİ Ali Soveti Rəyasət heyətinin qərarı ilə Zaqafqaziya Müsəlmanlarının Ruhani İdarəsinin təşkil olunmasından neçə il əvvəl 402 - cimilli diviziya təşkil olunmuşdur?",
+    "options": [
+      "11 il",
+      "3 il",
+      "8 il",
+      "7 il",
+      "5 il"
+    ],
+    "correctAnswer": "3 il"
+  },
+  {
+    "number": 126,
+    "question": "Siyasi məhbuslar saxlanılan düşərgələrə rəhbərlik edən İslah Əmək Düşərgələri Baş İdarəsi - “QULAK” ləğv edildi:",
+    "options": [
+      "1964-cü ildə",
+      "1956-cı ildə",
+      "1953-cü ildə",
+      "1948-ci ildə",
+      "1961- ci ildə"
+    ],
+    "correctAnswer": "1956-cı ildə"
+  },
+  {
+    "number": 127,
+    "question": "1828- ci ildə bağlanmış Türkmənçay sülhü ilə İrana qatılan Cənubi Azərbaycan ərazisinə daxil idi:",
+    "options": [
+      "Qərbdə Urmiya ,şərqdə Tehran  və Zəncan ostanları",
+      "Cənubda Həmədan, cənub -şərqdə Zəncan və Qəzvin mahalları",
+      "Şimal- qərbdə Sovuçbulaq , şərqdə Binab və Ərdəbil mahalları",
+      "Cənub- şərqdə Dehxarqan , cənubda Zəncan  və Təbriz mahalları",
+      "Cənubda Xalxal, şimalda Araz  çayı və Miyanə  mahalları"
+    ],
+    "correctAnswer": "Cənubda Həmədan, cənub -şərqdə Zəncan və Qəzvin mahalları"
+  },
+  {
+    "number": 128,
+    "question": "1905- ci ildə Tehranda  yaranmış \"Əncümən-e məxfi \" təşkilatı hansı tələbləri irəli sürürdü:",
+    "options": [
+      "İranlıları, o cümlədən azərbaycanlıları xaricilərə və yerli  hakim dairələrə qarşı mübarizəyə çağırırdı",
+      "Şimali Azərbaycanda yaranmış  sosial demokrat təşkilatlarla əlaqələri qücləndirməyi planlayırdı",
+      "Cənubi Azərbaycanın İrandan ayrılmasını tələb edirdi",
+      "Təbrizdə,Zəncanda ana dilində mədrəsə və məktəblərin açılmasını tələb edirdi",
+      "Avropalıları  ölkəyə dəvət edib İranda hakimiyyətin devrilməsinə cəhd  edirdi"
+    ],
+    "correctAnswer": "İranlıları, o cümlədən azərbaycanlıları xaricilərə və yerli  hakim dairələrə qarşı mübarizəyə çağırırdı"
+  },
+  {
+    "number": 129,
+    "question": "Şeyx Xiyabani  yeni  dövlətini necə adlandırırdı:",
+    "options": [
+      "Gilan respublikası",
+      "Azadistan",
+      "Azərbaycan",
+      "Azərbaycan Cümhuriyyəti",
+      "Azərbaycan əncüməni"
+    ],
+    "correctAnswer": "Azadistan"
+  },
+  {
+    "number": 130,
+    "question": "Rusiya Səttərxan  hərəkatını  yatırmaq üçün İrana  qoşun  yeritdi:",
+    "options": [
+      "1907 - ci il aprelin 5- də",
+      "1909 – cu il  aprelin 25- də",
+      "1911- ci il noyabrın 6- da",
+      "1908- cil il fevralın 11- də",
+      "1912- ci il martın 2- də",
+      "1907- ci il dekabrın 18- də"
+    ],
+    "correctAnswer": "1909 – cu il  aprelin 25- də"
+  },
+  {
+    "number": 131,
+    "question": "1906 - 1911- ci il inqilabı zamanı məclisə seçkiləri təşkil etmək üçün  yaradılmış seçkili nümayəndəli orqan necə adlanırdı:",
+    "options": [
+      "Milli Şura",
+      "Azərbaycan Əyalət  Əncuməni",
+      "İctimai İdarə  Heyəti",
+      "Sosial Demokrat Təşkilatı",
+      "Fövqəladə Komissiya"
+    ],
+    "correctAnswer": "Azərbaycan Əyalət  Əncuməni"
+  },
+  {
+    "number": 132,
+    "question": "1905 - 1911- ci illər Məşrutə  inqilabı dövründə  Cənubi Azərbaycan  ilk  dəfə  ana dilində  nəşr  olunmuş  qəzet və jurnallar :  1.\"Anadili \", 2.\"Dirilik \", 3 \"İqbal\" , 4.Məzəli\", 5. \"Zənbur\", 6. \"Həyat\"",
+    "options": [
+      "2,4,6",
+      "1,5,6",
+      "1,3,5",
+      "1,4,5",
+      "3,4,5"
+    ],
+    "correctAnswer": "1,4,5"
+  },
+  {
+    "number": 133,
+    "question": "Cənubi  Azərbaycanın  ticarət  əlaqələrinin şimala  yönəlməsinə  şərait  yaradan  mühüm  amillərdən biri:",
+    "options": [
+      "Gömrük  rüsumlarının  daha  da ağırlaşdırılması  haqqında  İran  şahının  fərman verməsi",
+      "Türkmənçay  müqaviləsinə   əsasən  rus    tacirlərinin  güzəştli ticarət  hüququna  malik  olması",
+      "İngiltərənin  İranın  iqtisadiyyatına   daha  geniş nüfuz  etməsi",
+      "Şimal  ölkələrinə xırda  sənətkarlıq  məhsullarına  olan  tələbatın artması",
+      "Çar  Rusiyasının  Avropa  mallarının  Qafqaza  daxil  olmasını  məhdudlaşdırması"
+    ],
+    "correctAnswer": "Çar  Rusiyasının  Avropa  mallarının  Qafqaza  daxil  olmasını  məhdudlaşdırması"
+  },
+  {
+    "number": 134,
+    "question": "Türkmənçay   müqaviləsindən  sonra   Təbriz  əyalətində   nizami  qoşun hissəsinin başçısı necə  adlanırdı :",
+    "options": [
+      "Sahibi - divan",
+      "Əmir",
+      "Əmir əl - üməra",
+      "Sədr - əzəm",
+      "Əmir - nizam"
+    ],
+    "correctAnswer": "Əmir - nizam"
+  },
+  {
+    "number": 135,
+    "question": "S.C.Pişəvərinin başçılığı ilə Azərbaycan Demokrat Partiyası yaradıldı:",
+    "options": [
+      "1945-ci ilin sentyabrında",
+      "1941-ci ilin oktyabrında",
+      "1940-ci ilin mayında",
+      "1946-cı ilin dekabrında",
+      "1938-ci ilin sentyabrında"
+    ],
+    "correctAnswer": "1945-ci ilin sentyabrında"
+  },
+  {
+    "number": 136,
+    "question": "S.C.Pişəvərinin başçılığı ilə Milli hökümət yarandı:",
+    "options": [
+      "1946-cı ilin fevralında",
+      "1943-cü ilin sentyabrında",
+      "1941-ci ilin avqustunda",
+      "1944-cü ilin iyununda",
+      "1945-ci ilin dekabrında"
+    ],
+    "correctAnswer": "1945-ci ilin dekabrında"
+  },
+  {
+    "number": 137,
+    "question": "İran Demokrat Partiyasının siyasi orqanı olan «İrane-nou»nun redaktoru idi:",
+    "options": [
+      "N.Nərimanov",
+      "Əli Müsyö",
+      "Hacı Əli Davafuruş",
+      "H.Tağızadə",
+      "M.Ə.Rəsulzadə"
+    ],
+    "correctAnswer": "M.Ə.Rəsulzadə"
+  },
+  {
+    "number": 138,
+    "question": "Təbriz fədailəri müdafiədən əks-hücüma keçdilər:",
+    "options": [
+      "1909-cu ilin fevralında",
+      "1908-ci ilin sentyabrinda",
+      "1908-ci ilin  iyununda",
+      "1908-ci ilin oktyabrında",
+      "1908-ci ilin avqustunda"
+    ],
+    "correctAnswer": "1908-ci ilin oktyabrında"
+  },
+  {
+    "number": 139,
+    "question": "1920- ci il Təbriz üsyanı dövründə bütün İranı bürüyən etiraz hərəkatı yönəlmişdi:",
+    "options": [
+      "Zəncan, Rəşt , Marağa , Ərdəbil",
+      "rus kazakları və  kürdlərə qarşı",
+      "Amerika missionerlərinə qarşı",
+      "hind sipahilərinə qarşı",
+      "aysor  və kürdlərə qarşı",
+      "İngilislərə və daxili irticaya qarşı"
+    ],
+    "correctAnswer": "İngilislərə və daxili irticaya qarşı"
+  },
+  {
+    "number": 140,
+    "question": "Təbrizdə«Gizli Mərkəz» in başında dururdu:",
+    "options": [
+      "Hacı Əli Davafuruş",
+      "Bağırxan",
+      "Əli Müsyö",
+      "Səttarxan",
+      "Mir Həşim"
+    ],
+    "correctAnswer": "Əli Müsyö"
+  },
+  {
+    "number": 141,
+    "question": "1908-ci il iyunun 23-də şahın göstərişi ilə məclisi top atəşinə tutdu:",
+    "options": [
+      "daşnak Yefrem",
+      "M.Hüseyn Haşimi",
+      "Rəhim xan",
+      "rus polkovniki Lyaxov",
+      "Kiçik xan"
+    ],
+    "correctAnswer": "rus polkovniki Lyaxov"
+  },
+  {
+    "number": 142,
+    "question": "1905-ci il 12 dekabrda baş nazir Eynüddövlənin 17 taciri həbs edilib döydürülməsinin səbəbi:",
+    "options": [
+      "düyünün bahalanması",
+      "xalçanın bahalanması",
+      "qəndin bahalanması",
+      "ipəyin bahalanması",
+      "taxılın bahalanması"
+    ],
+    "correctAnswer": "qəndin bahalanması"
+  },
+  {
+    "number": 143,
+    "question": "Təbriz Universiteti təsis edildi:",
+    "options": [
+      "1946-ilin iyununda",
+      "1941-ci ilin sentyabrında",
+      "1942-cı ilin oktyabrında",
+      "1945-ilin fevralında",
+      "1943-cü ilin noyabrında"
+    ],
+    "correctAnswer": "1946-ilin iyununda"
+  },
+  {
+    "number": 144,
+    "question": "\"21 Azər  hərəkatı\"  adlanır:",
+    "options": [
+      "Cənubi  Azərbaycanda ana dilinin dövlət  dili elan edilməsi haqqında  hökumətin  qərarı",
+      "Raz şahın ölkədən  qaçması ilə  başlanan hərəkat",
+      "Sovet ordularının Təbrizə daxil olması ilə başlanan milli demokratik hərəkatın  başlaması",
+      "Təbrizdə şah  rejimi və  iri ruhanilərə qarşı başlanan silahlı üsyan",
+      "Təbrizdə  Milli hökumətin yaradılması"
+    ],
+    "correctAnswer": "Təbrizdə  Milli hökumətin yaradılması"
+  },
+  {
+    "number": 145,
+    "question": "1945- ci ildə Cənubi Azərbaycanda yaradılmış Milli hökumətin  gördüyü tədbirlərə aid deyil:",
+    "options": [
+      "\"Əmək haqqında qanun\" qəbul etməsi",
+      "Neft  sənayesinin konsessiyaya verilməsi",
+      "Təbriz  Univeristetinin  yaradılması",
+      "Yerlərdə inzibati - ərazi orqanlarının yaradılması",
+      "\"Dil haqqında qanun\" qəbul etməsi"
+    ],
+    "correctAnswer": "Neft  sənayesinin konsessiyaya verilməsi"
+  },
+  {
+    "number": 146,
+    "question": "1918- ci il  Şimali  Azərbaycan və  Cənubi  Azərbaycan  tarixinə aid oxşar cəhət:",
+    "options": [
+      "Ərazisinin ingilis  qoşunları tərəfindən  işğal olunması",
+      "İki hissəyə  parçalanması",
+      "Ölkə  parlamentinin yaradılması",
+      "Milli hökumətin  yaradılması",
+      "Aqrar  islahat  keçirilməsi"
+    ],
+    "correctAnswer": "Ərazisinin ingilis  qoşunları tərəfindən  işğal olunması"
+  },
+  {
+    "number": 147,
+    "question": "Cənubi Azərbaycanda 1920- ci ilin  aprelində üsyana  başçılıq etmək üçün  təşkil olunmuşdu:",
+    "options": [
+      "Azərbaycan  Əyalət Komitəsi",
+      "İctimai  İdarə Heyəti",
+      "Hərbi  Şura",
+      "ADF-nin  Mərkəzi komitəsi",
+      "İran Demokratik  Partiyası"
+    ],
+    "correctAnswer": "İctimai  İdarə Heyəti"
+  },
+  {
+    "number": 148,
+    "question": "Ş.M. Xiyabani Tehran  hökumətindən tələb edirdi:",
+    "options": [
+      "Cənubi Azərbaycana müstəqilliyin  verilməsini",
+      "Cənubi Azərbaycana muxtariyyət verilməsini",
+      "Osmanlıların  ölkə ərazisidən çıxarılmasını",
+      "İngilislərlə bağlanmış bütün  müqavilələrin ləğv edilməsini",
+      "Qacarlar  dövlətinin  parlamentli monarxiya  elan edilməsini"
+    ],
+    "correctAnswer": "Cənubi Azərbaycana muxtariyyət verilməsini"
+  },
+  {
+    "number": 149,
+    "question": "Cənubi Azərbaycan Demokrat Partiyasının Bakı təşkilatının nəşr  etdirdiyi qəzet:",
+    "options": [
+      "Azərbaycan",
+      "Hümmət",
+      "Təcəddüd",
+      "İrşad",
+      "Ədalət"
+    ],
+    "correctAnswer": "Azərbaycan"
+  },
+  {
+    "number": 150,
+    "question": "1917- ci ildə Cənubi Azərbaycanda  milli demokratik  hərəkatın başlanmasına təsir  göstərdi:",
+    "options": [
+      "Şimali  Azərbaycanda milli demokratik hökumətin qurulması",
+      "İranı  ingilis qoşunları işğal etməsi",
+      "Osmanlı  dövlətində \"Gənc türklər\" hərəkatının başlanması",
+      "Rusiyada Fevral inqilabı baş  verməsi",
+      "Cənubi Azərbaycanın rus  qoşunları tərəfindən  işğal edilməsi"
+    ],
+    "correctAnswer": "Rusiyada Fevral inqilabı baş  verməsi"
+  },
+  {
+    "number": 151,
+    "question": "Cənubi Azərbaycanda 1941- 1946 - cı illər milli demokratik hərəkatını  boğmaq  üçün İran  hökumətinin  başçısı Əhməd Qəvam: 1. Danışıqlar  bəhanəsi  ilə S.C. Pişəvərini Tehrana aparıb  həbs etdirdi Müəyyən güzəştlər müqabilində SSRİ- nin  bitərəflıiyinə  nail  oldu 3.Fədai  dəstələrinin rəhbərliyini ələ aldı \"İran məsələsi\"ni BMT - də müzakirəyə  çıxardı",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 152,
+    "question": "1941- 1946- ci illər Cənubi Azərbaycan Milli  hərəkatının məğlub olmasının səbəbləri: 1.Milli hökumətin buraxdığı kobud səhvlər Milli ordunun silahla pis təchizi və milli  xəyanət 3.ABŞ və İngiltərənin şah hökumətinə yardım  etməsi Sovet   hökumətinin qoşunlarının İrandan çıxarılması",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 153,
+    "question": "Bakıda Cənubi Azərbaycandan olan fədailərin  daxil olduğu «Mücahid» partiyasının yaranmasında mühüm rol oynadı:",
+    "options": [
+      "Ə.Tağızadə",
+      "N.Nərimanov",
+      "M.Əzizbəyov",
+      "M.Ə.Rəsulzadə",
+      "Əli Müsyö"
+    ],
+    "correctAnswer": "N.Nərimanov"
+  },
+  {
+    "number": 154,
+    "question": "1918-ci il 28 may İstiqlal Bəyənnaməsində bildirilirdi: Azərbaycanda ali hakimiyyət məxsusdur.",
+    "options": [
+      "Azərbaycan xalqına",
+      "Müvəqqəti hökumətə",
+      "Milli Şuraya",
+      "Parlamentə",
+      "Nazirlər kabinetinə"
+    ],
+    "correctAnswer": "Azərbaycan xalqına"
+  },
+  {
+    "number": 155,
+    "question": "Səttərxan hərəkatının  yatırılmasında İran  hökumətinə kömək göstərən əsas xarici dövlət idi:",
+    "options": [
+      "İsveç",
+      "Almaniya",
+      "Rusiya",
+      "Türkiyə",
+      "Fransa"
+    ],
+    "correctAnswer": "Rusiya"
+  },
+  {
+    "number": 156,
+    "question": "Məşrutə inqilabı dövründə Qacar şahı Cənubi Azərbaycanda azadlıq hərəkatını yatırdı:",
+    "options": [
+      "Rus qoşunlarının köməyi ilə;",
+      "Osmanlı qoşunlarının köməyi ilə;",
+      "Almaniyanın köməyi ilə;",
+      "Belçikanın hərbi yardımı ilə;",
+      "Fransa qoşunlarının köməyi ilə;"
+    ],
+    "correctAnswer": "Rus qoşunlarının köməyi ilə;"
+  },
+  {
+    "number": 157,
+    "question": "1907-ci ildə İran inqilabının yüksəlişinin nəticələri:",
+    "options": [
+      "İngiltərə və Rusiya İran inqilabını böğmaq üçün ittifaq yaratdılar;",
+      "Məhəmmədəli şah demokratik mməzmunlu konstitusiyanı əlavələrilə birlikdə imzalamağa məcbur oldu;",
+      "Məhəmmədəli şah Səttarxan və Bağırxanla danışıqlar aparmağa məcbur oldu;",
+      "Məhəmmədəli şah konstitusiyanı ləğv etdi;",
+      "Xarici müdaxiləçilər ölkədən qovuldu;"
+    ],
+    "correctAnswer": "Məhəmmədəli şah demokratik mməzmunlu konstitusiyanı əlavələrilə birlikdə imzalamağa məcbur oldu;"
+  },
+  {
+    "number": 158,
+    "question": "Məşrutə hərakatı dövründə Müzəffərəddin şahın üsyanın təsiri ilə verdiyi fərmanları müəyyən edin: 1. Qəndin qiymətinin aşağı salınması Konstitusiya qəbul edilməsi 3. Məclisə seçkilər keçirilməsi Xalqın şikayətlərinə baxmaq üçün komissiya yaradılması",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 159,
+    "question": "Tehranda Səttarxanla Yefremin quldur dəstəsi arasında baş verən döyüşün nəticələri: 1. Xeyli mücahid həlak oldu; Mücahidlər qalib gəldilər 3. ağır yaralanan Səttərxan Tehranda ev dustağına çevrildi Səttarxan Təbrizə döndü",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 160,
+    "question": "1908-ci ildə Təbrizdə qazanılan qələbənin nəticəsi:",
+    "options": [
+      "İran inqilabı qalib gəldi;",
+      "Məşrutə inqilabı bütün ölkə ərazisinə yayıldı;",
+      "Rus qoşunları İranı tərk etdilər;",
+      "İnqilab Şimali Azərbaycana yayıldı;",
+      "Qacarlar dövlətində inqilabi iş yenidən canlandı;"
+    ],
+    "correctAnswer": "Qacarlar dövlətində inqilabi iş yenidən canlandı;"
+  },
+  {
+    "number": 161,
+    "question": "Tehrandakı əksinqilabı çevrilişdən sonra İran inqilabının mərkəzinə çevrildi:",
+    "options": [
+      "İsfahan;",
+      "Ərdəbil;",
+      "Xoy;",
+      "Təbriz;",
+      "Zəncan;"
+    ],
+    "correctAnswer": "Təbriz;"
+  },
+  {
+    "number": 162,
+    "question": "1905-11-ci illər İran inqilabı dövründə yeganə hakimiyyət orqanı idi:",
+    "options": [
+      "Ədliyyə idarəsi;",
+      "Azərbaycan Əyalət Şurası;",
+      "Xüsusi komissiya;",
+      "Milli hökümət;",
+      "Tehranda çağrılmış məclis;"
+    ],
+    "correctAnswer": "Azərbaycan Əyalət Şurası;"
+  },
+  {
+    "number": 163,
+    "question": "1908-ci ildə Təbrizin əksinqilabçılardan təmizlənməsi nəticəsində; 1. Şəhərdə qayda-qanun yaradıldı \"Müharibə xərci\" adlanan vergi yığılmağa başlandı 3. Xalqın nifrət etdiyi məmurlar o cümlədən vali Səməd xan şəhərdən qovuldu Şəhərdəki bütün taxıl anbarları möhürlənməyə başladı",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 164,
+    "question": "Məşrutə inqilabında qığılcım rolu oynadı:",
+    "options": [
+      "bakıda fəhlələr ilə sahibkarlar arasında müştərək müqavilə imzalanması;",
+      "Baş nazirin 17 taciri həbs etdirilməsi və onların dükanlarının qarət olunması;",
+      "Baş nazirin qəndin qiymətin qaldırması;",
+      "Şahın yeni vergilər haqqında fərman verməsi;",
+      "Belçika ilə müqavilənin bağlanması;"
+    ],
+    "correctAnswer": "Baş nazirin 17 taciri həbs etdirilməsi və onların dükanlarının qarət olunması;"
+  },
+  {
+    "number": 165,
+    "question": "Qacarlar höküməti məşrutə inqilabını yatırtmaq üçün ittifaqa girmişdi:",
+    "options": [
+      "ABŞ və Rusiya ilə",
+      "İngiltərə və fransa ilə",
+      "Osmanlı və rusiya ilə",
+      "İtaliya və ABŞ ilə",
+      "İngiltərə və Rusiya ilə"
+    ],
+    "correctAnswer": "İngiltərə və Rusiya ilə"
+  },
+  {
+    "number": 166,
+    "question": "1907-ci ildə İran inqilabının yüksəlişinin nəticələri:",
+    "options": [
+      "Məhəmmədəli şah demokratik məzmunlu konstitusiyanı əlavələrilə birlikdə imzalamağa məcbur oldu;",
+      "Məhəmmədəli şah Səttarxan və Bağırxanla danışıqlar aparmağa məcbur oldu;",
+      "Xarici müdaxiləçilər ölkədən qovuldu;",
+      "İngiltərə və Rusiya İran inqilabını böğmaq üçün ittifaq yaratdılar;",
+      "Məhəmmədəli şah konstitusiyanı ləğv etdi;"
+    ],
+    "correctAnswer": "Məhəmmədəli şah demokratik məzmunlu konstitusiyanı əlavələrilə birlikdə imzalamağa məcbur oldu;"
+  },
+  {
+    "number": 167,
+    "question": "1917 – ci ildə mitinqlərdə “Yaşasın, Azərbaycan muxtariyyəti” şüarı ilə çıxış etmişdi:",
+    "options": [
+      "“Hümmət” təşkilatı",
+      "“Difai” partiyası",
+      "“Ədalət” təşkilatı",
+      "“Federalistlərin türk partiyası”",
+      "“Müdafiə” təşkilatı"
+    ],
+    "correctAnswer": "“Federalistlərin türk partiyası”"
+  },
+  {
+    "number": 168,
+    "question": "Bakı və Tiflis şəhəri arasında birbaşa teleqraf xətti çəkilmişdi:",
+    "options": [
+      "1901-ci ildə",
+      "1906-cı ildə",
+      "1909-cu ildə",
+      "1914-cü ildə",
+      "1912-ci ildə"
+    ],
+    "correctAnswer": "1912-ci ildə"
+  },
+  {
+    "number": 169,
+    "question": "Cənubi Qafqaz Komissarlığı təsis edilmişdi:",
+    "options": [
+      "1917-ci ilin sentyabrında",
+      "1917-ci ilin fevralında",
+      "1917-ci ilin noyabrında",
+      "1917-ci ilin martında",
+      "1917-ci ilin dekabrında"
+    ],
+    "correctAnswer": "1917-ci ilin noyabrında"
+  },
+  {
+    "number": 170,
+    "question": "1917 – ci ilin sentyabrında Gəncədə yaranmışdı:",
+    "options": [
+      "”Müdafiə” təşkilatı",
+      "”İttihadi – islam” partiyası",
+      "”Difai” partiyası",
+      "”Qeyrət” partiyası",
+      "”Hümmət” təşkilatı"
+    ],
+    "correctAnswer": "”İttihadi – islam” partiyası"
+  },
+  {
+    "number": 171,
+    "question": "Rusiyanın  federativ quruluşunda  Azərbaycana ilk dəfə  muxtariyyət verilməsini tələb edən partiya idi:",
+    "options": [
+      "Difai",
+      "Kadet",
+      "Musavat",
+      "Qeyrət",
+      "Müdafiə"
+    ],
+    "correctAnswer": "Qeyrət"
+  },
+  {
+    "number": 172,
+    "question": "\"Azərbaycan Cümhuriyyəti,keyfiyyəti, təşəkkülü, indiki vəziyyəti \" adlı əsərin  müəllifi idi:",
+    "options": [
+      "F. Xoyski",
+      "Ə.Topçubaşov",
+      "Ə.Hüseynzadə",
+      "M. Məmmədzadə",
+      "M.Ə. Rəsulzadə"
+    ],
+    "correctAnswer": "M.Ə. Rəsulzadə"
+  },
+  {
+    "number": 173,
+    "question": "Azərbaycan Xalq Cümhuriyyəti Hökümətinin 1918-ci il 21 iyun  tarixli fərmanında nəzərdə tutulurdu:",
+    "options": [
+      "Ticarət və daxili bazarı dirçəltmək məqsədi ilə azad ticarətin yaradılması",
+      "Azərbaycan türk dilinin dövlət dili elan edilməsi",
+      "Dövlət bayrağının yaradılması",
+      "Xəzər dəniz donanmasının yaradılması",
+      "Məktəblərin milliləşdirilməsi"
+    ],
+    "correctAnswer": "Dövlət bayrağının yaradılması"
+  },
+  {
+    "number": 174,
+    "question": "1918-ci iyunun 27- də AXC-nin verdiyi qərara əsasən:",
+    "options": [
+      "Bakı Dövlət Univeristeti açılmalı idi",
+      "Ölkə  daxilində azad ticarətə icazə  verilirdi",
+      "Təhsil  müəssisələri  milliləşdirilməli  idi",
+      "məktəblərdə təhsil türk dilində aparılmalı idi",
+      "Bakı  bonu yaradılmalı idi"
+    ],
+    "correctAnswer": "məktəblərdə təhsil türk dilində aparılmalı idi"
+  },
+  {
+    "number": 175,
+    "question": "1918- ci avqustun 27- də AXC –nin  verdiyi  qərara əsasən:",
+    "options": [
+      "Bakı  Dövlət  Univeristeti açilmalı idi",
+      "ölkə daxilində azad  ticarətə icazə  verilirdi",
+      "Bakı bonu yaradılmalı idi",
+      "təhsil  müəssisələri  milliləşdirilməli idi",
+      "məktəblərdə təhsil türk  dilində aparılmalı idi"
+    ],
+    "correctAnswer": "ölkə daxilində azad  ticarətə icazə  verilirdi"
+  },
+  {
+    "number": 176,
+    "question": "Rusiyada bolşeviklər hakimiyyətə  gəldikdən sonra  Bakıda  Sovet hakimiyyətinin  qurulmasını elan etdilər:",
+    "options": [
+      "1919- cu il dekabrın 7- də",
+      "1917- ci il noyabrın 2- də",
+      "1920- ci il aprelin 18- də",
+      "1916- cı il martın 9- da",
+      "1917- ci il dekabrın 5 -də"
+    ],
+    "correctAnswer": "1917- ci il noyabrın 2- də"
+  },
+  {
+    "number": 177,
+    "question": "AXC- nin  II  hökumət  kabineti təşkil   olundu:",
+    "options": [
+      "1919- cu ilin martın 5- də",
+      "1918- ci ilin fevralın 6- da",
+      "1918 – ci ilin  dekabrın 26- da",
+      "1919- cu ilin yanvarın 16- da",
+      "1918 – ci ilin iyunun 17- də"
+    ],
+    "correctAnswer": "1918 – ci ilin iyunun 17- də"
+  },
+  {
+    "number": 178,
+    "question": "1919- cu ilin yanvar ayının 15- də  hansı qəzalardan  ibarət Qarabağ  general  qubernatorluğu  yaradıldı:",
+    "options": [
+      "Naxçıvan, Zəngəzur, Ordubad, Axalsix",
+      "Quba, Zəngəzur, Şamaxı, Dərbənd",
+      "Şuşa, Cavanşir, Cəbrayıl və Zəngəzur",
+      "Cavanşir, Bakı, Naxçıvan",
+      "Cavad, Göyçay, Quba"
+    ],
+    "correctAnswer": "Şuşa, Cavanşir, Cəbrayıl və Zəngəzur"
+  },
+  {
+    "number": 179,
+    "question": "AXC-nin   1918- ci il  avqustun 28- də verdiyi qərara  əsasən:",
+    "options": [
+      "torpaq  məsələsinə  yenidən   baxılmalı idi",
+      "təhsil  müəssisələri  milliləşdirilməli idi",
+      "maliyyə  siyasəti  yeniləşdirilməli idi",
+      "sosial  siyasət təzə  proqram  əsasında həyata  keçirilməli  idi",
+      "yeni gömrük xidməti  yaradılmalı  idi"
+    ],
+    "correctAnswer": "təhsil  müəssisələri  milliləşdirilməli idi"
+  },
+  {
+    "number": 180,
+    "question": "AXC- nin  yeganə dayağı olan   Türkiyə ordusu hansı müqaviləyə əsasən  Azərbaycandan  çəkilməli idi:",
+    "options": [
+      "Brest- Litovsk",
+      "Qars",
+      "Mudros",
+      "Moskva",
+      "Batum"
+    ],
+    "correctAnswer": "Mudros"
+  },
+  {
+    "number": 181,
+    "question": "Azərbaycan Xalq  Cümhuriyyənin  1919- cu il  iyunun 16- da “hərbi-müdafiə paktı” imzaladığı dövlət:",
+    "options": [
+      "Fransa",
+      "Gürcüstan",
+      "Rusiya",
+      "Türkiyə",
+      "İngiltərə"
+    ],
+    "correctAnswer": "Gürcüstan"
+  },
+  {
+    "number": 182,
+    "question": "1920 – ci il martın  20 – də AXC hansı dövlətlə “sülh  və  dostluq ” haqqında  müqavilə  bağlamışdı:",
+    "options": [
+      "Türkiyə ilə",
+      "Ermənistanla",
+      "Rusiya  ilə",
+      "Qacar  dövləti ilə",
+      "Gürcüstanla"
+    ],
+    "correctAnswer": "Qacar  dövləti ilə"
+  },
+  {
+    "number": 183,
+    "question": "Azərbaycan  Xalq  Cümhuriyyətinin  yarımrəsmi orqanı  idi:",
+    "options": [
+      "Azərbaycan hökümətinin əxbəri",
+      "Füqəra  sədası",
+      "Hürriyyət",
+      "Məşəl",
+      "Müsəlmanlıq"
+    ],
+    "correctAnswer": "Azərbaycan hökümətinin əxbəri"
+  },
+  {
+    "number": 184,
+    "question": "Cənubi Rusiya Könüllü ordusu dəniz donanmasının vitse-admiralı Gerasimovun Azərbaycan Cümhuriyyəti hökumətinə verdiyi Notada:",
+    "options": [
+      "Azərbaycan Xəzər donanmasının ləğv edilməsi tələb edilirdi.",
+      "Sovet Rusiyasının XI ordusunun Azərbaycan ərazisinə girəcəyi bildirilirdi.",
+      "Azərbaycan milli hökumətinin hakimiyyəti bolşeviklərə verilməsi istənilirdi.",
+      "Denikinə qarşı mübarizə aparmaq tələb olunurdu.",
+      "Rus hərbi gəmilərinin Xəzər dənizində üzərkən yanacaqla təmin olunması tələb olunurdu."
+    ],
+    "correctAnswer": "Azərbaycan Xəzər donanmasının ləğv edilməsi tələb edilirdi."
+  },
+  {
+    "number": 185,
+    "question": "1804-cü ildə Yelzavetpol adlandırılan Gəncə şəhərinin adı nə vaxt geri qaytarıldı?",
+    "options": [
+      "1921-ci il oktyabrın 7-də",
+      "1918-ci il iyulun  30-da",
+      "1920-ci il sentyabrın 12-də",
+      "1919-ci il iyunun 15-də",
+      "1920-ci il dekabrın 5-də"
+    ],
+    "correctAnswer": "1918-ci il iyulun  30-da"
+  },
+  {
+    "number": 186,
+    "question": "Cənubi azərbaycanlıları birləşdirən «Ədalət» təşkilatı «Hümmət»dən  ayrıldı:",
+    "options": [
+      "1918-ci ildə",
+      "1913-ci ildə",
+      "1915-ci ildə",
+      "1917-ci ildə",
+      "1912-ci ildə"
+    ],
+    "correctAnswer": "1917-ci ildə"
+  },
+  {
+    "number": 187,
+    "question": "Bakı quberniyasında türk-müsəlman soyqırımı davam etmişdir:",
+    "options": [
+      "1918-ci il mayadək",
+      "1918-ci il iyunadək",
+      "1918-ci il dekabradək",
+      "1918-ci il noyabrın ortalarınadək",
+      "1918-ci il sentyabradək"
+    ],
+    "correctAnswer": "1918-ci il sentyabradək"
+  },
+  {
+    "number": 188,
+    "question": "M. Ə. Rəzulzadənin 1910 – cu ildə nəşrinə başladığı qəzet:",
+    "options": [
+      "Təkamül",
+      "Yoldaş",
+      "Açıq söz",
+      "Hümmət",
+      "Yeni İran"
+    ],
+    "correctAnswer": "Yeni İran"
+  },
+  {
+    "number": 189,
+    "question": "“Musavat” partiyasının  I qurultayı keçirilmişdi:",
+    "options": [
+      "1917- ci ilin noyabrında",
+      "1917 - ci  ilin dekabrında",
+      "1917- ci ilin  sentyabrında",
+      "1917 - ci ilin fevralında",
+      "1917 - ci iin oktyabrında"
+    ],
+    "correctAnswer": "1917 - ci iin oktyabrında"
+  },
+  {
+    "number": 190,
+    "question": "Azərbaycan Xalq Cümhuriyyətinin Gəncə dövrünə aid olanları müəyyən edin: 1)Daxili işlər orqanları quruldu 2)Azərbaycan parlamenti öz işinə başladı 3)Milli ordu yaradıldı 4)Azərbaycan təbəəliyi haqqında qərar qəbul edildi 5)Müvəqqəti hökumətin istefası ilə bütün hakimiyyət parlamentə verildi.",
+    "options": [
+      "3,4,5",
+      "1,3,4",
+      "1,4,5",
+      "1,2,3",
+      "2,4,5"
+    ],
+    "correctAnswer": "1,3,4"
+  },
+  {
+    "number": 191,
+    "question": "Azərbaycan Cümhuriyyəti dövründə Ərzaq nazirliyinin 24 iyun 1918-ci il qərarı ilə:",
+    "options": [
+      "əhalini və ordunu zəruri məhsullarla təmin etmək üçün respublikadan kənara mal çıxarılması, şəxsi istehlakdan lazım olan miqdardanartıq taxıl alveri qadağan edilir.",
+      "əhalinin və ordunun zəruri məhsullara olan tələbatını ödəmək üçün Türkiyədən gətirilən taxıl məhsullarına görə tətbiq olunan rüsummüvəqqəti olaraq ləğv edildi.",
+      "Kəndlilərin vəziyyətini yaxşılaşdırmaq üçün onlardan toplanan məhsul vergisi ləğv olundu",
+      "Kəndlilərin pay  torpaqlarının müsadirəsi həyata  keçirildi",
+      "Kəndlilərdən artıq taxıl bazar qiymətinə dövlət tərəfindən alındı"
+    ],
+    "correctAnswer": "əhalini və ordunu zəruri məhsullarla təmin etmək üçün respublikadan kənara mal çıxarılması, şəxsi istehlakdan lazım olan miqdardanartıq taxıl alveri qadağan edilir."
+  },
+  {
+    "number": 192,
+    "question": "Azərbaycan Xalq Cümhuriyyəti dövründə xarici siyasətə uyğun variantı müəyyən edin: 1.1918-ci il may-oktyabr 1918-ci il noyabr-1920-ci il yanvar 3.1920-ci il yanvar-aprel I.Qərb oryentasiyası dövrü II. Dünya əməkdaşlığına daxil olmaq uğrunda mübarizə dövrü III. Türkiyə oryentasiyası dövrü",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 193,
+    "question": "1919-cu il iyulun 21-də Azərbaycan Respublikasının Müəssislər məclisinə seçkilər haqqında əsasnaməyə görə:",
+    "options": [
+      "Seçkilərdə cinsindən, dilindən, milliyyətindən asılı olmayaraq 20 yaşına çatmış bütün respublika vətəndaşları iştirak edə bilərdilər.",
+      "Yalnız əmlak sahibi olan vergi və rüsumları ödəyən 15 yaşına çatmış şəxslər seçkilərə qatıla bilər",
+      "25 yaşına çatmış Azərbaycan Respublikasının bütün vətəndaşları seçkilərdə iştirak edə bilərdilər",
+      "Cinsindən, milliyyətindən  asılı olaraq 23 yaşına çatmış şəxslər seçkilərdə iştirak edə bilər",
+      "Ali müsəlman silkinə mənsub olan, 25 yaşından yuxarı respublika vətəndaşları seçilmək hüququna malikdir."
+    ],
+    "correctAnswer": "Seçkilərdə cinsindən, dilindən, milliyyətindən asılı olmayaraq 20 yaşına çatmış bütün respublika vətəndaşları iştirak edə bilərdilər."
+  },
+  {
+    "number": 194,
+    "question": "1918 -ci il mart soyqrımı ərəfəsində Bakıda əhalinin ciddi müqavimətinə səbəb  oldu:",
+    "options": [
+      "Xəzər doanmasının Bakı  Sovetinə tabe edilməsi",
+      "\"Evelina\" gəmisinin bolşeviklər tərəfindən tərk silah edilməsi",
+      "Erməni Milli  Şurasının yaradılması",
+      "Bakı Sovetinin İnqilabi Müdafiə Komitəsi təşkil etməsi",
+      "Bolşevik  və erməni mətbuatından başqa bütün qəzet və jurnallarının  bağlanması"
+    ],
+    "correctAnswer": "\"Evelina\" gəmisinin bolşeviklər tərəfindən tərk silah edilməsi"
+  },
+  {
+    "number": 195,
+    "question": "\"İstiqlaliyyət Bəyannamə\" sinin 6- cı maddəsinə əsasən  ali hakimiyyət  məxsus idi: 1. Milli Şuraya Müvəqqəti Hökumətə 3.Müəssislər Məclisinə Nazirlər Kabinetinə",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 196,
+    "question": "1919 -cu ilin iyununda qəbul edilmiş Müəssislər Məclisinə seçkilər  haqqında Əsasnaməyə əsasən:",
+    "options": [
+      "Qadınlara seçib seçilmək hüquqi verildi",
+      "Sovet Rusiyasının seçkilərə müdaxiləsi qadağan edildi",
+      "20 yaşına çatmış bütün vətəndaşlara seçkilərdə iştirak hüququ  verildi",
+      "İlk dəfə kişilərlə qadınlara bərabər hüquq bərabərliyi  verildi",
+      "Qeyri müsəlmanların iştirakı qadağan edildi"
+    ],
+    "correctAnswer": "20 yaşına çatmış bütün vətəndaşlara seçkilərdə iştirak hüququ  verildi"
+  },
+  {
+    "number": 197,
+    "question": "Dağlıq Qarabağa olan  iddialarından ermənilər  birdəfəlik   əl çəkməyi vəd etdilər:",
+    "options": [
+      "Araz- Türk  Respublikasının ləğv edilməsi ilə",
+      "Tiflis sazişi ilə",
+      "Qərb dövlətlərinin  təhriki ilə",
+      "İrəvanın ermənilərə verilməsi ilə",
+      "Naxçıvanda erməni idarəçiliyinin yaradılması ilə"
+    ],
+    "correctAnswer": "İrəvanın ermənilərə verilməsi ilə"
+  },
+  {
+    "number": 198,
+    "question": "1920 - ci il  aprelin  27- də AXC parlamentinin sonuncu iclasında qəbul  edilən  sonuncu  qərara  əsasən : 1.Azərbaycanın  müstəqilliyi  qorunub  saxlanılmalı idi Azərbaycan  Kommunist  partiyasının tərkibində olan ermənilər çıxarılmalı idi 3.XI Qırmızı Ordu Bakını işğal etməməli  idi Kommunist hökuməti müvəqqəti orqan  olmalı idi 5.Aprelin  sonuna kimi rus  qoşunları  Azərbaycanı tərk etməli idi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 199,
+    "question": "AXC-yə aid olanları müəyyən edin: 1.Parlametin yaradılması Konstitusiya  qəbul olunması 3.Şərqdə qadınlara ilk dəfə seçki  hüququ verilməsi Azərbaycan  dilində ilk  qəzetin  nəşr olunması 5.Müsəlman şərqində  və Türk- islam dünyasında ilk demokratik quruluşlu respublika olması",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 200,
+    "question": "Paris  sülh  konfransında AXC-nin başlıca məqsədlərinə  daxil  idi : 1.Beynəlxalq  birliyin  bərabərhüquqlu  üzvü  kimi  tanınmaq Azərbaycanın de -  fakto tanınmasına  nail olmaq 3.Millətlər Cəmiyyətinə  üzv  qəbul  olunmaq ABŞ-ı \"vahid və bölünməz\" Rusiyanı bərpa  etmək  fikrindən daşındırmaq 5.Böyük  dövlətlər  tərəfindən Azərbaycanın müstəqilliyinin tanınmasına  nail olmaq",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 201,
+    "question": "AXC- nin xarici siyasətinin əsasını  təşkil edirdi: 1.Beynəlxalq aləmdə tanınmasına nail olmaq İrəvanı  ermənilərdən almaq 3.Qonşu dövlətlərlə bərabərhüquqlu  əməkdaşlıq Ermənistandan türk  müsəlman əhalini  köçürmək 5.Ərazi  bütövlüyünü təmin etmək",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 202,
+    "question": "\"İstiqlaliyyət  bəyannaməsi\" nin 3- cü bəndində nəzərdə tutulmuş AXC-nin xarici  siyasətinin əsas  prinsipi idi: 1.Mübahisəli  məsələlərin  həllində güzəştlərə  getmək Həmsərhəd dövlətlər ilə qonşuluq  münasibətlərinin yaradılması 3.Münaqişələrin  həllində silah  tətbiq olunmasından imtina edilməsi Beynəlxalq  birliyin  bütün  üzvləri ilə bərabərhüquqlu, qarşılıqlı əlaqələrin qurulması",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 203,
+    "question": "AXC  yaranarkən onu bir dövlət kimi tanımayaraq  ona qarşı müharibə elan etdi:",
+    "options": [
+      "Sentrokaspi diktaturası",
+      "Cənubi Qafqaz Komissarlığı",
+      "Xüsusi Cənubi Qafqaz  Komitəsi",
+      "Bakı XKS",
+      "Cənubi Qafqaz Seymi"
+    ],
+    "correctAnswer": "Bakı XKS"
+  },
+  {
+    "number": 204,
+    "question": "1908-ci ildə Təbrizin əksinqilabçılardan təmizlənməsi nəticəsində; 1. Şəhərdə qayda-qanun yaradıldı \"Müharibə xərci\" adlanan vergi yığılmağa başlandı 3. Xalqın nifrət etdiyi məmurlar o cümlədən vali Səməd xan şəhərdən qovuldu Şəhərdəki bütün taxıl anbarları möhürlənməyə başladı",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 205,
+    "question": "Tehrandakı əksinqilabı çevrilişdən sonra İran inqilabının mərkəzinə çevrildi:",
+    "options": [
+      "Zəncan;",
+      "İsfahan;",
+      "Təbriz;",
+      "Xoy;",
+      "Ərdəbil;"
+    ],
+    "correctAnswer": "Təbriz;"
+  },
+  {
+    "number": 206,
+    "question": "1907-ci ildə İran inqilabının yüksəlişinin nəticələri:",
+    "options": [
+      "Məhəmmədəli şah Səttarxan və Bağırxanla danışıqlar aparmağa məcbur oldu;",
+      "Xarici müdaxiləçilər ölkədən qovuldu;",
+      "Məhəmmədəli şah konstitusiyanı ləğv etdi;",
+      "İngiltərə və Rusiya İran inqilabını böğmaq üçün ittifaq yaratdılar;",
+      "Məhəmmədəli şah demokratik mməzmunlu konstitusiyanı əlavələrilə birlikdə imzalamağa məcbur oldu;"
+    ],
+    "correctAnswer": "Məhəmmədəli şah demokratik mməzmunlu konstitusiyanı əlavələrilə birlikdə imzalamağa məcbur oldu;"
+  },
+  {
+    "number": 207,
+    "question": "AXC-nin 1918- ci ilin avqust və 1918- ci ilin noyabr tarixi üçün ortaq cəhət:",
+    "options": [
+      "Osmanlı dövləti ilə  müqavilə  imzalanması",
+      "Sovet  Rusiyası ilə  silahlı  münaqişə  baş verməsi",
+      "Qarabağda erməni qiyamının baş verməsi",
+      "Yeni  hökumətin təşkil olunması",
+      "İngilis qoşunlarının Bakıya  gəlməsi"
+    ],
+    "correctAnswer": "İngilis qoşunlarının Bakıya  gəlməsi"
+  },
+  {
+    "number": 208,
+    "question": "AXC-nin 1918 - ci ilin iyunu və 1920- ci il martı tarixi üçün oxşar  cəhət:",
+    "options": [
+      "Yeni Nazirliyin yaradılması",
+      "Yeni hökumətin təşkil olunması",
+      "Hökumət böhranı  baş  verməsi",
+      "Milli Şuranın fəaliyyətinin dayandırılması",
+      "Sovet Rusiyasına  nota  göndərilməsi"
+    ],
+    "correctAnswer": "Hökumət böhranı  baş  verməsi"
+  },
+  {
+    "number": 209,
+    "question": "AXC  hökuməti Qərb meylli siyasət yeritməyə   məcbur oldu:",
+    "options": [
+      "V.Vilsonun tələbi ilə",
+      "General  Tomsonun başçılığı ilə ingilis qoşunlarının Bakıya  gəlişi  nəticəsində",
+      "Dağlılar  Respublikasının əsassız ərazi iddialarının qarşısını  almaq  üçün",
+      "General Denestervilin başçılığı  ilə ingilis  qoşunlarının Bakıya  gəlməsi ilə",
+      "Rusiyanın ermənipərəst  mövqeyinə  görə"
+    ],
+    "correctAnswer": "General  Tomsonun başçılığı ilə ingilis qoşunlarının Bakıya  gəlişi  nəticəsində"
+  },
+  {
+    "number": 210,
+    "question": "1918- ci ilin noyabrın  16- da Milli Şuranın verdiyi qərar:",
+    "options": [
+      "Azərbaycan Parlamentinin yaradılması haqqında idi",
+      "İrəvan şəhərinin ermənilərə verilməsi haqqında idi",
+      "Rusiyanın notasına verilən cavabla əlaqədar  idi",
+      "Naxçıvan general qubernatorluğunun yaradılması haqqında idi",
+      "Bakı bonunu istifadəyə verilməsinə aid idi"
+    ],
+    "correctAnswer": "Azərbaycan Parlamentinin yaradılması haqqında idi"
+  },
+  {
+    "number": 211,
+    "question": "1918-ci ilin yazında Bakıda siyasi vəziyyət bolşeviklərin xeyrinə dəyişməyə başladı:",
+    "options": [
+      "Mart-aprel hadisələrindən sonra demək olar ki, şəhərdə azərbaycanlı qalmamışdı.",
+      "Müsəlman korpusunun komandanı general Talışinskinin həbs olunması ilə.",
+      "Sovet Rusiyasının Almaniya ilə danışıqlara başlaması nəticəsində.",
+      "Bakı fəhlələri içərisində bolşeviklərə qoşulanların sayının artması ilə",
+      "İ.Biçeraxovun dəstəsinin Ələtə gəlməsi ilə."
+    ],
+    "correctAnswer": "Mart-aprel hadisələrindən sonra demək olar ki, şəhərdə azərbaycanlı qalmamışdı."
+  },
+  {
+    "number": 212,
+    "question": "AXC-nin yaradılmasının  əhəmiyyəti: 1. XIX əsrin əvvəllərində itirilmiş müstəqil dövlətçilik ənənələri bərpa edildi Müsəlman Şərqində ilk dədə demokratik quruluşlu respublika yaradıldı 3.Şimali və Cənubi Azərbaycan torpaqları  yenidən vahid dövlətdə  birləşdirildi Ali  hakimiyyət xalqın səsvermə yolu ilə  seçdiyi Müəssislər Məclisinin əlində cəmləndi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 213,
+    "question": "Azərbaycan Xalq Cümhuriyyəti dövründə Dövlət qulluğunda işləyən parlament üzvü:",
+    "options": [
+      "Ancaq müharibə zamanı Hərbi nazirlikdə rəhbər vəzifəyə cəlb oluna bilərdi.",
+      "Əmlakına görə rüsum ödəməli idi",
+      "Eyni zamanda elmi, pedaqoji işlə məşğul ola bilərdi.",
+      "Iki vəzifədən birini seçib parlamentin rəyasət heyətinə bildirməli idi.",
+      "Parlamentin razılığı ilə ticarət fəaliyyəti ilə məşğul ola bilərdi."
+    ],
+    "correctAnswer": "Iki vəzifədən birini seçib parlamentin rəyasət heyətinə bildirməli idi."
+  },
+  {
+    "number": 214,
+    "question": "Z. Tağıyevin daimi sədri olduğu xeyriyyə cəmiyyəti olmuşdur?",
+    "options": [
+      "İşıq",
+      "Səadət",
+      "Nəşri-Maarif",
+      "Müsəlman Xeyriyyə Cəmiyyəti",
+      "Nicat"
+    ],
+    "correctAnswer": "Nəşri-Maarif"
+  },
+  {
+    "number": 215,
+    "question": "Şimali  Azərbaycanda şəhər məktəbləri ali ibtidai məktəblərə çevrildi:",
+    "options": [
+      "1915-ci ildə",
+      "1912-ci ildə",
+      "1905-cü ildə",
+      "1900-cü ildə",
+      "1913-cü ildə"
+    ],
+    "correctAnswer": "1912-ci ildə"
+  },
+  {
+    "number": 216,
+    "question": "«Difai» partiyasının Ağdam komitəsinə sədrlik edirdi:",
+    "options": [
+      "Q.Vəzirov",
+      "Ə.Ağaoğlu",
+      "M.Qasımov",
+      "K.Mehmandarov",
+      "Z.Haqverdiyev"
+    ],
+    "correctAnswer": "Z.Haqverdiyev"
+  },
+  {
+    "number": 217,
+    "question": "”Azərbaycan səhnəsinin zinəti” adlandırılan aktyor:",
+    "options": [
+      "M.Əliyev",
+      "C. Zeynalov",
+      "Sidqi Ruhulla",
+      "H.Sarabski",
+      "H.Ərəblinski"
+    ],
+    "correctAnswer": "H.Sarabski"
+  },
+  {
+    "number": 218,
+    "question": "XX əsrin əvvəllərində Azərabaycan qadınlarının problemləri ilə məşğul olan jurnal:",
+    "options": [
+      "Füyuzat",
+      "Qurtuluş",
+      "Tərəqqi",
+      "İşıq",
+      "İrşad"
+    ],
+    "correctAnswer": "İşıq"
+  },
+  {
+    "number": 219,
+    "question": "Qafqaz müsəlmanlarının I qurultayı keçirilmişdi:",
+    "options": [
+      "1920 – ci il oktyabrında",
+      "1917 – ci il aprelində",
+      "1918 – ci il mayında",
+      "1919- ci il martında",
+      "1916- cı il mayında"
+    ],
+    "correctAnswer": "1917 – ci il aprelində"
+  },
+  {
+    "number": 220,
+    "question": "“Molla Nəsrəddin” jurnalı neçə il fəalliyyət göstərmişdi?",
+    "options": [
+      "17 il",
+      "16 il",
+      "20 il",
+      "30 il",
+      "25 il"
+    ],
+    "correctAnswer": "25 il"
+  },
+  {
+    "number": 221,
+    "question": "“Musavat” partiyasının  I qurultayı keçirilmişdi:",
+    "options": [
+      "1917 - ci ilin fevralında",
+      "1917- ci ilin noyabrında",
+      "1917- ci ilin  sentyabrında",
+      "1917 - ci iin oktyabrında",
+      "1917 - ci  ilin dekabrında"
+    ],
+    "correctAnswer": "1917 - ci iin oktyabrında"
+  },
+  {
+    "number": 222,
+    "question": "XX əsrin əvvəllərində  Şimali Azərbaycanın ikinci sənaye mərkəzi sayılırdı:",
+    "options": [
+      "Nuxa",
+      "Gəncə",
+      "Quba",
+      "Naxçıvan",
+      "Bakı"
+    ],
+    "correctAnswer": "Nuxa"
+  },
+  {
+    "number": 223,
+    "question": "Hansı partiyanın eyni adlı qəzeti də nəşr edilirdi?",
+    "options": [
+      "Difai",
+      "Qeyrət",
+      "Musavat",
+      "Müdafiə",
+      "Hümmət"
+    ],
+    "correctAnswer": "Hümmət"
+  },
+  {
+    "number": 224,
+    "question": "” Federalistlərin  türk partiyası” na rəhbərlik edirdi?",
+    "options": [
+      "Fətəli xan Xoyski",
+      "Arslan xan Xoyski",
+      "Şəmsi Əsədullayev",
+      "Zülfüqar bəy Haqverdiyev",
+      "Nəsib bəy Usubbəyov"
+    ],
+    "correctAnswer": "Nəsib bəy Usubbəyov"
+  },
+  {
+    "number": 225,
+    "question": "Bakı Fəhlə  Deputatları Soveti elan edildi:",
+    "options": [
+      "1904 - cü il oktyabrın 2 - də",
+      "1908 - ci il noyabrın 25 - də",
+      "1915 – ci il sentyabrın 15 - də",
+      "1905 - ci il noyabrın 25 - də",
+      "1902 - ci il sentyabrın 15 -də"
+    ],
+    "correctAnswer": "1905 - ci il noyabrın 25 - də"
+  },
+  {
+    "number": 226,
+    "question": "XX əsrin əvvəllərində Qaçaq Süleyman Ağahüseynoğlu mövcud quruluşa qarşı mübarizə aparırdı?",
+    "options": [
+      "Cəbrayıl- Qaryagin, Şuşa qəzalarında",
+      "Qazax, Cavanşir qəzalarında",
+      "Nuxa, Şamaxı qəzalarında",
+      "Lənkəran, Şuşa qəzalarında",
+      "Gəncə , Bakı qəzalarında"
+    ],
+    "correctAnswer": "Cəbrayıl- Qaryagin, Şuşa qəzalarında"
+  },
+  {
+    "number": 227,
+    "question": "”Cənubi Qafqaz quberniyalarında torpaqların məcburi surətdə satın alınması haqqında ” qanun verilmişdi?",
+    "options": [
+      "1912-ci ildə",
+      "1908-ci ildə",
+      "1904-ci ildə",
+      "1910-ci ildə",
+      "1911-ci ildə"
+    ],
+    "correctAnswer": "1912-ci ildə"
+  },
+  {
+    "number": 228,
+    "question": "XX əsrin əvvəllərində ipək  emalı sənayesi Şimali Azərbaycanın hansı bölgələrində geniş  yayılmışdı?",
+    "options": [
+      "Naxçıvan, Gəncə, Şəmkir, Ordubad",
+      "Gəncə, Qazax, Bakı , Quba",
+      "Naxçıvan, Şəki, Nuxa –Zaqatala , Qarabağ",
+      "Quba, Qusar, Mərkəzi Aran, Zaqatala",
+      "Şamaxı, Bakı, Gəncə, Quba"
+    ],
+    "correctAnswer": "Naxçıvan, Şəki, Nuxa –Zaqatala , Qarabağ"
+  },
+  {
+    "number": 229,
+    "question": "“Difai” partiyasının  şöbələrinin ən böyüyü harada yerləşirdi?",
+    "options": [
+      "Naxçıvanda",
+      "İrəvanda",
+      "Gəncədə",
+      "Şuşada",
+      "Bakıda"
+    ],
+    "correctAnswer": "Şuşada"
+  },
+  {
+    "number": 230,
+    "question": "“Difai” partiyasının yaranmasını zəruri etmişdi:",
+    "options": [
+      "17 oktyabr manifesti",
+      "milli burjuaziya və  ziyalıların tələbləri",
+      "”Müdafiə” partiyasının bağlanması",
+      "Azərbaycana muxtariyyət tələbi",
+      "Qarabağda , Naxçıvanda və İrəvanda baş vermiş qırğınlar"
+    ],
+    "correctAnswer": "Qarabağda , Naxçıvanda və İrəvanda baş vermiş qırğınlar"
+  },
+  {
+    "number": 231,
+    "question": "Birinci dünya müharibəsi ərəfəsində  Azərbaycan neftini ələ keçirmək uğrunda mübarizə aparan dövlətlər ?",
+    "options": [
+      "Amerika, Fransa, Rusiya",
+      "Hollandiya, İsveç, Norveç",
+      "Rusiya, İsveç, Almaniya",
+      "İngiltərə, Fransa, Almaniya",
+      "İngiltərə, Portuqaliya, İspaniya"
+    ],
+    "correctAnswer": "İngiltərə, Fransa, Almaniya"
+  },
+  {
+    "number": 232,
+    "question": "“Həyat” qəzeti neçənci ildə nəşrə başladı?",
+    "options": [
+      "1906- cı ildə",
+      "1905- ci ildə",
+      "1902- ci ildə",
+      "1908-cı ildə",
+      "1903- cü ildə"
+    ],
+    "correctAnswer": "1905- ci ildə"
+  },
+  {
+    "number": 233,
+    "question": "1914-cü ildə Müəllimlər seminariyası açıldı:",
+    "options": [
+      "Şamaxıda",
+      "Şəkidə",
+      "Bakıda",
+      "Şuşada",
+      "Gəncədə"
+    ],
+    "correctAnswer": "Gəncədə"
+  },
+  {
+    "number": 234,
+    "question": "Bakıda milli eser təşkilatı olan “ İttifaq”  partiyası yaradılmışdı:",
+    "options": [
+      "1904- cü ildə",
+      "1905- ci ildə",
+      "1902- ci ildə",
+      "1903- cü ildə",
+      "1900- cü ildə"
+    ],
+    "correctAnswer": "1905- ci ildə"
+  },
+  {
+    "number": 235,
+    "question": "XX əsrin əvvəllərində Nuxada fəaliyyət göstərən ilk tənbəki fabriki məxsus olmuşdur?",
+    "options": [
+      "M. Babayevə",
+      "H. Z. Tağıyevə",
+      "S.Lətifova",
+      "M. H. Dadanova",
+      "M. Nağıyevə"
+    ],
+    "correctAnswer": "M. H. Dadanova"
+  },
+  {
+    "number": 236,
+    "question": "1917- ci ilin  yazında \"Hümmət\"dən ayrıldı:",
+    "options": [
+      "Musavat partiyası",
+      "İttihad partiyası",
+      "Ədalət partiyası",
+      "Qeyrət təşkilatı",
+      "Müdafiə təşkilatı"
+    ],
+    "correctAnswer": "Ədalət partiyası"
+  },
+  {
+    "number": 237,
+    "question": "Gəncədə Müəllimlər  seminariyası açıldı:",
+    "options": [
+      "1920-ci ildə",
+      "1914-cü ildə",
+      "1918-ci ildə",
+      "1917-ci ildə",
+      "1915-ci ildə"
+    ],
+    "correctAnswer": "1914-cü ildə"
+  },
+  {
+    "number": 238,
+    "question": "İlk  Azərbaycan filmi  olmuşdur:",
+    "options": [
+      "O olmasın, bu olsun",
+      "Neft və milyonlar səltənətində",
+      "Ər və arvad",
+      "Dəli Kür",
+      "Arşın mal alan"
+    ],
+    "correctAnswer": "Neft və milyonlar səltənətində"
+  },
+  {
+    "number": 239,
+    "question": "Azərbaycan kapitalisti H. Z. Tağıyevin “Kür – Xəzər” səhmdar cəmiyyəti təsis olunmuşdu?",
+    "options": [
+      "1905-ci ildə",
+      "1904-cü ildə",
+      "1900-cü ildə",
+      "1908-ci ildə",
+      "1910-cu ildə"
+    ],
+    "correctAnswer": "1904-cü ildə"
+  },
+  {
+    "number": 240,
+    "question": "1905- ci ilin yazında Azərbaycanın  liberal  ziyalılarının Rusiya  hökumətinə təqdim  etdiyi  petisiyada xüsusi yer ayrılmışdı: 1.Qafqazda  zemstvoların tətbiqinə Azərbaycana  muxtariyyətin  verilməsi məsələsinə 3.Rus dilində məktəblərin genişləndirilməsinə Müsəlmanlara demokratik  azadlıqların  verilməsinə",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 241,
+    "question": "\"Dildə , fikirdə və əməldə  birlik \" şüarının müəllifi idi:",
+    "options": [
+      "Fətəli  xan  Xoyski",
+      "Səməd Vurğun",
+      "Məhəmməd Əmin  Rəsulzadə",
+      "Ə. Topçubaşov",
+      "İsmayıl Qaspiralı"
+    ],
+    "correctAnswer": "İsmayıl Qaspiralı"
+  },
+  {
+    "number": 242,
+    "question": "Çar Rusiyasının II və III Dövlət Dumalarına deputat seçilmiş azərbaycanlı:",
+    "options": [
+      "Ə. Topçubaşov",
+      "X.Xasməmmədov",
+      "İ. Ziyadxanlı",
+      "F.Xoyski",
+      "C. M. Şaxtaxtinski"
+    ],
+    "correctAnswer": "X.Xasməmmədov"
+  },
+  {
+    "number": 243,
+    "question": "Difai partiyasına aiddir: 1.Möhüründə iki qılınc , aypara və ulduz təsviri var idi \"İrşad\" qəzetində erməni fitnəkarlığının və çar hökumətinin niyyətlərini açiq şəkildə xalqa çatdırmışdı 3. Vahid milli təşkilata çevrilə  bilməmişdi 1909 - cu ildə fəaliyyətini müvəqqəti dayandırmışdı 5.1917- ci ildə  I qurultayı keçirilmişdi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 244,
+    "question": "Siyasi partiyaların yaranmasının ardıcıllığını müəyyən edin:1.Difai 2.Hümmət 3.Müdafiə 4.Musavat 5.Ədalət",
+    "options": [
+      "2,1,3,4,5",
+      "5,2,3,4,1",
+      "4,2,5,1,3",
+      "3,1,2,4,5",
+      "1,2,5,4,3"
+    ],
+    "correctAnswer": "2,1,3,4,5"
+  },
+  {
+    "number": 245,
+    "question": "XX əsrin əvvəllərində dünya iqtisadi böhranının Azərbaycan iqtisadiyyatına təsiri nəticəsində: 1. İri neft şirkətləri ləğv edildi Xırda müəssisələr iflasa uğradı və sayı azaldı 3. Neft və neft məhsullarının satışı azaldı Yeni neft quyularının qazılması prosesi gücləndi 5. Neft sənayesində istehsalın təmərküzləşməsi prosesi gücləndi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 246,
+    "question": "Rusiyanın  federativ quruluşunda  Azərbaycana ilk dəfə  muxtariyyət verilməsini tələb edən partiya idi:",
+    "options": [
+      "Müdafiə",
+      "Kadet",
+      "Difai",
+      "Qeyrət",
+      "Musavat"
+    ],
+    "correctAnswer": "Qeyrət"
+  },
+  {
+    "number": 247,
+    "question": "1908 - ci ildə bağlanmış “Difai”  təşkilatının üzvləri hansı partiyanın sıralarına qoşuldular?",
+    "options": [
+      "Musavat",
+      "Hümmət",
+      "Kadet",
+      "Müdafiə",
+      "Qeyrət"
+    ],
+    "correctAnswer": "Musavat"
+  },
+  {
+    "number": 248,
+    "question": "XX əsrin əvvəllərində  Şimali Azərbaycanda ilk su elektrik stansiyası yaradılmışdı:",
+    "options": [
+      "Gümüşlüdə",
+      "Daşkəsəndə",
+      "Qabaqçöldə",
+      "Qalakənddə",
+      "Mehmanada"
+    ],
+    "correctAnswer": "Qalakənddə"
+  },
+  {
+    "number": 249,
+    "question": "1902 – ci ildə Məhəmməd Əmin Rəsulzadənin rəhbərliyi ilə yaradılmışdı?",
+    "options": [
+      "Müdafiə təşkilatı",
+      "Hümmət partiyası",
+      "Müsəlman gənclik təşkilatı",
+      "Difai partiyası",
+      "Qeyrət partiyası"
+    ],
+    "correctAnswer": "Müsəlman gənclik təşkilatı"
+  },
+  {
+    "number": 250,
+    "question": "Bakı və Tiflis şəhəri arasında birbaşa teleqraf xətti çəkilmişdi:",
+    "options": [
+      "1909-cu ildə",
+      "1901-ci ildə",
+      "1906-cı ildə",
+      "1914-cü ildə",
+      "1912-ci ildə"
+    ],
+    "correctAnswer": "1912-ci ildə"
+  },
+  {
+    "number": 251,
+    "question": "Fəaliyyəti  Azərbaycanın Qərb qəzalarını ,eləcə də Borçalı ərazisini əhatə edən partiya?",
+    "options": [
+      "Hümmət",
+      "Müdafiə",
+      "Musavat",
+      "Difai",
+      "Qeyrət"
+    ],
+    "correctAnswer": "Müdafiə"
+  },
+  {
+    "number": 252,
+    "question": "Şimali Azərbaycanda komendant idarə üsulu zamanı mövcud olmuş dairələr:",
+    "options": [
+      "Car-Balakən və Yelizavetpol",
+      "Bakı və Quba",
+      "Şəki və Qarabağ",
+      "Talış və Car-Balakən",
+      "Qazax və Şəmşədil"
+    ],
+    "correctAnswer": "Car-Balakən və Yelizavetpol"
+  },
+  {
+    "number": 253,
+    "question": "1838-ci ildə Şəki üsyanına rəhbərlik edib:",
+    "options": [
+      "Yarəli",
+      "Hacı Məhəmməd",
+      "Mustafa xan",
+      "Səlim xan",
+      "Məşədi Məhəmməd"
+    ],
+    "correctAnswer": "Məşədi Məhəmməd"
+  },
+  {
+    "number": 254,
+    "question": "Ermənilərin köçürülməsi nəticəsində Azərbaycanın hansı  ərazilərinin etnik tərkibi dəyişdi?",
+    "options": [
+      "Xoy, Göyçə, Borçalı",
+      "Marağa, İrəvan, Naxçıvan",
+      "Qarabağ, Şirvan, Talış",
+      "Qarabağ, Naxçıvan, İrəvan",
+      "Zəngəzur, Naxçıvan, Mərənd"
+    ],
+    "correctAnswer": "Qarabağ, Naxçıvan, İrəvan"
+  },
+  {
+    "number": 255,
+    "question": "1830-cu il Car-Balakən üsyanının nəticəsidir",
+    "options": [
+      "Komendant idarə üsulu ləğv edildi",
+      "Hərbi idarə ləğv edildi",
+      "Keşkəl torpaq sahibliyi ləğv edildi",
+      "Məğlub oldu",
+      "Təhkimçilik ləğv edildi"
+    ],
+    "correctAnswer": "Məğlub oldu"
+  },
+  {
+    "number": 256,
+    "question": "Aşağıdakı Quberniyalardan hansı daha əvvəl yaradılmışdı?",
+    "options": [
+      "Şamaxı",
+      "Bakı",
+      "Gəncə",
+      "İrəvan",
+      "Naxçıvan"
+    ],
+    "correctAnswer": "Şamaxı"
+  },
+  {
+    "number": 257,
+    "question": "Şimali Azərbaycanda komendatlara aiddir:",
+    "options": [
+      "Ölüm hökmü verə bilərdilər",
+      "Yerlərdə mütləq hakim hesab olunurdular",
+      "Quberniyaları idarə edirdilər",
+      "Əyalət və dairələri idarə edə bilməzdilər",
+      "Duma tərəfindən seçilirdilər"
+    ],
+    "correctAnswer": "Yerlərdə mütləq hakim hesab olunurdular"
+  },
+  {
+    "number": 258,
+    "question": "1846-1847-ci illər aqrar qanunları mülkiyyət hüquqlarının bərpasına istiqamətlənmişdi:",
+    "options": [
+      "Bəy və ağaların",
+      "Yerli əhalinin",
+      "Kəndlilərin",
+      "Maldarların",
+      "Elatların"
+    ],
+    "correctAnswer": "Bəy və ağaların"
+  },
+  {
+    "number": 259,
+    "question": "1846-cı il 6 dekabr reskriptinə görə:",
+    "options": [
+      "Hər bir kəndliyə 5 desyatin torpaq payıın verildi",
+      "Bəy və ağaların torpaq üzərində xüsusi mülkiyyət hüququ təsdiq edildi",
+      "Təhkimçiliyin ləğvi",
+      "Dövlət kəndlilər vergilərdən azad edildi",
+      "Sahibkar kəndlilər vergilərdən azad edildi"
+    ],
+    "correctAnswer": "Bəy və ağaların torpaq üzərində xüsusi mülkiyyət hüququ təsdiq edildi"
+  },
+  {
+    "number": 260,
+    "question": "Azərbaycanda ilk ipək emalı müəssisəsi fəaliyyət göstərirdi:",
+    "options": [
+      "Mahmudabadda",
+      "Niyaziabadda",
+      "Cəfərabadda",
+      "Xanabadda",
+      "Şahabadda"
+    ],
+    "correctAnswer": "Xanabadda"
+  },
+  {
+    "number": 261,
+    "question": "XIX əsrdə Azərbaycan dramaturgiyasının əsasını qoymuşdu:",
+    "options": [
+      "M. Ə. Axundov",
+      "Mir Möhsün Nəvvab",
+      "N. Vəzirov",
+      "Ə.Haqverdiyev",
+      "N. Nərimanov"
+    ],
+    "correctAnswer": "M. Ə. Axundov"
+  },
+  {
+    "number": 262,
+    "question": "XIX əsrin II yarısında Şimali Azərbaycan kəndliləri bölünürdü:",
+    "options": [
+      "Rəncbər və rəiyyət",
+      "Sahibkar və dövlət kəndliləri",
+      "Rəncbər və kəsbikar",
+      "Qərib və əkər",
+      "Rəncbər və xoşnişin"
+    ],
+    "correctAnswer": "Sahibkar və dövlət kəndliləri"
+  },
+  {
+    "number": 263,
+    "question": "1819-1826 – cı illərdə keçmiş xanlıq və sultanlıqlar çevrildi:",
+    "options": [
+      "Kəndlərə",
+      "Nahiyələrə",
+      "Mahallara",
+      "Qəzalara",
+      "Əyalət və dairələrə"
+    ],
+    "correctAnswer": "Əyalət və dairələrə"
+  },
+  {
+    "number": 264,
+    "question": "XIX yüzilliyin birinci yarısında Şimali Azərbaycanda ən böyük üsyan baş verdi:",
+    "options": [
+      "Şəkidə",
+      "Gəncədə",
+      "Qubada",
+      "Bakıda",
+      "Şamaxıda"
+    ],
+    "correctAnswer": "Qubada"
+  },
+  {
+    "number": 265,
+    "question": "1801-ci ildə Şərqi Gürcüstan ilə birlikdə Rusiyaya birləşdirildi.",
+    "options": [
+      "Şəki xanlığı",
+      "Qazax və Şəmşəddil sultanlıqları",
+      "Gəncə xanlığı",
+      "Bakı xanlığı",
+      "Car-Balakən camaatlığı"
+    ],
+    "correctAnswer": "Qazax və Şəmşəddil sultanlıqları"
+  },
+  {
+    "number": 266,
+    "question": "1804-cü ilə aiddir:",
+    "options": [
+      "“Andlı öhdəlik” imzalanması",
+      "Türkmənçay müqaviləsi",
+      "Kürəkçay müqaviləsinin bağlanması",
+      "Aslandüz döyüşü",
+      "Gəncə xanlığının ləğv edilməsi"
+    ],
+    "correctAnswer": "Gəncə xanlığının ləğv edilməsi"
+  },
+  {
+    "number": 267,
+    "question": "Rusiya ilə 1805 – ci il mayın 14 –də müqavilə imzalamışdı:",
+    "options": [
+      "Car-Balakən xanlığı",
+      "Şəki xanlığı",
+      "Gəncə xanlığı",
+      "Bakı xanlığı",
+      "Qarabağ xanlığı"
+    ],
+    "correctAnswer": "Qarabağ xanlığı"
+  },
+  {
+    "number": 268,
+    "question": "Rus işğalından sonra Yelizavetpol adlanmağa başladı:",
+    "options": [
+      "Bakı şəhəri",
+      "Gəncə şəhəri",
+      "Şuşa şəhəri",
+      "Quba şəhəri",
+      "Dərbənd şəhəri"
+    ],
+    "correctAnswer": "Gəncə şəhəri"
+  },
+  {
+    "number": 269,
+    "question": "1806-cı ildə baş vermişdir:",
+    "options": [
+      "Gəncə xanlığının ləğvi",
+      "Kürəkçay müqaviləsinin imzalanması",
+      "Sisianovun öldürülməsi",
+      "Gülüstan müqaviləsinin imzalanması",
+      "Qanıx döyüşü"
+    ],
+    "correctAnswer": "Sisianovun öldürülməsi"
+  },
+  {
+    "number": 270,
+    "question": "1805-ci ildə Rusiya ilə ilk dəfə Kürəkçay müqaviləsini imzalayan xan:",
+    "options": [
+      "Hüseynqulu xan",
+      "Mustafa xan",
+      "Səlim xan",
+      "Cavad xan",
+      "İbrahimxəlil xan"
+    ],
+    "correctAnswer": "İbrahimxəlil xan"
+  },
+  {
+    "number": 271,
+    "question": "1805-ci il mayın 21-də Rusiya ilə müqavilə imzaladı:",
+    "options": [
+      "Mustafa xan",
+      "Cavad xan",
+      "İbrahimxəlil xan",
+      "Hüseynqulu xan",
+      "Səlim xan"
+    ],
+    "correctAnswer": "Səlim xan"
+  },
+  {
+    "number": 272,
+    "question": "1805-ci il 25 dekabrda Rusiyaya birləşdirilmiş xanlıq:",
+    "options": [
+      "Quba xanlığı",
+      "Şirvan xanlığı",
+      "Bakı xanlığı",
+      "Şəki xanlığı",
+      "Qarabağ xanlığı"
+    ],
+    "correctAnswer": "Şirvan xanlığı"
+  },
+  {
+    "number": 273,
+    "question": "Bağlanmış müqaviləyə əsasən hər il Rusiya xəzinəsinə 8 min çervon xərac verməyi öz öhdəsinə götürən xanlığı müəyyən edin:",
+    "options": [
+      "Bakı xanlığı",
+      "Quba xanlığı",
+      "Qarabağ xanlığı",
+      "Şəki xanlığı",
+      "Şirvan xanlığı"
+    ],
+    "correctAnswer": "Qarabağ xanlığı"
+  },
+  {
+    "number": 274,
+    "question": "1804-cü il 3 yanvarda işğal edildi:",
+    "options": [
+      "Gəncə",
+      "Dərbənd",
+      "Bakı",
+      "Şuşa",
+      "Şəmsəddil"
+    ],
+    "correctAnswer": "Gəncə"
+  },
+  {
+    "number": 275,
+    "question": "Kürəkçay müqaviləsinə görə Rusiyaya birləşdirilən xanlıqlar:",
+    "options": [
+      "Dərbənd, Şəki",
+      "Gəncə, Bakı",
+      "Qarabağ, Dərbənd",
+      "Şəki, İrəvan",
+      "Qarabağ, Şəki"
+    ],
+    "correctAnswer": "Qarabağ, Şəki"
+  },
+  {
+    "number": 276,
+    "question": "XIX əsrin 80 - ci illərində mətbuatda ilk dəfə \"Azərbaycan milləti\" ifadəsini işlətmiş qəzet necə adlanırdı:",
+    "options": [
+      "Əkinçi",
+      "Azərbaycan",
+      "Kəşkül",
+      "Açıq söz",
+      "İşıq"
+    ],
+    "correctAnswer": "Kəşkül"
+  },
+  {
+    "number": 277,
+    "question": "1853-cü ildə dövlət kəndlilərinin hansı hüququ ləğv edildi:",
+    "options": [
+      "Muzdlu əməkdən istifadə etmək",
+      "Torpağa sahib çıxmaq",
+      "Bir kənddən başqa kəndə köçmək",
+      "İcmada yaşamaq",
+      "Birgə əmək fəaliyyəti"
+    ],
+    "correctAnswer": "Bir kənddən başqa kəndə köçmək"
+  },
+  {
+    "number": 278,
+    "question": "1852-ci ildə Şimali Azərbaycanda tətbiq edilən yeni vergi sisteminə əsasən dövlət kəndliləri:",
+    "options": [
+      "\"Həyat vergisi\" ödəməli idilər",
+      "Çöpbaşı ödəməli idilər",
+      "Bütün vergi və mükəlləfiyyətlərdən azad idilər",
+      "Vergiləri xəzinəyə pulla ödəməli idilər",
+      "Vergiləri məhsulla ödəməli idilər"
+    ],
+    "correctAnswer": "Vergiləri xəzinəyə pulla ödəməli idilər"
+  },
+  {
+    "number": 279,
+    "question": "1806-ci ildə hansı ərazilərdə ruslara qarşı baş vermiş üsyanlar yatırıldı?1.Çar-Balakəndə  2.Lənkəranda 3.İrəvanda 4.Şəkidə",
+    "options": [
+      "2.3",
+      "3.4",
+      "1.4",
+      "1.3",
+      "1.2"
+    ],
+    "correctAnswer": "1.4"
+  },
+  {
+    "number": 280,
+    "question": "1806-cı ildə hansı şəhərlər ruslar tərəfindən işğal edildi? 1.Şuşa 2.Dərbənd 3.Gəncə   4.Bakı 5.Şamaxı",
+    "options": [
+      "4.5",
+      "2.4",
+      "1.2",
+      "3.4",
+      "1.3"
+    ],
+    "correctAnswer": "2.4"
+  },
+  {
+    "number": 281,
+    "question": "1806 –cı ilin yayında Şəkidə Rusiyaya qarşı üsyanın başlanmasına səbəb oldu:",
+    "options": [
+      "Vergilərin artırılması",
+      "Hacı xanın edam edilməsi",
+      "İbrahimxəlil xanın ailəsi ilə birgə öldürülməsi",
+      "Səlim xanın hakimiyyətdən kənarlaşdırılması",
+      "Ermənistanın Ərazi iddiaları"
+    ],
+    "correctAnswer": "İbrahimxəlil xanın ailəsi ilə birgə öldürülməsi"
+  },
+  {
+    "number": 282,
+    "question": "Gülüstan müqaviləsi üçün səciyyəvi deyil:",
+    "options": [
+      "Azərbaycanın bölüşdürülməsinin I mərhələsinin bitməsi",
+      "Naxçıvan və İrəvan xanlıqlarının Rusiyaya birləşdirilməsi",
+      "Rusiya ilə İran arasında imzalanması",
+      "1813-cü ildə imzalanması",
+      "Antihumanist və zorakı olması"
+    ],
+    "correctAnswer": "Naxçıvan və İrəvan xanlıqlarının Rusiyaya birləşdirilməsi"
+  },
+  {
+    "number": 283,
+    "question": "1840-cı illərdə Cənubi Qafqazda həyata keçirilmiş inzibati islahatın nəticələrindəndir:",
+    "options": [
+      "Canişinlik ləğv edildi",
+      "Komendant idarə üsulu yenidən təşkil edildi",
+      "Bütün quberniya və qəzalar ləğv edildi",
+      "Yerli imtiyazlı məmurların hüquq və imtiyazları əllərindən alındı",
+      "“Ali müsəlman silki ”ni hüquqları artırıldı"
+    ],
+    "correctAnswer": "Yerli imtiyazlı məmurların hüquq və imtiyazları əllərindən alındı"
+  },
+  {
+    "number": 284,
+    "question": "Azərbaycanda milli teatrın yaranması neçənci ildə və hansı əsərin tamaşaya qoyulması ilə başlanmışdır:",
+    "options": [
+      "Ə.Haqverdiyevin \"Dağılmış tifaq\" əsəri ilə",
+      "1878- ci ildə N.Vəzirovun \"Müsibəti Fəxrəddin \" tamaşası ilə",
+      "1873- cü ildə M.F. Axundovun \"Sərgüzəşti-vəziri xan Lənkəran\" komediyası ilə",
+      "1893- cü ildə C. Məmmədquluzadənin \"Ölülər \" komediyası ilə",
+      "1898- ci ildə N.Nərimanovun \"Nadir şah\" əsəri ilə"
+    ],
+    "correctAnswer": "1873- cü ildə M.F. Axundovun \"Sərgüzəşti-vəziri xan Lənkəran\" komediyası ilə"
+  },
+  {
+    "number": 285,
+    "question": "Bakı xanlığı Rusiyaya tabe edildi:",
+    "options": [
+      "1806- cı ildə",
+      "1802- ci ildə",
+      "1804- cü ildə",
+      "1803- cü ildə",
+      "1801- ci ildə"
+    ],
+    "correctAnswer": "1806- cı ildə"
+  },
+  {
+    "number": 286,
+    "question": "I Şah Abbasın XVII əsrin əvvəlində osmanlılara qarşı apardığı   4 il davam edən ( 1603-1607-ci illər) müharibə  nə ilə  nəticələndi?",
+    "options": [
+      "Səfəvilər birinci mərhələdə Ərdəbil, Meşkin, Qaracadağa sahib oldular",
+      "Cənubi Azərbaycan səfəvilərin əlinə keçmişdi",
+      "Səfəvilərin tam qələbəsi ilə başa çatdı",
+      "Şimali Azərbaycan və Cənubi Azərbaycan,  bütün Dağıstan osmanlılarda qaldı",
+      "I Şah Abbas Bağdad daxil olmaqla Ərəb İraqına nail oldu"
+    ],
+    "correctAnswer": "Səfəvilərin tam qələbəsi ilə başa çatdı"
+  },
+  {
+    "number": 287,
+    "question": "1768- ci ildə Şamaxı xanlığını məğlub edərək öz aralarında bölüşdürən xanlıqlar:",
+    "options": [
+      "Şəki, Quba",
+      "Quba , Qarabağ",
+      "Gəncə, Şəki",
+      "Bakı , Dərbənd",
+      "Qarabağ Gəncə"
+    ],
+    "correctAnswer": "Şəki, Quba"
+  },
+  {
+    "number": 288,
+    "question": "Xanlıqlar dövründə xan ailəsinə  məxsus torpaqlar necə adlanırdı?",
+    "options": [
+      "divan",
+      "Tiyul",
+      "mülk",
+      "Xalisə",
+      "Vəqf"
+    ],
+    "correctAnswer": "Xalisə"
+  },
+  {
+    "number": 289,
+    "question": "Quba və Şəki xanlığının birləşmiş qüvvələri neçənci ildə Şirvan ərazisinə hücuma keçdilər?",
+    "options": [
+      "1769",
+      "1762",
+      "1760",
+      "1768",
+      "1766"
+    ],
+    "correctAnswer": "1768"
+  },
+  {
+    "number": 290,
+    "question": "Paytakaran vilayətinin  başçısı  Sanatürkün Armeniyaya  yürüşü  baş  vermişdir",
+    "options": [
+      "336- cı ildə",
+      "337- ci ildə",
+      "371- ci ildə",
+      "340 – cı ildə",
+      "330- cu ildə"
+    ],
+    "correctAnswer": "337- ci ildə"
+  },
+  {
+    "number": 291,
+    "question": "Səlcuq hökmdarı  Sultan Mahmudun Şirvana hücumu nə zaman baş vermişdi:",
+    "options": [
+      "1123- cü ildə",
+      "1125- ci ildə",
+      "1120- ci ildə",
+      "1130- cu ildə",
+      "1121- ci ildə"
+    ],
+    "correctAnswer": "1123- cü ildə"
+  },
+  {
+    "number": 292,
+    "question": "Ağqoyunlu Həsən padşahın \"Qanunnamə\"  hazırlatmaqda məqsədi: 1.Vergi toplanmasını nizamlamaq Soyurqal torpaq mülkiyyətini məhdudlaşdırmaq 3.Dövləti iqtisadi və siyasi cəhətdən gücləndirmək Rəiyyət üzərində tamğa vergisinin tətbiqini rəsmləşdirmək",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 293,
+    "question": "Rəvvadilər dövləti səlcuqların vassallığını qəbul etməyə məcbur oldu?",
+    "options": [
+      "1055-ci ildə",
+      "1227-ci ildə",
+      "1064-ci ildə",
+      "1054-cü ildə",
+      "1037-ci ildə"
+    ],
+    "correctAnswer": "1054-cü ildə"
+  },
+  {
+    "number": 294,
+    "question": "Ərəblər Albaniyanin müstəqilliyinə son qoydular:",
+    "options": [
+      "681-ci ildə Cavanşirin ölümündən sonra",
+      "704-ci ildə Varaz-Trdatın öldürülməsi ilə",
+      "Hilat şəhəri yaxınlığında xəzərləri məğlub etməklə",
+      "705-ci ildə alban hakimi Şeruyə və ona yaxın adamların öldürülməsi ilə",
+      "Xəzərlərdən kömək almaqla VIII əsrin əvvəllərində"
+    ],
+    "correctAnswer": "705-ci ildə alban hakimi Şeruyə və ona yaxın adamların öldürülməsi ilə"
+  },
+  {
+    "number": 295,
+    "question": "Azərbaycanda toxa əkinşiliyi xış əkinçiliyi ilə əvəz olunub:",
+    "options": [
+      "Neolit dövründə",
+      "Erkən Tunc dövründə",
+      "Mezolit dövründə",
+      "Paleolit dövründə",
+      "Son Tunc və İlk Dəmir dövründə"
+    ],
+    "correctAnswer": "Erkən Tunc dövründə"
+  },
+  {
+    "number": 296,
+    "question": "Azərbaycanda birinci böyük ictimai əmək bölgüsü baş verib?",
+    "options": [
+      "Antik dövrdə",
+      "Neolit dövründə",
+      "Eneolit dövründə",
+      "Erkən Tunc dövründə",
+      "Erkən  orta əsrlərdə"
+    ],
+    "correctAnswer": "Erkən Tunc dövründə"
+  },
+  {
+    "number": 297,
+    "question": "Şah I Abbasın islahatlarına aiddir: 1.Qoşun tayfa müxtəlifliyi prinsipi  əsasında təşkil edildi Ordunun formalaşması tayfa prinsipi əsasında aparıldı 3.Qızılbaşlara təkbaşına silah gəzdirmək qadağan olundu Avropa qoşunu əsasında müxtəlif dərəcəli qoşun növü yaradıldı 5.Tayfa çəkişmələrinə son qoymaq məqsədilə orduda irsilik prinsipi ləğv edilərək bu vəzifəni şahın rəğbətini qazamış şəxslər tutdu",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 298,
+    "question": "Şah I İsmayılın daxili siyasətinin əsas istiqamətləribndən biri:",
+    "options": [
+      "Feodalların iqtisadi qüdrətini sarsıtmaq",
+      "Müharibələrdən əldə edilən gəlirləri iqtisadiyata yönəltmək",
+      "Dövlətin şimal sərhədlərinin təhlükəsizliyini təmin etmək",
+      "Tamğa və bac vergisini ləğv etmək",
+      "Mərkəzləşmiş dövlət yaratmaq"
+    ],
+    "correctAnswer": "Mərkəzləşmiş dövlət yaratmaq"
+  },
+  {
+    "number": 299,
+    "question": "Ağqoyunlu dövlətinin bölünməsinə səbəb oldu:",
+    "options": [
+      "Baysanqur ilə Rüstəm padşah arasında mübarizənin başlaması",
+      "Yaqub padşahın  vəfat etməsi",
+      "Murad Mirzə və Əlvənd Mirzə arasında hakimiyyət uğrunda mübarizənin başlanması",
+      "Şirvanşahlar və Ərdəbil hakimliyinin müstəqil siyasət yeritməsi",
+      "Osmanlı dövlətinin Əhməd padşahı hakimiyyəti ələ almaq üçün göndərməsi"
+    ],
+    "correctAnswer": "Murad Mirzə və Əlvənd Mirzə arasında hakimiyyət uğrunda mübarizənin başlanması"
+  },
+  {
+    "number": 300,
+    "question": "Ağqoyunlu tayfa birliyinin əsasını  qoymuşdu:",
+    "options": [
+      "Cahangir Mirzə",
+      "Pəhləvan bəy",
+      "Həsən bəy",
+      "Qara Yulluq Osman bəy",
+      "Əli bəy"
+    ],
+    "correctAnswer": "Pəhləvan bəy"
+  },
+  {
+    "number": 301,
+    "question": "1472- ci ildə Həsən bəy Osmanlı dövlətinə qarşı hərbi ittifaq yaratmışdı:",
+    "options": [
+      "Macarıstanla",
+      "Portuqaliya ilə",
+      "Roma ilə",
+      "Venesiya ilə",
+      "Polşa ilə"
+    ],
+    "correctAnswer": "Venesiya ilə"
+  },
+  {
+    "number": 302,
+    "question": "Ağqoyunlu- Osmanlı münasibətlərini daha da gərginləşdirdi:",
+    "options": [
+      "Trabzon imperiyasının Osmanlı ilə yaxınlaşması",
+      "II Mehmetin Trabzon üzərinə yürüş etməsi",
+      "Həsən bəyin Teymurilər ilə yaxınaşması",
+      "Venesiya  ilə sultan II Mehmet arasıda ittifaqın yaranması",
+      "Genuya şəhər dövləti ilə Həsən bəy arasında ittifaqın yaranması"
+    ],
+    "correctAnswer": "II Mehmetin Trabzon üzərinə yürüş etməsi"
+  },
+  {
+    "number": 303,
+    "question": "1492- ci ildə baş vermiş Bərdə döyüşünün nəticəsi :",
+    "options": [
+      "Rüstəm Mirzə Baysanqurla birlikdə Əhməd padşahı məğlub etdi",
+      "Baysanqur qalib gələrək Ağqoyunlu taxtını ələ keçirdi",
+      "Rüstəm padşah Baysanquru məğlub edərək hakimiyyəti ələ aldı",
+      "Yaqub Mirzə taxt- tac üzərində  mübarizədə qələbə qazandı",
+      "Ağqoyunlu Rüstəm padşah məğlub olaraq mübarizəni dayandırdı"
+    ],
+    "correctAnswer": "Rüstəm padşah Baysanquru məğlub edərək hakimiyyəti ələ aldı"
+  },
+  {
+    "number": 304,
+    "question": "Qara Məhəmmədin fəaliyyəti dövrünə aid olanları müəyyən edin: 1.Cəlari Sultan Əhmədlə qohumluq əlaqəsi yaratmışdı Mərkəzləşmiş dövlət yaratmağa çalışırdı 3.Azərbaycan və Təbriz uğrunda mübarizəyə qoşulmuşdu Şirvanşahlar dövləti ilə dostluq əlaqəsi saxlamışdı 5.Qaraqoyunlu bəyliyini möhkəmləndirmişdi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 305,
+    "question": "Monqollar Azərbaycanın işğalını başa çatdırdı:",
+    "options": [
+      "Dərbəndin tutulması ilə",
+      "Marağanın tutlması ilə",
+      "Şamaxının tutulması ilə",
+      "Bakının tutulması ilə",
+      "Təbrizin tutulması ilə"
+    ],
+    "correctAnswer": "Dərbəndin tutulması ilə"
+  },
+  {
+    "number": 306,
+    "question": "1239-1256 - cı  illərdə Azərbaycan və CənubiQafqaz idarə olunurdu:",
+    "options": [
+      "Ali Monbqol Xaqanlığının canişinləri  tərəfindən",
+      "Monqol canişinlərin təyin etdiyi kiçik feodallar tərəfindən",
+      "Monqol canişinlərinin təyin etdiyi noyonlar  tərəfindən",
+      "Yerli hakimlər tərəfindən",
+      "Atabəylərin qulamları  tərəfindən"
+    ],
+    "correctAnswer": "Ali Monbqol Xaqanlığının canişinləri  tərəfindən"
+  },
+  {
+    "number": 307,
+    "question": "IX əsrdə Dərbənddən Kür çayınadək Xəzər dənizi sahillərindəki Azərbaycan torpaqlarını əhatə edirdi",
+    "options": [
+      "Şəddadilər",
+      "Sacilər",
+      "Şirvanşahlar",
+      "Rəvvadilər",
+      "Salarilər"
+    ],
+    "correctAnswer": "Şirvanşahlar"
+  },
+  {
+    "number": 308,
+    "question": "Yusif ibn Əbu Sacın hakimiyyəti dövrünə aid deyil:",
+    "options": [
+      "Dövlətin sərhədlərini möhkəmləndirmək üçün Dərbənd səddini təmir etməsi",
+      "Qanunnamə qəbul etməsi",
+      "Maliyyə və vergi  sahəsində  tədbirlər həyata  keçirməsi",
+      "Azərbaycanın şimalındakı feodal hakimliklərini  asılı hala salınması",
+      "Türk sülalələrinin hakimiyyəti altında Azərbaycanı ilk dəfə vahid müstəqil dövlətdə  birləşdirməsi"
+    ],
+    "correctAnswer": "Qanunnamə qəbul etməsi"
+  },
+  {
+    "number": 309,
+    "question": "Mərzban ibn Məhəmmədin ölümündən sonra Salarilər dövləti üçün səciyyəvidir:",
+    "options": [
+      "Dövlətdə iqta torpaqlarının paylanılması dayandırıldı",
+      "Salarilər dövləti Səlcuqlardan asılı vəziyyətə düşdü",
+      "Oğulları ilə qardaşı arasında hakimiyyət uğrunda mübarizə başladı",
+      "Salarilər dövləti süqut etdi",
+      "Slavyanların ölkəyə hücumu müntəzəm xarakter aldı"
+    ],
+    "correctAnswer": "Oğulları ilə qardaşı arasında hakimiyyət uğrunda mübarizə başladı"
+  },
+  {
+    "number": 310,
+    "question": "Atropatena və Albaniyada  ellin- yunan mədəniyyəti yayılmışdır:",
+    "options": [
+      "Antoninin Şərqə yürüşü nəticəsində",
+      "Eramızın ilk əsrlərində",
+      "İskəndərin Şərqə  yürüşü nəticəsində",
+      "Midiyanın tərkibində olarkən",
+      "Əhəminilər dövlətinin dövründə"
+    ],
+    "correctAnswer": "İskəndərin Şərqə  yürüşü nəticəsində"
+  },
+  {
+    "number": 311,
+    "question": "Eramızın I əsrində Albaniyanı idarə edirdi:",
+    "options": [
+      "Yerli hökmdarlar",
+      "Parfiya canişini",
+      "Midiya canişıni",
+      "İberlər",
+      "Romalılar"
+    ],
+    "correctAnswer": "Yerli hökmdarlar"
+  },
+  {
+    "number": 312,
+    "question": "Azərbaycanda sasanilərlə xilafətin köçürmə siyasətində oxşar cəhətdir:",
+    "options": [
+      "Özlərinə etnik dayaq yaratmaq",
+      "Torpaqsız kəndliləri torpaqla təmin etmək",
+      "Azərbaycana türk axınının qarşısını almaq",
+      "xristianlara öz dinini qəbul etdirmək",
+      "yerli əhalini farslaşdırmaq"
+    ],
+    "correctAnswer": "Özlərinə etnik dayaq yaratmaq"
+  },
+  {
+    "number": 313,
+    "question": "Cavanşir xəzərlərin Albaniyaya qarətçi yürüşlərinə son qoymaq üçün :",
+    "options": [
+      "Sasanilərlə  ittifaq  bağladı",
+      "Sasani şahı ilə hərbi qüvvələrini birləşdirdi",
+      "Xəzər xaqanının qızı ilə evləndi",
+      "Səlcuq sultanı ilə  dostluq əlaqələri yarandı",
+      "Ərəb xəlifəsi Müaviyyə ilə sülh  bağladı"
+    ],
+    "correctAnswer": "Xəzər xaqanının qızı ilə evləndi"
+  },
+  {
+    "number": 314,
+    "question": "Məzdəkilər üsyanından fərqli  olaraq Xürrəmilər hərəkatı : 1.Ərəb əsarətinə qarşı mübarizə aparmışlar İri feodallara qarşı mübarizə aparırdılar 3.Azərbaycanı yadelli əsarətindən azad etməyə  çalışırdılar Xürrəmilər qalib gəldiyi halda, məzdəkilər məğlub olmuşdu",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 315,
+    "question": "Osmanlılara qarşı Ağqoyunlu və  Avropa dövlətləri arasında ittifaq quruldu:",
+    "options": [
+      "1476- cü ildə",
+      "1468- ci ildə",
+      "1461- ci ildə",
+      "1467- ci ildə",
+      "1472- ci ildə"
+    ],
+    "correctAnswer": "1472- ci ildə"
+  },
+  {
+    "number": 316,
+    "question": "1387-ci ildə baş vermiş Çapaqçur döyüşünün nəticəsi:",
+    "options": [
+      "Toxtamışın qoşunları I İbrahim tərəfindən məğlub edildi.",
+      "Qara Məhəmməd Əmir Teymurun qüvvələrini  məğlub etdi",
+      "Cəlairi qoşunlarının köməyi ilə Qara Yusif Teymurilərə qalib  gəldi",
+      "Teymurilər Ağqoyunluları məğlub etdilər.",
+      "Qara Məhəmməd Əmir Teymurla sülh müqaviləsi imzaladı."
+    ],
+    "correctAnswer": "Qara Məhəmməd Əmir Teymurun qüvvələrini  məğlub etdi"
+  },
+  {
+    "number": 317,
+    "question": "Albaniyada Mehranilər sülaləsinin hakimiyyətinə son qoyuldu:",
+    "options": [
+      "816- cı ildə",
+      "650-ci ildə",
+      "705-ci ildə",
+      "681- ci ildə",
+      "530- cu ildə"
+    ],
+    "correctAnswer": "705-ci ildə"
+  },
+  {
+    "number": 318,
+    "question": "Verilmiş cavabların hansı qubalı Fətəli  xanın Dərbəndi işğal siyasətini düzgün əks etdirir?",
+    "options": [
+      "Dərbənd hakiminin qızı ilə evləndi",
+      "Yerli əhalinin müqavimətinə rast gəldi",
+      "Quba  xanı şəhəri ələ keçirmək üçün digər azərbaycan  xanları ilə ittifaqa girdi",
+      "Dağıstan feodalları ilə saziş bağladı",
+      "Şəhər sənətkarları, kiçik feodal əyanlar və tacirlər onu müdafiə edirdi"
+    ],
+    "correctAnswer": "Dağıstan feodalları ilə saziş bağladı"
+  },
+  {
+    "number": 319,
+    "question": "Şeyx Əli xanın dövründə hansı xanlıqlar Quba xanlığının asılılığından çıxdılar?",
+    "options": [
+      "Şəki, Bakı, Şamaxı",
+      "Qarabağ,Ərdəbil, Bakı",
+      "Naxçıvan, Sərab,Şamaxı,",
+      "Salyan, Meşkin,Ərdəbil",
+      "Qaradağ, Şəki, Dərbənd"
+    ],
+    "correctAnswer": "Şəki, Bakı, Şamaxı"
+  },
+  {
+    "number": 320,
+    "question": "Məhəmmədhəsən xan Qacar neçənci ildə Qarabağa hücum  etmişdi?",
+    "options": [
+      "1780- ci ildə",
+      "1792- ci ildə",
+      "1751- ci ildə",
+      "1763- cü ildə",
+      "1762- ci ildə"
+    ],
+    "correctAnswer": "1751- ci ildə"
+  },
+  {
+    "number": 321,
+    "question": "Pənahəli xan  hansı Azərbaycan  xanlıqlarını  ələ keçirməyə  çalışırdı?",
+    "options": [
+      "Naxçıvan, Ərdəbil, Sərab, Quba",
+      "Şəki, Naxçıvan, Quba, Şamaxı",
+      "Şamaxı, Naxçıvan , Şəki , Xoy",
+      "Gəncə, İrəvan, Naxçıvan, Ərdəbil",
+      "Urmiya, Quba, Şəki, İrəvan"
+    ],
+    "correctAnswer": "Gəncə, İrəvan, Naxçıvan, Ərdəbil"
+  },
+  {
+    "number": 322,
+    "question": "1764- cü ildə İrəvanda tikilmiş  memarlıq abidəsi:",
+    "options": [
+      "Yeddi Günbəz  türbəsi",
+      "Şirvanşahlar sarayı",
+      "Göy məscid",
+      "Gülüstan qalası",
+      "Qarabağlar türbəsi"
+    ],
+    "correctAnswer": "Göy məscid"
+  },
+  {
+    "number": 323,
+    "question": "Xanlıqlar  dövründə şəhər inzibati idarəsinə kim rəhbərlik edirdi?",
+    "options": [
+      "əsnaf",
+      "Naib",
+      "kələntər",
+      "Darğa",
+      "Yasovul"
+    ],
+    "correctAnswer": "Naib"
+  },
+  {
+    "number": 324,
+    "question": "1.Azərbaycan torpaqlarının bir hissəsi azad edildi. 2.Azərbaycanın Kürdən cənubda yerləşən Xəzəryanı vilayətləri Səfəviimperatorluğuna qaytarıldı. 3.XVIII əsrin 30-cu illərində bağlanmış müqavilədir.Göstərilənlər aiddir:",
+    "options": [
+      "Nabur",
+      "Kirmanşah",
+      "İstanbul",
+      "Sankt-Peterburq",
+      "Rəşt"
+    ],
+    "correctAnswer": "Rəşt"
+  },
+  {
+    "number": 325,
+    "question": "1735-ci ildə baş vermiş hadisələri göstərin:1.Gəncə müqaviləsinə əsasən rusların Azərbaycan torpaqlarından çıxarılması 2.Osmanlı ilə Səfəvi arasında Kirmanşah müqaviləsinin imzalanması 3.Osmanlı ilə Səfəvi arasında Bağdad müqaviləsinin bağlanması 4.Osmanlı qoşunlarının Azərbaycan torpaqlarından çıxarılması",
+    "options": [
+      "2, 3",
+      "1, 2",
+      "1, 3",
+      "1, 4",
+      "2, 4"
+    ],
+    "correctAnswer": "1, 4"
+  },
+  {
+    "number": 326,
+    "question": "1. Xəzər sahilindəki vilayətlər istisna olmaqla Azərbaycanın demək olar ki, bütün ərazisi Osmanlıların hakimiyyəti altına keçdi2.Şirvanın Osmanlının himayəsində yarımmüstəqil xanlıq statusu təsdiq olundu. Göstərilənlər aiddir:",
+    "options": [
+      "1723-cü il Peterburq sülhünə görə",
+      "1639-cu il Qəsri-Şirin müqaviləsinə görə",
+      "1618-ci il Mərənd sülhünə görə",
+      "1724-cü il İstanbul müqaviləsinə görə",
+      "1555-ci il Amasiya müqaviləsinə görə"
+    ],
+    "correctAnswer": "1724-cü il İstanbul müqaviləsinə görə"
+  },
+  {
+    "number": 327,
+    "question": "1639-cu il Qəsri-Şirin sülhünün şərtləri. 1.Azərbaycan torpaqları Səfəvilərin tərkibində qalırdı 2.Ərəb İraqı Bağdad da daxil olmaqla Osmanlılara keçirdi 3.Azərbayca torpaqları iki dövlət arasında bölündü 4.Rusların tikdiyi Terek qalasının Osmanlılar tərəfindən dağıdılmasına Səfəvilər mane olmamalı idilər",
+    "options": [
+      "1, 3",
+      "1, 2",
+      "2, 3",
+      "3, 4",
+      "2, 4"
+    ],
+    "correctAnswer": "1, 2"
+  },
+  {
+    "number": 328,
+    "question": "XVIII əsrin əvvəllərində Azərbaycan Səfəvi dövlətinin tənəzülünün əlamətlərini göstərin: 1.Maliyyə və pul böhranı 2.Vergilərin artırılması nəticəsində tez-tez üsyan və çıxışların baş verməsi 3.Osmanlı ilə qarşıdurmanın yaranması 4.Hörmüzün portuqallar tərəfindən ələ keçirilməsi",
+    "options": [
+      "1, 2",
+      "1, 3",
+      "2, 3",
+      "2, 4",
+      "1, 4"
+    ],
+    "correctAnswer": "1, 2"
+  },
+  {
+    "number": 329,
+    "question": "I Pyotrun Azərbaycana 1722-1723-cü illər yürüşünün məqsədini göstərin: 1.Xəzərsahili vilayətləri ələ keçirmək 2.Şirvanı Osmanlı işğalından azad etmək 3.Bölgənin sərvətlərinə yiyələnmək və ticarətini ələ keçirmək 4.Əfqanlara qarşı mübarizədə Səfəvilərə köməklik göstərmək",
+    "options": [
+      "2, 4",
+      "2, 3",
+      "1, 4",
+      "1, 3",
+      "3, 4"
+    ],
+    "correctAnswer": "1, 3"
+  },
+  {
+    "number": 330,
+    "question": "Göstərilən şərtlər hansı müqaviləyə aiddir: 1.İrəvan, Gəncə, Şirvan torpaqları Osmanlıda qaldı və Araz çayı iki dövlət arasında sərhədelan olundu 2.Kirmanşah, Həmədan, Ərdəbil və Təbriz Səfəvilərə qaytarıldı",
+    "options": [
+      "1733-cü il Bağdad müqaviləsinə:",
+      "1724-cü il İstanbul sülh müqaviləsinə",
+      "1732-ci il Rəşt müqaviləsinə",
+      "1732-ci il Kirmanşah sülh müqaviləsinə",
+      "1727-ci il Nabur sülhünə"
+    ],
+    "correctAnswer": "1732-ci il Kirmanşah sülh müqaviləsinə"
+  },
+  {
+    "number": 331,
+    "question": "I Şah Abbas keçirdiyi hərbi-inzibati islahatlara aiddir:1.Paytaxtın Təbrizdən Qəzvinə köçürülməsi 2.Qızılbaşlarla bərabər başqa tayfalara da qoşuna daxil olmaq hüququnun verilməsi 3.Tayfa başçılığında irsilik qaydasının tətbiq edilməsi 4.Qoşunun tayfa müxtəlifliyi prinsipi əsasında təşkil edilməsi",
+    "options": [
+      "1, 4",
+      "2, 4",
+      "3, 4",
+      "1, 3",
+      "1, 2"
+    ],
+    "correctAnswer": "2, 4"
+  },
+  {
+    "number": 332,
+    "question": "Şah I İsmayılın fəthlərinin xronoloji ardıcıllığını müəyyən edin:1. İsfahan 2. Şiraz 3. Xorasan 4. İraqi-Ərəb",
+    "options": [
+      "2, 1, 4, 3",
+      "4, 1, 3, 2",
+      "1, 2, 3, 4",
+      "2, 1, 3, 4",
+      "1, 2, 4, 3"
+    ],
+    "correctAnswer": "2, 1, 4, 3"
+  },
+  {
+    "number": 333,
+    "question": "Xronoloji ardıcıllığı göstərin:1.Şərur döyüşü 2.Cabanı döyüşü 3.Çaldıran döyüşü",
+    "options": [
+      "2, 3, 1",
+      "3, 2, 1",
+      "3, 1, 2",
+      "2, 1, 3",
+      "1, 2, 3"
+    ],
+    "correctAnswer": "2, 1, 3"
+  },
+  {
+    "number": 334,
+    "question": "I Şah İsmayılın hakimiyyəti dövrünə aid olan hadisələri göstərin:1. Amasiya sülhünün bağlanması 2. Mərv döyüşündə Şeybanilər üzərində qələbə qazanılması 3. Bütün Azərbaycan torpaqlarının vahid dövlətdə birləşdirilməsi 4. Həmədan yaxınlığındakı Almaqulağı adlı yerdə Ağqoyunlu Murad Mirzə üzərində qələbə qazanılması",
+    "options": [
+      "3, 4",
+      "2, 3",
+      "1, 3",
+      "1, 2",
+      "2, 4"
+    ],
+    "correctAnswer": "2, 4"
+  },
+  {
+    "number": 335,
+    "question": "Səfəvilərin Ərdəbil hakimliyi dövrünə aid olan döyüşləri müəyyən edin: 1.Şəməsi döyüşü 2.Şərur döyüşü 3. Almaqulağı döyüşü 4.Çaldıran döyüşü",
+    "options": [
+      "2, 4",
+      "3, 4",
+      "1, 3",
+      "2, 3",
+      "1, 2"
+    ],
+    "correctAnswer": "1, 2"
+  },
+  {
+    "number": 336,
+    "question": "Təbriz miniatür məktəbinin görkəmli nümayəndələrini göstərin? 1. Sultan Məhəmməd 2. Kəmaləddin Behzad 3. Əbdulqadir Marağayi4. Səfiəddin Urməvi",
+    "options": [
+      "1, 2",
+      "2, 4",
+      "1, 3",
+      "1, 4",
+      "2, 3"
+    ],
+    "correctAnswer": "1, 2"
+  },
+  {
+    "number": 337,
+    "question": "Ağqoyunlu  tayfalarının geniş yayıldığı ərazilər  hesab  edilirdi:",
+    "options": [
+      "Azərbaycanın cənub rayonları, Şərqi Anadolu,Qərbi İran , Dəclə və Fərat çayları vadiləri",
+      "Anadolunun  qərb  əraziləri , Gürcüstanın  şərq   vilayətləri , İran",
+      "Şimali və  Cənubi  Azərbaycan, Cənubi  Qafqaz",
+      "Şimali Qafqaz , Xəzərin qərb  sahilləri, Göycə  gölü  ətrafı",
+      "Kür və Araz  çayları arasındakı ərazilər, Van gölü  ətrafı, Azərbaycanın   şimal  rayonları"
+    ],
+    "correctAnswer": "Azərbaycanın cənub rayonları, Şərqi Anadolu,Qərbi İran , Dəclə və Fərat çayları vadiləri"
+  },
+  {
+    "number": 338,
+    "question": "Uzun Həsən Teymuri  hökmdarı Əbu  Səidlə müharibə etmək  üçün ittifaqa  girdi:",
+    "options": [
+      "Osmanlı sultanı ilə",
+      "Şirvanşah  Fərrux  Yasar  və Ərdəbil  hökmdarı Şeyx Heydərlə",
+      "Trabzon Yunan  dövləti ilə",
+      "Teymuri şahzadəsi Məhəmməd  Yadigarla",
+      "Cahanşahın  oğlu  Həsənəli  ilə"
+    ],
+    "correctAnswer": "Şirvanşah  Fərrux  Yasar  və Ərdəbil  hökmdarı Şeyx Heydərlə"
+  },
+  {
+    "number": 339,
+    "question": "Əlincə qalasının süqutunun səbəbi:",
+    "options": [
+      "Qara Yusifin Əlincə qalasına soxulması",
+      "Daxili çəkişmələr",
+      "Cəlairilərin yürüşü",
+      "Toxtamışın yürüşü",
+      "Xalq üsyanı"
+    ],
+    "correctAnswer": "Daxili çəkişmələr"
+  },
+  {
+    "number": 340,
+    "question": "Osmanlı  dövlətinin Trabzonu tutmasının Ağqoyunlu  üçün  nəticəsi  :",
+    "options": [
+      "Ağqoyunlu dövləti Qaraqoyunlu və Teymurilərlə yaxınlaşması",
+      "Ağqoyunlu dövləti  Qara dənizə yeganə çıxış yolunu itirdi",
+      "Avropa dövlətləri ilə diplamatik əlaqələr kəsildi",
+      "Krımdakı  ticarət mərkəzləri ilə əlaqə gücləndi",
+      "Ağqoyunlu dövləti Aralıq dənizinə yeganə çıxış yolunu itirdi"
+    ],
+    "correctAnswer": "Ağqoyunlu dövləti  Qara dənizə yeganə çıxış yolunu itirdi"
+  },
+  {
+    "number": 341,
+    "question": "XIII əsr mədəniyyət  nümunəsi hesab olunur:",
+    "options": [
+      "Bəhmənyarın “Məntiqə  dair  zinət  kitabı”",
+      "Nizaminin “Xosrov və Şirin ” əsəri",
+      "Əfzələddin Xaqaninin “Mədain xərabələri”",
+      "Mahmud Şəbüstərinin  “Gülşən-i raz ” əsəri",
+      "Bərdəi Məhəmmədin”Müxalifətçilərə cavab” əsəri"
+    ],
+    "correctAnswer": "Mahmud Şəbüstərinin  “Gülşən-i raz ” əsəri"
+  },
+  {
+    "number": 342,
+    "question": "Hansı hökmdara aid olduğunu müəyyən edin:1. Hərbiçilərə iqta torpaq sahələri paylandı.2. Rabitə sahəsində islahat keçirildi.3.Karvanların, yolların və ticarət mərkəzlərinin qorunması üçün əsaslı tədbirlər gördü.4. Çəki və ölçü vahidlərini sabitləşdirdi.",
+    "options": [
+      "Hülaki xana",
+      "Arqun xana",
+      "Qazan xana",
+      "Əhməd xana",
+      "Abaqa xana"
+    ],
+    "correctAnswer": "Qazan xana"
+  },
+  {
+    "number": 343,
+    "question": "Monqol ağalığı dövründə Azərbaycanda bazar qiymətlərinin artmasına, ticarət dövriyyəsinin azalmasına, həyat səviyyəsinin aşağıdüşməsi ilə əlaqədar şəhər əhalisinin öz yerlərini tərk etməsinə gətirib çıxartdı:",
+    "options": [
+      "Çaonun tətbiqi",
+      "Vergi islahatı",
+      "Qızıl Ordanın yürüşləri",
+      "Hakimiyyət uğrunda ara müharibələri",
+      "Xərac  vergisinin tətbiqi"
+    ],
+    "correctAnswer": "Çaonun tətbiqi"
+  },
+  {
+    "number": 344,
+    "question": "Monqolların Azərbaycana II yürüşü nəticələndi:",
+    "options": [
+      "Monqollar Azərbaycanda möhkəmləndilər",
+      "Monqollar Azərbaycan şəhərlərini qarət etməklə  kifayətləndilər",
+      "Azərbaycan Hülakilər dövlətinin mərkəzlərindən  birinə çevrildi",
+      "Qazan xan  yerli  feodallarla əlaqələri möhkəmləndirməyə başladı",
+      "Cəbə və subutay Təbrizi ələ keçirdilər"
+    ],
+    "correctAnswer": "Monqollar Azərbaycanda möhkəmləndilər"
+  },
+  {
+    "number": 345,
+    "question": "Ərəb dövlətində Əməvilər  hakimiyyətə  gəldikdən sonra inzibati  quruluşda edilən dəyşikliyə əsasən  Azərbaycan hansı əmirliyə daxiledildi:",
+    "options": [
+      "Aran",
+      "Əlcəzirə",
+      "Ərdəbil",
+      "Mosul",
+      "Qahirə"
+    ],
+    "correctAnswer": "Əlcəzirə"
+  },
+  {
+    "number": 346,
+    "question": "Eneolit dövründən başlayaraq  köməkçi və ikinci dərəcəli təsərrüfat sahəsinə çevrilir?",
+    "options": [
+      "əkinçilik və sənətkarlıq",
+      "yaylaq maldarlığı",
+      "ovçuluq və maldarlıq",
+      "dulusçuluq və heyvandarlıq",
+      "ovçuluq və balıqçılıq"
+    ],
+    "correctAnswer": "ovçuluq və balıqçılıq"
+  },
+  {
+    "number": 347,
+    "question": "Azərbaycanın Şimal hissəsində sinifli cəmiyyət və ona uyğun sürətdə mülki bərabərsizlik artıq bərqərar olmuşdu.",
+    "options": [
+      "E.ə. I minilliyin ortalarında",
+      "E.ə. IX əsrin əvvəllərində",
+      "E.ə. II-I minilliklərin hüdudlarında",
+      "E.ə. IV minilliyin sonu – III minilliyin əvvəllərində",
+      "E.ə. XIV- VIII əsrlərdə"
+    ],
+    "correctAnswer": "E.ə. II-I minilliklərin hüdudlarında"
+  },
+  {
+    "number": 348,
+    "question": "Azərbaycanda son tunc dövrü hansı arxeoloji mədəniyyətlər əsasında öyrənilmişdir:",
+    "options": [
+      "Xocalı -Gəbəbəy, Talış - Muğan, Naxçıvan",
+      "Boyalı qablar , Naxçıvan, Talış-Muğan",
+      "Quruçay, Boyalı qablar, Gəncə - Qazax",
+      "Kür - Araz, Gəncə - Qazax, Kültəpə",
+      "Qarabağ, Kür- Araz, Quruçay"
+    ],
+    "correctAnswer": "Xocalı -Gəbəbəy, Talış - Muğan, Naxçıvan"
+  },
+  {
+    "number": 349,
+    "question": "Azərbaycan ərazisində müasir insan tipinin formalaşması başa çatmış və ibtidai icma quruluşunun ilkin pilləsi yaranmışdır?",
+    "options": [
+      "Üst Aşel mərhələsində",
+      "Üst paleolit dövründə",
+      "Orta Paleolit mərhələsində",
+      "Orta Aşel dövründə",
+      "Quruçay mədəniyyəti dövründə"
+    ],
+    "correctAnswer": "Üst paleolit dövründə"
+  },
+  {
+    "number": 350,
+    "question": "İbtidai icma quruluşunda maldarlıq  və əkinçiliyin  əsaslı surətdə  təşəkkülü  və inkişafı hansı  dövrdə baş  vermişdir:",
+    "options": [
+      "Tunc dövründə",
+      "Orta paleolitdə",
+      "Alt paleolitdə",
+      "Neolit dövründə",
+      "Mezolit dövründə"
+    ],
+    "correctAnswer": "Neolit dövründə"
+  },
+  {
+    "number": 351,
+    "question": "Monqol canişinlərinin, xüsusilə Arqun ağanın Azərbaycanda həyata keçirdiyi siyasətin əsas mahiyyəti:",
+    "options": [
+      "Feodalların – vassalların köçəri monqol əyanlardan asılılığını gücləndirmək",
+      "Təsərrüfatı gücləndirmək",
+      "Vergiləri artırmaq",
+      "Şəhər əhalisinə divan tutmaq",
+      "Tutduqları ərazilərdə qarətçiliklə məşğul olmaq və əhalini soyub talamaq"
+    ],
+    "correctAnswer": "Feodalların – vassalların köçəri monqol əyanlardan asılılığını gücləndirmək"
+  },
+  {
+    "number": 352,
+    "question": "Eyni ildə baş verən hadisələri müəyyən edin:1)Gəncə üsyanı 2)Monqolların II yürüşü 3)Qazan xanın islahatı 4)Monqolların  əhalinisiyahıya alması 5)Monqolların Rey və Həmədan şəhərlərini tutması",
+    "options": [
+      "1, 2, 5;",
+      "1, 2, 3;",
+      "1, 3, 4;",
+      "1, 3, 5;",
+      "1, 4, 5;"
+    ],
+    "correctAnswer": "1, 2, 5;"
+  },
+  {
+    "number": 353,
+    "question": "Qazan xanın rabitə sahəsində keçirdiyi islahata aid deyil?",
+    "options": [
+      "Yamlara əmir təyin olundu və onlar lazımi qədər qulluqçularla və atlarla təmin oldu",
+      "Elçilərin və yam işçilərinin yerli əhalidən vəsait alması qərarı qəbul edildi",
+      "Yollarda karvansaralar tikildi və müsafirlərin rəiyyətin evində qalmaları qadağan olundu",
+      "Qazan xan mövcud yarlıqları və paydzaları ləğv etdi",
+      "Bütün əsas yollarda hər 3 fərsəxdən bir rabitə dayanacaqları – «yamlar» yaradıldı"
+    ],
+    "correctAnswer": "Elçilərin və yam işçilərinin yerli əhalidən vəsait alması qərarı qəbul edildi"
+  },
+  {
+    "number": 354,
+    "question": "1367-ci ildə Cəlairlərin  Şirvana yürüşünün əsas nəticəsi:",
+    "options": [
+      "Şirvan əhalisi Cəlairi ordusuna qalib gələrək müstəqiliyini qorudu.",
+      "Şirvanşahlar üzərində qələbə qazana bilmədilər",
+      "Şirvan əhalisi Cəlairlərlə gizli saziş imzaladılar.",
+      "Şirvanşalar Cəlairlərin vassalına çevrildilər",
+      "Şirvan ərazisinə girə bilməyən Cəlairlər müharibəni dayandırmağa məcbur oldular."
+    ],
+    "correctAnswer": "Şirvanşalar Cəlairlərin vassalına çevrildilər"
+  },
+  {
+    "number": 355,
+    "question": "Monqolların I yürüşü zamanı ələ keçirilən şəhərlər sırasına aid deyil?",
+    "options": [
+      "Təbriz",
+      "Sərab",
+      "Beyləqan",
+      "Marağa",
+      "Şamaxı"
+    ],
+    "correctAnswer": "Təbriz"
+  },
+  {
+    "number": 356,
+    "question": "XI əsrin əvvəllərində səlcuq türkləri əvvəlki türk axınlarından  fərqli olaraq Azərbaycana hansı yolla gəlmişlər?",
+    "options": [
+      "Şimaldan Dərbənd yolu ilə",
+      "Ölkənin qərbindən İrəvan yolu ilə",
+      "Gürcüstan yolu ilə",
+      "Ölkənin cənubundan İran yolu ilə",
+      "Qərbdən Osmanlı yolu ilə"
+    ],
+    "correctAnswer": "Ölkənin cənubundan İran yolu ilə"
+  },
+  {
+    "number": 357,
+    "question": "Şirvanşahlar, Sacilər, Salarilər, Şəddadilər və Rəvvadilər dövlətlərindən hansıları ara müharibələri və daxili mübarizə nəticəsində süqutetmişdir?",
+    "options": [
+      "Sacilər, Salarilər;",
+      "Şirvanşahlar, Rəvvadilər;",
+      "Şirvanşahlar, Sacilər;",
+      "Salarilər, Şəddadilər;",
+      "Sacilər, Şəddadilər;"
+    ],
+    "correctAnswer": "Sacilər, Salarilər;"
+  },
+  {
+    "number": 358,
+    "question": "Hansı Saci hökmdarının dövründə maliyyə və vergi sahəsində obyektiv siyasət ölkədə iqtisadiyyatın dirçəlməsinə və əhalinin artmasınasəbəb oldu?",
+    "options": [
+      "İbrahimin dövründə",
+      "Məhəmmədin dövründə",
+      "Əbu Sac Divdadın vaxtında",
+      "Deysəmin dövründə",
+      "Yusifin dövründə"
+    ],
+    "correctAnswer": "Yusifin dövründə"
+  },
+  {
+    "number": 359,
+    "question": "Hansı Sasani hökmdarının ölümündən sonra Albaniya müstəqil xarici siyasət yürütmüşdür:",
+    "options": [
+      "Balaşın",
+      "I Şapurun",
+      "II Yezdegirdin",
+      "I Yezdəgirdin",
+      "II Şapurun"
+    ],
+    "correctAnswer": "I Şapurun"
+  },
+  {
+    "number": 360,
+    "question": "Azərbaycanda islamın yayılması  prosesi hansı ərazilərdə daha erkən baş vermişdi:",
+    "options": [
+      "Qəbələdə, Qarabağda, Xəzər sahilində",
+      "Kür və Araz çayları boyunda, Qarabağda, Xəzər sahilində",
+      "Arranda, Dərbəndd, Muğanda, Naxçıvanda",
+      "Naxçıvanda, Mildə, Muğanda, Qarabağda",
+      "Muğanda, Mildə, Xəzər sahilində, Kür və Araz  çayları boyunda"
+    ],
+    "correctAnswer": "Muğanda, Mildə, Xəzər sahilində, Kür və Araz  çayları boyunda"
+  },
+  {
+    "number": 361,
+    "question": "Qaynaqlarda “albanlara hökmdar verən” Roma imperatoru kim olmuşdur:",
+    "options": [
+      "Avqust",
+      "Trayan",
+      "Valent",
+      "Valerian",
+      "Avrelian"
+    ],
+    "correctAnswer": "Trayan"
+  },
+  {
+    "number": 362,
+    "question": "Alban  hökmdarı  Urnayr hansı Sasani - Roma qarşılaşmalarında iştirak etmişdi:",
+    "options": [
+      "Amid, Dzirav",
+      "Suzian, Amid",
+      "Kaar, Dzirav",
+      "Bələncər , Dzirav",
+      "Qədsiyyə,Bələncər,"
+    ],
+    "correctAnswer": "Amid, Dzirav"
+  },
+  {
+    "number": 363,
+    "question": "Torpaqqala, Govurqala , Cavanşir qalaları  hansı dövrdə  tikilmişdi:",
+    "options": [
+      "Erkən  orta əsrlərdə",
+      "Antik dövrdə",
+      "XIII əsrdə",
+      "XV- XVI əsrlərdə",
+      "XI-XII əsrlərdə"
+    ],
+    "correctAnswer": "Erkən  orta əsrlərdə"
+  },
+  {
+    "number": 364,
+    "question": "Alban hökmdarı Cavanşir cənubdan gələn təhlükəni Albaniyadan sovuşdurmaq məqsədilə:",
+    "options": [
+      "Ərəb xilafəti ilə yaxınlaşmaq yolun seçdi.",
+      "Xəzər xaqanlığı ilə müharibəyə başladı.",
+      "667-ci ildə Bizans imperiyası ilə müqavilə bağladı.",
+      "Xəzər xaqanının göndərdiyi qoşunları ölkənin cənubunda yerləşdirdi.",
+      "Hun və digər köçəri türk tayfalarını ölkənin cənub sərhədlərində yerləşdirdi."
+    ],
+    "correctAnswer": "Ərəb xilafəti ilə yaxınlaşmaq yolun seçdi."
+  },
+  {
+    "number": 365,
+    "question": "Müxtəlif dövrlərdə müxtəlif şəkildə olmuşdu, hansı məbləğdə və formada alınmasından asılı olmayaraq bu vergi kəndlilər üçün ağır yükidi:",
+    "options": [
+      "Dəhyek və ulafa vergilərinin məbləği və toplanma qaydası",
+      "Bəhrə vergisinin məbləği və toplanma qaydası",
+      "Tamğa vergisinin məbləği və onun toplanma qaydası",
+      "Xəracın məbləği və toplanma qaydası",
+      "Sərkəllə vergisi və onun toplanma qaydası"
+    ],
+    "correctAnswer": "Xəracın məbləği və toplanma qaydası"
+  },
+  {
+    "number": 366,
+    "question": "Epiqrafik abidələr:",
+    "options": [
+      "Piktoqrafik işarələrin olduğu abidə növüdür",
+      "mixi yazılar həkk olunmuş abidələrdir",
+      "Pəhləvi dilində yazı həkk olunmuş  abidələrdir",
+      "Daş, qala divarı üzərində həkk olunan yazıdan ibarətdir",
+      "Antik dövrə aid abidə növüdür"
+    ],
+    "correctAnswer": "Daş, qala divarı üzərində həkk olunan yazıdan ibarətdir"
+  },
+  {
+    "number": 367,
+    "question": "Azərbaycanda ilkin şəhər mədəniyyəti təşəkkül tapır?",
+    "options": [
+      "İlk Tunc dövründə",
+      "Orta əsrlər dövründə",
+      "Orta Tunc dövründə",
+      "Son Tunc və İlk Dəmir dövründə",
+      "Antik dövrdə"
+    ],
+    "correctAnswer": "Orta Tunc dövründə"
+  },
+  {
+    "number": 368,
+    "question": "Azərbaycanda son Tunc və ilk Dəmir dövrünə aid olan mədəniyyəti müəyyən edin:1.Kür-Araz 2.Mustye 3.Xocalı-Gədəbəy 4.Quruçay5.Talış-Muğan",
+    "options": [
+      "1,4;",
+      "1,5;",
+      "2,5;",
+      "3.5;",
+      "1,3;"
+    ],
+    "correctAnswer": "3.5;"
+  },
+  {
+    "number": 369,
+    "question": "Orta tunc dövründə cəmiyyətin həyatında baş vermiş dəyişikliklər?1)Əhalinin oturaq həyata keçməsi.2) Siklopik qalaların inşa edilməsinə başlanması.3)İkinci ictimai əmək bölgüsünün baş verməsi 4) İlkin səhər mədəniyyətinin təşəkkülü 5)Ayaqla hərəkətə gətirilən dulus çarxı ixtira olunması",
+    "options": [
+      "1.3",
+      "3.4",
+      "1,2",
+      "2.4",
+      "2.5"
+    ],
+    "correctAnswer": "3.4"
+  },
+  {
+    "number": 370,
+    "question": "Azərbaycanın qədim tarixi barədə məlumat vermişlər:",
+    "options": [
+      "Strabon, Plini, Arrian,  Ptolomey, Tassit, Ammian Marsellin və başqaları.",
+      "Herodot, Strabon, Plini, Aristotel, Makrobian, Barronna, Ptolomey və başqaları.",
+      "Herodot, Plini, Musa Kalankatlı, Aristotel, Arrian, Tassit və başqaları.",
+      "Strabon, Plini, Arrian, Herodot, Ptolomey, Sozigen, Musa Kalankatlı və başqaları",
+      "Ptolomey, Makrobian, Əl – İstəxəri, Musa Kalankatlı, Heradot, Platon və başqaları."
+    ],
+    "correctAnswer": "Strabon, Plini, Arrian,  Ptolomey, Tassit, Ammian Marsellin və başqaları."
+  },
+  {
+    "number": 371,
+    "question": "Ön Qafqazdan başqa Cənubda Anadolu yaylası, Şimalda Çeçen-İnquş və Şimali Osetiyaya qədər olan ərazilərdə hansı mədəniyyətinizlərinə təsadüf olunmuşdur?",
+    "options": [
+      "Kür – Araz",
+      "Kültəpə",
+      "Talış - Muğan",
+      "Naxçıvan",
+      "Xocalı – Gədəbəy"
+    ],
+    "correctAnswer": "Kür – Araz"
+  },
+  {
+    "number": 372,
+    "question": "Səfəvi  dövlətində ağır iqtisadi və siyasi böhran nə zaman  baş vermişdir:",
+    "options": [
+      "XVIII əsrin əvvəllərində",
+      "XVIII əsrin ortalarında",
+      "XVI əsrin  sonlarında",
+      "XVII əsrin  ortalarında",
+      "XVI əsrin əvvəllərində"
+    ],
+    "correctAnswer": "XVIII əsrin əvvəllərində"
+  },
+  {
+    "number": 373,
+    "question": "I Pyoturun Xəzəryanı bölgələrə yürüşü yarımçıq dayandırıb geri qayıtmasının səbəblərinə aiddir: 1.Yerli əhaliin ruslara qarşı üsyanları İsveçlə yeni müharibə təhlükəsinin yaranması 3.Osmanlı dövlətinin etirazına səbəb olması Hacı Davudun güclü müqavimət göstərməsi 5.Xəzər dənizində tufan nəticəsində  rusların azuqə və sursat gəmilərinin əksəriyyətinin dənizdə batması",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 374,
+    "question": "I Pyotrun Azərbaycanın Xəzəryanı  bölgələrini ələ keçirmək üçün bəhanə oldu:",
+    "options": [
+      "Şirvan üsyanı vaxtı rus tacirlərinin zərər çəkməsi",
+      "Xəzəryanı bölgələrə Osmanlının daxil  olması",
+      "Xəzəryanı bölgənin əhalisini Səfəvi zülmündən xilas  etmək",
+      "Cənubi Qafqazda yaşayan xristianları müdafiə etmək",
+      "Qafqazda  əmin amanlıq  yaratmaq"
+    ],
+    "correctAnswer": "Şirvan üsyanı vaxtı rus tacirlərinin zərər çəkməsi"
+  },
+  {
+    "number": 375,
+    "question": "Səfəvi hökmdarı Şah sultan Hüseynin dövründə :",
+    "options": [
+      "Şeybanilər  ölkə ərazisinə hücüm etdilər",
+      "Rus qoşunları Səfəvi dövlətinin  ərazisnə hücum etdi",
+      "Dövlət xəzinəsi boşaldı",
+      "Mərkəzi hakimiyyət möhkəmləndi",
+      "Səfəvi -Osmanlı müharibəsi baş verdi"
+    ],
+    "correctAnswer": "Dövlət xəzinəsi boşaldı"
+  },
+  {
+    "number": 376,
+    "question": "Ağa Məhəmməd xan Qacarın 1795- ci ildə Tiflisə yürüşü zamanı  ona kömək edən  Azərbaycan  xanı:",
+    "options": [
+      "Şamaxı xanı Mustafa xan",
+      "Gəncəli Cavad xan",
+      "Qubalı Şeyxəli xan",
+      "Naxçıvan xanı Kəlbalı xan",
+      "Şəki xanı Səlim xan"
+    ],
+    "correctAnswer": "Gəncəli Cavad xan"
+  },
+  {
+    "number": 377,
+    "question": "1755 – ci ildə Hacı Çələbi Şirvana hücumu  zamanı hansı xanlıqların birləşmiş qüvvələrinə məglub oldu?",
+    "options": [
+      "Şamaxı  və Quba",
+      "Qarabag və Gəncə",
+      "Gəncə və Şamaxı",
+      "Şamaxı və Ərdəbil",
+      "Quba və Qarabağ"
+    ],
+    "correctAnswer": "Şamaxı  və Quba"
+  },
+  {
+    "number": 378,
+    "question": "Gavduşan döyüşü baş vermişdir:",
+    "options": [
+      "Qubalı Fətəli xanla Dərbənd hakimi Məhəmmədhüseyn  xanın qoşunu arasında",
+      "Qubalı Fətəli xanla rus qoşunları arasında",
+      "Qubalı Fətəli xanla Azərbaycan və bir sıra Dağıstan hakimləri  arasında",
+      "Qubalı Fətəli xanla Məhəmmədhəsən xan Qacarın qoşunları arasında",
+      "Qubalı Fətəli xanın birləşdiurmə siyasətinə  Azərbaycan xanlarının tərəfdar çıxması"
+    ],
+    "correctAnswer": "Qubalı Fətəli xanla Azərbaycan və bir sıra Dağıstan hakimləri  arasında"
+  },
+  {
+    "number": 379,
+    "question": "İbrahimxəlil xan öz təsirini hansı xanlıqlar üzərində saxlayırdı?",
+    "options": [
+      "Şirvan , Şəki , Təbriz, Xoy",
+      "Şirvan , Şəki , Təbriz, İrəvan",
+      "Qaradağ, Ərdəbil, Naxçıvan, Gəncə",
+      "Marağa, Qaradağ, Xoy , Quba",
+      "Qarabağ, Naxçıvan , Xoy, Ərdəbil"
+    ],
+    "correctAnswer": "Qaradağ, Ərdəbil, Naxçıvan, Gəncə"
+  },
+  {
+    "number": 380,
+    "question": "Qubalı Fətəli xanla Şəkili Hüseyn xan arasında 1769-cü ildə bağlanmış müqaviləyə görə:",
+    "options": [
+      "Ağsu ərazisindən vergi toplamaq Şəki xanlığının ixtiyarına keçdi.",
+      "Fətəli xan Salyan və Dərbənd ərazisindən öz qoşununu çıxarmağı öhdəsinə götürdü.",
+      "Şəki xanı Gürcü və Dağıstan feodallarından kömək almayacağını bildirdi.",
+      "Quba və Şəki xanlıqları Şamaxı ərazisində iki hakimiyyətliliyi saxladılar.",
+      "Hüseyn xan Şamaxının işlərinə qarışmamağı, Fətəli xana hərbi qüvvə, lazım olduqda qoşun verməyi öhdəsinə götürdü."
+    ],
+    "correctAnswer": "Hüseyn xan Şamaxının işlərinə qarışmamağı, Fətəli xana hərbi qüvvə, lazım olduqda qoşun verməyi öhdəsinə götürdü."
+  },
+  {
+    "number": 381,
+    "question": "Hacı Çələbinin Azərbaycanı  vahid xanlıq şəklində  birləşdirə bilməməsinin əsas səbəbi:",
+    "options": [
+      "ölkədə  siyasi  birləşmə  üçün iqtisadi əsasın olmaması",
+      "Şəki xanının şəxsi nüfuzunun aşagı olması",
+      "qonsu çarlıqların Azərbaycan ərazisinə intensiv müdaxiləsi",
+      "xanlıgın qoşununun yetərli sayda  olmaması",
+      "bəzi  güclü xanlıqların bu prosesə mane olması"
+    ],
+    "correctAnswer": "ölkədə  siyasi  birləşmə  üçün iqtisadi əsasın olmaması"
+  },
+  {
+    "number": 382,
+    "question": "\"Qızılqaya xəyanəti \" zamanı Şəki xanı Hacı Cələbi xan:",
+    "options": [
+      "Kartli- Kaxetiya çarı ilə ittifaq bağladı",
+      "Gəncəni gürcülərdən müdafiə edərək qorudu",
+      "Döyüşdə gürcü çarını məğlub edərək girov düşmüş xanları azad etdi",
+      "Geri çəkilərək Qazax və Borçalının müdafiəsini gücləndirdi",
+      "Girov düşmüş xaların ərazilərini özünə birləşdirdi"
+    ],
+    "correctAnswer": "Döyüşdə gürcü çarını məğlub edərək girov düşmüş xanları azad etdi"
+  },
+  {
+    "number": 383,
+    "question": "XIII əsrin 20 - ci illərində Azərbaycana monqollarla bərabər hücum etmişdi:",
+    "options": [
+      "xarəzmşahlar və ruslar",
+      "alanlar və sərirlər",
+      "hunlar və qıpçaqlar",
+      "qıpçaqlar və gürcülər",
+      "ruslar və xəzərlər"
+    ],
+    "correctAnswer": "qıpçaqlar və gürcülər"
+  },
+  {
+    "number": 384,
+    "question": "Hülakilər  dövlətinin zəifləməsindən istifadə edərək  hakimiyyət uğrunda mübarizəyə qoşulan ən qüdrətli feodal qrupu idi :",
+    "options": [
+      "Qızıl  Ordalılar",
+      "Çobanilər",
+      "Qaraqoyunlular",
+      "Cəlarilər",
+      "Şirvanşahlar"
+    ],
+    "correctAnswer": "Çobanilər"
+  },
+  {
+    "number": 385,
+    "question": "Qazan xanın vergi sahəsində keçirdiyi islahat nəticəsində baş vermiş dəyişikliklərə aiddir: 1.Vergi toplanmasında icarəyə vermək qaydası tətbiq edidi Qeyri-qanuni vergilərin toplanması qadağan edildi 3.tamğa və yarlıq sistemi ləğv edildi Vergilərin yığılması mərkəzi divana həvalə edildi və hakimlərin bu işə qarışması qadağan edildi 5.Hər bir kəndin , şəhərin ödəyəcəyi vergilər lövhəölərdə həkk olunub baxımlı yerlərdə nümayiş etdirildi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 386,
+    "question": "II Vaçe II Yezdəgirdin vəfatından sonra Sasanilərdə baş verən hadisələrdən istifadə edərək:",
+    "options": [
+      "Albaniyada sasani mərzbanlığını ləğv etdi",
+      "İberiya ilə ittifaqa girərək sasanilərə qarşı mübarizəyə başladı",
+      "Bizansın göndərdiyi elçiləri qəbul edib, saziş imzaladı",
+      "Albaniyada xristianlığı yaymaq məqsədilə sasani hakimiyyətinin tabeliyindən çıxdı",
+      "Albaniyanın qərb vilayətlərində öz müstəqilliyini bərpa etdi"
+    ],
+    "correctAnswer": "Albaniyada xristianlığı yaymaq məqsədilə sasani hakimiyyətinin tabeliyindən çıxdı"
+  },
+  {
+    "number": 387,
+    "question": "889 -cu ildə ərəblər tərəfindən Azərbaycanın hakimi təyin olunmuşdu",
+    "options": [
+      "Mərzban ibn Məhəmməd",
+      "Məhəmməd Əbu Sac",
+      "Yusif Əbu Sac",
+      "Əbu Sac Divdad",
+      "İbrahim ibn Mərzban"
+    ],
+    "correctAnswer": "Məhəmməd Əbu Sac"
+  },
+  {
+    "number": 388,
+    "question": "Azərbaycana monqolların ikinci yürüşünün nəticələrinə aiddir: 1.Bütün Azərbaycan  işğal olundu Atabəylər dövləti süqut etdi 3.Ali Monqol Xaqanlığının tərkibinə qatıldı Əhalinin ciddi müqaviməti nəticəsində ölkədən qovuldular 5.Şirvanşahlar dövləti müstəqilliyini tamamilə itirdi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 389,
+    "question": "Azərbaycana monqolların ikinci yürüşündə əsas məqsədi idi:",
+    "options": [
+      "Şirvanın müstəqilliyinə son qoymaq",
+      "Azərbaycanda möhkəmlənmək",
+      "Xarəzmşah Cəlallədini Azərbaycandan çıxışdırıb çıxartmaq",
+      "Qızıl Ordanın yürüşlərinə son qoymaq",
+      "Müstəqil dövlətləri itaətə gətirmək"
+    ],
+    "correctAnswer": "Azərbaycanda möhkəmlənmək"
+  },
+  {
+    "number": 390,
+    "question": "Romalıların Qədim Albaniyada olduqlarını sübut edir:",
+    "options": [
+      "Ərəb müəlliflərinin əsərlərindəki məlumat",
+      "Adrianın alban hökmdarlarına qiymətli hədiyyələr göndərilməsi",
+      "Oktavianın adına Qobustanda üzərində latın dilində yazı olan daş kitabə",
+      "Şəkinin Dəfnə kəndindəki kitabə",
+      "Qazakadan aşkar edilən abidə üzərindəki yazı"
+    ],
+    "correctAnswer": "Oktavianın adına Qobustanda üzərində latın dilində yazı olan daş kitabə"
+  },
+  {
+    "number": 391,
+    "question": "E.ə. 66-cı ildə Kür çayı sahilində baş vermiş döyüşün nəticəsi:",
+    "options": [
+      "Parfiyalılar və atropatenalılar qalib gəldi",
+      "Romalılar qalib gəldi",
+      "Döyüş nəticəsiz başa çatdı",
+      "Döyüş yarımçıq dayandırıldı",
+      "Albanlar qalib gəldi"
+    ],
+    "correctAnswer": "Romalılar qalib gəldi"
+  },
+  {
+    "number": 392,
+    "question": "Atropatena ilə Parfiya arasında münasibətlərin pozulmasının səbəbi:",
+    "options": [
+      "Atropatenanın Selevkilərin  tərəfinə  keçməsi",
+      "Atropatenanın həm Romaya  , həm də Parfiyaya qarşı eyni mövqedə dayanması",
+      "Parfiyanın Atropatenanı bütövlükdə özünə tabe etməyə  çalışması",
+      "Atropatena  hökmdarlarının xarici syasətdə Romaya meyl etməsi",
+      "Romanın mülklərini ələ keçirmək uğrunda mübarizə"
+    ],
+    "correctAnswer": "Parfiyanın Atropatenanı bütövlükdə özünə tabe etməyə  çalışması"
+  },
+  {
+    "number": 393,
+    "question": "Eramızın 20- ci ilində Atropatena hansı dövlətin hakimiyyəti altına düşdü:",
+    "options": [
+      "Parfiyanın",
+      "Selevkilərin",
+      "Yunanların",
+      "Midiyalıların",
+      "Romalıların"
+    ],
+    "correctAnswer": "Parfiyanın"
+  },
+  {
+    "number": 394,
+    "question": "Aşşur hökmdarı III Salmanasarın  e.ə. 843 - cü il mixi yazılı kitabəsinə aiddir: 1.Manna adına ilk dəfə rast gəlinməsi Kitabədə qarət- talan haqqında heç  bir məlumata rast gəlinməməsi 3.Mannaya hücum edən II Russanın adının çəkilməsi Hökmdar şəhəri haqqında məlumat verməsi",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 395,
+    "question": "E.ə IX əsrdən etibarən Manna torpaqlarını ələ keçirmək uğrunda bir- biri ilə mübarizə aparırdı:",
+    "options": [
+      "Urartu və Aşşur",
+      "Aşşur və Babil",
+      "Midiya və Babil",
+      "Babil və Urartu",
+      "İskit və Midiya"
+    ],
+    "correctAnswer": "Urartu və Aşşur"
+  },
+  {
+    "number": 396,
+    "question": "Azərbaycanda  Erkən Tunc dövründə cəmiyyətin həyatında  baş vermiş dəyişikliklərə aiddir: 1.Ovçuluq əsas peşəyə çevrildi Köçmə (yaylaq) maldarlığı meydana gəldi 3.Toxa əkinçiliyi xış əkinçiliyi ilə əvəz edildi Əkinçilik və maldarlıq bir- birindən ayrıldı 5.İbtidai əkinçilik yarandı",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 397,
+    "question": "Orta tunc dövrünə aid deyil:",
+    "options": [
+      "İkinci böyük ictimai əmək bölgüsü  baş verdi",
+      "Ayaqla hərəkətə gətirilən dulus çarxından istifadə olundu",
+      "Sənətkarlıq müstəqil sahəyə çevrildi",
+      "Şəhər  tipli yaşayış məskənləri yarandı",
+      "Boyalı qablar mədəniyyəti formalaşdı"
+    ],
+    "correctAnswer": "Ayaqla hərəkətə gətirilən dulus çarxından istifadə olundu"
+  },
+  {
+    "number": 398,
+    "question": "Kür- Araz mədəniyyəti üçün səciyyəvidir:",
+    "options": [
+      "Əhalinin oturaq həyata keçməsi",
+      "Təsərrüfatda kişi əməyinin ön plana keçməsi",
+      "Ayaqda  hərəkətə gətirilən dulus çarxından istifadə edilməsi",
+      "İlk dəfə metal əmək  alətlərindən istifadə edilməsi",
+      "Üçüncü ictimai əmək bölgüsünün baş  verməsi"
+    ],
+    "correctAnswer": "Təsərrüfatda kişi əməyinin ön plana keçməsi"
+  },
+  {
+    "number": 399,
+    "question": "Qarabağ bölgəsində ən qədim insan düşərgələrini  müəyyən edin:1.Azıx  2.Babadərviş 3.Sərkərtəpə  4. Tağlar  5. Qazma",
+    "options": [
+      "1,5",
+      "1,4",
+      "1,3",
+      "4,5",
+      "3,4"
+    ],
+    "correctAnswer": "1,4"
+  },
+  {
+    "number": 400,
+    "question": "Azərbaycan   Cəlairilər  dövlətinin   tərkibinə   daxil  edildi:",
+    "options": [
+      "1359 - cu  ildə",
+      "1372 -  ci  ildə",
+      "1382- ci ildə",
+      "1357- ci ildə",
+      "1410- cu ildə"
+    ],
+    "correctAnswer": "1359 - cu  ildə"
+  },
+  {
+    "number": 401,
+    "question": "Azıxantrop nə zaman yaşamışdır?",
+    "options": [
+      "200 min il bundan əvvəl",
+      "300 min il bundan əvvəl",
+      "350 -400 min il  bundan əvvəl",
+      "100 min il bundan əvvəl",
+      "500 min il bundan əvvəl"
+    ],
+    "correctAnswer": "350 -400 min il  bundan əvvəl"
+  },
+  {
+    "number": 402,
+    "question": "Azərbaycan tarixi hansı qaynaqlar - mənbələr əsasında öyrənilir?",
+    "options": [
+      "qəbir abidələri, qayaüstü abidələr və yazılı abidələr",
+      "arxeoloji və yazılı abidələr",
+      "fauna və flora qalıqları",
+      "heyvan və bitki qalıqları, qayaüstü rəsmlər, qəbir abidələri, yaşayış yerləri",
+      "qədim yaşayış yerləri və qəbir abidələri"
+    ],
+    "correctAnswer": "arxeoloji və yazılı abidələr"
+  },
+  {
+    "number": 403,
+    "question": "Quba xanı Fətəli xanın “nigah diplomatiyasından” istifadə edərək işğal etdiyi xanlıq necə adlanır?",
+    "options": [
+      "Gəncə",
+      "Bakı",
+      "Şəki",
+      "Şamaxı",
+      "Qarabağ"
+    ],
+    "correctAnswer": "Bakı"
+  },
+  {
+    "number": 404,
+    "question": "Quba xanı Fətəli xan öz sərhədlərini möhkəmləndirmək məqsədilə:",
+    "options": [
+      "Cəngavər şahsevənlərin bir hissəsini xanlıq ərazisinə köçürtdü",
+      "Rusiyanın təəbəliyinə  keçdi",
+      "Qonşularla dostluq münasibətlərini inkişaf etdirdi",
+      "Gürcüstanla hərbi saziş bağladı",
+      "Osmanlı dövlətinin Rusiyaya qarşı ittifaq təklifini qəbul etdi"
+    ],
+    "correctAnswer": "Cəngavər şahsevənlərin bir hissəsini xanlıq ərazisinə köçürtdü"
+  },
+  {
+    "number": 405,
+    "question": "Quba xanı Fətəli xanın  Gurcu çarı II İrakli ilə ittifaqının əsasını  xarici mudaxilələrdən qorunmaqla yanaşı daha hansı məqsədlər təşkiledirdi?",
+    "options": [
+      "Öz hakimiyyətini cənub xanlıqlarına yaymaq",
+      "cənub – qərb torpaqlarını işğal  etmək",
+      "Vahid mərkəzləşmiş dövlət  yaratmaq",
+      "qonşu xanlıqlarla dostluq münasibətləri saxlamaq",
+      "Azərbaycanın şimal ərazilərini əlində saxlamaq"
+    ],
+    "correctAnswer": "Öz hakimiyyətini cənub xanlıqlarına yaymaq"
+  },
+  {
+    "number": 406,
+    "question": "Səfəvi dövlətində mövcud olan Ali məclisə aiddir:",
+    "options": [
+      "xarici siyasət məsələlərinə baxan dövlət qurumu idi",
+      "şəriət qaydalarına əməl edilməsinə nəzarət edən dövlət qurumu idi",
+      "icraedici fəaliyyət ilə məşğul olan ali hakimiyyət orqanı idi",
+      "məşvərətçi səsə malik dövlət qurumu idi",
+      "dövlət təhlükəsizliyi məsələlərini həll edən hərbi-inzibati orqan idi"
+    ],
+    "correctAnswer": "məşvərətçi səsə malik dövlət qurumu idi"
+  },
+  {
+    "number": 407,
+    "question": "I Şah Təhmasib tərəfindən Şirvana bəyləybəyi təyin olunan  Əlqas Mirzənin müstəqil dövlət qurmaq çəhdlərinin qarşısı alındı:",
+    "options": [
+      "1547- ci ildə",
+      "1545- cu ildə",
+      "1567- ci ildə",
+      "1534- cü ildə",
+      "1552- ci ildə"
+    ],
+    "correctAnswer": "1547- ci ildə"
+  },
+  {
+    "number": 408,
+    "question": "1468-ci ildə  Azərbaycana hücum etmiş Teymuri Əbu Səidə qarşı mübarizə aparmaq üçün Ağqoyunlu Uzun Həsən hansı tədbiri gördü:",
+    "options": [
+      "Feodal əyanları üzərinə yeni vergilər qoydu",
+      "Qaraqoyunlulardan müttəfiq kimi istifadə etdi",
+      "Trabzon imperatorundan iqtisadi yardım istədi",
+      "Şirvanşah Fərrux Yasar və Ərdəbil hökmdarı Şeyx Heydərlə ittifaqa girdi",
+      "Osmanlı Sultanı II Mehmetə kömək üçün müraciət etdi"
+    ],
+    "correctAnswer": "Şirvanşah Fərrux Yasar və Ərdəbil hökmdarı Şeyx Heydərlə ittifaqa girdi"
+  },
+  {
+    "number": 409,
+    "question": "Ağqoyunlu  dövlətinin  Avropa  dövlətləri ilə   münasibətlərinin qurulmasına  mühüm  təsir  göstərən  amil  idi:",
+    "options": [
+      "Teymuriləri Azərbaycandan çıxartmaq üçün",
+      "Osmanlı  sultanı II Mehmetin  ağır  gömrük siyasəti",
+      "Qaraqoyunlularla mübarizədə  hərbi yardım almaq üçün",
+      "Açıq dənizlərə və okeanlara çıxış əldə etmək  üçün",
+      "Məmlüklərin  iqtisadi əhəmiyyətli  yolları ələ keçirməsinin qarşısını almaq üçün"
+    ],
+    "correctAnswer": "Osmanlı  sultanı II Mehmetin  ağır  gömrük siyasəti"
+  },
+  {
+    "number": 410,
+    "question": "1395- ci ildə dağılan Qaraqoyunlu ittifaqını  yenidən  bərpa  etdi:",
+    "options": [
+      "İsfəndiyar",
+      "Qara Yusif",
+      "Bayram xoca",
+      "Cahanşah",
+      "Əbu Səid"
+    ],
+    "correctAnswer": "Qara Yusif"
+  },
+  {
+    "number": 411,
+    "question": "Rəvvadilər dövləti öz müstəqilliyini itirərək səlcuqların hakimiyyəti altına keçdi?",
+    "options": [
+      "1088-cü ildə",
+      "1227-ci ildə",
+      "1065-ci ildə",
+      "1037-ci ildə",
+      "1055-ci ildə"
+    ],
+    "correctAnswer": "1065-ci ildə"
+  },
+  {
+    "number": 412,
+    "question": "Atropatenanın Parfiya ilə  birgə  Romaya qarşı apardığı  döyüş neçənci ildə baş  vermişdir:",
+    "options": [
+      "e.ə 53- cü ildə",
+      "e.ə. 66- cı ildə",
+      "e.ə.35- ci ildə",
+      "e.ə.220- ci ildə",
+      "e.ə. 65- ci ildə"
+    ],
+    "correctAnswer": "e.ə 53- cü ildə"
+  },
+  {
+    "number": 413,
+    "question": "Albaniya ilə dostluq münasibətləri saxlayan Roma imperatoru idi:",
+    "options": [
+      "Adrian",
+      "II İrakli",
+      "Trayan",
+      "Foka",
+      "Antoni"
+    ],
+    "correctAnswer": "Adrian"
+  },
+  {
+    "number": 414,
+    "question": "İndiki Şimali Azərbaycan və Dağıstanın cənub bölgələrini əhatə edən qədim dövlətimiz adlanırdı:",
+    "options": [
+      "Şirvanşahlar",
+      "Atropatena",
+      "Sacilər",
+      "Albaniya",
+      "Manna"
+    ],
+    "correctAnswer": "Albaniya"
+  },
+  {
+    "number": 415,
+    "question": "Cənubi Azərbaycan, İran Kürdüstanı və Şimali Azərbaycanın müəyyən hissəsini əhatə edən qədim dövlətimiz adlanırdı:",
+    "options": [
+      "Albaniya",
+      "Kimmer- skit padşahlığı",
+      "Aratta",
+      "Atropatena",
+      "Manna"
+    ],
+    "correctAnswer": "Atropatena"
+  },
+  {
+    "number": 416,
+    "question": "Mannanın Assuriya ilə ittifaqı hansı Manna hökmdarının dövründə pozuldu:",
+    "options": [
+      "İranzunun",
+      "Ualinin",
+      "Ahşerinin",
+      "Udakinin",
+      "Azanın"
+    ],
+    "correctAnswer": "Ahşerinin"
+  },
+  {
+    "number": 417,
+    "question": "Azərbaycanın hansı dövlətinin   etnik  quruluşunda sakasen,  mük, kaspi, qel, uti tayfaları təmsil olunurdular:",
+    "options": [
+      "Manna",
+      "Sacilər",
+      "Aratta",
+      "Eldəgizlər",
+      "Albaniya"
+    ],
+    "correctAnswer": "Albaniya"
+  },
+  {
+    "number": 418,
+    "question": "Üst  paleolitin  xarakterik  xüsusiyyətləri  hansı  bənddə düzgün  əks edilmişdir:",
+    "options": [
+      "Oturaq  həyata  keçid və  nitqin  yaranması",
+      "Ox  və  yayın   kəşvi , patriarxatın  formalaşması",
+      "Mikrolit   alətlərdən  geniş   istifadə olunması, maldarlığın  yaranması",
+      "Deşici  əmək  alətlərinin  üstün  yer  tutması və toxuculuğun  kəşvi",
+      "Qəbilə  quruluşunun  yaranması və müasir  insan   tipinin    formalaşması"
+    ],
+    "correctAnswer": "Qəbilə  quruluşunun  yaranması və müasir  insan   tipinin    formalaşması"
+  },
+  {
+    "number": 419,
+    "question": "Azərbaycanda son tunc  və ilk dəmir dövrü:",
+    "options": [
+      "e.ə. XVII  - XV əsrlər",
+      "e.ə. X - VIII əsrlər",
+      "e.ə. X - II əsrlər",
+      "e.ə. XIV - VIII əsrlər",
+      "e.ə. VII - V əsrlər"
+    ],
+    "correctAnswer": "e.ə. XIV - VIII əsrlər"
+  },
+  {
+    "number": 420,
+    "question": "Azərbaycanda qədim incəsənətin çiçəklənmə  dövrü hesab edilir:",
+    "options": [
+      "Erkən və orta aşel dövrü",
+      "Neolit",
+      "Üst paleolit",
+      "Mezolit",
+      "Orta tunc dövrü"
+    ],
+    "correctAnswer": "Orta tunc dövrü"
+  },
+  {
+    "number": 421,
+    "question": "Nəsli qəbilə quruluşunun əsasını təşkil edirdi:",
+    "options": [
+      "eyni dildə danışan bir neçə tayfanın birliyi",
+      "əqli və fiziki cəhətdən inkişaf etmiş tayfaların birliyi",
+      "eyni dildə danışan bir neçə qəbilələrin birliyi",
+      "bir neçə insan sürüsünün vahid birliyi",
+      "qan qohumluğuna malik insanların qəbilə birliyi"
+    ],
+    "correctAnswer": "qan qohumluğuna malik insanların qəbilə birliyi"
+  },
+  {
+    "number": 422,
+    "question": "Quriya,Menqreliya, İmeretiyanın Osmanlılara,Mesxiya, Kartli , Kaxetiyanın Səfəvi nəzarətinə keçməsini təsdiqləyən sülh necə adlanır:",
+    "options": [
+      "Sərab",
+      "Mərənd",
+      "İstanbul",
+      "Qəsri- Şirin",
+      "Amasiya"
+    ],
+    "correctAnswer": "Amasiya"
+  },
+  {
+    "number": 423,
+    "question": "Şah I Təhmasibin Səfəvilər dövlətinin mərkəzləşdirmə siyasəti nəticəsində Şəkini özünə tabe etdi:",
+    "options": [
+      "1538- ci ildə",
+      "1534- cü ildə",
+      "1565- ci ildə",
+      "1551- ci ildə",
+      "1547- ci ildə"
+    ],
+    "correctAnswer": "1551- ci ildə"
+  },
+  {
+    "number": 424,
+    "question": "I Şah İsmayıl Mərv qələbəsi ilə hansı əraziləri Səfəvilər  dövlətinə qatdı:",
+    "options": [
+      "Qəzvindən Mavərənnəhrə   qədər",
+      "Ərməniyyədən Gilana qədər",
+      "Xorasandan Amu Dəryaya qədər",
+      "Malatiyyadan Qarahisara qədər",
+      "Mərvdən Nişapura qədər"
+    ],
+    "correctAnswer": "Xorasandan Amu Dəryaya qədər"
+  },
+  {
+    "number": 425,
+    "question": "Şeyx Cüneydin  1460 - cı il Şirvana və Dağıstana səfərı nəticələndi:",
+    "options": [
+      "Şirvanşahları  məğlub edərək Ərdəbil şeyxiliyinin nüfuzunu artırdı",
+      "Şeyx Cüneyd çərkəzlərin hücumuna məruz qalaraq öldürüldü",
+      "Şirvanşah I Xəlilüllah və Cahanşah ittifaqına qarşı  mübarizədə məğlub oldu",
+      "Şirvanşahların paytaxtını ələ keçirdi",
+      "Ağqoyunlu hökmdarından gözlədiyi dəstəyi ala bilmədiyi üçün geri çəkildi"
+    ],
+    "correctAnswer": "Şirvanşah I Xəlilüllah və Cahanşah ittifaqına qarşı  mübarizədə məğlub oldu"
+  },
+  {
+    "number": 426,
+    "question": "Diyarbəkiri mərkəz seçərək Ağqoyunlu bəyliyini  möhkəmləndirmişdi:",
+    "options": [
+      "Pəhləvan bəy",
+      "Cahahgir Mirzə",
+      "Uzun Həsən",
+      "Əlaəddin Turəli bəy",
+      "Qara Yulluq Osman bəy"
+    ],
+    "correctAnswer": "Qara Yulluq Osman bəy"
+  },
+  {
+    "number": 427,
+    "question": "1421- ci ildə baş vermiş Alaşkerd döyüşü nəticələnmişdi:",
+    "options": [
+      "Qaraqoyunlular  Şirvanşahlara  kömək etmiş , lakin döyüş hər iki tərəf üçün nəticəsiz bitmişdi",
+      "Teymuri Şahrux məğlub olmuş və qoşunlarını  Azərbaycandan çəkmişdi",
+      "Döyüş Teymuri qüvvələrinin dağıdılması və yalnız Qarabağ ərazisinin itirilməsi ilə sona çatmışdı",
+      "Qaraqoyunlular qalib gəlmiş və Herata qədər əraziləri ələ keçirmişdilər",
+      "Qaraqoyunlular məğlub olmuş və Şahruxun  ali  hakimiyyətini tanımışdı"
+    ],
+    "correctAnswer": "Qaraqoyunlular məğlub olmuş və Şahruxun  ali  hakimiyyətini tanımışdı"
+  },
+  {
+    "number": 428,
+    "question": "Qara Yusif və Şirvanşah İbrahim arasında Kür çayı yaxınlığında döyüş baş vermişdi:",
+    "options": [
+      "1408- ci ildə",
+      "1421- ci ildə",
+      "1417- ci ildə",
+      "1412- ci ildə",
+      "1406- cı ildə"
+    ],
+    "correctAnswer": "1412- ci ildə"
+  },
+  {
+    "number": 429,
+    "question": "Qaraqoyunlu dövlətinin əhatə etdiyi ərazilər hansı bənddə düzgün əks edilib:",
+    "options": [
+      "Dərbənddən Dəclə və Fərat çaylarına qədər",
+      "Kürdən cənubda Azərbaycan torpaqları ,  İraq, Suriya və Misir",
+      "Gilandan Qəzvinə qədər, Həmədan və İsfahan",
+      "İndiki Şimali Azərbaycan ərazisi və Ərməniyyə",
+      "Şirvanşahlar istisna  olmaqla Azərbaycan torpaqları , Şərqi Anadolu,Gürcüstanın bir hissəsi, İran və İraq"
+    ],
+    "correctAnswer": "Şirvanşahlar istisna  olmaqla Azərbaycan torpaqları , Şərqi Anadolu,Gürcüstanın bir hissəsi, İran və İraq"
+  },
+  {
+    "number": 430,
+    "question": "Mərkəzi Van şəhəri olmaqla Qaraqoyunlu bəyliyini yaratmışdı:",
+    "options": [
+      "Qara Yusif",
+      "Əbu Səid",
+      "Qara İskəndər",
+      "Qara Məhəmməd",
+      "Cahanşah"
+    ],
+    "correctAnswer": "Qara Məhəmməd"
+  },
+  {
+    "number": 431,
+    "question": "Şirvanşah İbrahimin Teymurun ölümündən sonra yürütdüyü siyasi xətt hansı bənddə öz əksini tapır:",
+    "options": [
+      "Dağıstanı   tutaraq  Şirvana   birləşdirməyə çalışırdı",
+      "Şirvanı Toxtamışın hücumundan qurtarmaq üçün Cəlarilərlə birləşmişdi",
+      "Təbrizi ələ keçirərək vahid  Azərbaycan dövləti yaratmağa  çalışırdı",
+      "Cəlarilərlə Teymurilərə qarşı birləşmişdi",
+      "Qaraqoyunlu Qara Yusiflə müttəfiqlik münasibətləri saxlayırdı"
+    ],
+    "correctAnswer": "Təbrizi ələ keçirərək vahid  Azərbaycan dövləti yaratmağa  çalışırdı"
+  },
+  {
+    "number": 432,
+    "question": "Monqollar dövründə təsərrüfatın idarəsi həyata keçirilirdi:",
+    "options": [
+      "Qazilər dördlüyü tərəfindən",
+      "Tümən sistemi ilə",
+      "Divan sistemi vasitəsilə",
+      "Örüş siyasəti ilə",
+      "icarə sistemi ilə"
+    ],
+    "correctAnswer": "Divan sistemi vasitəsilə"
+  },
+  {
+    "number": 433,
+    "question": "1231 - ci ildə başlayan II Monqol yürüşü necə nəticələnir:",
+    "options": [
+      "1232- ci ildə monqolların Dərbənddən Orta Asiyaya qayıtması ilə",
+      "1235- ci ildə Gəncənin ələ keçirilməsi ilə",
+      "1357- ci ildə bütün Azərbaycanın ələ keçirilməsi ilə",
+      "1256- cı ildə Təbrizin tutulması ilə",
+      "1239 - cu ildə Azərbaycanın tamamilə işğal edilməsi ilə"
+    ],
+    "correctAnswer": "1239 - cu ildə Azərbaycanın tamamilə işğal edilməsi ilə"
+  },
+  {
+    "number": 434,
+    "question": "Monqollar   Şirvanın mərkəzi Şamaxını ələ keçirdilər:",
+    "options": [
+      "1225- ci ildə",
+      "1221- ci ildə",
+      "1220- ci ildə",
+      "1223- cü ildə",
+      "1222- ci ildə"
+    ],
+    "correctAnswer": "1222- ci ildə"
+  },
+  {
+    "number": 435,
+    "question": "Xarəzmşah Cəlaləddin  Azərbaycanı işğal etdi:",
+    "options": [
+      "1223- cü ildə",
+      "1227- ci ildə",
+      "1231 - ci ildə",
+      "1225- ci ildə",
+      "1222- ci ildə"
+    ],
+    "correctAnswer": "1225- ci ildə"
+  },
+  {
+    "number": 436,
+    "question": "Azərbaycan 1239- cu ildə monqollar tərəfindən ələ keçirildikdən sonra :",
+    "options": [
+      "Qızıl Ordanın nəzarətinə keçdi",
+      "Abaqa xanın hakimiyyət dairəsinə daxil edildi",
+      "Ali monqol xaqanlığının təyin etdiyi canişinlər tərəfindən  idarə edilirdi",
+      "Münke xan tərəfindən idarə edilməyə başladı",
+      "Cəbə və Subutayın rəhbərlik etdiyi hərbi qarnizona tabe edildi"
+    ],
+    "correctAnswer": "Ali monqol xaqanlığının təyin etdiyi canişinlər tərəfindən  idarə edilirdi"
+  },
+  {
+    "number": 437,
+    "question": "Monqolların Azərbaycana I yürüşü həyata keçirilmişdi:",
+    "options": [
+      "1223- 1225- ci illərdə",
+      "1256-1357- ci illərdə",
+      "1231-1239- cu illərdə",
+      "1220-1222- ci illərdə",
+      "1220- 1225- ci illərdə"
+    ],
+    "correctAnswer": "1220-1222- ci illərdə"
+  },
+  {
+    "number": 438,
+    "question": "Rusların Azərbaycana 944- cü il yürüşünün mahiyyəti hansı bənddə əks olunur:",
+    "options": [
+      "Dərbəndi tutmaq və oradan  Şirvana keçmək",
+      "Şirvanda möhkəmlənmək",
+      "Yezidiyyəni tutmaq və böyük qırgınlar  törətmək",
+      "Bakını tutmaq və orada möhkəmlənmək",
+      "Bərdəni tutmaq və Azərbaycanda  möhkəmlənmək"
+    ],
+    "correctAnswer": "Bərdəni tutmaq və Azərbaycanda  möhkəmlənmək"
+  },
+  {
+    "number": 439,
+    "question": "Gəncənin müdafiəsini möhkəmləndirmək üçün\"Gəncə qapılarının\" düzəldilməsi haqqında əmr vermişdi:",
+    "options": [
+      "Məhəmməd ibn Şəddad",
+      "I Fəzl",
+      "Ləşkəri",
+      "Əbləsüvar Şavur",
+      "III Fəzl"
+    ],
+    "correctAnswer": "Əbləsüvar Şavur"
+  },
+  {
+    "number": 440,
+    "question": "Şəmsəddin Eldənizin dövründə Atabəylər dövlətinin ərazisi əhatə edirdi:",
+    "options": [
+      "Naxçıvandan Təbrizə qədər",
+      "Ərməniyyədən Mosula qədər",
+      "Qafqaz dağlarından İran körfəzinə qədər",
+      "Təbrizdən Kür çayına qədər",
+      "Dərbənddən Qəzvinə qədər"
+    ],
+    "correctAnswer": "Qafqaz dağlarından İran körfəzinə qədər"
+  },
+  {
+    "number": 441,
+    "question": "Rəvvadilər dövlətinin paytaxtı Təbriz  Səlcuqlar tərəfindən tutuldu:",
+    "options": [
+      "1045- ci ildə",
+      "1038- ci ildə",
+      "1043- cü ildə",
+      "1050- ci ildə",
+      "1054- cü ildə"
+    ],
+    "correctAnswer": "1054- cü ildə"
+  },
+  {
+    "number": 442,
+    "question": "Salarilər dövləti əhatə edirdi:",
+    "options": [
+      "Şimalda Dərbənddən cənubda Kür çayına  qədər",
+      "şimalda Kür çayıdan  cənubda Zəncana qədər",
+      "şimalda Bələncərdən cənubda Qəzvinə qədər",
+      "Şimalda Şəkidən cənubda Ərdəbilə qədər",
+      "Şimalda Dərbənddən  cənubda Dəclə Fərat çaylarına qədər"
+    ],
+    "correctAnswer": "Şimalda Dərbənddən  cənubda Dəclə Fərat çaylarına qədər"
+  },
+  {
+    "number": 443,
+    "question": "Sacilər dövləti mövcud olmuşdur:",
+    "options": [
+      "941-981- ci illərdə",
+      "981-1054- cü illərdə",
+      "861- 1038- ci illərdə",
+      "879- 941- ci illərdə",
+      "971- 1088- ci illərdə"
+    ],
+    "correctAnswer": "879- 941- ci illərdə"
+  },
+  {
+    "number": 444,
+    "question": "IX əsrdə Müstəqil Şirvanşahlar dövlətini  yaratdı:",
+    "options": [
+      "Məhəmməd ibn Xalid",
+      "Məniçöhr ibn Yezid",
+      "əş Şəmax ibn Şüca",
+      "Əbu Tahir",
+      "Heysəm ibn Xalid"
+    ],
+    "correctAnswer": "Heysəm ibn Xalid"
+  },
+  {
+    "number": 445,
+    "question": "XII əsr memarlıq abidələrinə aid deyil:",
+    "options": [
+      "Xanəgah  kəndində sərdabə",
+      "Üç günbəz",
+      "Mömünə xatun türbəsi",
+      "Yusif İbn Küseyr  türbəsi",
+      "Təbrizdə  Şənbi Qazan  abidəsi"
+    ],
+    "correctAnswer": "Təbrizdə  Şənbi Qazan  abidəsi"
+  },
+  {
+    "number": 446,
+    "question": "Səlcuqlar  sultan Toğrulun başçılığı  altında nə zaman Azərbaycana  daxil  oldular:",
+    "options": [
+      "XI əsrin 80  - ci  illərində",
+      "XI əsrin 50 – ci  illərində",
+      "XI əsrin  sonlarında",
+      "XII əsrin ortalarında",
+      "X əsrin 60- cı illərində"
+    ],
+    "correctAnswer": "XI əsrin 50 – ci  illərində"
+  },
+  {
+    "number": 447,
+    "question": "Atropatena Sasanilər tərəfindən işğal edildi:",
+    "options": [
+      "229- cı ildə",
+      "260- cı ildə",
+      "262- ci ildə",
+      "227- ci ildə",
+      "252-ci ildə"
+    ],
+    "correctAnswer": "227- ci ildə"
+  },
+  {
+    "number": 448,
+    "question": "Azərbaycanda ərəb əsarətinə qarşı ilk üsyanlar başlanmışdı:",
+    "options": [
+      "750-775- ci illərdə",
+      "881-885- ci illərdə",
+      "748-752- ci illərdə",
+      "892-895- ci illərdə",
+      "760-766- cı illərdə"
+    ],
+    "correctAnswer": "748-752- ci illərdə"
+  },
+  {
+    "number": 449,
+    "question": "Alban  hökmdarı Cavanşir ərəblərə qarşı ittifaq qurmuşdu:",
+    "options": [
+      "Sünik hökmdarı Sunbat ilə",
+      "Xəzər xaqanı Şat ilə",
+      "Sasani hökmdarı III Yezdəgirdlə",
+      "Bizanz imperatoru II Konstantinlə",
+      "Gürcü hökmdarı III Georgi ilə"
+    ],
+    "correctAnswer": "Bizanz imperatoru II Konstantinlə"
+  },
+  {
+    "number": 450,
+    "question": "Ərəblərin Azərbaycana hücumu başlandı:",
+    "options": [
+      "661- ci ildə",
+      "630- cu ildə",
+      "639- cu ildə",
+      "643- cü ildə",
+      "645- ci ildə"
+    ],
+    "correctAnswer": "639- cu ildə"
+  },
+  {
+    "number": 451,
+    "question": "Albaniyada  II Vaçenin dövründə hökmdar hakimiyyəti ləğv edildi və mərzbanlıq sistemi yaradıldı:",
+    "options": [
+      "450- ci ildə",
+      "463- cü ildə",
+      "262- ci ildə",
+      "488- ci ildə",
+      "629 - cu ildə"
+    ],
+    "correctAnswer": "463- cü ildə"
+  },
+  {
+    "number": 452,
+    "question": "Albaniya Sasanilər  tərəfindən işğal edilmişdi:",
+    "options": [
+      "510 -cu ildə",
+      "463- cü ildə",
+      "227- ci ildə",
+      "262 - ci ildə",
+      "493- cü ildə"
+    ],
+    "correctAnswer": "262 - ci ildə"
+  },
+  {
+    "number": 453,
+    "question": "Lulubilərin xırda hakimlərini  mərkəzi  dövlətdə  birləşdirən  Lullubi hökmdarı :",
+    "options": [
+      "İşpakay",
+      "Sukusşiranna",
+      "Satuni",
+      "İmmaşqun",
+      "Partatua"
+    ],
+    "correctAnswer": "İmmaşqun"
+  },
+  {
+    "number": 454,
+    "question": "E.ə. 220 - ci  ildə Adərbayqanın siyasi vəziyyəti hansı bənddə düzgün əks edilmişdi:",
+    "options": [
+      "Roma  Adərbayqanla  dostluq  münasibətləri  saxlayırdı",
+      "Adərbayqan Roma və Sələvkilər  arasında bölüşdürülmüşdü",
+      "Adərbayqan müstəqil  fəaliyyət  göstərirdi",
+      "Sələvkilərlə  müharibədən qalib çıxmışdı",
+      "Adərbayqan  Sələvkilərdən asılı hala  düşdü"
+    ],
+    "correctAnswer": "Adərbayqan  Sələvkilərdən asılı hala  düşdü"
+  },
+  {
+    "number": 455,
+    "question": "Orta tunc  dövründə baş  vermişdir:",
+    "options": [
+      "Böyük qəbilə birlikləri yaranmışdır",
+      "Tacirlər  müstəqil fəaliyyətə  başlamışdı",
+      "Əkinçilik və maldarlıq yaranmışdı",
+      "Ulu icma  qəbilə  icması ilə  əvəz  olunmuşdu",
+      "İlkin şəhər mərkəzləri yaranmışdı"
+    ],
+    "correctAnswer": "İlkin şəhər mərkəzləri yaranmışdı"
+  },
+  {
+    "number": 456,
+    "question": "Əkinçilik və maldarlıqla yanaşı, eneolit əhalisi:",
+    "options": [
+      "Ön Asiya ilə əlaqə yaradılmış,maldarlıq əsas peşəyə çevrilmişdir.",
+      "ərzağa olan tələbatın bir qismini ovçuluq və balıqçılıq vasitəsilə təmin edirdilər.",
+      "əmək alətləri təkmilləşmiş,xışdan istifadə etmişlər.",
+      "toxa əkinçiliyini inkişaf etdirmiş, tuncdan bəzək əşyaları düzəltmişlər",
+      "maldar və əkinçi tayfalarına bölünmüşdülər."
+    ],
+    "correctAnswer": "ərzağa olan tələbatın bir qismini ovçuluq və balıqçılıq vasitəsilə təmin edirdilər."
+  },
+  {
+    "number": 457,
+    "question": "Qədim daş dövrü ilə orta daş dövrünün oxşar cəhətləri:",
+    "options": [
+      "hər ikisində tayfa birliyinin mövcud olması",
+      "mənimsəmə təsərrüfatından istehsal təsərrüfatına keçidin başlanması",
+      "əkinçilikdə toxadan istifadə edilməsi,nəsli qəbilə quruluşunun mövcudluğu",
+      "ox və kamanın kəşfi,əmək alətlərinin daşdan hazırlanması",
+      "hər ikisində əmək alətlərinin daşdan hazırlanması"
+    ],
+    "correctAnswer": "hər ikisində əmək alətlərinin daşdan hazırlanması"
+  },
+  {
+    "number": 458,
+    "question": "Səfəvilər dövləti ilə Osmanlı dövləti arasında imzalanmış Amasiya müqaviləsindən necə il əvvəl Atabəylər dövləti süquta uğramışdı:",
+    "options": [
+      "365 il",
+      "375 il",
+      "330 il",
+      "340 il",
+      "450 il"
+    ],
+    "correctAnswer": "330 il"
+  },
+  {
+    "number": 459,
+    "question": "Şeyx Heydər Ağqoyunlu Yaqub padşahla razılığa gəldikdən sonra Dağıstana və Şirvana yürüş etdi:",
+    "options": [
+      "1490-cı ildə",
+      "1460-cı ildə",
+      "1477-ci ildə",
+      "1483-cü ildə",
+      "1494-cü ildə"
+    ],
+    "correctAnswer": "1483-cü ildə"
+  },
+  {
+    "number": 460,
+    "question": "Qızıl Orda xanı Toxtamışın Azərbaycan şəhərlərində, həmçinin Naxçıvanda qala bilməməsinin səbəbi nə idi:",
+    "options": [
+      "Hun tayfalarının Qızıl  Orda malikanələrinə hücum etməsi.",
+      "Təbriz və Naxcıvan şəhərlərinin əhalisindən xərac alması.",
+      "Toxtamışın qoşunlarının aclıqdan və xəstəlikdən əziyyət çəkməsi.",
+      "Rus knyazlarının Toxtamış üzərinə yürüşü.",
+      "Yerli əhalinin inadlı mübarizəsi və Teymur qoşunlarının Qızıl Orda malikanələrinə hücumu."
+    ],
+    "correctAnswer": "Yerli əhalinin inadlı mübarizəsi və Teymur qoşunlarının Qızıl Orda malikanələrinə hücumu."
+  },
+  {
+    "number": 461,
+    "question": "Hülakü hökmdarı Qazan xanın islam dinini qəbul etməkdə məqsədi:",
+    "options": [
+      "İqtisadi tənəzüllün qarşısını almaq.",
+      "Yerli oturaq feodalları və müsəlman din xadimlərini öz tərəfinə çəkmək.",
+      "Keçirəcəyi islahatların tərəfdarlarının sayını artırmaq.",
+      "Möhkəm birlik yaradıb Qızıl Orda dövlətinə qarşı müarizə aparmaq.",
+      "Köçəri feodalların müqavimətini qırıb yerli feodalları idarəçiliyə cəlb etmək."
+    ],
+    "correctAnswer": "Yerli oturaq feodalları və müsəlman din xadimlərini öz tərəfinə çəkmək."
+  },
+  {
+    "number": 462,
+    "question": "Qıpçaqlar Dərbənd, Qəbələ və Gəncəni işğal etdilər:",
+    "options": [
+      "1231-ci ildə",
+      "1221-ci ildə",
+      "1224-cü ildə",
+      "1225-ci ildə",
+      "1223-cü ildə"
+    ],
+    "correctAnswer": "1223-cü ildə"
+  },
+  {
+    "number": 463,
+    "question": "Səlcuq axınlarının Cənubi Qafqaz üçün ən başlıca nəticəsi nədən ibarət oldu:",
+    "options": [
+      "Ölkədə pərakəndəlik və ara müaribələri qızışdı.",
+      "Vergilərin artırılması nəticəsində əhalinin narazılığı gücləndi.",
+      "Azərbaycan xalqının Monqolara qarşı mübarizə aparması asanlaşdı.",
+      "Azərbaycanda İslam dininin tam yayılması prosesi başa çatdı.",
+      "Oğuz-türk tayfaları burada başlıca etnik və siyasi amilə çevrildi."
+    ],
+    "correctAnswer": "Oğuz-türk tayfaları burada başlıca etnik və siyasi amilə çevrildi."
+  },
+  {
+    "number": 464,
+    "question": "Araz çayı üzərində körpü saldırmış Şəddadi hökmdarı:",
+    "options": [
+      "Şavur",
+      "Əbülhəsən Ləşgəri",
+      "Fəzl ibn Məhəmməd",
+      "Məhəmməd ibn Şəddad",
+      "III Fəzlun"
+    ],
+    "correctAnswer": "Fəzl ibn Məhəmməd"
+  },
+  {
+    "number": 465,
+    "question": "Xürrəmilərin Xilafət orduları üzərindəki qələbələrinin səbəblərinə aiddir:",
+    "options": [
+      "Xürrəmilərin Bizans imperiyasından böyük miqdarda qoşun alması.",
+      "Ərəblərin döyüş meydanında  düzgün taktika seçə bilməmələri.",
+      "Ərəb ordusunda çoxsaylı türk süvarilərinin olması.",
+      "Xilafət sarayında hakimyyət üstündə çəkişmələrin güclənməsi, ərəblərə qarşı Suriya və Misirdəki üsyanların Xürrəmilərin azadlıqmüharibəsi  ilə bir vaxta düşməsi.",
+      "Xəzərlərin Xürrəmilərə yardım göstərməsi."
+    ],
+    "correctAnswer": "Xilafət sarayında hakimyyət üstündə çəkişmələrin güclənməsi, ərəblərə qarşı Suriya və Misirdəki üsyanların Xürrəmilərin azadlıqmüharibəsi  ilə bir vaxta düşməsi."
+  },
+  {
+    "number": 466,
+    "question": "Albaniyada Mehranilər sülaləsinin hökmranlığı başlayır:",
+    "options": [
+      "VII əsrin sonu VIII əsrin əvvələrindən.",
+      "VI əsrin sonlarından.",
+      "VII əsrin ortalarından.",
+      "VII əsrin əvvəllərindən.",
+      "VI əsrin sonu-VII əsrin əvvələrindən."
+    ],
+    "correctAnswer": "VII əsrin əvvəllərindən."
+  },
+  {
+    "number": 467,
+    "question": "Məzdəkilər təliminin əsas müddəası:",
+    "options": [
+      "Sasani zülmünün aradan qaldırılması, maddi nemətlərin insanlar arasında bərabər bölünməsi.",
+      "Sasanilərin vergi siyatəsinə qarşı mübarizə aparmaqla ədalətli cəmiyyəti qurmaq.",
+      "Ədalətli cəmiyyət qurmaq, kəndlilərdən toplanan vergilərin miqdarını azalatmaq.",
+      "Son anda xeyirin şər üzərində qələbə qazanması, ədalətin bərqərar olması.",
+      "Ədalətli cəmiyyət qurmaq, insanlar arasında əmlak bərabərliyi yaratmaq."
+    ],
+    "correctAnswer": "Ədalətli cəmiyyət qurmaq, insanlar arasında əmlak bərabərliyi yaratmaq."
+  },
+  {
+    "number": 468,
+    "question": "Manna dövləti Assuriya meyilli xarici siyasət yeritməsi nəticəsində nail olmuşdu:",
+    "options": [
+      "Assur ağalığı ölkədə möhkəmlənmiş Assuriyaya vergi ödənilməsi dayandırılmışdı.",
+      "Urartu hökmdarlarının Mannada təsiri daha da güclənmişdi,",
+      "Assuriya qoşunları Manna ərazisində yerləşdirilmiş, onun ərazisi parçalanmışdı.",
+      "Urartu işğallarından xilas olmuş və ölkənin vahid mərkəzdə birləşməsi üçün şərait yaranmışdı.",
+      "Bir sıra əyalətlərini Assuriyaya güzəştə getmişdi"
+    ],
+    "correctAnswer": "Urartu işğallarından xilas olmuş və ölkənin vahid mərkəzdə birləşməsi üçün şərait yaranmışdı."
+  },
+  {
+    "number": 469,
+    "question": "E.ə 66-cı illdə Roma senatı Lisini  Lukulun yerinə Şərqə göndərmişdi:",
+    "options": [
+      "Yuliy Sezar",
+      "Kanidi",
+      "Antoni",
+      "Qney Pompey",
+      "Oktaviyan Avqust"
+    ],
+    "correctAnswer": "Qney Pompey"
+  },
+  {
+    "number": 470,
+    "question": "Manna hökmdarı Ahşerinin xarici siyasətində baş verən dəyişiklik nədən ibarət idi:",
+    "options": [
+      "Assuriya ilə Urartuya qarşı ittifaq bağladı",
+      "Midiya ilə birləşib Babislitanı məğlub etdi.",
+      "Midiya hökmdarı Kiaksarla saziş bağladı.",
+      "İskitlərlə Assuriyaya qarşı ittifaqa girdi.",
+      "Assuriya ilə mübarizə aparmaq üçün Babilistanla əlaqə yaratdı."
+    ],
+    "correctAnswer": "İskitlərlə Assuriyaya qarşı ittifaqa girdi."
+  },
+  {
+    "number": 471,
+    "question": "Xronoloji ardıcılığı müəyyən edin: 1. Ox və kamanın kəşfi. 2.Axirət dünyasına inamın yaranması.3. Ulu icmanın yaranması. 4. Xışəkinçiliyinin meydana gəlməsi. 5. Mənimsə təsərrüfatından istehsal təsərrüfatına keçidin başa çatması.",
+    "options": [
+      "1,2,3,5,4.",
+      "3,4,5,2,1.",
+      "2,4,3,1,5.",
+      "3,2,1,5,4.",
+      "2,1,3,5,4."
+    ],
+    "correctAnswer": "3,2,1,5,4."
+  },
+  {
+    "number": 472,
+    "question": "Mezolit dövründə insanlar:",
+    "options": [
+      "Ox və kaman kəşf olunmuş, əkinçillik əsas peşəyə çevrilmişdir.",
+      "Oturaq həyata keçmişlər, ox və kamandan istifadə olunmuşdur.",
+      "Daşı deşməyi bacarmış, maldarlıq əsas peşəyə çevrilmişdir.",
+      "Təbiətin hazır məhsullarını mənimsəməkdən onların istehsalına keçidin əsasını qoymuşlar",
+      "Heyvanları uzaq məsafədən ovlaya bilmişlər, istehsal təsərrüfatı formalaşmışdı"
+    ],
+    "correctAnswer": "Təbiətin hazır məhsullarını mənimsəməkdən onların istehsalına keçidin əsasını qoymuşlar"
+  },
+  {
+    "number": 473,
+    "question": "1488-ci ildə Tabasaranda, Şahdağın ətəyində baş vermiş döyüşün nəticəsi:",
+    "options": [
+      "Qızılbaşlar Qarabağ və Dağıstan hakimlərinin köməyilə Şirvanşahları məğlub etdilər",
+      "Şirvanşahlara məğlub olan Şeyx Heydər Ərdəbilə geri çəkildi",
+      "tərəflərdən heç biri uğur qazana bilmədi",
+      "Qızılbaşlarla Ağqoyunluların birləşmiş dəstələri Şirvanşahlara qalib gəldilər",
+      "Şirvanşahlarla Ağqoyunluların birləşmiş dəstələri qızılbaşları məğlub etdilər"
+    ],
+    "correctAnswer": "Şirvanşahlarla Ağqoyunluların birləşmiş dəstələri qızılbaşları məğlub etdilər"
+  },
+  {
+    "number": 474,
+    "question": "XVI əsrdə yaşamış və \"Əhsən ət- Təvarix\" əsərinin müəllifi olmuş Azərbaycan tarixçisi:",
+    "options": [
+      "Qiyasəddin əl Huseyni",
+      "Şərəf xan Bitlisi",
+      "Oruc bəy Bayat",
+      "İskəndər Münşi",
+      "Həsən bəy Rumlu"
+    ],
+    "correctAnswer": "Həsən bəy Rumlu"
+  },
+  {
+    "number": 475,
+    "question": "XV- XVI əsrlərə aid memarlıq abidələrini göstərin:",
+    "options": [
+      "Üç günbəz, Göy günbəz , Əlincə çayı üzərində körpü ,Əlincə qalası",
+      "Əlincə çayı üzərində tikilmiş körpü, Mömünə xatun türbəsi, Əlincə qalası, Ağbil məqbərəsi",
+      "Oğlanqala , Xudafərin körpüsü , Qəlaybuğurd qalası , Mömünəxatun türbəsi , Şeyx Cüneyd məqbərəsi",
+      "Qeysəriyyə bazarı, Nəsriyyə və Məqsudiyyə məqrəbəsi , Şeyx Cüneyd məqbərəsi, Bakının şərq darvazaları",
+      "Gülüstan qalası, Şirvanşahlar sarayı, Qız qalası, Həşt- behişt"
+    ],
+    "correctAnswer": "Qeysəriyyə bazarı, Nəsriyyə və Məqsudiyyə məqrəbəsi , Şeyx Cüneyd məqbərəsi, Bakının şərq darvazaları"
+  },
+  {
+    "number": 476,
+    "question": "Şirvanda Səfəvilər əleyhinə üsyanlar baş vermişdi:",
+    "options": [
+      "1535- 1537- ci illərdə",
+      "1568- 1570- ci illərdə",
+      "1547- 1549-cu illərdə",
+      "1555- 1597- ci illərdə",
+      "1542- 1544- cü illərdə"
+    ],
+    "correctAnswer": "1547- 1549-cu illərdə"
+  },
+  {
+    "number": 477,
+    "question": "Azərbaycan sultan III Muradın ordusu tərəfindən zəbt edilmişdir:",
+    "options": [
+      "1572- 1579-cu illərdə",
+      "1586- 1589- cu illərdə",
+      "1568-1570- ci illərdə",
+      "1555- 1570- ci illərdə",
+      "1580- 1585- ci illərdə"
+    ],
+    "correctAnswer": "1586- 1589- cu illərdə"
+  },
+  {
+    "number": 478,
+    "question": "Səfəvi dövlətinin idarəetmə sistemində şiələrin ruhani başçısı hesab olunurdu:",
+    "options": [
+      "əmir əl-üməra",
+      "vəkil",
+      "şah",
+      "vəzir",
+      "sədr"
+    ],
+    "correctAnswer": "şah"
+  },
+  {
+    "number": 479,
+    "question": "Səfəvilərin siyasi fəaliyyəti hansı Ərdəbil hakiminin dövründən başlanmışdı:",
+    "options": [
+      "Şeyx Cüneyd",
+      "Şeyx Xacə Əli",
+      "Şeyx Musa",
+      "Şeyx İbrahim",
+      "Şeyx  Səfiyyədin"
+    ],
+    "correctAnswer": "Şeyx Cüneyd"
+  },
+  {
+    "number": 480,
+    "question": "Şirvanın ilk bəylərbəyi təyin olunan Əlqas Mirzənin osmanlılarla yaxınlaşmasına səbəb olmuşdu:",
+    "options": [
+      "Krım xanı tərəfindən təqibə məruz qalması",
+      "Gürcüstana qarşı həyata keçirdiyi uğursuz yürüşlər",
+      "Şirvan feodalları ilə sazişə gələ bilməməsi",
+      "Səfəvilərə qarşı qaldırdığı qiyamın uğursuz olması",
+      "Səfəvi  hökmdarı  tərəfindən sıxışdırılması"
+    ],
+    "correctAnswer": "Səfəvilərə qarşı qaldırdığı qiyamın uğursuz olması"
+  },
+  {
+    "number": 481,
+    "question": "Salari hökmdarı Mərzubanın oğlu İbrahimin dövrünə aiddir:",
+    "options": [
+      "Dövlətin ərazisi Dərbənddən Zəncana qədər olan ərazini əhatə edirdi.",
+      "Dəbil əmirliyi Şəddadilər tərəfindən zəbt edildi.",
+      "“Qanunnamə” yazdırdı",
+      "Dövlətin varlığına son qoyuldu",
+      "Şirvanşahlar dövləti qısa müddətdə olsa da Salarilərə tabe edildi."
+    ],
+    "correctAnswer": "Dövlətin varlığına son qoyuldu"
+  },
+  {
+    "number": 482,
+    "question": "Azərbaycana gəldiyi zaman Rəvvadilərin daxili müstəqilliyini tamam ləğv edərək 1065-ci ildə Təbrizə səlcuq əmiri təyin etdi:",
+    "options": [
+      "Məlikşah",
+      "Sultan II Toğrul",
+      "Alp Arslan",
+      "Sultan Səncər",
+      "III Toğrul"
+    ],
+    "correctAnswer": "Alp Arslan"
+  },
+  {
+    "number": 483,
+    "question": "Alan tayfalarının, qonşu feodal dövlətlərin və xüsusilə səlcuq türklərinin basqınlarından qorunmaq üçün tədbirlər gördü, Gəncəninətrafında xəndək qazdırıb hasar çəkdirdi, 1063-cü ildə Şirvana bir neçə yürüş təşkil edərək 40 min dinar xərac alan Şəddadi hökmdarı:",
+    "options": [
+      "III Fəzlun",
+      "Məhəmməd ibn Şəddad",
+      "Ləşkəri",
+      "Əbüləsvar Şavur",
+      "Fəzl ibn Məhəmməd"
+    ],
+    "correctAnswer": "Əbüləsvar Şavur"
+  },
+  {
+    "number": 484,
+    "question": "Şirvanşah Axsitana aid olanları müəyyən edin:1)Dənizdə hərbi donanmanı, quruda ordunu xeyli gücləndirdi 2)Alimləri, filosfları,şairləri himayə edirdi3)Kür çayından torpaqları suvarmaq üçün Şamaxıya kanal çəkdirdi.4)Monqolların I yürüşü zamanı əlaqə yaratmaq üçün 10 nəfərdən ibarət elçi göndərdi 5)Atasından fərqli olaraq Atabəylərə düşmənçilik edirdi.",
+    "options": [
+      "3.50",
+      "1, 4",
+      "2.40",
+      "2.50",
+      "1.20"
+    ],
+    "correctAnswer": "1.20"
+  },
+  {
+    "number": 485,
+    "question": "Şəddadilər dövlətinin başçısı hansı titulu daşıyırdı :",
+    "options": [
+      "padşah",
+      "şah",
+      "sultan",
+      "məlik",
+      "əmir"
+    ],
+    "correctAnswer": "əmir"
+  },
+  {
+    "number": 486,
+    "question": "Şəddadilər dövlətinin qoşunu təşkil olunmuşdu :",
+    "options": [
+      "Feodallardan ibarət suvarilər",
+      "Qeyri - türklərdən toplanmış xüsusi qvardiya",
+      "Ayrı - ayrı köçəri tayfalardan toplanmış suvarilər və piyadalar",
+      "Artileriya və piyada qoşunu",
+      "Daimi nizami qvardiya və könüllülər"
+    ],
+    "correctAnswer": "Daimi nizami qvardiya və könüllülər"
+  },
+  {
+    "number": 487,
+    "question": "Şəmsəddin Eldənizə 1136 - cı ildə iqta şəklində bağışlanmışdı :",
+    "options": [
+      "Şirvan",
+      "Arran",
+      "Kürdən cənubdakı Azərbaycan torpaqları",
+      "Təbriz, Əhər və Rey",
+      "Naxçıvan"
+    ],
+    "correctAnswer": "Arran"
+  },
+  {
+    "number": 488,
+    "question": "XII əsr Azərbaycan elminin nümayəndələri:",
+    "options": [
+      "Zeynəlabdin Şirvani, Nizam Təbrizi, Hacı Əlişah Təbrizi",
+      "Zülfüqar Şirvani, Məhəmməd Naxçıvani, Mahmud İbn Maqsud",
+      "Mahmud Şəbüstəri, Mahmud İbn İlyas, Əbdülqadir Marağayi",
+      "Fazil Fəridəddin Şirvani, Bəhmənyar ibn Mərzban, Əbu Zəkəriyyə, Əbu Mənsur",
+      "Übeyd Təbrizi, Əbdülmömin Təbrizi, Zülfüqar Şirvani"
+    ],
+    "correctAnswer": "Fazil Fəridəddin Şirvani, Bəhmənyar ibn Mərzban, Əbu Zəkəriyyə, Əbu Mənsur"
+  },
+  {
+    "number": 489,
+    "question": "Göstərilənlərin hansı hökmdara aid olduğunu müəyyən edin:1)Xəlifə onu Azərbaycan və Ərməniyə canişini , habelə Rey, Qəzvin,Zəncan valisi təyin etdi, 2), bunun müqabilində hər il xəzinəyə 500 min dinar xərac verməli idi.",
+    "options": [
+      "Mərzuban ibn Məhəmməd",
+      "Yəzid ibn Məzyəd",
+      "Əbu Sac Divdad",
+      "Yusif ibn Əbu Sac",
+      "Heysəm ibn Xalid"
+    ],
+    "correctAnswer": "Yusif ibn Əbu Sac"
+  },
+  {
+    "number": 490,
+    "question": "Albaniya, Şirvanşahlar, Salarilər, Şəddadilər dövlətlərinin hökmdarları hansı ardıcıllıqda düzgün göstərilib:",
+    "options": [
+      "Şeruyə, İbrahim, Əbüləsvər Şavur, Fəriburz",
+      "İbrahim, Əbüləsvər Şavur, Şeruyə, Fəriburz",
+      "İbrahim, Fəriburz, Şeruyə, Əbüləsvər Şavur",
+      "Şeruyə, Fəriburz, İbrahim, Əbüləsvər Şavur",
+      "Əbüləsvər Şavur, İbrahim, Fəriburz, Şeruyə"
+    ],
+    "correctAnswer": "Şeruyə, Fəriburz, İbrahim, Əbüləsvər Şavur"
+  },
+  {
+    "number": 491,
+    "question": "Saları hökmdarı Mərzubanın oğlu İbrahimin (961-981) hakimiyyəti illərində dövlətin itirdiyi ərazilər:",
+    "options": [
+      "Təbriz, Şabran, Bakı",
+      "Naxçıvan, Dəbil, Ərdəbil",
+      "Səlmas, Mosul, Ərdəbil",
+      "Şirvan, Təbriz, Dəbil",
+      "Şirvan, Dərbənd, Gəncə"
+    ],
+    "correctAnswer": "Şirvan, Dərbənd, Gəncə"
+  },
+  {
+    "number": 492,
+    "question": "Şəddadilər dövləti yaranmışdır:",
+    "options": [
+      "948- ci ildə Əhərdə",
+      "1067- ci ildə Bakıda",
+      "971- ci ildə Gəncədə",
+      "1050- ci ildə Gəncədə",
+      "X əsrin ortalarında Dvində"
+    ],
+    "correctAnswer": "971- ci ildə Gəncədə"
+  },
+  {
+    "number": 493,
+    "question": "Aratta dövlət qurumu meydana çıxıb?",
+    "options": [
+      "e.ə.II minillik və e.ə.I minilliyin əvvəlində",
+      "e.ə.VI-V minilliklərdə",
+      "e.ə.VI minillikdə",
+      "e.ə.III minilliyin birinci yarısında",
+      "e.ə.IV minilliyin ikinci yarısında"
+    ],
+    "correctAnswer": "e.ə.III minilliyin birinci yarısında"
+  },
+  {
+    "number": 494,
+    "question": "E.ə. III minilliyin birinci yarısında:",
+    "options": [
+      "Arattada dövlətə məxsus idarə orqanları və vəzifəli şəxslər kiçik feodallar meydana gəlmişdi.",
+      "Aratta haqqında “En-Merkar” dastanı və III Salmanasarın daş kitabəsində məlumat verilir.",
+      "Arattada dövlət yaranmış, nizami ordu yaradılıb, silah istehsal olunmaqla Mesapatomiyaya səfərlər təşkil edilib.",
+      "Aratta Cənubi Azərbaycanda yaranmış,onun ərazisi Urmiya gölünün cənub və cənub-şərq hissəsini əhatə edirdi.",
+      "Arattada dövlətə məxsus idarə orqanları və vəzifəli şəxslər, icmaçi kəndlilər meydana gəlmişdi."
+    ],
+    "correctAnswer": "Aratta Cənubi Azərbaycanda yaranmış,onun ərazisi Urmiya gölünün cənub və cənub-şərq hissəsini əhatə edirdi."
+  },
+  {
+    "number": 495,
+    "question": "Roma hökmdarı Qney Pompeyin yürüşü zamanı Albaniyada hökmdarlıq edirdi:",
+    "options": [
+      "Urnayır",
+      "II Vaçe",
+      "Oroys",
+      "Arran",
+      "I Vaçe"
+    ],
+    "correctAnswer": "Oroys"
+  },
+  {
+    "number": 496,
+    "question": "Tarixi qaynaqlarda albanlarla dostluq münasibətləri saxlayan Roma imperatoru hesab olunur:",
+    "options": [
+      "Mavriki",
+      "Yuli Sezar",
+      "Adrian",
+      "Oktavian Avqust",
+      "İrakli"
+    ],
+    "correctAnswer": "Adrian"
+  },
+  {
+    "number": 497,
+    "question": "II Sarqonun şərəfinə abidə qoydurmuş Manna hökmdarı:",
+    "options": [
+      "Ahşeri",
+      "Ualli",
+      "İranzu",
+      "Ullusunu",
+      "Erisinni"
+    ],
+    "correctAnswer": "Ullusunu"
+  },
+  {
+    "number": 498,
+    "question": "E.ə.VII əsrin ortalarında skit hökmdarı:",
+    "options": [
+      "II Sarqon",
+      "Asarhaddn",
+      "Şamaş",
+      "Tuqdamme",
+      "Sarduri"
+    ],
+    "correctAnswer": "Tuqdamme"
+  },
+  {
+    "number": 499,
+    "question": "Kuti hökmdarları İkiçayarasında hakimiyyəti ələ keçirdilər:",
+    "options": [
+      "e.ə.2315-ci ildə",
+      "e.ə. 2104-cü ildə",
+      "e.ə.2115-ci ildə",
+      "e.ə.2175-ci ildə",
+      "e.ə. 2555- ci ildə"
+    ],
+    "correctAnswer": "e.ə.2175-ci ildə"
+  },
+  {
+    "number": 500,
+    "question": "Kutilərin İkiçayarasında hakimiyyəti nə vaxta qədər davam etmişdir:",
+    "options": [
+      "e.ə. 2135- ci ilədək",
+      "e.ə. 2114-cü ilədək",
+      "e.ə. 2150- ci ilədək",
+      "e.ə. 2109 -cu ilədək",
+      "e.ə. 2104- cü ilədək"
+    ],
+    "correctAnswer": "e.ə. 2104- cü ilədək"
+  },
+  {
+    "number": 501,
+    "question": "E.ə. II minilliyin əvvəllərində turukkilərin İkiçayarasının şimalında apardıqları mübarizə hansı dövlətin maraqlarına toxunurdu:",
+    "options": [
+      "Midiya",
+      "Akkad",
+      "Şumer",
+      "Assuriya",
+      "Manna"
+    ],
+    "correctAnswer": "Assuriya"
+  },
+  {
+    "number": 502,
+    "question": "E.ə. III minilliyin I yarısında Aratta dövləti hansı Şumer şəhər dövləti ilə münasibətlər saxlamışdi:",
+    "options": [
+      "Nippur",
+      "Ur",
+      "Uruk",
+      "Sippar",
+      "Umma"
+    ],
+    "correctAnswer": "Uruk"
+  },
+  {
+    "number": 503,
+    "question": "Aşağıda göstərilənlər Ziviyə abidəsini daha düzgün əks etdirir:",
+    "options": [
+      "Silahların hazırlanmasında tökmə sənəti təsvir edilmişdir",
+      "Qızıl, gümüş və fil sümüyündən hazırlanmış 341 əşya tapılmışdır",
+      "Böyük qızıl qədəh üzərində təsviri nağıl əks olunmuşdur",
+      "Hökmdarların basdırılma mərasimi əks olunmuşdur",
+      "\"Skit üslublu\" üzük əşyaları tapılmışdır"
+    ],
+    "correctAnswer": "Qızıl, gümüş və fil sümüyündən hazırlanmış 341 əşya tapılmışdır"
+  },
+  {
+    "number": 504,
+    "question": "Xanlıqlar dövründə divan, şəriət və əsnaf məhkəmələri kimlərin mənafeyini müdafiə edirdi?",
+    "options": [
+      "rəiyyət və rəncbərlərin",
+      "din xadimləri və sənətkarların",
+      "xan və feodalların",
+      "azad və icmaçı kəndlilərin",
+      "maaf və elatların"
+    ],
+    "correctAnswer": "xan və feodalların"
+  },
+  {
+    "number": 505,
+    "question": "Yeni və Köhnə Şamaxı vahid xanlıqda birləşdirildi?",
+    "options": [
+      "1785-ci ildə",
+      "1768-ci ildə",
+      "1755-ci ildə",
+      "1763-cü ildə",
+      "1769-cü ildə"
+    ],
+    "correctAnswer": "1763-cü ildə"
+  },
+  {
+    "number": 506,
+    "question": "Quba xanlığı İrana və Osmanlı Türkiyəsinə qarşı birgə mübarizə aparmaq üçün hansı ölkə ilə ittifaqa girdi?",
+    "options": [
+      "Qarabağ xanlığı ilə",
+      "Naxçıvan xanlığı ilə",
+      "Xoy xanlığı ilə",
+      "Gürcüstan çarlığı ilə",
+      "Bakı xanlığı ilə"
+    ],
+    "correctAnswer": "Gürcüstan çarlığı ilə"
+  },
+  {
+    "number": 507,
+    "question": "Quba xanı Fətəli xanın Qarabağa hücumu neçənci ildə həyata keçirilmişdi?",
+    "options": [
+      "1780 – 1781",
+      "1774  - 1775",
+      "1784 – 1785",
+      "1772  - 1774",
+      "1783  - 1784"
+    ],
+    "correctAnswer": "1780 – 1781"
+  },
+  {
+    "number": 508,
+    "question": "Quba xanı Fətəli xanın cənub xanlıqlarında möhkəmlənə bilməməsinin əsas səbəbləri:",
+    "options": [
+      "Dağıstan feodallarının birləşmiş quvvələrinin Dərbəndi ələ keçirməsi",
+      "Qarabağ xanlığının Quba üzərinə yürüşü",
+      "Cənub xanlıqlarının güclü müdafiə olunması",
+      "Dağıstan feodallarının arxadan onu hədələməsi və Rusiyanın narazılığı",
+      "Şimal – şərqi Azərbaycanda vəziyyətin qeyri – sabit olması"
+    ],
+    "correctAnswer": "Dağıstan feodallarının arxadan onu hədələməsi və Rusiyanın narazılığı"
+  },
+  {
+    "number": 509,
+    "question": "Quba xanı Fətəli xan 1769 – cu ildə lazım olduqda ona qoşun verməyi qəbul edən müqaviləni hansı xanlıqla baglamışdı?",
+    "options": [
+      "Ərdəbil",
+      "Qarabag",
+      "Naxçıvan",
+      "Şəki",
+      "Lənkəran"
+    ],
+    "correctAnswer": "Şəki"
+  },
+  {
+    "number": 510,
+    "question": "Azərbaycanda vahid dövlət yaratmaq istəyirdi:",
+    "options": [
+      "Bakı və Quba xanlıqları",
+      "Şəki və Lənkəran xanlıqları",
+      "Şəki və Gəncə xanlıqları",
+      "Şəki və Quba xanlıqları",
+      "Lənkəran və Bakı xanlıqları"
+    ],
+    "correctAnswer": "Şəki və Quba xanlıqları"
+  },
+  {
+    "number": 511,
+    "question": "Cavad xanlığı neçənci ildə Quba xanlığı tərəfindən təşkil olunan Şimal – şərqi Azərbaycan ərazisinə daxil edildi?",
+    "options": [
+      "1767- ci ildə",
+      "1785- ci ildə",
+      "1769- cu ildə",
+      "1768 - ci ildə",
+      "1756- cı ildə"
+    ],
+    "correctAnswer": "1768 - ci ildə"
+  },
+  {
+    "number": 512,
+    "question": "İbrahimxəlil xanın Xoy səfəri neçənci ildə həyata keçirilmişdi?",
+    "options": [
+      "1785- ci ildə",
+      "1790- cı ildə",
+      "1788 - ci ildə",
+      "1792- ci ildə",
+      "1789- cu ildə"
+    ],
+    "correctAnswer": "1789- cu ildə"
+  },
+  {
+    "number": 513,
+    "question": "1765 – ci ildə Şamaxı və Quba xanlığı arasında başlayan mubarizə neçənci ildə başa çatdı?",
+    "options": [
+      "1789- cu ildə",
+      "1765- ci ildə",
+      "1770- ci ildə",
+      "1768- ci ildə",
+      "1775- ci ildə"
+    ],
+    "correctAnswer": "1768- ci ildə"
+  },
+  {
+    "number": 514,
+    "question": "Urmiya xanı Fətəli xan Əfşarın 1760 – cı ildə Qarabağa hucumunun nəticəsi?",
+    "options": [
+      "Pənahəli xan Urmiya xanlığına qarşı Şəki xanı ilə müqavilə bağladı",
+      "Fətəli xan məğlub olmuş ,qoşununu geri çəkmişdi",
+      "Fətəli xan Qarabağı işgal edərək onun bütün ərazisinə sahib olmuşdu",
+      "Pənahəli xan qalib gələrək Urmiya xanlığı ilə sulh imzalamışdı",
+      "Pənahəli xan oğlu İbrahimxəlil xanı girov göndərərək Şuşanı mühasirədən azad etmişdi"
+    ],
+    "correctAnswer": "Pənahəli xan oğlu İbrahimxəlil xanı girov göndərərək Şuşanı mühasirədən azad etmişdi"
+  },
+  {
+    "number": 515,
+    "question": "Qubalı Fətəli xanla Şəki xanı Hüseyn xan arasında müqavilə imzalanmasından neçə il sonra Ağa Məhəmməd Şah Qacar Şuşanı işğaletdi?",
+    "options": [
+      "36",
+      "21",
+      "34",
+      "28",
+      "17"
+    ],
+    "correctAnswer": "28"
+  },
+  {
+    "number": 516,
+    "question": "Xanlıqlar dövründə hansı məhkəmə idarələri mövcud olmuşdur?",
+    "options": [
+      "silki məhkəmələr",
+      "qazı və əsnaf məhkəmələri",
+      "şəhər və divan məhkəmələri",
+      "əyalət və kənd məhkəmələri",
+      "divan, şəriət və əsnaf məhkəmələri"
+    ],
+    "correctAnswer": "divan, şəriət və əsnaf məhkəmələri"
+  },
+  {
+    "number": 517,
+    "question": "Qubalı Fətəli xanın 1784 – cü ildə Qarabağ və Cənubi Azərbaycan xanlıqlarına yürüşü zamanı ona dəstək vermişdi:",
+    "options": [
+      "Dərbənd xanı",
+      "Cavad xanı",
+      "Şamaxı xanı",
+      "Bakı xanı",
+      "Şəki xanı"
+    ],
+    "correctAnswer": "Cavad xanı"
+  },
+  {
+    "number": 518,
+    "question": "Hansı xanlığın Quba xanlığına birləşdirilməsi ilə Şimal - Şərqi Azərbaycan torpaqlarının birləşdirilməsi başa çatdı:",
+    "options": [
+      "Dərbənd xanlığı",
+      "Bakı xanlığı",
+      "Talış xanlığı",
+      "Cavad xanlığı",
+      "Şəki xanlığı"
+    ],
+    "correctAnswer": "Şəki xanlığı"
+  },
+  {
+    "number": 519,
+    "question": "Cənubi Qafqazın “Qafqaz lionu ” hansı şəhər hesab edilirdi?",
+    "options": [
+      "Qarabağ",
+      "Şuşa",
+      "Quba",
+      "Nuxa",
+      "Ordubad"
+    ],
+    "correctAnswer": "Nuxa"
+  },
+  {
+    "number": 520,
+    "question": "Qaraqoyunlu Cahanşahın ölümündən sonra Qaraqoyunluların qanuni varisi hesab olunurdu:",
+    "options": [
+      "Cahangir Mirzə",
+      "Əbu Səid",
+      "Həsənəli",
+      "Hüseynəli",
+      "Məhəmməd"
+    ],
+    "correctAnswer": "Həsənəli"
+  },
+  {
+    "number": 521,
+    "question": "Ağqoyunlu hökmdarı Uzun Həsənin osmanlılara qarşı mübarizədə sıx əlaqə saxladığı dövlətlər idi:",
+    "options": [
+      "Qaraqoyunlu dövləti, Kipr krallığı, Teymurilər",
+      "Trabzon dövləti, Qaraman bəyliyi, Kipr krallığı, Rodos dövləti",
+      "Almaniya imperatorluğu,Şeybanilər, İspaniya",
+      "Məmlük dövləti,Şeybanilər, Genuya",
+      "Trabzon dövləti, Teymurilər, Qaraman bəyliyi"
+    ],
+    "correctAnswer": "Trabzon dövləti, Qaraman bəyliyi, Kipr krallığı, Rodos dövləti"
+  },
+  {
+    "number": 522,
+    "question": "Ağqoyunlu - Osmanlı müharibələri zamanı osmanlıların məğlub olduğu döyüş:",
+    "options": [
+      "Qoyluhisar",
+      "Otluqbeli",
+      "Qoçhisar",
+      "Beyşehir",
+      "Malatya"
+    ],
+    "correctAnswer": "Malatya"
+  },
+  {
+    "number": 523,
+    "question": "Şirazın valisi olan Uğurlu Məhəmmədin başçılıq etdiyi qiyam nə zaman baş vermişdir:",
+    "options": [
+      "1472- ci ildə",
+      "1475- ci ildə",
+      "1477- ci ildə",
+      "1474- cü ildə",
+      "1479- cu ildə"
+    ],
+    "correctAnswer": "1474- cü ildə"
+  },
+  {
+    "number": 524,
+    "question": "1412- ci ildə Qaraqoyunlulara tabe olan Şirvanşahlar hansı hökmdarın dövründə asılılıqdan imtina etdilər:",
+    "options": [
+      "Keyqubadın",
+      "Hüşəngin",
+      "Keykavusun",
+      "I Xəlilullahın",
+      "I İbrahimin"
+    ],
+    "correctAnswer": "I Xəlilullahın"
+  },
+  {
+    "number": 525,
+    "question": "Ağqoyunlu – Trabzon münasibətlərinə aid deyildir:1)Tərəflər  Osmanlı sultanı II Mehmetlə ticarət əlaqələri yaratdılar.2)Ağqoyunlu tacirləri Qara dənizə Trabzon vasitəsi ilə çıxırdılar.3)Ağqoyunlu ordusu üçün odlu silah, xüsusilə artileriya silahları istehsalı Trabzonda təşkil edilmişdir. 4)Aralarında qohumluq əlaqələri yaranmışdı. 5)Ağqoyunlu tacirləri Venesiya və Genuya, habelə digər avropalı tacirlərlə Trabzon vasitəsilə geniş ticarət əlaqələri aparırdılar.6)Osmanlı sultanı Səlimə qarşı mübarizə aparmaq üçün ittifaq yaratmışdılar.",
+    "options": [
+      "3,4,5",
+      "2,3,6",
+      "1,2,5",
+      "1, 3,6",
+      "2,4,5"
+    ],
+    "correctAnswer": "1, 3,6"
+  },
+  {
+    "number": 526,
+    "question": "Qaraqoyunlu dövlətinin teymurilərin asılılığından azad olmasından neçə il əvvəl Şəddadilər dövləti süqut etdi?",
+    "options": [
+      "459 il",
+      "390 il",
+      "410 il",
+      "559 il",
+      "359 il"
+    ],
+    "correctAnswer": "359 il"
+  },
+  {
+    "number": 527,
+    "question": "1412-ci ildə Kür çayı sahilində baş vermiş döyüşdə Şirvanşah I İbrahimin müttəfiqləri idilər:",
+    "options": [
+      "Sultan Əhməd və Qara İsgəndər",
+      "Sultan Şahrux və Baysunqur",
+      "Teymuri Şahrux və Kəyumərs",
+      "Hüşəng və Kəyumərs",
+      "Seyid Əhməd və II Konstantin"
+    ],
+    "correctAnswer": "Seyid Əhməd və II Konstantin"
+  },
+  {
+    "number": 528,
+    "question": "1402 – ci ildə Teymurun Osmanlı sultanı I Bəyazidlə vuruşmasında Azərbaycan hökmdarları ona kömək etmişdi:",
+    "options": [
+      "Uzun Həsən və Şeyx Səfiyyədin",
+      "Qara Məhəmməd və Sultan Əhməd",
+      "Sultan Hüseyn və Qara İskəndər",
+      "I İbrahim və Seyid Əhməd",
+      "Şeyx Üveys və Qara Yusif"
+    ],
+    "correctAnswer": "I İbrahim və Seyid Əhməd"
+  },
+  {
+    "number": 529,
+    "question": "Şirvanşah I İbrahim Əmir Teymurla olan müttəfiqlik münasibətindən istifadə edərək :",
+    "options": [
+      "Gürcüstanın şərq ərazilərinə sahib oldu",
+      "Əlincə qalasının tutulmasında teymurilərə kömək etdi",
+      "Osmanlı dövləti ilə münasibətləri qaydaya saldı",
+      "Qarabağ , Şəki, Dərbənd və Qəbələyə öz təsirini yaydı",
+      "Təbrizi ələ keçirərək öz hakimiyyətini bütün Azərbaycanda genişləndirdi"
+    ],
+    "correctAnswer": "Qarabağ , Şəki, Dərbənd və Qəbələyə öz təsirini yaydı"
+  },
+  {
+    "number": 530,
+    "question": "1406- cı ilin mayında Təbrizə daxil olan Şirvanşah I İbrahimin tezliklə şəhəri tərk etməsinin səbəbi :",
+    "options": [
+      "Şeyx Əli Qəssab və Qazi İmadəddinin başçılığı ilə Şirvanşahlara qarşı üsyanın başlanması",
+      "Ərdəbilli Bistam Cəyirin Təbrizə hücum etməsi",
+      "Teymurun nəvəsi Ömərin ordusunun Təbrizi mühasirəyə alması",
+      "Teymuri Əbubəkrin ordusunun Təbrizə yaxınlaşması",
+      "Cəlari Sultan Əhmədin və Qaraqoyunlu tayfa birləşməsinin hərbi qüvvələrinin şəhərə yaxınlaşması"
+    ],
+    "correctAnswer": "Cəlari Sultan Əhmədin və Qaraqoyunlu tayfa birləşməsinin hərbi qüvvələrinin şəhərə yaxınlaşması"
+  },
+  {
+    "number": 531,
+    "question": "1483-cü ildə Təbrizdə tikilmiş böyük saray kompleksi necə adlanırdı:",
+    "options": [
+      "Həsən padşah Camesi",
+      "Mömünə xatun türbəsi",
+      "Məqsudiyyə məqbərəsi",
+      "Nəsriyyə kompleksi",
+      "Həşt behişt"
+    ],
+    "correctAnswer": "Həşt behişt"
+  },
+  {
+    "number": 532,
+    "question": "XIV əsrin sonu - XV əsrin əvvəllərində Azərbaycanda müsuqi sənətinin inkişafında önəmli işlər görmüşdü:",
+    "options": [
+      "Kəmaləddin Behzad",
+      "Cahanşah Həqiqi",
+      "Əbdülqadir Marağayi",
+      "Sultan Məhəmməd",
+      "Mir Müsaviri"
+    ],
+    "correctAnswer": "Əbdülqadir Marağayi"
+  },
+  {
+    "number": 533,
+    "question": "Uzun Həsənin 1474- 1477 - ci illərdə Gürcüstana yürüşünün nəticəsi :",
+    "options": [
+      "Uzun Həsən məğlub olaraq geri qayıtmalı oldu",
+      "Şirvanşahlar bu yürüşdə Ağqoyunlulara yardım edərək , Gürcüstanın bir hissəsinə sahib oldular",
+      "Yürüş osmanlıların müdaxiləsi nəticəsində uğursuz oldu",
+      "Tiflis daxil olmaqla Şərqi Gürcüstan Ağqoyunlu dövlətinin hakimiyyəti altına düşdü",
+      "Misir və Suriya hakimi Ağqoyunlular üzərinə hücuma keçdi"
+    ],
+    "correctAnswer": "Tiflis daxil olmaqla Şərqi Gürcüstan Ağqoyunlu dövlətinin hakimiyyəti altına düşdü"
+  },
+  {
+    "number": 534,
+    "question": "Səfəvilər dövrünə aid memarlıq abidələrini göstərin:1. Qusarda Şeyx Cüneyd məqbərəsi,2. Şirvanşahlar saray kmpleksi,3. Təbrizdə Göyməscid,4. Bakının Şərq Darvazaları",
+    "options": [
+      "1, 3",
+      "2, 4",
+      "1, 2",
+      "1, 4",
+      "2, 3"
+    ],
+    "correctAnswer": "1, 4"
+  },
+  {
+    "number": 535,
+    "question": "Şah I İsmayılın diplomatik münasibətlər yaratmağa can atdığı ilk Avropa dövləti:",
+    "options": [
+      "Fransa",
+      "Avstriya",
+      "Polşa",
+      "Venesiya",
+      "Almaniya"
+    ],
+    "correctAnswer": "Venesiya"
+  },
+  {
+    "number": 536,
+    "question": "1553-cü ildə Səfəvilərin Rusiya ilə yaxınlaşmağa çalışması hansı dövlətə qarşı yönəlmişdi?",
+    "options": [
+      "Krım xanlığına",
+      "Misirə",
+      "Dağıstana",
+      "Şeybanilərə",
+      "Osmanlı dövlətinə"
+    ],
+    "correctAnswer": "Osmanlı dövlətinə"
+  },
+  {
+    "number": 537,
+    "question": "1578-ci ildə Şirvanı osmanlılar ələ keçirdikdən sonra:",
+    "options": [
+      "Şirvanın hakimi vəzifəsində saxlanıldı",
+      "Şirvan vassal asılılığını qəbul etdi",
+      "Şamaxı və Dərbənd bəylərbəyliklərinə bölündü",
+      "Müstəqil Şirvan dövləti yaradıldı",
+      "Mövcud hərbi-inzibati idarə üsulu saxlanıldı"
+    ],
+    "correctAnswer": "Şamaxı və Dərbənd bəylərbəyliklərinə bölündü"
+  },
+  {
+    "number": 538,
+    "question": "Şah I İsmayılın ölümündən sonra Səfəvilər dövlətində baş vermiş siyasi böhran hansı bənddə düzgün əks edilmişdir?",
+    "options": [
+      "Təkəli əmiri Hüseyn xan hakimiyyəti ələ keçirdi",
+      "Səfəvi dövləti Çuxa sultan və Köpək sultan arasında bölüşdürüldü",
+      "Şamlı və ustaclı əmirləri Səfəviləri müdafiə etməkdən imtina etdilər",
+      "Hakimiyyət uğrunda rumlu, ustaclı ,təkəli, şamlı tayfaları arasında gərgin mübarizə gedirdi",
+      "I Təhmasib rumlu və şamlı tayfalarına məglub olaraq hakimiyyətdən kənarlaşdırıldı"
+    ],
+    "correctAnswer": "Hakimiyyət uğrunda rumlu, ustaclı ,təkəli, şamlı tayfaları arasında gərgin mübarizə gedirdi"
+  },
+  {
+    "number": 539,
+    "question": "Azərbaycanda 748- 752 - ci illərdə xilafətə  qarşı  baş vermiş üsyanlara yerli feodalların qoşulmasının səbəbi :",
+    "options": [
+      "Feodalların mülklərinin əllərindən alınması, onların az məhsuldar torpaqlara köçürülməsi",
+      "Ərəblərin feodalları  dövlət  aparatından uzaqlaşdırması , onların torpağını , kəndlilər üzərindəki hüququnu və digər  imtiyazlarınınməhdudlaşdırılması",
+      "Feodallar üzərinə əlavə vergilərin qovulması , onların zorla  islamlaşdırılması",
+      "Köhnə dini etiqadlara sitayiş etdiklərinə görə onların çıxışdırılması",
+      "Feodalların zorla orduya cəlb  edilməsi , onlardan müharibə zamanı   əlavə vergilər  tələb  edilməsi"
+    ],
+    "correctAnswer": "Ərəblərin feodalları  dövlət  aparatından uzaqlaşdırması , onların torpağını , kəndlilər üzərindəki hüququnu və digər  imtiyazlarınınməhdudlaşdırılması"
+  },
+  {
+    "number": 540,
+    "question": "Səfəvi  hökmdarı şah Abbas  1616 - cı ildə hansı Avropa dövlətinin tacirlərinə Səfəvi ərazisində sərbəst ticarət hüququ verdi:",
+    "options": [
+      "genuyalılara",
+      "portuqallara",
+      "hollandlara",
+      "venesiyalılara",
+      "ingilslərə"
+    ],
+    "correctAnswer": "ingilslərə"
+  },
+  {
+    "number": 541,
+    "question": "Hülakulər  dövlətində \"Divan sistemi\" üzrə təşkil  edilmişdi:",
+    "options": [
+      "İnzibati idarə",
+      "Təsərrüfatın  idarəsi",
+      "Hərbi idarə",
+      "Ədliyyə",
+      "Məhkəmə"
+    ],
+    "correctAnswer": "Təsərrüfatın  idarəsi"
+  },
+  {
+    "number": 542,
+    "question": "Azərbaycanın Hülakular dövründə vəziyyəti aşağıdakı  bəndlərdən hansında düzgün əks edilmişdir:",
+    "options": [
+      "Azərbaycan Cormoqon Noyonun hakimiyyəti altında  birləşdirilməsi",
+      "Hülakular Azərbaycana  xüsusi qayğı  göstərir,  hərbi qərargahı burada saxlayırdılar",
+      "Azərbaycan Hülakular dövlətinin dördüncü əyalətinə aid edilmiş, paytaxt Marağa olmuşdu",
+      "Dərbənd və Təbriz paytaxt elan edilmişdi",
+      "Hülakular dövlətinin mərkəzi vilayəti Azərbaycan,Təbriz və Marağa paytaxt şəhərlər idi"
+    ],
+    "correctAnswer": "Hülakular dövlətinin mərkəzi vilayəti Azərbaycan,Təbriz və Marağa paytaxt şəhərlər idi"
+  },
+  {
+    "number": 543,
+    "question": "Səlcuq hökmdarı  Sultan Toğrulun Şirvana hücumu nə zaman baş vermişdi:",
+    "options": [
+      "1121- ci ildə",
+      "1130- cu ildə",
+      "1123- cü ildə",
+      "1125- ci ildə",
+      "1120- ci ildə"
+    ],
+    "correctAnswer": "1123- cü ildə"
+  },
+  {
+    "number": 544,
+    "question": "Səfəvi hökmdarı II Abbasın Dərbənddən Astarabada qədər nəzarət məntəqələrini qoydurmasına səbəb olmuşdu:",
+    "options": [
+      "Osmanlıların hücumları",
+      "Venesiyalıların hücumları",
+      "Rusların hücumları",
+      "Farsların hücumları",
+      "Kazakların  hücumları"
+    ],
+    "correctAnswer": "Kazakların  hücumları"
+  },
+  {
+    "number": 545,
+    "question": "Səfəvi- Osmanlı müharibələri zamanı Bağdad türklər tərəfindən ələ keçirildi:",
+    "options": [
+      "1639- cu il noyabrın 12- də",
+      "1637- ci il oktyabrın 25- də",
+      "1655-ci il senntyabrın 5-də",
+      "1638- ci il dekabrın 25- də",
+      "1635- ci il iyulun 18- də"
+    ],
+    "correctAnswer": "1638- ci il dekabrın 25- də"
+  },
+  {
+    "number": 546,
+    "question": "1735 - ci ilin iyununda Səfəvi və Osmanlı hərbi qüvvələri arasında baş vermiş qarşılaşma necə nəticələndi:",
+    "options": [
+      "Gürcülərin osmanlılara dəstək verməsi döyüşün türklərin xeyrinə sona çatmasına şərait yaratdı",
+      "Osmanlılar əlavə qoşun hissələri dəvət etməklə döyüşü qələbə ilə  bitirdilər",
+      "Səfəvi qüvvələri geri çəkildi və türklər yenidən Şirvana sahib oldular:",
+      "Nadir xan türklər üzərində tam qələbə çaldı",
+      "Krım tatarlarının yardımı ilə Osmanlılar  qalib gəldi"
+    ],
+    "correctAnswer": "Nadir xan türklər üzərində tam qələbə çaldı"
+  },
+  {
+    "number": 547,
+    "question": "Səfəvi və Osmanlı dövlətləri arasında bağlanmış hansı müqaviləyə əsasən  İrəvan , Gəncə , Tiflis , Şamaxı , Şirvan və DağıstanTürkiyəyə verilmişdi:",
+    "options": [
+      "Bağdad",
+      "Kirmanşah",
+      "Moskva",
+      "Rəşt",
+      "Qəsri- Şirin"
+    ],
+    "correctAnswer": "Kirmanşah"
+  },
+  {
+    "number": 548,
+    "question": "Ağqoyunlu hökmdarı Uzun Həsənin Gürcüstana hücumunun səbəbi:",
+    "options": [
+      "Gürcü knyazlarının Ağqoyunlu hökmdarına Türkiyyəyə  qarşı mübarizədə dəstək  verməməsi",
+      "Gürcü knyazlarının Misirlə  ittifaqa girməsi",
+      "Ağqoyunlu  dövləti daxilində siyasi sabitliyin pozulmasında gürcülərin  rol oynaması",
+      "Ağqoyunlu  hökmdarına qarşı Uğurlu Məhəmmədin qiyamına gürcülərin dəstək  verməsi",
+      "Şirvanşahlarla Gürcü knyazlarının  Ağqoyunlara qarşı birləşməsi"
+    ],
+    "correctAnswer": "Gürcü knyazlarının Ağqoyunlu hökmdarına Türkiyyəyə  qarşı mübarizədə dəstək  verməməsi"
+  },
+  {
+    "number": 549,
+    "question": "Xürrəmi hərəkatı  yönəlmişdi:",
+    "options": [
+      "İslam dini , feodal zülmü və ərəb əsarətinə  qarşı",
+      "İslamı zərdüşt dininə etiqad edənlərdən qorumaq  məqsədilə",
+      "Bizans  zülmü və idarəetmə  sisteminə qarşı",
+      "Zərdüştlük dininin  təbliğ  olunmasına  qarşı",
+      "Pavlikianlara , ərəblərə  qarşı"
+    ],
+    "correctAnswer": "İslam dini , feodal zülmü və ərəb əsarətinə  qarşı"
+  },
+  {
+    "number": 550,
+    "question": "Ərəblər dövründə hərbiçilərə  verilən torpaq mülkiyyət  forması necə  adlanırdı:",
+    "options": [
+      "xass",
+      "divan",
+      "İqta",
+      "camaat",
+      "mülk"
+    ],
+    "correctAnswer": "İqta"
+  },
+  {
+    "number": 551,
+    "question": "Albaniyada xristian məktəblərinin açılması və bu dinin geniş tətbiqi hansı alban hökmdarının zamanında baş  vermişdi:",
+    "options": [
+      "I Vaçaqan",
+      "III Vaçaqan",
+      "I Vaçe",
+      "Mirhovan",
+      "Asvaqen"
+    ],
+    "correctAnswer": "III Vaçaqan"
+  },
+  {
+    "number": 552,
+    "question": "Albaniyada hansı  hökmdarın göstərişi ilə Alban əlifbasının yenilənməsi və uşaqlara yazının öyrədilməsi həyata keçirilmişdi:",
+    "options": [
+      "III Vaçaqanın",
+      "I Vaçaqanın",
+      "Asvaqenin",
+      "I Vaçenin",
+      "II Vaçenin"
+    ],
+    "correctAnswer": "Asvaqenin"
+  },
+  {
+    "number": 553,
+    "question": "IV  əsrin 30 - cu illərində Albaniyanın Paytakaran  vilayətinə rəhbərlik  edirdi:",
+    "options": [
+      "Satoy",
+      "III Vaçaqan",
+      "Sanatürk",
+      "I  Vaçe",
+      "Asay"
+    ],
+    "correctAnswer": "Sanatürk"
+  },
+  {
+    "number": 554,
+    "question": "Albaniyada Arşakilər sülaləsinin ilk  nümayəndəsi  olaraq hakimiyyətə gələn hökmdar:",
+    "options": [
+      "Mirhovan",
+      "Asvaqen",
+      "I Vaçe",
+      "I Vaçaqan",
+      "III Vaçaqan"
+    ],
+    "correctAnswer": "I Vaçaqan"
+  },
+  {
+    "number": 555,
+    "question": "Alban hökmdarları  Oroys , Kozis və Zoberin hansı sülalənin nümayəndələri olduğu  güman edilir:",
+    "options": [
+      "aranilər",
+      "arşakilər",
+      "sasanilər",
+      "selevkilər",
+      "əhəmənilər"
+    ],
+    "correctAnswer": "aranilər"
+  },
+  {
+    "number": 556,
+    "question": "E.ə.65- ci ildə Albaniyanın Roma ilə qarşılaşmasına təsir göstərən əsas amil:",
+    "options": [
+      "Albanların üsyan qaldırması",
+      "Roma- Armeniya müttəfiqliyi",
+      "Romanın Fraaspaya hücumu",
+      "Albaniyanın İberiya ilə  yaxınlaşması",
+      "Lukullun  Qafqaz xalqlarına qarşı sərt münasibəti"
+    ],
+    "correctAnswer": "Albanların üsyan qaldırması"
+  },
+  {
+    "number": 557,
+    "question": "Skit padşahlığı yerləşirdi:",
+    "options": [
+      "Mannanın mərkəzi torpaqlarında",
+      "Urmiya  gölünün şimal və qərb hissəsində ,Manna və Urartu arasında",
+      "Midiya və Manna arasında",
+      "Urmiya gölü və Mesopotomiya arasında",
+      "Fars ərazisi və Ekbatana ətrafında"
+    ],
+    "correctAnswer": "Urmiya  gölünün şimal və qərb hissəsində ,Manna və Urartu arasında"
+  },
+  {
+    "number": 558,
+    "question": "Assuriya ilə ənənəvi ittifaqı pozmuş Manna hökmdarı idi:",
+    "options": [
+      "Udaki",
+      "Ualli",
+      "Ahşeri",
+      "Aza",
+      "İranzu"
+    ],
+    "correctAnswer": "Ahşeri"
+  },
+  {
+    "number": 559,
+    "question": "E. ə. XII -XI əsrlərə aid varlı  Sarıçoban  kurqanı  hansı  xarakterik xüsusiyyəti ilə  fərqlənir :",
+    "options": [
+      "Heyvan  fiqurlarının olması ilə",
+      "Qəbirin xaç  şəklində olması ilə",
+      "Səma cisimlərinə aid bütlərin olması ilə",
+      "Ağac  qalıqlarının çoxluq  təşkil etməsi ilə",
+      "Öküzə sitayişi  əks  etdirməsi ilə"
+    ],
+    "correctAnswer": "Qəbirin xaç  şəklində olması ilə"
+  },
+  {
+    "number": 560,
+    "question": "Coğrafi mövqeyi  ilə Ön Asiyada  Hett , Mitanni, Assuriya  kimi  mədəniyyət mərkəzləri ilə bağlı olan Azərbaycan ərazisi:",
+    "options": [
+      "Qarabağ",
+      "Talış- Muğan",
+      "Xocalı- Gədəbəy",
+      "Qobustan",
+      "Naxçıvan"
+    ],
+    "correctAnswer": "Naxçıvan"
+  },
+  {
+    "number": 561,
+    "question": "Küdürlü , Borsunlu , Şahtaxtı və Əliköməktəpənin varlı qəbirləri tunc  dövrünün  hansı mərhələsini əks etdirirdi:",
+    "options": [
+      "Erkən tunc  dövrü",
+      "Dəmir dövrü",
+      "Kür - Araz mədəniyyəti",
+      "Son tunc  dövrü",
+      "Orta  tunc dövrü"
+    ],
+    "correctAnswer": "Orta  tunc dövrü"
+  },
+  {
+    "number": 562,
+    "question": "Orta tunc  dövrünün   yaşayış  məskənləri Eneolit və Kür- Araz  mədəniyyətlərinin  yaşayış məskənlərindən nə ilə fərqlənirdi:",
+    "options": [
+      "Daha böyük sahəni əhatə edir, möhtəşəmliyi ilə  seçilirdi",
+      "Yaşayış məskənlərində yarımqazma evlərin çoxluğu ilə",
+      "Siklop tikililərinin olması ilə",
+      "İcma təsərrüfatının  dağılması prosesinin başa  çatması ilə",
+      "Ayrı-ayrı kəndlər şəklində salınırdı"
+    ],
+    "correctAnswer": "Daha böyük sahəni əhatə edir, möhtəşəmliyi ilə  seçilirdi"
+  },
+  {
+    "number": 563,
+    "question": "XVI əsrdə Azərbaycanda  feodal sinfinə daxil olanlar hansı cavabda tam göstərilmişdir?",
+    "options": [
+      "Şah və hakim sülalənin üzvləri, qədim oturaq əyanlar, ordudan tərxis olunmuş yüksək rütbəli hərbiçilər",
+      "Yarınköçəri qızılbaş tayfalarının hərbi əyanları, mülki bürokratiyanın yuxarı təbəqəsi, qədim oturaq əyanlar",
+      "Şah və hakim sülalənin üzvləri, yarınköçəri qızılbaş tayfalarının hərbi əyanları, ali şiə rühaniləri, mülki bürokratiyanın yuxarı təbəqəsi,qədim oturaq əyanlar",
+      "Şah və hakim sülalənin üzvləri, ali şiə rühaniləri, mülki bürokratiyanın yuxarı təbəqəsi, qədim oturaq əyanlar, azad icmaçı kəndlilər",
+      "Şah və hakim sülalənin üzvləri, ali şiə rühaniləri, mülki bürokratiyanın yuxarı təbəqəsi, qədim oturaq əyanlar, vəzir və onun köməkçiləri"
+    ],
+    "correctAnswer": "Şah və hakim sülalənin üzvləri, yarınköçəri qızılbaş tayfalarının hərbi əyanları, ali şiə rühaniləri, mülki bürokratiyanın yuxarı təbəqəsi,qədim oturaq əyanlar"
+  },
+  {
+    "number": 564,
+    "question": "Səlcuq sultanı Məlikşahın dövründə Dərbənd:",
+    "options": [
+      "İqta şəklində İraq hakiminə bağışlandı",
+      "Şirvanşahların tabeçiliyinə verildi",
+      "Şəddadilərə iqta şəklində verildi",
+      "Vəqf mülkünə çevrildi",
+      "Müstəqil əyalətə çevrildi"
+    ],
+    "correctAnswer": "İqta şəklində İraq hakiminə bağışlandı"
+  },
+  {
+    "number": 565,
+    "question": "Ərəblər Albaniyanin müstəqilliyinə son qoydular:",
+    "options": [
+      "Xəzərlərdən kömək almaqla VIII əsrin əvvəllərində",
+      "Hilat şəhəri yaxınlığında xəzərləri məğlub etməklə",
+      "705-ci ildə Varaz-Trdatın öldürülməsi ilə",
+      "681-ci ildə Cavanşirin ölümündən sonra",
+      "705-ci ildə alban hakimi Şeruyə və ona yaxın adamların öldürülməsi ilə"
+    ],
+    "correctAnswer": "705-ci ildə alban hakimi Şeruyə və ona yaxın adamların öldürülməsi ilə"
+  },
+  {
+    "number": 566,
+    "question": "Albaniyada xristianlığın hansı qolu daha çox yayılmışdı?",
+    "options": [
+      "Nestorian",
+      "pravoslav",
+      "monofizit",
+      "xalkedon",
+      "katolık"
+    ],
+    "correctAnswer": "Nestorian"
+  },
+  {
+    "number": 567,
+    "question": "Erkən orta  əsrlərdə Azərbaycana gəlmiş türkdilli etnoslar hansı ittifaqda birləşmişdilər:",
+    "options": [
+      "kəngər",
+      "Hun",
+      "sabir",
+      "qıpcaq",
+      "xəzər"
+    ],
+    "correctAnswer": "Hun"
+  },
+  {
+    "number": 568,
+    "question": "Kür-Araz mədəniyyəti əhatə edir?",
+    "options": [
+      "e.ə.VI minilliyi",
+      "e.ə.IV minilliyin ikinci yarısından e.ə.III  minilliyin sonuna qədər",
+      "e.ə.II-I minillikləri",
+      "e.ə.VI-V minillikləri",
+      "e.ə.II minilliyi"
+    ],
+    "correctAnswer": "e.ə.IV minilliyin ikinci yarısından e.ə.III  minilliyin sonuna qədər"
+  },
+  {
+    "number": 569,
+    "question": "Naxçıvan mədəniyyəti əhatə edir?",
+    "options": [
+      "e.ə.VI minilliyi",
+      "e.ə.II minilliyi",
+      "e.ə.IV minilliyin ikinci yarısından e.ə.III  minilliyin sonuna qədər",
+      "e.ə.II minillik və e.ə.I minilliyin əvvəli",
+      "e.ə.VI-V minillikləri"
+    ],
+    "correctAnswer": "e.ə.II minillik və e.ə.I minilliyin əvvəli"
+  },
+  {
+    "number": 570,
+    "question": "Hülakilər dövründə Azərbaycan inzibati  cəhətdən bölünürdü:",
+    "options": [
+      "19 tümənə",
+      "5  tümənə",
+      "9 tümənə",
+      "12 tümənə",
+      "16 tümənə"
+    ],
+    "correctAnswer": "9 tümənə"
+  },
+  {
+    "number": 571,
+    "question": "Gəncə  yaxınlığında   böyük şair Nizami Gəncəvi ilə görüşmüş Atabəy   hökmdarı :",
+    "options": [
+      "Özbək",
+      "Qızıl Arslan",
+      "Şəmsəddin  Eldəniz",
+      "Əbubəkr",
+      "Məhəmməd  Cahan  Pəhlivan"
+    ],
+    "correctAnswer": "Qızıl Arslan"
+  },
+  {
+    "number": 572,
+    "question": "Alban  hökmdarı Cavanşirin VII əsrin 60- cı illərində Ərəb  xilafətinə qarşı siyasətini dəyişməsinin səbəbi:",
+    "options": [
+      "Ərməniyyə torpaqlarını tutmaq istəyi",
+      "Ərəb  xilafəti kimi güclü bir dövlətin himayəsini qazanmaq istəyi",
+      "Bizans  torpaqlarını işğal etmək  arzusu",
+      "Xəzərlərlə  yaxınlaşmaq  istəyi",
+      "Ölkə  daxilində üsyanları yatırmaq üçün ərəblərdən yardım almağa ehtiyac duyması"
+    ],
+    "correctAnswer": "Ərəb  xilafəti kimi güclü bir dövlətin himayəsini qazanmaq istəyi"
+  },
+  {
+    "number": 573,
+    "question": "Səfəvi dövlətinin İngiltərə ilə əlaqələrinin təşəkkül tapmasında mühüm rol oynadı:",
+    "options": [
+      "Hind  tacirləri",
+      "xristian rahiblər",
+      "Masonlar",
+      "səyyahlar",
+      "“Moskva şirkəti”"
+    ],
+    "correctAnswer": "“Moskva şirkəti”"
+  },
+  {
+    "number": 574,
+    "question": "Osmanlı dövləti son on ildə işğal etdiyi bütün torpaqları Səfəvilərə qaytarmalı idi",
+    "options": [
+      "1639-cu il Qəsri-Şirin müqaviləsinə görə",
+      "1727-ci il Nabur sülhünə görə",
+      "1724-cü il İstanbul sülhünə görə",
+      "1733-cü il Bağdad müqaviləsinə görə",
+      "1732-cil Kirmanşah müqaviləsinə görə"
+    ],
+    "correctAnswer": "1733-cü il Bağdad müqaviləsinə görə"
+  },
+  {
+    "number": 575,
+    "question": "Səfəvilərin hakimiyyətinin ilk dövründə  vəkil vəzifəsi",
+    "options": [
+      "Hərbi məsələlər üzrə Şahın tam səlahiyyətli müavini hesab edilirdi",
+      "Dini dünyavi məsələlərin həllində Şahın tam səlahiyyətli müavini hesab edilirdi",
+      "Vəzirdən sonra səlahiyyətli şəxs hesab edilirdi",
+      "Xarici  məsələlər üzrə Şahın tam səlahiyyətli müavini hesab edilirdi",
+      "Mülki bürokratiyanın əyanlarının başçısı idi"
+    ],
+    "correctAnswer": "Dini dünyavi məsələlərin həllində Şahın tam səlahiyyətli müavini hesab edilirdi"
+  },
+  {
+    "number": 576,
+    "question": "Hülakülər zamanında Mərkəzi dövlət divanına başçılıq edirdi:",
+    "options": [
+      "Baş əmir",
+      "Noyonlar",
+      "Qol əmirləri",
+      "Mustovfi",
+      "Vəzir və onun naibi"
+    ],
+    "correctAnswer": "Vəzir və onun naibi"
+  },
+  {
+    "number": 577,
+    "question": "Gəncəyə birinci yürüş zamanı müqavimətə rast gələn monqollar:",
+    "options": [
+      "Xərac almaqla kifayətləndilər",
+      "Qıpçaqlarla döyüşə girdilər",
+      "Məcburiyyət qarşısında qalaraq sülh bağladılar",
+      "Beyləqanı işğal edərək Gürcüstana getdilər",
+      "Şirvanşaın göndərdiyi on nəfər elçinin birini öldürüb, qalanlarının vasitəçiliyi ilə Dərbənddən keçərək Monqolıstana qayıtdılar"
+    ],
+    "correctAnswer": "Xərac almaqla kifayətləndilər"
+  },
+  {
+    "number": 578,
+    "question": "Hülakilər səltənətini mühafizə etmək bəhanəsi ilə aparılan mübarizələrdə iştirak edən feodal qruplarına aiddir?",
+    "options": [
+      "Çobanilər, Qızıl  Ordalılar",
+      "Şirvanşahlar, Səlcuqlar, Xorasan əmirləri",
+      "Cəlairilər, Ağqoyunlular",
+      "Qaraqoyunlular, Abbasilər",
+      "Cəlarilər, Xorasan əmirləri, Çobanilər"
+    ],
+    "correctAnswer": "Cəlarilər, Xorasan əmirləri, Çobanilər"
+  },
+  {
+    "number": 579,
+    "question": "XI əsrin 60-cı illərinin əvvəllərində Şirvanda, Təbrizdə, Salmasda, Xoyda xalq kütlələrinin feodal zülmünə qarşı baş vermiş çıxışlarınınsəbəbi nə idi?",
+    "options": [
+      "Səlcuqların yürüşləri",
+      "Səlcuqların Şirvanşahlar dövlətini özlərinə tabe etməsi",
+      "Gürcülərin işğalçı yürüşləri",
+      "Xəracın məbləği və toplanma qaydası",
+      "Slavyanların işğalçı yürüşləri"
+    ],
+    "correctAnswer": "Xəracın məbləği və toplanma qaydası"
+  },
+  {
+    "number": 580,
+    "question": "Azərbaycan ərazisində Səlcuqların hücum və təzyiqləri nəticəsində fəaliyyətlərini dayandırmağa məcbur olmuş dövlətləri müəyyənedin:",
+    "options": [
+      "Salarilər, Şəddadilər, Sacilər",
+      "Salarilər, Rəvvadilər,Şirvanşahlar",
+      "Şirvanşahlar, Sacilər, Salarilər",
+      "Şəddadilər, Rəvvadilər, Şirvanşahlar",
+      "Sacilər, Rəvvadilər,Şəddadilər"
+    ],
+    "correctAnswer": "Şəddadilər, Rəvvadilər, Şirvanşahlar"
+  },
+  {
+    "number": 581,
+    "question": "Quruçay arxeoloji mədəniyyətinin yaşı nə qədərdir?",
+    "options": [
+      "2.5 min il",
+      "100 min il",
+      "10,5 milyon il",
+      "1,5 milyon ildən artıq",
+      "1 milyon il"
+    ],
+    "correctAnswer": "1,5 milyon ildən artıq"
+  },
+  {
+    "number": 582,
+    "question": "Talış-Muğan mədəniyyəti əhatə edir?",
+    "options": [
+      "e.ə.XVI-XV  əsrləri",
+      "e.ə.XIV-VII  əsrləri",
+      "e.ə. V-III əsrləri",
+      "e.ə. XX-XIX əsrləri",
+      "e.ə. XVII-XVI əsrləri"
+    ],
+    "correctAnswer": "e.ə.XIV-VII  əsrləri"
+  },
+  {
+    "number": 583,
+    "question": "En-Merkar hərbi yardım  üçün Aratta hökmdarına müraciət etdi",
+    "options": [
+      "Uruk şəhərindəki üsyanı yatırtmaq üçün",
+      "Luqalbandanın Uruk şəhərinə hücumu zamanı",
+      "Sami tayfaları  Uruk şəhərini mühasirə edən zaman",
+      "Uruk şəhərini ələ keçirmək üçün",
+      "Urqirnuna Uruku mühasirəyə alan zaman"
+    ],
+    "correctAnswer": "Sami tayfaları  Uruk şəhərini mühasirə edən zaman"
+  },
+  {
+    "number": 584,
+    "question": "Quba xanı Fətəli xan  gürcü çarı II İrakli ilə birlikdə neçənci ildə Gəncəyə hucum  etdi?",
+    "options": [
+      "1792- ci ildə",
+      "1780- ci ildə",
+      "1789- cu ildə",
+      "1788- ci ildə",
+      "1787- ci ildə"
+    ],
+    "correctAnswer": "1788- ci ildə"
+  },
+  {
+    "number": 585,
+    "question": "Cavad xanlığı neçənci ildə Quba xanlığı tərəfindən təşkil olunan Şimal – şərqi Azərbaycan ərazisinə daxil edildi?",
+    "options": [
+      "1756- cı ildə",
+      "1767- ci ildə",
+      "1768 - ci ildə",
+      "1785- ci ildə",
+      "1769- cu ildə"
+    ],
+    "correctAnswer": "1768 - ci ildə"
+  },
+  {
+    "number": 586,
+    "question": "Qızılbaş ordusunun Çaldıran döyüşündə məğlubiyyətinin səbəblərindən deyil:",
+    "options": [
+      "Avropa dövlətlərinin vədlərinə xilaf çıxaraq Səfəvilərə yardım göstərməməsi",
+      "Şah İsmayılın və qızılbaş sərkərdələrinin əvvəlki qələbələrdən arxayınlaşması",
+      "Şah İsmayılın gecə hücuma keçmək barədə təklifi qəbul etməməsi",
+      "Osmanlı ordusunun həm canlı qüvvədə, həm də müxtəlif silahlarla təchizatda qızılbaşları üstələməsi",
+      "Osmanlı ordusunun yüksək hərbi nizama malik olması və Avropa sistemini mənimsəməsi"
+    ],
+    "correctAnswer": "Avropa dövlətlərinin vədlərinə xilaf çıxaraq Səfəvilərə yardım göstərməməsi"
+  },
+  {
+    "number": 587,
+    "question": "Azərbaycanda özbaşınalıq, çapqınçılıq, oğurluq çoxaldı, xalq kütlələrinin feodal sinfinə və monqol istilaçılarına qarşı mübarizəsi artdı:",
+    "options": [
+      "Qazan xanın vergi islahatı nəticəsində",
+      "Qazan xanın torpaq islahatı nəticəsində",
+      "Keyxatu xanın pul islahatı nəticəsində",
+      "Kəndlilərin torpağa təhkim edilməsi ilə",
+      "Azərbaycan ərazisinin 110 monqol noyonu arasında bölünməsi nəticəsində"
+    ],
+    "correctAnswer": "Keyxatu xanın pul islahatı nəticəsində"
+  },
+  {
+    "number": 588,
+    "question": "Göstərilənlərin hansı Şəddadi hökmdarına aid olduğunu müəyyən edin: İqtisadi, ictimai həyatda və xüsusilə orduda bir sıra faydalıislahatlar keçirərək Gürcüstanla və Şirvanşahlarla müharibələri davam etdirdi.",
+    "options": [
+      "Əbülhəsən Ləşkəriyə",
+      "III Fəzluna",
+      "Fəzlə",
+      "Mərzban ibn Məhəmmədə",
+      "Əbüləsvar Şavura"
+    ],
+    "correctAnswer": "Əbüləsvar Şavura"
+  },
+  {
+    "number": 589,
+    "question": "X əsrin ortalarında və ikinci yarısında Salari hökmdarı Mərzuban ibn Məhəmmədə, sonra isə onun varisi İbrahimə tabe olub, xəracödəyirdi:",
+    "options": [
+      "Şirvanşah Fəriburz",
+      "Rəvvad-əl-Əzdi",
+      "Sacilərin hökmdarı Deysəm",
+      "Əbülheyca Rəvvadi",
+      "Şirvanşah Heysəm ibn Xalid"
+    ],
+    "correctAnswer": "Əbülheyca Rəvvadi"
+  },
+  {
+    "number": 590,
+    "question": "Əməvilər sülaləsinin hakimiyyəti dövründə Azərbaycanın cənub sərhədi hansı şəhərdə  qurtarırdı:",
+    "options": [
+      "Marağada",
+      "Kaşanda",
+      "Həmədanda",
+      "İsfahanda",
+      "Zəncanda"
+    ],
+    "correctAnswer": "Həmədanda"
+  },
+  {
+    "number": 591,
+    "question": "Cahanşah Əcəm İraqını , bütün  Qərbi  İranı və Şərqi İranın bir   hissəsini ələ  keçirdi:",
+    "options": [
+      "1453- cü  ildə",
+      "1455- ci ildə",
+      "1459-  cu ildə",
+      "1460 - cı ildə",
+      "1462- ci ildə"
+    ],
+    "correctAnswer": "1453- cü  ildə"
+  },
+  {
+    "number": 592,
+    "question": "Qaraqoyunluların Şirvanşahlara  düşmən  münasibəti hansı  hökmdarın dövründə dəyişdi:",
+    "options": [
+      "Həsənəlinin",
+      "Cahanşahın",
+      "İskəndərin",
+      "İsfəndiyarın",
+      "Qara  Yusifin"
+    ],
+    "correctAnswer": "Cahanşahın"
+  },
+  {
+    "number": 593,
+    "question": "Baysunqurla Rüstəm Mirzə arasında baş vermiş Bərdə döyüşünün nəticəsi:",
+    "options": [
+      "Əlvənd  Mirzə  vəziyyətdən  istifadə edərək Ərəb  İraqını ələ  keçirdi",
+      "Gödək  Əhməd  Ağqoyunlu  dövlətində üstün  mövqe  qazandı",
+      "Döyüş  Rüstəm  Mirzənin qələbəsi ilə sona  çatdı",
+      "Ağqoyunlu  dövləti əmirlər  arasında  ikiyə  bölündü",
+      "Hakimiyyəti  sultan  Murad  ələ  keçirdi"
+    ],
+    "correctAnswer": "Döyüş  Rüstəm  Mirzənin qələbəsi ilə sona  çatdı"
+  },
+  {
+    "number": 594,
+    "question": "Şirvan hökmdarı Fərrux Yasar Rus dövlətinin başçısı  III İvanla diplomatik   münasibətlərin qurulmasına ilk dəfə nə zaman cəhd  etdi:",
+    "options": [
+      "1457- ci ildə",
+      "1469- cu ildə",
+      "1446- cı ildə",
+      "1438- ci ildə",
+      "1465- cı ildə"
+    ],
+    "correctAnswer": "1465- cı ildə"
+  },
+  {
+    "number": 595,
+    "question": "Ağqoyunlu dövlətində  vəqf mülklərinə, mədrəsə və dini müəssisələrə rəhbərlik edirdi:",
+    "options": [
+      "amil",
+      "sədr - əzam",
+      "əmir-ül-üməra",
+      "baş vəzr",
+      "mustofi"
+    ],
+    "correctAnswer": "sədr - əzam"
+  },
+  {
+    "number": 596,
+    "question": "XV əsrdə rus çarları və Moskva knyazları Şirvan hakimini necə adlandırırdılar:",
+    "options": [
+      "Böyük  sultan",
+      "Şirvan  xanı",
+      "Kiçik  xan",
+      "Böyük bəy və ya Ağ xan",
+      "Xəzər xan"
+    ],
+    "correctAnswer": "Böyük bəy və ya Ağ xan"
+  },
+  {
+    "number": 597,
+    "question": "1724 – cü ildən Osmanlı  Türkiyəsi tərəfindən  zəbt  edilən Qarabağ  bəylərbəyliyinin mərkəzi hansı şəhər idi?",
+    "options": [
+      "Zəngəzur",
+      "Şuşa",
+      "İrəvan",
+      "Gəncə",
+      "Qafan"
+    ],
+    "correctAnswer": "Gəncə"
+  },
+  {
+    "number": 598,
+    "question": "Ərəblərin hücumu ərəfəsində Azərbaycan:",
+    "options": [
+      "667-ci ildə xəzərlərin hücumuna məruz qaldı",
+      "646-cı ildə Ərdəbil əhalisi ərəblərlə müqavilə imzaladı",
+      "Sasanilərin hakimiyyəti altında qalmaqla şimal inzibati vahidinin tərkibində idi",
+      "Alban ordusu Cavanşirin rəhbərliyi ilə 636-cı ildə Kadusiyyə döyüşündə iştirak edib",
+      "Cavanşir 654-cü ildə Bizansla müqavilə bağladı"
+    ],
+    "correctAnswer": "Sasanilərin hakimiyyəti altında qalmaqla şimal inzibati vahidinin tərkibində idi"
+  },
+  {
+    "number": 599,
+    "question": "Ərəb işğalçılarına qarşı mübarizə aparmış Albaniya hökmdarı kim idi:",
+    "options": [
+      "Cavanşir",
+      "II Vace",
+      "Urnayr",
+      "III Yezdəgird",
+      "Mehran"
+    ],
+    "correctAnswer": "Cavanşir"
+  },
+  {
+    "number": 600,
+    "question": "XII əsrin 20-ci illərində yaranmış tarixi şərait nəticəsində:",
+    "options": [
+      "Monqolların Azərbaycana ilk kəşfiyyat yürüşü başa çatdı",
+      "Şirvanşahlar dövləti bərpa olundu və fəaliyyətini davam etdirdi",
+      "Xarəzmşah Cəlaləddin Azərbaycanı işğal etdi",
+      "Azərbaycan  Atabəylər dövləti yarandı",
+      "Səlcuq imperiyası süquta uğradı"
+    ],
+    "correctAnswer": "Şirvanşahlar dövləti bərpa olundu və fəaliyyətini davam etdirdi"
+  },
+  {
+    "number": 601,
+    "question": "IX-XI əsrlərdə Azərbaycanda hökmdara və onun sülaləsinə mənsub torpaqlar adlanırdı?",
+    "options": [
+      "Tiyul",
+      "Mülk",
+      "İcma",
+      "Əmlakı xasse",
+      "Divanı"
+    ],
+    "correctAnswer": "Əmlakı xasse"
+  },
+  {
+    "number": 602,
+    "question": "953-cü ildə anasının və yaxın adamlarının köməkliyi ilə əsirlikdən qaçan Salari hökmdarı?",
+    "options": [
+      "Mərzban ibn Məhəmməd",
+      "İbrahim",
+      "Deysəm",
+      "Divdad",
+      "Vəhsudan"
+    ],
+    "correctAnswer": "Mərzban ibn Məhəmməd"
+  },
+  {
+    "number": 603,
+    "question": "Azərbaycan memarı Məsud ibn Davud tərəfindən yaradılmış abidə idi:",
+    "options": [
+      "Oğlanqala",
+      "Gülüstan qalası",
+      "Üç günbəz",
+      "Əlincə qalası",
+      "Qız  qalası"
+    ],
+    "correctAnswer": "Qız  qalası"
+  },
+  {
+    "number": 604,
+    "question": "Rəvvadi hakimi Vəhsudanın səlcuqların vassal asılılığını qəbul etməsindən neçə il sonra Səlcuqlar Rəvvadilərin daxili müstəqilliyinitamam ləğv edərək Təbrizə səlcuq əmiri təyin etdilər?",
+    "options": [
+      "21 il",
+      "11 il",
+      "15 il",
+      "24 il",
+      "27 il"
+    ],
+    "correctAnswer": "11 il"
+  },
+  {
+    "number": 605,
+    "question": "Rəvvadilər dövləti səlcuqların vassallığını qəbul etməyə məcbur oldu?",
+    "options": [
+      "1055-ci ildə",
+      "1227-ci ildə",
+      "1065-ci ildə",
+      "1054-cü ildə",
+      "1037-ci ildə"
+    ],
+    "correctAnswer": "1054-cü ildə"
+  },
+  {
+    "number": 606,
+    "question": "Aşağıda göstərilənlərin  Məzyədilər sülaləsinin hansı nümayəndəsinə aid olduğunu müəyyən edin:1)Xilafətdə bir sıra hərbi-inzibativəzifələr icra etmiş 2)Ərməniyə və Azərbaycanda xilafətin valisi olmuşdur 3)Bərdədə vəfat etmişdir.",
+    "options": [
+      "Yəzid ibn Məziyəd.",
+      "Xalid ibn Məziyəd.",
+      "Heysəm ibn Xalid.",
+      "Əsəd ibn Məziyəd.",
+      "Məhəmməd ibn Yəzid."
+    ],
+    "correctAnswer": "Yəzid ibn Məziyəd."
+  },
+  {
+    "number": 607,
+    "question": "XV əsrin ortalarından sonrakı dövrdə Səfəvilərin şiə məzhəbinə qoşulmasının səbəbi:",
+    "options": [
+      "Ağqoyunlularla yaxınlaşmaları",
+      "Ərdəbilin müstəqilliyi uğrunda mübarizəyə başlamaları",
+      "Siyasi mübarizə meydanına çıxmaları",
+      "İqtisadi vəziyyətlərinin ağırlaşması",
+      "Osmanlı dövləti ilə münasibətlərin pisləşməsi"
+    ],
+    "correctAnswer": "Siyasi mübarizə meydanına çıxmaları"
+  },
+  {
+    "number": 608,
+    "question": "Xronoloji ardıcıllığı göstərin: 1.Şərur 2.Cabanı 3.Almaqulağı",
+    "options": [
+      "2, 3, 1",
+      "1, 3, 2",
+      "2, 1, 3",
+      "3, 2, 1",
+      "1, 2, 3"
+    ],
+    "correctAnswer": "2, 1, 3"
+  },
+  {
+    "number": 609,
+    "question": "Şah I İsmayıl Xorasan uğrunda mübarizə aparmışdır:",
+    "options": [
+      "Böyük Moğollarla",
+      "Osmanlılarla",
+      "Şeybanilərlə",
+      "Şirvanşahlarla",
+      "Teymurilərlə"
+    ],
+    "correctAnswer": "Şeybanilərlə"
+  },
+  {
+    "number": 610,
+    "question": "Sultan I Süleymanın Azərbaycana üçüncü yürüşünə aiddir:",
+    "options": [
+      "Təbriz əhalisi Səfəvilərə qarşı üsyan qaldırdı",
+      "Şirvanşahlar dövləti süquta uğradı",
+      "Təbrizdə əhali osmanlılara qarşı üsyan qaldırdı",
+      "müstəqil Şəki hakimliyi ləğv edildi",
+      "Şirvanşahlar dövləti bərpa edildi"
+    ],
+    "correctAnswer": "Təbrizdə əhali osmanlılara qarşı üsyan qaldırdı"
+  },
+  {
+    "number": 611,
+    "question": "Səfəvilər dövründə soyurqal:",
+    "options": [
+      "yalnız müridlərə verilirdi",
+      "şiə ruhanilərinin və inzibati bürokratiyanın ixtiyarında olan xırda yaşayış məntəqələrinə çevrildi",
+      "elm və incəsənət xadimlərinə verilirdi",
+      "ləğv edildi",
+      "vəqf torpaqlarına birləşdirildi"
+    ],
+    "correctAnswer": "şiə ruhanilərinin və inzibati bürokratiyanın ixtiyarında olan xırda yaşayış məntəqələrinə çevrildi"
+  },
+  {
+    "number": 612,
+    "question": "Döyüşlərin xronoloji ardıcıllığını müəyyən edin: 1.Məşəl savaşı 2.Qanıx 3.Mollahəsənli",
+    "options": [
+      "2, 1, 3",
+      "1, 2, 3",
+      "3, 2, 1",
+      "1, 3, 2",
+      "2, 3, 1"
+    ],
+    "correctAnswer": "2, 3, 1"
+  },
+  {
+    "number": 613,
+    "question": "Səfəvi dövlətinin Portuqaliya ilə münasibətlərinin gərginləşməsinin səbəbi:",
+    "options": [
+      "Osmanlı imperatorluğu ilə müharibədə Portuqaliyanın iştirak etməməsi",
+      "Portuqaliyanın Osmanlı dövləti ilə sazişə girməsi",
+      "Portuqaliyalı rahiblərin Səfəvi dövləti ərazisində missionerlik fəaliyyəti ilə məşğul olması",
+      "Portuqaliyanın Hörmüzü ələ keçirərək Səfəvilərin Hind okeanına çıxışını kəsməsi",
+      "Portuqaliyanın odlu silah hazırlamaq üçün Səfəvi dövlətinə mütəxəssislər göndərməməsi"
+    ],
+    "correctAnswer": "Portuqaliyanın Hörmüzü ələ keçirərək Səfəvilərin Hind okeanına çıxışını kəsməsi"
+  },
+  {
+    "number": 614,
+    "question": "Şah I Abbasın qızılbaş əmirlərinə qarşı gördüyü tədbirlərdə başlıca məqsəd idi:",
+    "options": [
+      "Səfəvi dövlətini İran dövlətinə çevirmək",
+      "mərkəzi hakimiyyəti möhkəmləndirmək",
+      "anasının qatillərindən qisas almaq",
+      "şiə təbliğatını dayandırmaq",
+      "xəzinəni doldurmaq"
+    ],
+    "correctAnswer": "mərkəzi hakimiyyəti möhkəmləndirmək"
+  },
+  {
+    "number": 615,
+    "question": "Şah I Abbasın hərbi islahatı nəticəsində yaradılan nizami ordunun əsas zərbə qüvvəsi idi:",
+    "options": [
+      "tüfəngçilər",
+      "topçular",
+      "qulamlar",
+      "süvarilər",
+      "piyadalar"
+    ],
+    "correctAnswer": "qulamlar"
+  },
+  {
+    "number": 616,
+    "question": "Şah I Abbasın “böyük sürgün” adı ilə məşhur olan siyasətində məqsədlərinə aiddir: 1.dövlətin cənub bölgələrində şiə təbliğatını genişləndirmək 2.Osmanlılara qarşı Azərbaycanda “yandırılmış torpaq” taktikasını tətbiq etmək 3.dünya tranzit ticarətinin əsas yolunu Səfəvi dövlətinin cənubuna köçürmək 4.köçürülən əhalinin köməyi ilə üsyanları yatırmaq",
+    "options": [
+      "2, 3",
+      "1, 4",
+      "2, 4",
+      "3, 4",
+      "1, 3"
+    ],
+    "correctAnswer": "2, 3"
+  },
+  {
+    "number": 617,
+    "question": "Səfəvi  dövlətində Sədrin əsas vəzifəsi:1. dönüklərin antifeodal hərəkatının qarşısını almaq 2.mərkəzi hakimiyyətə qarşı qiyamları yatırmaq 3.Şiəliyin  yayılması və möhkəmləndirilməsi üçün məsuliyyət daşıyırdı 4.ölkədə yığılan vergilərə nəzarət edirdi 5. xarici siyasətə rəhbərlik edirdi",
+    "options": [
+      "1, 2",
+      "2, 4",
+      "3, 5",
+      "1, 3",
+      "4, 5"
+    ],
+    "correctAnswer": "1, 3"
+  },
+  {
+    "number": 618,
+    "question": "Səfəvilər dövründə vəzir:",
+    "options": [
+      "Xarici siyasət məsələləri üzrə Şahın müavini",
+      "Dini məsələlər üzrə Şahın müavini",
+      "Hərbi məsələlər üzrə Şahın müavini",
+      "Mülki bürokratiyanın rəhbəri",
+      "Şəriət məhkəmələrinə nəzarət edir"
+    ],
+    "correctAnswer": "Mülki bürokratiyanın rəhbəri"
+  },
+  {
+    "number": 619,
+    "question": "I şah Abbası hakimiyyətə gətirən qızılbaş tayfalar:",
+    "options": [
+      "Fars tayfaları",
+      "Təkəli və rumlu tayfaları",
+      "Şamlı və rumlu tayfaları",
+      "İran etnik qrupları",
+      "Ustaclı və Şamlı tayfalarından olan Xorasan qrupu"
+    ],
+    "correctAnswer": "Ustaclı və Şamlı tayfalarından olan Xorasan qrupu"
+  },
+  {
+    "number": 620,
+    "question": "I şah Abbasın  hakimiyyət illərində:",
+    "options": [
+      "Azərbaycan türkcəsi orduda və  şah sarayinda üstünlük təşkil edirdi",
+      "Dövlətin mahiyyəti dəyişərək Avropa dövlətinə çevrilir",
+      "Sarayda fars dili, orduda azərbaycan türkcəsi üstünlük təşkil edirdi",
+      "Sarayda azərbaycan dili, orduda fars dili üstünlük təşkil edirdi",
+      "Fars dili orduda və sarayda üstünlük təşkil edirdi"
+    ],
+    "correctAnswer": "Azərbaycan türkcəsi orduda və  şah sarayinda üstünlük təşkil edirdi"
+  },
+  {
+    "number": 621,
+    "question": "XVI yüzliyilliyin sonu- XVII yüzilliyinin I rübündə Səfəvi dövlətinin yenidən güclənməsi hansı Səfəvi şahının adı ilə bağlıdır?",
+    "options": [
+      "Şah I Abbasın",
+      "Şah I İsmayılın",
+      "Şah II İsmayılın",
+      "Şah I Təhmasibin",
+      "Şah Məhəmməd Xudabəndənin"
+    ],
+    "correctAnswer": "Şah I Abbasın"
+  },
+  {
+    "number": 622,
+    "question": "I Şah Abbasın azərbaycanlıları öz doğma yerlərindən köçürməsi nə məqsəd daşıyırdı:",
+    "options": [
+      "Siyasi",
+      "Qızılbaşların əvvəlki qüdrətini bərpa etmək",
+      "İqtisadi",
+      "Osmanlı hücumları ilə əlaqədar türklərə meyilli olmaları",
+      "Kütləvi narazılığı yatırmaq üçün"
+    ],
+    "correctAnswer": "İqtisadi"
+  },
+  {
+    "number": 623,
+    "question": "1736-cı ildə baş vermişdir:",
+    "options": [
+      "Nadir xanın “şah seçilməsi”",
+      "Gəncə müqaviləsinin bağlanması",
+      "Rəşt müqaviləsinin bağlanması",
+      "Nadir şahın sui-qəsd nəticəsində öldürülməsi",
+      "II Təhmasibin taxtdan salınması"
+    ],
+    "correctAnswer": "Nadir xanın “şah seçilməsi”"
+  },
+  {
+    "number": 624,
+    "question": "1578-ci ildə osmanlıların Azərbaycana hücumu  zamanı türklər hansı şəhəri ələ keçirməklə Şimali Azərbaycana faktiki olaraq sahiboldular:",
+    "options": [
+      "Naxçıvan",
+      "Bakı",
+      "Quba",
+      "Şəki",
+      "Şirvan"
+    ],
+    "correctAnswer": "Şirvan"
+  },
+  {
+    "number": 625,
+    "question": "Səfəvilər dövləti inzibati cəhətdən bölünmüşdü:",
+    "options": [
+      "mahallara",
+      "əyalətlərə",
+      "xanlıqlara",
+      "sultanlıqlara",
+      "vilayətlərə"
+    ],
+    "correctAnswer": "əyalətlərə"
+  },
+  {
+    "number": 626,
+    "question": "Nadir şahın hakimiyyəti dövründə:",
+    "options": [
+      "Qarabağ bəylər bəyliyi ləğv edildi",
+      "Azərbaycan adı altında vahid inzibati bölgü yaradıldı",
+      "Şirvan bəylər bəyliyi  ləğv edildi",
+      "Keçmiş inzibati bölgü saxlandı",
+      "Cuxur-Səd bəylər bəyliyi ləğv edildi"
+    ],
+    "correctAnswer": "Azərbaycan adı altında vahid inzibati bölgü yaradıldı"
+  },
+  {
+    "number": 627,
+    "question": "Nadirqulu xan türk qoşunları üzərində ilk böyük qələbəni qazandı:",
+    "options": [
+      "Qarabağda",
+      "Ərdəbildə",
+      "Marağada",
+      "İrəvanda",
+      "Təbrizdə"
+    ],
+    "correctAnswer": "Marağada"
+  },
+  {
+    "number": 628,
+    "question": "I Pyotrun yürüşü ilə bağlı hadisələrin xronoloji ardıcıllığını müəyyən edin: 1.Bakının ruslar tərəfindən işğalı 2. I Pyotrun Azərbaycantorpaqlarına yürüşünün başlanması 3.Rus qoşunlarının Dərbəndi işğal etməsi",
+    "options": [
+      "2, 3, 1",
+      "1, 2, 3",
+      "1, 3, 2",
+      "2, 1, 3",
+      "3, 2, 1"
+    ],
+    "correctAnswer": "2, 3, 1"
+  },
+  {
+    "number": 629,
+    "question": "1677-ci ildə Çuxursəd bəylərbəyliyində baş vermiş üsyanın səbəbi:",
+    "options": [
+      "Osmanlı hərbi-inzibati qurumlarının zülmü",
+      "Bəylərbəyliyin acınacaqlı vəziyyətə düşməsi",
+      "Ağır vergilər qoyulması",
+      "Əsgərlərə məvacib verilməməsi",
+      "Şah Sultan Hüseyin tərəfindən istismarın şiddətləndirilməsi"
+    ],
+    "correctAnswer": "Əsgərlərə məvacib verilməməsi"
+  },
+  {
+    "number": 630,
+    "question": "XVII əsrdə Azərbaycanda mövcud olmuş torpaq mülkiyyət formaları:",
+    "options": [
+      "Divan, xalisə, tiyul, vəqf, mülk, camaat",
+      "Divan, inci, dastakert, vəqf, mülk, iqta",
+      "İqta, dastakert, divan, xalisə, mülk, tiyul",
+      "Xalisə, divan, dastakert, incu, xalisə, vəqf",
+      "İncu, dastakert, divan, vəqf, tiyul, camaat"
+    ],
+    "correctAnswer": "Divan, xalisə, tiyul, vəqf, mülk, camaat"
+  },
+  {
+    "number": 631,
+    "question": "1667-ci ildə ticarət müqaviləsi bağlanmışdır:",
+    "options": [
+      "Osmanlılarla Səfəvilər arasında",
+      "Ukrayna ilə Rusiya arasında",
+      "Rusiya ilə Səfəvilər arasında",
+      "Səfəvilərlə Gürcü çarları arasında",
+      "Səfəvilərlə Avropa dövlətləri arasında"
+    ],
+    "correctAnswer": "Rusiya ilə Səfəvilər arasında"
+  },
+  {
+    "number": 632,
+    "question": "Səfəvi imperatorluğunun bilavasitə şah sarayının hakimiyyəti altında olan daxili vilayətlərindən əldə edilən gəlir çatdırılırdı:",
+    "options": [
+      "Birbaşa şah sarayına",
+      "Xanlara",
+      "Vilayətlərin maliyyə idarə-lə-rinə",
+      "Sultanlara",
+      "Bəylərbəyilərə"
+    ],
+    "correctAnswer": "Birbaşa şah sarayına"
+  },
+  {
+    "number": 633,
+    "question": "I Şah Abbasın hakimiyyətə gəldiyi sosial-siyasi şərait və beynəlxalq vəziyyətin səciyyəvi cəhətlərini göstərin.1.Daxildə Qızılbaş əmirləri arasında hakimiyyət uğrunda gərgin mübarizə gedirdi, Şərqdən Şeybanilər sıxışdırırdı.2.Osmanlı dövləti tərəfindən Azərbaycanın böyük hissəsi ələ keçirilmişdi.3.Ölkə daxilində sabitlik, şərq və qərb sərhədlərində əmin-amanlıq hökm sürürdü. Beynəlxalq vəziyyət əlverişli idi, daxildə sabitlik hökm sürürdü.",
+    "options": [],
+    "correctAnswer": ""
+  },
+  {
+    "number": 634,
+    "question": "I Pyotr tərəfindən işğal olunmuş ilk Azərbaycan şəhəri hansıdır?",
+    "options": [
+      "Dərbənd",
+      "Salyan",
+      "Təbriz",
+      "Şamaxı",
+      "Bakı"
+    ],
+    "correctAnswer": "Dərbənd"
+  },
+  {
+    "number": 635,
+    "question": "I Pyotrun ölümündən sonra Rusiya hökumətinin Xəzəryanı bölgələri qaytarmaq fikrinə düşməsinin səbəbləri:1. Osmanlı təzyiqinə davam gətirməməsi 2.Buradakı ordunun saxlanmasına çəkilən xərcin götürülən gəlirdən 4 dəfə sox olması 3.İngiltərənin Hindistanın şərq sərhədlərindən Rusiyanı çıxarmaq üçün gördüyü tədbirlər 4.Rus əsgərlərinin iqlimə uyğunlaşmaması",
+    "options": [
+      "1, 4",
+      "2, 4",
+      "2, 3",
+      "1, 2",
+      "1, 3"
+    ],
+    "correctAnswer": "2, 4"
+  },
+  {
+    "number": 636,
+    "question": "Azərbaycan Səfəvi dövlətinin paytaxtları olmuş şəhərləri göstərin:1.Təbriz 2.Tehran 3.Qəzvin 4.Şamaxı 5.İsfahan",
+    "options": [
+      "1, 2, 4",
+      "1, 3, 5",
+      "3, 4, 5",
+      "1, 2, 3",
+      "2, 3, 4"
+    ],
+    "correctAnswer": "1, 3, 5"
+  },
+  {
+    "number": 637,
+    "question": "XVII əsr Azərbaycan incəsənəti hansı məktəbin təsiri ilə daha da inkişaf etdi?",
+    "options": [
+      "İsfahan incəsənət məktəbinin",
+      "Təbriz rəssamlıq məktəbinin",
+      "Gəncə incəsənət məktəbinin",
+      "Naxçıvan memarlıq məktəbinin",
+      "Qəzvin miniatur məktəbinin"
+    ],
+    "correctAnswer": "Təbriz rəssamlıq məktəbinin"
+  },
+  {
+    "number": 638,
+    "question": "1612-ci il Sərab sülhünün şərtləri hansı bənddə düzgün əks etdirilmişdir?",
+    "options": [
+      "Şimali və Cənubi Azərbaycan hər iki tərəf arasında bölündü və Səfəvilər Osmanlı dövlətinə ildə  300 yük ipək verməli idilər",
+      "Araz çayı sərhəd olmaqla tərəflər arasında  sülh imzalandı",
+      "Şimali Gücüstan və Azərbaycanın böyük hissəsi osmanlılara verildi",
+      "Şirvan istisna olmaqla, Səfəvilər bütün Azərbaycanı və Gürcüstanın bir hissəsinə yenidən sahib ola bildilər",
+      "Osmanlı dövləti Azərbaycanın, qismən Ermənistan və Gürcüstanın, habelə Kürdüstanın Səfəvilərə keçməsini tanıdı"
+    ],
+    "correctAnswer": "Osmanlı dövləti Azərbaycanın, qismən Ermənistan və Gürcüstanın, habelə Kürdüstanın Səfəvilərə keçməsini tanıdı"
+  },
+  {
+    "number": 639,
+    "question": "Səfəvilər  dövründə verilən tiyul torpaq mülkiyyət  formasının xüsusiyyətləri hansı bənddə düzgün əks  olunmuşdur?",
+    "options": [
+      "tiyul torpagından gələn gəlir qoşunun ehtiyaclarının ödənilməsinə xərclənirdi",
+      "tiyul hərbi əyanlara verilirdi, gəlirin böyük hissəsi şah sarayının saxlanılmasına sərf olunurdu",
+      "tiyul torpağı şərtsiz sahiblik hesab edilir, nəsildən nəsilə keçmirdi",
+      "tiyul sahibi xəzinəyə vergi ödəməyə məcbur edilirdi",
+      "tiyul sahibi dövlətə xidmət edir, gəlirin müəyyən  hissəsini özünə götürürdü"
+    ],
+    "correctAnswer": "tiyul sahibi dövlətə xidmət edir, gəlirin müəyyən  hissəsini özünə götürürdü"
+  },
+  {
+    "number": 640,
+    "question": "I Şah Abbasın  1604-1607-ci illərdə  osmanlılara qarşı apardığı müharibə nə ilə  nəticələnmişdir?",
+    "options": [
+      "Bütün Azərbaycan, Ermənistan və Gürcüstan, qismən  Dağıstan Şah Abbas tərəfindən tutuldu",
+      "Cənubi Azərbaycan səfəvilərin əlinə keçmişdi",
+      "Şimali Azərbaycan və Cənubi Azərbaycan,  bütün Dağıstan osmanlılarda qaldı",
+      "I Şah Abbas Bağdad daxil olmaqla Ərəb İraqına nail oldu",
+      "Səfəvilər birinci mərhələdə Ərdəbil, Meşkin, Qaracadağa sahib oldular"
+    ],
+    "correctAnswer": "Bütün Azərbaycan, Ermənistan və Gürcüstan, qismən  Dağıstan Şah Abbas tərəfindən tutuldu"
+  },
+  {
+    "number": 641,
+    "question": "1501-ci il Şərur döyüşünün nəticəsi:",
+    "options": [
+      "Qızılbaşlar Ağqoyunlu Muradı məğlubiyyətə uğratdılar",
+      "Səfəvilər Osmanlılara qalib gəldilər",
+      "Qızılbaşlar Şeybaniləri əzdilər",
+      "Qızılbaşlar Ağqoyunlu Əlvənd Mirzəyə qalib gəldilər",
+      "Qızılbaşlar Şirvanşahlara qalib gəldilər"
+    ],
+    "correctAnswer": "Qızılbaşlar Ağqoyunlu Əlvənd Mirzəyə qalib gəldilər"
+  },
+  {
+    "number": 642,
+    "question": "XIV əsrin 70-ci illərində Qaraqoyunlular hansı ərazilərdə  möhkəmlənə bilmişdilər?",
+    "options": [
+      "Bitlis, Ərzincan, Kayseridə",
+      "Ərzincan, Sivas, Gürcüstanın  şimal torpaqlarında",
+      "Ərzincan, Diyarbəkir, Osmanlı dövlətinin şərq torpaqlarında",
+      "Diyarbəkir, Van, Qaramandə",
+      "Xorasan, Bəlx, Rey, Qəzvində"
+    ],
+    "correctAnswer": "Ərzincan, Sivas, Gürcüstanın  şimal torpaqlarında"
+  },
+  {
+    "number": 643,
+    "question": "1548-ci il yürüşündə I Süleymanı müşayət edirdi:",
+    "options": [
+      "Alqas Mirzə, İsmayıl Mirzə",
+      "Əlqas Mirzə, Ülamə bəy",
+      "Əlqas Mirzə",
+      "Ülamə bəy, İsmayıl Mirzə",
+      "Ülamə bəy"
+    ],
+    "correctAnswer": "Əlqas Mirzə, Ülamə bəy"
+  },
+  {
+    "number": 644,
+    "question": "Sultan I Süleymanın Səfəvilərə qarşı birinci yürüşü nəticəsində:",
+    "options": [
+      "İraq-i Əcəm Osmanlı imperiyasının tərkibinə daxil oldu",
+      "Xorasan Osmanlı imperiyası ilə Şeybanilər arasında bölüşdürüldü",
+      "Azərbaycanın cənub vilayətləri Osmanlı dövlətinə birləşdirildi",
+      "İrəvan və Naxçıvan bölgələri Səfəvilər dövlətindən ayrıldı",
+      "İraq-i Ərəb Osmanlı imperiyasının tərkibinə daxil oldu"
+    ],
+    "correctAnswer": "İraq-i Ərəb Osmanlı imperiyasının tərkibinə daxil oldu"
+  },
+  {
+    "number": 645,
+    "question": "1521-ci ildə Qızılbaşların Gürcüstana üçüncü yürüşü nə ilə əlaqədar oldu:",
+    "options": [
+      "Kaxetiya hakiminin Kartliyə hücumu",
+      "Kaxetiya ərazisində Səfəvilərə qarşı başlanmış üsyan",
+      "Kaxetiya çarı Ləvənd xanın Şəkiyə hücumu",
+      "Kaxetiya hakiminin xərac verməkdən imtina etməsi",
+      "Kartli çarının Şirvana yürüşü"
+    ],
+    "correctAnswer": "Kaxetiya çarı Ləvənd xanın Şəkiyə hücumu"
+  },
+  {
+    "number": 646,
+    "question": "1555-ci il Amasya sülhünün şərtlərinə aiddir:",
+    "options": [
+      "Təbriz də daxil olmaqla Azərbaycanın cənub torpaqları Osmanlda qaldı",
+      "Şərqi Gürcüstan Səfəvilərdə, Qərbi Gürcüstan Osmanlılarda qaldı",
+      "Bütün Azərbaycan Osmanlı dövlətinə keçdi",
+      "Cənubi Azərbaycan iki dövlət arasında bölüşdürüldü",
+      "Şirvan ərazisi Osmanlı dövlətinə verildi"
+    ],
+    "correctAnswer": "Şərqi Gürcüstan Səfəvilərdə, Qərbi Gürcüstan Osmanlılarda qaldı"
+  },
+  {
+    "number": 647,
+    "question": "Paytakaran vilayətinin  başçısı  Sanatürkün Armeniyaya  yürüşü  baş  vermişdir",
+    "options": [
+      "340 – cı ildə",
+      "336- cı ildə",
+      "330- cu ildə",
+      "371- ci ildə",
+      "337- ci ildə"
+    ],
+    "correctAnswer": "337- ci ildə"
+  },
+  {
+    "number": 648,
+    "question": "Alanların  Parfiyaya   hücumu çərçivəsində Adərbayqana   dağıdıcı  yürüşləri nə  zaman olmuşdur:",
+    "options": [
+      "136- cı ildə",
+      "262- ci ildə",
+      "114- cü ildə",
+      "260- cı ildə",
+      "145- ci ildə"
+    ],
+    "correctAnswer": "136- cı ildə"
+  },
+  {
+    "number": 649,
+    "question": "Rəvvadi dövlətini məğlub edən səlcuqlar Təbrizə səlcuq əmiri təyin etdilər",
+    "options": [
+      "1096",
+      "1092",
+      "1027",
+      "1088",
+      "1065"
+    ],
+    "correctAnswer": "1065"
+  },
+  {
+    "number": 650,
+    "question": "Xronoloji ardıcıllığı müəyyən edin?1)Usta Bəndərin başçılığı ilə Gəncə üsyanı 2)Dərbəndilər sülaləsinin hakimiyyətə gəlməsi 3)Qızıl Orda xanı Özbəyin Azərbaycana yürüşü 4)Qazan xanın islahatı  5)Azərbaycan, eləcə də Ön Qafqaz ərazisinin Ali Monqol xaqanının təyin etdiyi canişinlər tərəfindən idarə olunması",
+    "options": [
+      "4, 3, 2, 5, 1",
+      "1, 5, 4, 3, 2",
+      "2, 3, 5, 4, 1",
+      "1, 3, 5, 4, 2",
+      "1,2, 4, 5, 3"
+    ],
+    "correctAnswer": "1, 5, 4, 3, 2"
+  },
+  {
+    "number": 651,
+    "question": "Erkən orta əsrlərdə uti tayfasının adı Azərbaycanın  hansı bölgəsinin əhalisinə  şamil  edilirdi:",
+    "options": [
+      "Şamaxı",
+      "Gəncə",
+      "Bərdə",
+      "Arsax",
+      "Şəki"
+    ],
+    "correctAnswer": "Bərdə"
+  },
+  {
+    "number": 652,
+    "question": "Hansı şəhər işğal olunmaqla bütün Azərbaycan monqollar tərəfindən istila olundu?",
+    "options": [
+      "Bərdə",
+      "Təbriz",
+      "Dərbənd",
+      "Şamaxı",
+      "Bakı"
+    ],
+    "correctAnswer": "Dərbənd"
+  },
+  {
+    "number": 653,
+    "question": "Qazan xanın islahatlarına aid deyil?",
+    "options": [
+      "Hərbi",
+      "Məhkəmə",
+      "Rabitə",
+      "Torpaq",
+      "Vergi"
+    ],
+    "correctAnswer": "Hərbi"
+  },
+  {
+    "number": 654,
+    "question": "Keyxatu xan xəzinənin daha da boşalmasının qarşısını almaq məqsədilə hansı tədbiri gördü?",
+    "options": [
+      "Feodalların özbaşınalığına son qoydu",
+      "Əhali üzərinə ağır vergilər qoydu",
+      "Orduda nizam-intizam yaratdı",
+      "Çao adlanan pul tədavülə buraxdı",
+      "Əhali siyahıya alındı"
+    ],
+    "correctAnswer": "Çao adlanan pul tədavülə buraxdı"
+  },
+  {
+    "number": 655,
+    "question": "Monqolların III yürüşü zamanı yaranan dövlət?",
+    "options": [
+      "Elxanilər",
+      "Şirvanşahlar",
+      "Eldənizlər",
+      "Teymurilər",
+      "Qızıl Orda"
+    ],
+    "correctAnswer": "Elxanilər"
+  },
+  {
+    "number": 656,
+    "question": "1231-ci il Gəncə üsyanı kimə qarşı yönəlmişdi?",
+    "options": [
+      "Xarəzmşah Cəlaləddinə",
+      "Çobani Əşrəfə",
+      "Toxtamışa",
+      "Qara Yusifə",
+      "Teymurilərə"
+    ],
+    "correctAnswer": "Xarəzmşah Cəlaləddinə"
+  },
+  {
+    "number": 657,
+    "question": "Qazan xanın yarımçıq qalan islahatı?",
+    "options": [
+      "Rabitə",
+      "Dini",
+      "Torpaq",
+      "Vergi",
+      "Məhkəmə"
+    ],
+    "correctAnswer": "Məhkəmə"
+  },
+  {
+    "number": 658,
+    "question": "Monqollar dövründə yeni yaranan vergi forması?",
+    "options": [
+      "Uc",
+      "Tamğa",
+      "Bəhrə",
+      "Malcəhət",
+      "Xərac"
+    ],
+    "correctAnswer": "Tamğa"
+  },
+  {
+    "number": 659,
+    "question": "Cormoqonun rəhbərliyi ilə monqolların  Azərbaycana yürüşündən neçə il əvvəl Atabəy Şəmsəddin Naxçıvanda vəfat etdi?",
+    "options": [
+      "46 il",
+      "51 il",
+      "56 il",
+      "49 il",
+      "47 il"
+    ],
+    "correctAnswer": "56 il"
+  },
+  {
+    "number": 660,
+    "question": "Çobani feodallarının zülmündən cana gələn Azərbaycan əhalisi:",
+    "options": [
+      "Vətəni tərk edərək Gilana,  Gürcüstana, Ruma, Şama, Bağdada və s. yerlərə gedirdilər.",
+      "1357-ci ildə Cəlairilərin Azərbaycana yürüşü zamanı onlara kömək göstərərək Hülakülər dövlətini süquta uğratdılar.",
+      "Cəlairilərin və Xorasan əmirlərinin hakimiyyətini qəbul etdilər.",
+      "Çobani əmirlərinin özlərinin müstəqilliyini elan etmələrinə imkan vermədilər.",
+      "1347-ci ildə Məlik Əşrəfə qarşı üsyan qaldırıb, ordusunu dağıdıb özünü isə  öldürdülər."
+    ],
+    "correctAnswer": "Vətəni tərk edərək Gilana,  Gürcüstana, Ruma, Şama, Bağdada və s. yerlərə gedirdilər."
+  },
+  {
+    "number": 661,
+    "question": "Azərbaycanda yerli feodalların-vassalların köçəri monqol əyanlarından asılılığını gücləndirmək siyasəti yeridən monqol canişini:",
+    "options": [
+      "Molor noyon",
+      "Toğa Teymur",
+      "Arpa xan",
+      "Arqun ağa",
+      "Həsən xan"
+    ],
+    "correctAnswer": "Arqun ağa"
+  },
+  {
+    "number": 662,
+    "question": "Keyxatu xanın çao adlanan pulu tədavülə buraxmaqda məqsədi:",
+    "options": [
+      "Feodalların özbaşınalığına son qoymaq.",
+      "Əhali üzərinə ağır vergilər qoymaq.",
+      "Orduda nizam-intizam yaratmaq",
+      "Əhalidən alınan torpaq vergisini artırmaq.",
+      "Xəzinənin daha da boşalmasının qarşısını almaq"
+    ],
+    "correctAnswer": "Xəzinənin daha da boşalmasının qarşısını almaq"
+  },
+  {
+    "number": 663,
+    "question": "Elxanilər dövləti yarandı?",
+    "options": [
+      "Monqolların hakimiyyətinin süqutu zamanı",
+      "Monqolların III yürüşü zamanı",
+      "Monqolların I yürüşü zamanı",
+      "Monqolların II yürüşü zamanı",
+      "Əbu-Səidin hakimiyyəti dövründə"
+    ],
+    "correctAnswer": "Monqolların III yürüşü zamanı"
+  },
+  {
+    "number": 664,
+    "question": "Qazan xanın həyata keçirdiyi islahatların nəticələrinə aid deyildir:1)İqtisadiyyatda canlanma baş verdi, ticarət inkişaf etdi.2)Elxanilər dövlətinin labüd tənəzzülünün bir müddət qarşısı alındı,  feodal dağınıqlığı artdı.3)Vergilərin toplanması mərkəzi divana tapşırıldı, əhalinin vəziyyəti nisbətən yüngülləşdi.4)Elxanilər dövlətinin labüd tənəzzülünün bir müddət qarşısı alındı.5)Elxanilər dövlətinin tənəzzülü sürətləndirdi.6)Qazan xanla monqol əyanları arasında yaxınlıq daha da artdı.",
+    "options": [
+      "2,5,6",
+      "1,3,5",
+      "1,2.6",
+      "2,3,4",
+      "1,3,4"
+    ],
+    "correctAnswer": "2,5,6"
+  },
+  {
+    "number": 665,
+    "question": "Qıpçaq dəstələri Azərbaycanda məğlub olub geri qayıtdılar?",
+    "options": [
+      "1227-ci ildə",
+      "1225-cü ildə",
+      "1222-ci ildə",
+      "1221-ci ildə",
+      "1223-cü ildə"
+    ],
+    "correctAnswer": "1223-cü ildə"
+  },
+  {
+    "number": 666,
+    "question": "Albaniya vilayətlərini vahid mərkəzdə birləşdirən Albaniya hökmdarı",
+    "options": [
+      "I Vaçaqan",
+      "Urnayr",
+      "Mömin III Vaçaqan",
+      "Sanatürk",
+      "I Vaçe"
+    ],
+    "correctAnswer": "I Vaçaqan"
+  },
+  {
+    "number": 667,
+    "question": "Albaniyanın şəhərlərini  tapdalayaraq Kürü keçib Araz sahillərinə qədər irəliləyən tayfa necə  adlanırdı:",
+    "options": [
+      "xəzərlər",
+      "sabirlər",
+      "hunlar",
+      "slavyanlar",
+      "ərəblər"
+    ],
+    "correctAnswer": "xəzərlər"
+  },
+  {
+    "number": 668,
+    "question": "Lullubi  dövləti yaranmışdır?",
+    "options": [
+      "e.ə.IV minilliklərdə",
+      "e.ə.II minillikdə",
+      "e.ə.XXVIII-XXVII əsrlərdə",
+      "e.ə.V minillikdə",
+      "e.ə.XXIII əsrdə"
+    ],
+    "correctAnswer": "e.ə.XXIII əsrdə"
+  },
+  {
+    "number": 669,
+    "question": "Xilafətin  hakimiyyəti illərində Azərbaycanda paytaxt  şəhər  adlanırdı:",
+    "options": [
+      "Bərdə",
+      "Təbriz",
+      "Şamaxı",
+      "Arran",
+      "Marağa"
+    ],
+    "correctAnswer": "Marağa"
+  },
+  {
+    "number": 670,
+    "question": "Girdiman vilayətinin hakimi Varaz  Qriqor xristianlığın hansı təriqətini qəbul etdi:",
+    "options": [
+      "Pravaslav",
+      "Xalkedon",
+      "Monofizitlik",
+      "Nestorian",
+      "Nikey"
+    ],
+    "correctAnswer": "Xalkedon"
+  },
+  {
+    "number": 671,
+    "question": "623- cü ildə Adərbayqanın paytaxtı Qazakada atəşpərəstliyin baş məbədi hansı Bizans imperatoru tərəfindən qarət edilmişdi:",
+    "options": [
+      "Roman Diogen",
+      "II İrakli",
+      "II Konstant",
+      "Mavriki",
+      "Foka"
+    ],
+    "correctAnswer": "II İrakli"
+  },
+  {
+    "number": 672,
+    "question": "748 – ci ildə Beyləqanda baş vermiş  üsyana kim rəhbərlik edirdi:",
+    "options": [
+      "Hatib ibn Sədəqi",
+      "Vard ibn Səfyan",
+      "Əbu  İmran",
+      "İbbən ibn Mənsur",
+      "İsma əl – Kürdi"
+    ],
+    "correctAnswer": "Vard ibn Səfyan"
+  },
+  {
+    "number": 673,
+    "question": "Xürrəmilərin məğlubiyyət səbəblərinə aiddir?1)Suriya və Misirdəki üsyançıların xürrəmilərlə əlaqəni kəsməsi 2)Babəkin öz məşhur sərkərdələrini itirməsi. 3)Üsyançılar arasında ixtilafların başlanması. 4)Yerli feodalların xəyanəti 5)Müharibə uzandıqca qüvvələr nisbətindəki fərqin ərəblərin xeyrinə dəyişməsi. 6)Xilafətin  Bizansdan kömək alması",
+    "options": [
+      "1,5,6",
+      "1,3,6",
+      "2,3,5",
+      "1,4,5",
+      "2,4,5"
+    ],
+    "correctAnswer": "2,4,5"
+  },
+  {
+    "number": 674,
+    "question": "Ərəblərin Bərdəyə yürüşü nəticəsində:",
+    "options": [
+      "Şəhər talan edildi.",
+      "II Bələncər döyüşünə qədər Bərdə müdafiə olundu.",
+      "Əhali xəzərlərdən kömək alaraq müqavimət göstərdilər.",
+      "Əbəblər Bərdəyə daxil ola bilmədilər.",
+      "Bərdə əhalisi də xərac və cizyə vermək şərti ilə ərəblərlə müqavilə bağladı."
+    ],
+    "correctAnswer": "Bərdə əhalisi də xərac və cizyə vermək şərti ilə ərəblərlə müqavilə bağladı."
+  },
+  {
+    "number": 675,
+    "question": "Erkən orta əsrlərdə Albaniyanın ərazisi gürcü qaynaqlarında necə adlandırılırdı",
+    "options": [
+      "Rani",
+      "Arani",
+      "Albani",
+      "Aqvan",
+      "Alrani"
+    ],
+    "correctAnswer": "Rani"
+  },
+  {
+    "number": 676,
+    "question": "Mənbələrdə adı çəkilən ilk Manna hökmdarı",
+    "options": [
+      "Ualli",
+      "Udaki",
+      "Uduri",
+      "Dayakku",
+      "İranzu"
+    ],
+    "correctAnswer": "Udaki"
+  },
+  {
+    "number": 677,
+    "question": "İlk dəfə “alban” adı qaynaqlarda işlədilməyə başlamışdır:",
+    "options": [
+      "II əsrdə",
+      "e.ə.I-e.I əsrdə",
+      "e.ə.V əsrdə",
+      "e.ə.VIII əsrdə",
+      "e.ə IV əsrdə"
+    ],
+    "correctAnswer": "e.ə.I-e.I əsrdə"
+  },
+  {
+    "number": 678,
+    "question": "Azərbaycanda birinci böyük ictimai əmək bölgüsü baş verib?",
+    "options": [
+      "Antik dövrdə",
+      "İlk orta əsrlərdə",
+      "Neolit dövründə",
+      "İlk Tunc dövründə",
+      "Eneolit dövründə"
+    ],
+    "correctAnswer": "İlk Tunc dövründə"
+  },
+  {
+    "number": 679,
+    "question": "Manna hökmdarı Ullusunu ölkənin ərazi bütövlüyünü və müstəqilliyini saxlamaq üçün arxalanırdı:",
+    "options": [
+      "I Rusaya",
+      "Atası Azaya",
+      "II Sarqona",
+      "III Tiqlatpalasara",
+      "Aşşurbanıpala"
+    ],
+    "correctAnswer": "II Sarqona"
+  },
+  {
+    "number": 680,
+    "question": "E.ə. 650-ci ildə Assuriyanın Manna üzərinə yürüşünün nəticəsində:",
+    "options": [
+      "Mannanın Subi vilayətində baş vermiş üsyan yatırıldı, bir sıra şəhər və qalalar dağıdıldı Assuriyaya xərac ödənilməsi bərpa olundu.",
+      "Manna hökmdaı Ualli məğlub edildi, şəhərlər və qlalar dağdıldı, Aşşurbanipal  bac alaraq öz ağalığını yenidən burada bərpa etdi.",
+      "Hakimiyyətdə olan Ualli məğlub olaraq Assuriya ilə ittifaqı təcili olaraq bərpa etdi, oğlu Erisinnini  Assuriyaya girov göndərdi.",
+      "Aşşurbanipal Mannanın bir sıra şəhər və qalalarını, o cümlədən paytaxtı İzirtunu dağıtdı,mal-qara və atlarını qənimət kimi apardı.",
+      "II Sarqon Ullusunudan xərac alıb Midiya torpaqlarına daxil olur və burada dağıntılar törədir."
+    ],
+    "correctAnswer": "Aşşurbanipal Mannanın bir sıra şəhər və qalalarını, o cümlədən paytaxtı İzirtunu dağıtdı,mal-qara və atlarını qənimət kimi apardı."
+  },
+  {
+    "number": 681,
+    "question": "Antik mənbələr hansı dövrü əhatə edir?",
+    "options": [
+      "I-V əsrləri",
+      "e.ə. I-e.I əsrləri",
+      "e.ə.IV- II əsrləri",
+      "e.ə. III-I əsrləri",
+      "e.ə. V-e. III əsrləri"
+    ],
+    "correctAnswer": "e.ə. V-e. III əsrləri"
+  },
+  {
+    "number": 682,
+    "question": "Erkən orta əsr yazılı mənbələri hansı dövrü əhatə edir?",
+    "options": [
+      "1-III əsrlər",
+      "I-VII əsrlər",
+      "IV-X əsrlər",
+      "1-V əsrlər",
+      "III-V əsrlər"
+    ],
+    "correctAnswer": "IV-X əsrlər"
+  },
+  {
+    "number": 683,
+    "question": "Xocalı-Gədəbəy arxeoloji mədəniyyətinin əhatə etdiyi dövr?",
+    "options": [
+      "E.ə. XIV-V əsrlər",
+      "E.ə. II minillik-I minilliyin əvvəlləri",
+      "E.ə. XIV-VIII əsrlər",
+      "E.ə. XV-VII əsrlər",
+      "E.ə. II minilliyin sonu"
+    ],
+    "correctAnswer": "E.ə. XIV-VIII əsrlər"
+  },
+  {
+    "number": 684,
+    "question": "Azərbaycanda tunc dövrü başlayır?",
+    "options": [
+      "e.ə. IX minllikdən",
+      "e.ə. VI minillikdən",
+      "e.ə. X minillikdən",
+      "e.ə. IV minilliyin ikinci yarısından",
+      "e.ə. VII minillikdən"
+    ],
+    "correctAnswer": "e.ə. IV minilliyin ikinci yarısından"
+  },
+  {
+    "number": 685,
+    "question": "Paleolitin son mərhələsi əhatə edir?",
+    "options": [
+      "e.ə. 10-8 minilliklər",
+      "e.ə.100-40-cı minilliklər",
+      "eramızdan 40-30 min il əvvəldən – e.ə 12 –ci minilliyədək",
+      "e.ə.6-4 minilliklər",
+      "e.ə. 5-3 minilliklər"
+    ],
+    "correctAnswer": "eramızdan 40-30 min il əvvəldən – e.ə 12 –ci minilliyədək"
+  },
+  {
+    "number": 686,
+    "question": "İbtidai-icma quruluşu hansı dövrdə formalaşır?",
+    "options": [
+      "Dəmir dövründə",
+      "Neolit dövründə",
+      "Tunc dövründə",
+      "Eneolit dövründə",
+      "Mustye dövründə"
+    ],
+    "correctAnswer": "Mustye dövründə"
+  },
+  {
+    "number": 687,
+    "question": "Naxçıvan mədəniyyəti:",
+    "options": [
+      "Orta Tunc dövründə formalaşmış, son Tunc və ilk Dəmir dövründə yüksək inkişaf səviyyəsinə çatmışdı.",
+      "Son Tunc dövründə formalaşıb və inkişaf etmişdi.",
+      "Kür-Araz mədəniyyətindən fərqli olaraq  orta Tunc dövründə tənəzzülə uğramışdı.",
+      "E.ə. XIV əsrdə yaranmış və ilk Dəmir dövründə formalaşmışdı.",
+      "Erkən Tunc dövründə formalaşmış, son Tunc və ilk Dəmir dövründə yüksək inkişaf  səviyyəsinə çatmışdı."
+    ],
+    "correctAnswer": "Orta Tunc dövründə formalaşmış, son Tunc və ilk Dəmir dövründə yüksək inkişaf səviyyəsinə çatmışdı."
+  },
+  {
+    "number": 688,
+    "question": "Eneolit dövründə Azərbaycanda:",
+    "options": [
+      "Xaçmaz rayonunda Sərkərtəpə yaşayış yerində ibadət evi və misin əridilməsi üçün kürə tapılmışdı.",
+      "Atdan qoşqu vasitəsi kimi istifadə edilib, ev heyvanlarının yeni növlərinin əhilləşdirilməsinə başlanıb.",
+      "Cənub hissədə İkiçayarası ilə sıx iqtisadi, social və mədəni əlaqələr movcud olub.",
+      "Həm ictimai-sosial, həm iqtisadi, həm də mədəni həyatda mühüm dəyişikliklər və irəliləyişlər baş vermişdi.",
+      "Mis emalı genişlənmiş, bununla əlaqədar Xocalı-Gədəbəy mədəniyyəti yaranmışdır."
+    ],
+    "correctAnswer": "Həm ictimai-sosial, həm iqtisadi, həm də mədəni həyatda mühüm dəyişikliklər və irəliləyişlər baş vermişdi."
+  },
+  {
+    "number": 689,
+    "question": "Hacı  Çələbinin  Kartli və Kaxetiya  çarlarına qarşı mübarizəsində  hansı xanlıq və sultanlıqlar  ona kömək  etmişdi?",
+    "options": [
+      "Naxçivan, Borçalı , Qazax, Urmiya, Qarabağ",
+      "Naxçıvan, Qazax, Gəncə, İrəvan, Urmiya",
+      "Qazax , Şəmşəddil, Borcalı, İrəvan, Gəncə",
+      "İrəvan, Naxçıvan , Qaradağ, Gəncə, Qazax",
+      "Qaradağ , Borçalı, Qazax , Qarabağ, Gəncə"
+    ],
+    "correctAnswer": "Qazax , Şəmşəddil, Borcalı, İrəvan, Gəncə"
+  },
+  {
+    "number": 690,
+    "question": "Hacı Çələbinin  Şəkinin  ərazisini genişləndirərək Ərəş və Qəbələ  mahallarını da özunə tabe  etməsi  haqqında ətraflı məlumat  verirdi:",
+    "options": [
+      "M.F. Axundov",
+      "Hacı Zeynalabdin  Şirvani",
+      "Molla Pənah  Vaqif",
+      "F.Köçərli",
+      "A. Bakıxanov"
+    ],
+    "correctAnswer": "A. Bakıxanov"
+  },
+  {
+    "number": 691,
+    "question": "Quba xanı Fətəli xanın  müqavilə ilə müvəqqəti olaraq himayəsinə götürdüyü xanlıq hansı ıdı?",
+    "options": [
+      "Şamaxı",
+      "Dərbənd",
+      "Şəki",
+      "Ərdəbil",
+      "Salyan"
+    ],
+    "correctAnswer": "Şamaxı"
+  },
+  {
+    "number": 692,
+    "question": "Hansı xanlıqların əhalisi Quba xanı Fətəli xanın himayəsinə sığınmaq istəyirdilər?",
+    "options": [
+      "Naxçıvan, Xoy, Qaradağ",
+      "Bakı, Dərbənd, Şəki",
+      "Ərdəbil, Meşkin, Qaradağ",
+      "Qarabağ, Sərab, Urmiya",
+      "Təbriz, Ərdəbil, Gəncə"
+    ],
+    "correctAnswer": "Təbriz, Ərdəbil, Gəncə"
+  },
+  {
+    "number": 693,
+    "question": "1775- ci ildə Quba xanı Fətəli xanın Rusiya tabeliyinə keçməsi ilə bağlı təklifi niyə rədd edildi?",
+    "options": [
+      "Rusiya bu dövrdə Cənubi Dağıstanın işğalı ilə məşğul idi",
+      "Rusiyanın  Avropada başı bərk qarışmışdı",
+      "Rusiya yalnız Qubanı deyil, Cənubi Qafqazı tamamilə ələ keçirməyə çalışırdı",
+      "Rusiyada daxili vəziyyət  sabit  deyildi",
+      "Rusiya Türkiyə ilə bağladığı Kiçik Qaynarça sülhünü pozmaq istəmirdi"
+    ],
+    "correctAnswer": "Rusiya Türkiyə ilə bağladığı Kiçik Qaynarça sülhünü pozmaq istəmirdi"
+  },
+  {
+    "number": 694,
+    "question": "XVIII əsrin II yarısında Şəki xanlığının hansı kəndində kəndlilərin silahlı üsyanı baş vermişdi?",
+    "options": [
+      "Ərəş",
+      "Gileyli",
+      "Kiş",
+      "Küngut",
+      "Nuxa"
+    ],
+    "correctAnswer": "Küngut"
+  },
+  {
+    "number": 695,
+    "question": "XVIII əsrdə Azərbaycan məktəblərində dərslər əsasən hansı dildə apalılırdı?",
+    "options": [
+      "fars, rus",
+      "türk, rus",
+      "ərəb, fars",
+      "azərbaycan, türk",
+      "rus, azərbaycan"
+    ],
+    "correctAnswer": "ərəb, fars"
+  },
+  {
+    "number": 696,
+    "question": "XVIII  əsrdə yaşayıb yaratmış coğrafiyaşünas alim:",
+    "options": [
+      "Qazi Əhməd",
+      "Mirzə Mükimi",
+      "Mir Əbdülbaqi Danişməndin",
+      "Hacı Zeynalabdin Şirvani",
+      "Əbdürrəzzaq bəy"
+    ],
+    "correctAnswer": "Hacı Zeynalabdin Şirvani"
+  },
+  {
+    "number": 697,
+    "question": "1762 - ci ildə Şəki xanlığının sarayı kim tərəfindən tikilmişdir?",
+    "options": [
+      "Məhəmməd Mömin",
+      "Hacı Məhəmməd Zare",
+      "Mir İbad Qəzvini",
+      "Hacı Zeynalabdin Şirazi",
+      "Məhəmməd Hüseyn"
+    ],
+    "correctAnswer": "Hacı Zeynalabdin Şirazi"
+  },
+  {
+    "number": 698,
+    "question": "1787 – ci ildə Quba xanlığı tərəfindən Peterburqa göndərilən  elçi heyyətinə kim rəhbərlik edirdi?",
+    "options": [
+      "Şeyx Əli Şirazi",
+      "Fərhad xan Qaramanlı",
+      "Mirzə bəy Cavanşir",
+      "Sadiq bəy Əfşar",
+      "Mirzə Sadiq Məmmədvəliyev"
+    ],
+    "correctAnswer": "Mirzə Sadiq Məmmədvəliyev"
+  },
+  {
+    "number": 699,
+    "question": "1768-ci ildə Quba xanlığına birləşdirildi?",
+    "options": [
+      "Şəki xanlığı",
+      "Bakı xanlığı",
+      "Cavad xanlığı",
+      "Dərbənd xanlığı",
+      "Talış xanlığı"
+    ],
+    "correctAnswer": "Cavad xanlığı"
+  },
+  {
+    "number": 700,
+    "question": "1385-ci ildə Qızıl Orda xanı Toxtamış hansı şəraitdən istifadə edərək Azərbaycana yürüş etdi?",
+    "options": [
+      "Sultan Əhmədin Təbrizdə olmaması",
+      "Teymurun baş vermiş hadisələrlə əlaqədar Sultaniyyədən Səmərqəndə qayıtması",
+      "Cəlairlər dövlətinin zəifləməsi",
+      "Hakimiyyət uğrunda mübarizə, feodal pərakəndəliyi",
+      "Hülakilər dövlətinin süqutu"
+    ],
+    "correctAnswer": "Teymurun baş vermiş hadisələrlə əlaqədar Sultaniyyədən Səmərqəndə qayıtması"
+  }
+]
